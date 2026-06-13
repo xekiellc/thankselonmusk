@@ -9,8 +9,8 @@
   <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
   <meta property="og:url" content="https://thankselonmusk.com/today.html" />
   <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHJPTKLGN1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -20,115 +20,133 @@
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet" />
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --black:    #07090f;
-      --navy:     #0a0e1a;
-      --gold:     #f0a500;
-      --gold-dim: #c8922a;
-      --orange:   #e85d20;
-      --blue:     #4a9eff;
-      --white:    #f0ece0;
-      --gray:     #8a8fa8;
-      --card-bg:  #0f1422;
-      --border:   #1e2540;
+      --black:       #000008;
+      --gold:        #f5a623;
+      --gold-glow:   #f5a62366;
+      --gold-dim:    #c8831a;
+      --orange:      #ff6b2b;
+      --blue:        #00d4ff;
+      --white:       #ffffff;
+      --off-white:   #e8e8f0;
+      --gray:        #6b7280;
+      --card-bg:     rgba(255,255,255,0.03);
+      --border:      rgba(255,255,255,0.08);
+      --border-gold: rgba(245,166,35,0.4);
     }
 
     html { scroll-behavior: smooth; }
 
     body {
       background: var(--black);
-      color: var(--white);
-      font-family: 'DM Sans', sans-serif;
+      color: var(--off-white);
+      font-family: 'Inter', sans-serif;
       font-size: 16px;
       line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    #starfield {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
+      pointer-events: none;
     }
 
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
-      z-index: 100;
-      background: rgba(7,9,15,0.92);
-      backdrop-filter: blur(12px);
+      z-index: 1000;
+      background: rgba(0,0,8,0.7);
+      backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 0 2rem;
-      height: 62px;
+      height: 64px;
     }
 
     .nav-logo {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.5rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 900;
       color: var(--gold);
-      letter-spacing: 0.05em;
       text-decoration: none;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-shadow: 0 0 20px var(--gold-glow);
     }
 
     .nav-logo span { color: var(--white); }
 
     .nav-links {
       display: flex;
-      gap: 1.8rem;
+      gap: 2rem;
       list-style: none;
     }
 
     .nav-links a {
       color: var(--gray);
       text-decoration: none;
-      font-size: 0.85rem;
+      font-size: 0.78rem;
       font-weight: 500;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       transition: color 0.2s;
+      font-family: 'Orbitron', sans-serif;
     }
 
     .nav-links a:hover, .nav-links a.active { color: var(--gold); }
 
     .nav-cta {
-      background: var(--gold);
+      background: linear-gradient(135deg, var(--gold), var(--orange));
       color: var(--black) !important;
-      padding: 0.4rem 1rem;
+      padding: 0.45rem 1.2rem;
       border-radius: 4px;
-      font-weight: 600 !important;
+      font-weight: 700 !important;
+      box-shadow: 0 0 20px var(--gold-glow);
     }
 
-    .nav-cta:hover { background: var(--gold-dim); }
-
+    /* PAGE HEADER */
     .page-header {
+      position: relative;
+      z-index: 1;
       padding: 7rem 2rem 2rem;
-      max-width: 900px;
+      max-width: 1100px;
       margin: 0 auto;
     }
 
     .page-eyebrow {
-      font-size: 0.75rem;
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
       font-weight: 600;
-      letter-spacing: 0.2em;
+      letter-spacing: 0.35em;
       text-transform: uppercase;
       color: var(--gold);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
     }
 
     .date-display {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 900;
       color: var(--white);
-      line-height: 1;
+      line-height: 1.05;
       margin-bottom: 0.5rem;
-      letter-spacing: 0.03em;
     }
 
-    .date-display span { color: var(--gold); }
+    .date-display span { color: var(--gold); text-shadow: 0 0 20px var(--gold-glow); }
 
     .page-sub {
       font-size: 0.95rem;
-      color: var(--gray);
+      color: rgba(232,232,240,0.55);
       font-weight: 300;
       margin-bottom: 1.5rem;
     }
@@ -140,30 +158,36 @@
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 20px;
-      padding: 0.35rem 0.9rem;
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
+      padding: 0.4rem 1rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       color: var(--gray);
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
+      backdrop-filter: blur(10px);
     }
 
     .live-dot {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #4caf50;
+      background: #4ade80;
+      box-shadow: 0 0 8px #4ade80;
       animation: pulse 2s infinite;
     }
 
     @keyframes pulse {
       0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.5; transform: scale(0.8); }
+      50% { opacity: 0.4; transform: scale(0.8); }
     }
 
+    /* FILTER */
     .venture-filter {
-      max-width: 900px;
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
       margin: 0 auto 2rem;
       padding: 0 2rem;
       display: flex;
@@ -172,12 +196,13 @@
     }
 
     .filter-btn {
-      padding: 0.35rem 0.9rem;
+      padding: 0.38rem 0.9rem;
       border: 1px solid var(--border);
       border-radius: 20px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--gray);
       background: transparent;
@@ -188,71 +213,93 @@
     .filter-btn:hover, .filter-btn.active {
       border-color: var(--gold);
       color: var(--gold);
-      background: rgba(240,165,0,0.08);
+      background: rgba(245,166,35,0.08);
+      box-shadow: 0 0 12px var(--gold-glow);
     }
 
+    /* MAIN LAYOUT */
     .today-layout {
-      max-width: 900px;
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
       margin: 0 auto;
       padding: 0 2rem 5rem;
       display: grid;
-      grid-template-columns: 1fr 280px;
+      grid-template-columns: 1fr 300px;
       gap: 2rem;
       align-items: start;
     }
 
-    .feed-wrap { display: flex; flex-direction: column; gap: 0; }
-
-    .feed-date-header {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1rem;
-      letter-spacing: 0.15em;
+    /* FEED */
+    .feed-header {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
       color: var(--gold);
-      padding: 1.25rem 0 0.75rem;
-      border-bottom: 1px solid var(--border);
+      padding: 1rem 0 0.75rem;
+      border-bottom: 1px solid var(--border-gold);
+      margin-bottom: 0;
+      text-shadow: 0 0 15px var(--gold-glow);
     }
 
     .feed-item {
       display: grid;
-      grid-template-columns: 80px 1fr;
-      gap: 1rem;
-      padding: 1.25rem 0;
+      grid-template-columns: 70px 1fr;
+      gap: 1.25rem;
+      padding: 1.5rem 0;
       border-bottom: 1px solid var(--border);
-      transition: background 0.15s;
+      transition: all 0.2s;
+      position: relative;
     }
 
-    .feed-item:hover { background: rgba(255,255,255,0.01); }
+    .feed-item::before {
+      content: '';
+      position: absolute;
+      left: -2rem;
+      top: 0; bottom: 0;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .feed-item:hover { background: rgba(245,166,35,0.02); }
+    .feed-item:hover::before { opacity: 1; }
 
     .feed-time {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 0.95rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.65rem;
       color: var(--gold);
-      letter-spacing: 0.08em;
-      padding-top: 0.15rem;
+      letter-spacing: 0.1em;
+      padding-top: 0.2rem;
       white-space: nowrap;
+      font-weight: 700;
     }
 
-    .feed-body { display: flex; flex-direction: column; gap: 0.35rem; }
+    .feed-body { display: flex; flex-direction: column; gap: 0.4rem; }
 
-    .feed-company {
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      padding: 0.15rem 0.5rem;
-      border-radius: 3px;
+    .feed-tag {
       display: inline-block;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.55rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.18rem 0.5rem;
+      border-radius: 3px;
       align-self: flex-start;
     }
 
-    .co-spacex  { background: rgba(74,158,255,0.15); color: var(--blue); }
-    .co-tesla   { background: rgba(232,93,32,0.15);  color: var(--orange); }
-    .co-xai     { background: rgba(74,158,255,0.12); color: #7ab8ff; }
-    .co-x       { background: rgba(240,240,224,0.1); color: var(--white); }
-    .co-neura   { background: rgba(150,100,255,0.15);color: #b088ff; }
-    .co-boring  { background: rgba(240,165,0,0.1);   color: var(--gold-dim); }
-    .co-doge    { background: rgba(232,93,32,0.1);   color: var(--orange); }
-    .co-starlink{ background: rgba(74,158,255,0.1);  color: var(--blue); }
+    .tag-spacex  { background: rgba(0,212,255,0.1);   color: var(--blue); }
+    .tag-tesla   { background: rgba(255,107,43,0.1);  color: var(--orange); }
+    .tag-xai     { background: rgba(0,212,255,0.08);  color: #7ab8ff; }
+    .tag-x       { background: rgba(255,255,255,0.06);color: var(--off-white); }
+    .tag-neura   { background: rgba(124,58,237,0.12); color: #a78bfa; }
+    .tag-boring  { background: rgba(245,166,35,0.08); color: var(--gold-dim); }
+    .tag-doge    { background: rgba(255,107,43,0.08); color: var(--orange); }
+    .tag-starlink{ background: rgba(0,212,255,0.08);  color: var(--blue); }
 
     .feed-headline {
       font-size: 0.95rem;
@@ -261,66 +308,75 @@
       line-height: 1.4;
     }
 
-    .feed-headline a {
-      color: var(--white);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
+    .feed-headline a { color: var(--white); text-decoration: none; transition: color 0.2s; }
     .feed-headline a:hover { color: var(--gold); }
 
-    .feed-summary {
-      font-size: 0.82rem;
-      color: var(--gray);
-      line-height: 1.5;
-    }
+    .feed-summary { font-size: 0.8rem; color: rgba(232,232,240,0.5); line-height: 1.5; }
 
-    .feed-link {
-      font-size: 0.78rem;
+    .feed-read {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.58rem;
       color: var(--gold);
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       align-self: flex-start;
+      transition: text-shadow 0.2s;
     }
 
-    .feed-link:hover { text-decoration: underline; }
+    .feed-read:hover { text-shadow: 0 0 10px var(--gold-glow); }
 
-    .empty-state {
-      padding: 3rem 1rem;
-      text-align: center;
+    /* LOADING */
+    .feed-loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 4rem 2rem;
       color: var(--gray);
     }
 
-    .empty-icon { font-size: 2.5rem; margin-bottom: 1rem; }
-
-    .loading-spinner {
-      width: 32px;
-      height: 32px;
+    .spinner {
+      width: 36px;
+      height: 36px;
       border: 2px solid var(--border);
       border-top-color: var(--gold);
       border-radius: 50%;
       animation: spin 0.8s linear infinite;
-      margin: 2rem auto;
     }
 
     @keyframes spin { to { transform: rotate(360deg); } }
 
+    /* SIDEBAR */
     .sidebar { display: flex; flex-direction: column; gap: 1.25rem; }
 
     .sidebar-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 12px;
       padding: 1.25rem;
+      backdrop-filter: blur(20px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sidebar-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
     }
 
     .sidebar-title {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1rem;
-      letter-spacing: 0.1em;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
       color: var(--gold);
       margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.6rem;
       border-bottom: 1px solid var(--border);
     }
 
@@ -330,28 +386,37 @@
       align-items: center;
       padding: 0.5rem 0;
       border-bottom: 1px solid var(--border);
-      font-size: 0.82rem;
+      font-size: 0.8rem;
     }
 
     .score-row:last-child { border-bottom: none; }
     .score-label { color: var(--gray); }
-    .score-value { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--white); }
-    .score-up { color: #4caf50; }
 
-    .sidebar-quote {
+    .score-value {
+      font-family: 'Orbitron', sans-serif;
       font-size: 0.88rem;
       color: var(--white);
+      font-weight: 700;
+    }
+
+    .score-up { color: #4ade80; }
+
+    .sidebar-quote {
+      font-family: 'Cinzel', serif;
+      font-size: 0.82rem;
+      color: rgba(232,232,240,0.8);
       font-style: italic;
       line-height: 1.6;
       margin-bottom: 0.75rem;
-      transition: opacity 0.3s ease;
+      transition: opacity 0.4s ease;
     }
 
     .sidebar-quote-attr {
-      font-size: 0.75rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.6rem;
       color: var(--gold);
-      font-weight: 600;
-      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.12em;
     }
 
     .activity-row {
@@ -371,26 +436,42 @@
       flex-shrink: 0;
     }
 
-    .activity-name { font-size: 0.8rem; color: var(--white); font-weight: 500; flex: 1; }
-    .activity-count { font-family: 'Bebas Neue', sans-serif; font-size: 0.95rem; color: var(--gold); }
+    .activity-name {
+      font-size: 0.8rem;
+      color: var(--off-white);
+      font-weight: 500;
+      flex: 1;
+    }
 
-    .archive-nav {
-      max-width: 900px;
+    .activity-count {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.7rem;
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    /* ARCHIVE */
+    .archive-wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 0 2rem 3rem;
+      padding: 0 2rem 4rem;
     }
 
     .archive-title {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.2rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
       color: var(--gold);
-      letter-spacing: 0.1em;
       margin-bottom: 1rem;
     }
 
     .archive-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
       gap: 0.5rem;
     }
 
@@ -398,28 +479,48 @@
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 6px;
-      padding: 0.6rem 1rem;
-      font-size: 0.8rem;
+      padding: 0.55rem 1rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
       color: var(--gray);
       text-decoration: none;
       text-align: center;
       transition: all 0.2s;
     }
 
-    .archive-link:hover { border-color: var(--gold); color: var(--gold); }
+    .archive-link:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+      box-shadow: 0 0 10px var(--gold-glow);
+    }
 
+    /* FOOTER */
     footer {
-      background: var(--card-bg);
+      position: relative;
+      z-index: 1;
+      background: rgba(0,0,8,0.9);
       border-top: 1px solid var(--border);
       text-align: center;
-      padding: 2.5rem 2rem;
+      padding: 3rem 2rem;
       font-size: 0.8rem;
       color: var(--gray);
-      line-height: 1.8;
+      line-height: 2;
     }
 
     footer a { color: var(--gold); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
+
+    .footer-logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+      text-shadow: 0 0 20px var(--gold-glow);
+      margin-bottom: 0.5rem;
+    }
 
     @media (max-width: 768px) {
       .nav-links { display: none; }
@@ -430,26 +531,28 @@
 </head>
 <body>
 
+  <canvas id="starfield"></canvas>
+
   <nav>
-    <a class="nav-logo" href="/">THANKS <span>ELON MUSK</span></a>
+    <a class="nav-logo" href="/">THANKS <span>ELON</span></a>
     <ul class="nav-links">
       <li><a href="ventures.html">Ventures</a></li>
       <li><a href="news.html">News</a></li>
       <li><a href="timeline.html">Timeline</a></li>
       <li><a href="quotes.html">Quotes</a></li>
-      <li><a href="numbers.html">By the Numbers</a></li>
-      <li><a href="today.html" class="active">Today in Elon</a></li>
+      <li><a href="numbers.html">Numbers</a></li>
+      <li><a href="today.html" class="active">Today</a></li>
       <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
     </ul>
   </nav>
 
   <div class="page-header">
     <p class="page-eyebrow">Daily Digest</p>
-    <h1 class="date-display" id="today-date">LOADING...</h1>
-    <p class="page-sub">Everything happening in Elon-world today — updated 4 times daily.</p>
+    <h1 class="date-display" id="today-date">TODAY IN <span>ELON</span></h1>
+    <p class="page-sub">Everything happening in Elon-world — updated 4 times daily.</p>
     <div class="live-badge">
       <div class="live-dot"></div>
-      <span id="live-label">Updating Daily</span>
+      <span id="live-label">Live Feed</span>
     </div>
   </div>
 
@@ -466,20 +569,23 @@
   </div>
 
   <div class="today-layout">
-    <div class="feed-wrap">
-      <div class="feed-date-header" id="feed-date-header">TODAY</div>
+    <div>
+      <div class="feed-header" id="feed-header">TODAY'S UPDATES</div>
       <div id="feed-items">
-        <div class="loading-spinner"></div>
+        <div class="feed-loading">
+          <div class="spinner"></div>
+          <span>Loading today's updates...</span>
+        </div>
       </div>
     </div>
 
     <aside class="sidebar">
       <div class="sidebar-card">
-        <div class="sidebar-title">Today's Scorecard</div>
+        <div class="sidebar-title">Live Scorecard</div>
         <div class="score-row"><span class="score-label">SpaceX Launches YTD</span><span class="score-value score-up">67</span></div>
         <div class="score-row"><span class="score-label">Tesla Deliveries YTD</span><span class="score-value score-up">386K</span></div>
         <div class="score-row"><span class="score-label">Starlink Satellites</span><span class="score-value score-up">7,043</span></div>
-        <div class="score-row"><span class="score-label">Grok Model</span><span class="score-value">3.5</span></div>
+        <div class="score-row"><span class="score-label">Grok Version</span><span class="score-value">3.5</span></div>
         <div class="score-row"><span class="score-label">Neuralink Patients</span><span class="score-value score-up">40+</span></div>
         <div class="score-row"><span class="score-label">DOGE Savings</span><span class="score-value score-up">$160B+</span></div>
       </div>
@@ -492,24 +598,29 @@
 
       <div class="sidebar-card">
         <div class="sidebar-title">Today's Activity</div>
-        <div id="activity-list"></div>
+        <div id="activity-list">
+          <div class="activity-row">
+            <div class="activity-dot" style="background:var(--blue)"></div>
+            <span class="activity-name">Loading...</span>
+          </div>
+        </div>
       </div>
 
-      <a href="news.html" style="display:block; background:var(--gold); color:var(--black); text-align:center; padding:0.9rem; border-radius:8px; font-weight:700; font-size:0.85rem; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none;">
+      <a href="news.html" style="display:block;background:linear-gradient(135deg,var(--gold),var(--orange));color:var(--black);text-align:center;padding:1rem;border-radius:10px;font-family:'Orbitron',sans-serif;font-weight:900;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;box-shadow:0 0 20px var(--gold-glow);transition:box-shadow 0.2s;">
         Full News Feed →
       </a>
     </aside>
   </div>
 
-  <div class="archive-nav">
-    <div class="archive-title">RECENT DIGESTS</div>
+  <div class="archive-wrap">
+    <div class="archive-title">Recent Digests</div>
     <div class="archive-grid" id="archive-grid"></div>
   </div>
 
   <footer>
-    <p><strong style="color:var(--white); font-family:'Bebas Neue',sans-serif; letter-spacing:0.05em; font-size:1.1rem;">THANKS ELON MUSK</strong></p>
-    <p style="margin-top:0.5rem;">A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
-    <p style="margin-top:0.25rem;">Not affiliated with Elon Musk, Tesla, SpaceX, X, xAI, Neuralink, or any associated companies.</p>
+    <div class="footer-logo">THANKS ELON MUSK</div>
+    <p>A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
+    <p>Not affiliated with Elon Musk, Tesla, SpaceX, X, xAI, Neuralink, or any associated companies.</p>
     <p style="margin-top:1rem;">
       <a href="ventures.html">Ventures</a> &nbsp;·&nbsp;
       <a href="news.html">News</a> &nbsp;·&nbsp;
@@ -517,24 +628,19 @@
       <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
       <a href="thanks.html">Say Thanks</a>
     </p>
-    <p style="margin-top:1rem; font-size:0.72rem;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
+    <p style="margin-top:1rem; font-size:0.72rem; opacity:0.5;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
   </footer>
 
   <script>
-    const VENTURE_ICONS = {
-      spacex:'🚀', tesla:'⚡', xai:'🧠', x:'✕',
-      starlink:'🛰️', neura:'🔬', boring:'🚇', doge:'🦅'
-    };
-
     const VENTURE_COLORS = {
       spacex:'var(--blue)', tesla:'var(--orange)', xai:'#7ab8ff',
-      x:'var(--white)', starlink:'var(--blue)', neura:'#b088ff',
+      x:'rgba(232,232,240,0.6)', starlink:'var(--blue)', neura:'#a78bfa',
       boring:'var(--gold-dim)', doge:'var(--orange)'
     };
 
-    const MONTH_NAMES = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE',
-      'JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
-    const DAY_NAMES = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+    const MONTH_NAMES = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
+    const DAY_NAMES   = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+    const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
     let allItems = [];
     let currentFilter = 'all';
@@ -545,23 +651,28 @@
         const data = await res.json();
         allItems = data.items || [];
 
-        // Set date display
         const now = new Date();
         document.getElementById('today-date').innerHTML =
-          `${DAY_NAMES[now.getDay()]}, <span>${MONTH_NAMES[now.getMonth()]} ${now.getDate()} ${now.getFullYear()}</span>`;
+          `${DAY_NAMES[now.getDay()]}, <span>${MONTH_NAMES[now.getMonth()]} ${now.getDate()}</span>`;
 
-        document.getElementById('feed-date-header').textContent =
-          `${MONTH_NAMES[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+        document.getElementById('feed-header').textContent =
+          `${MONTH_NAMES[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()} — UPDATES`;
 
-        document.getElementById('live-label').textContent =
-          `Updated ${data.generatedAt ? new Date(data.generatedAt).toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit'}) : 'today'}`;
+        if (data.generatedAt) {
+          const gen = new Date(data.generatedAt);
+          document.getElementById('live-label').textContent =
+            `Updated ${gen.toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit'})}`;
+        }
 
         renderFeed();
         renderActivity();
-      } catch (err) {
-        document.getElementById('today-date').innerHTML = 'TODAY IN ELON';
-        document.getElementById('feed-items').innerHTML =
-          '<div class="empty-state"><div class="empty-icon">📡</div><div>Feed loading shortly. Check back in a moment.</div></div>';
+      } catch(err) {
+        document.getElementById('today-date').innerHTML = `TODAY IN <span>ELON</span>`;
+        document.getElementById('feed-items').innerHTML = `
+          <div class="feed-loading">
+            <div style="font-size:2rem">📡</div>
+            <span>Feed updating shortly. Check back in a moment.</span>
+          </div>`;
       }
     }
 
@@ -570,48 +681,58 @@
         ? allItems
         : allItems.filter(i => i.venture === currentFilter);
 
-      if (filtered.length === 0) {
-        document.getElementById('feed-items').innerHTML =
-          '<div class="empty-state"><div class="empty-icon">🔍</div><div>No updates for this venture today. Try another filter.</div></div>';
+      if (!filtered.length) {
+        document.getElementById('feed-items').innerHTML = `
+          <div class="feed-loading">
+            <div style="font-size:2rem">🔍</div>
+            <span>No updates for this venture today.</span>
+          </div>`;
         return;
       }
 
       document.getElementById('feed-items').innerHTML = filtered.map((item, idx) => `
-        <div class="feed-item" data-co="${item.venture}">
+        <div class="feed-item" style="opacity:0;transform:translateX(-10px);transition:opacity 0.4s ease ${idx*0.06}s,transform 0.4s ease ${idx*0.06}s">
           <div class="feed-time">${idx === 0 ? 'LATEST' : 'TODAY'}</div>
           <div class="feed-body">
-            <span class="feed-company co-${item.venture}">${item.label}</span>
+            <span class="feed-tag tag-${item.venture}">${item.label}</span>
             <div class="feed-headline">
               ${item.url
                 ? `<a href="${item.url}" target="_blank" rel="noopener">${item.headline}</a>`
                 : item.headline}
             </div>
             ${item.summary ? `<div class="feed-summary">${item.summary}</div>` : ''}
-            ${item.url ? `<a class="feed-link" href="${item.url}" target="_blank" rel="noopener">Read more →</a>` : ''}
+            ${item.url ? `<a class="feed-read" href="${item.url}" target="_blank" rel="noopener">Read More →</a>` : ''}
           </div>
         </div>
       `).join('');
+
+      requestAnimationFrame(() => {
+        document.querySelectorAll('.feed-item').forEach(el => {
+          el.style.opacity = '1';
+          el.style.transform = 'translateX(0)';
+        });
+      });
     }
 
     function renderActivity() {
       const ventures = ['spacex','tesla','xai','x','starlink','neura','boring','doge'];
-      const labels = {spacex:'SpaceX',tesla:'Tesla',xai:'xAI / Grok',x:'X',starlink:'Starlink',neura:'Neuralink',boring:'Boring Co',doge:'DOGE'};
+      const labels = {spacex:'SpaceX',tesla:'Tesla',xai:'xAI',x:'X',starlink:'Starlink',neura:'Neuralink',boring:'Boring Co',doge:'DOGE'};
       const counts = {};
       ventures.forEach(v => { counts[v] = allItems.filter(i => i.venture === v).length; });
 
-      document.getElementById('activity-list').innerHTML = ventures
-        .filter(v => counts[v] > 0)
-        .sort((a,b) => counts[b] - counts[a])
-        .map(v => `
-          <div class="activity-row">
-            <div class="activity-dot" style="background:${VENTURE_COLORS[v]}"></div>
-            <span class="activity-name">${labels[v]}</span>
-            <span class="activity-count">${counts[v]} update${counts[v] !== 1 ? 's' : ''}</span>
-          </div>
-        `).join('');
+      const active = ventures.filter(v => counts[v] > 0).sort((a,b) => counts[b]-counts[a]);
+
+      document.getElementById('activity-list').innerHTML = active.length
+        ? active.map(v => `
+            <div class="activity-row">
+              <div class="activity-dot" style="background:${VENTURE_COLORS[v]};box-shadow:0 0 6px ${VENTURE_COLORS[v]}"></div>
+              <span class="activity-name">${labels[v]}</span>
+              <span class="activity-count">${counts[v]} update${counts[v]!==1?'s':''}</span>
+            </div>`).join('')
+        : '<div style="font-size:0.8rem;color:var(--gray);padding:0.5rem 0">Loading activity...</div>';
     }
 
-    // Venture filter
+    // FILTER
     document.querySelectorAll('.filter-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -621,7 +742,7 @@
       });
     });
 
-    // Rotating quote
+    // QUOTE ROTATOR
     const quotes = [
       "When something is important enough, you do it even if the odds are not in your favor.",
       "Failure is an option here. If things are not failing, you are not innovating enough.",
@@ -633,32 +754,73 @@
       "If you get up in the morning and think the future is going to be better, it is a bright day."
     ];
 
-    const sidebarQuote = document.getElementById('sidebar-quote');
+    const qEl = document.getElementById('sidebar-quote');
     let qi = 0;
-    sidebarQuote.style.transition = 'opacity 0.4s ease';
     setInterval(() => {
-      sidebarQuote.style.opacity = '0';
+      qEl.style.opacity = '0';
       setTimeout(() => {
         qi = (qi + 1) % quotes.length;
-        sidebarQuote.textContent = `"${quotes[qi]}"`;
-        sidebarQuote.style.opacity = '1';
+        qEl.textContent = `"${quotes[qi]}"`;
+        qEl.style.opacity = '1';
       }, 400);
     }, 9000);
 
-    // Archive links
+    // ARCHIVE
     const archiveGrid = document.getElementById('archive-grid');
-    const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     for (let i = 1; i <= 14; i++) {
       const d = new Date();
       d.setDate(d.getDate() - i);
-      const label = `${monthNames[d.getMonth()]} ${d.getDate()}`;
       const link = document.createElement('a');
       link.className = 'archive-link';
       link.href = 'news.html';
-      link.textContent = label;
+      link.textContent = `${MONTH_SHORT[d.getMonth()]} ${d.getDate()}`;
       archiveGrid.appendChild(link);
     }
 
+    // STARFIELD
+    const canvas = document.getElementById('starfield');
+    const ctx = canvas.getContext('2d');
+    let stars = [], shootingStars = [];
+
+    function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+
+    function initStars() {
+      stars = [];
+      for (let i = 0; i < 200; i++) {
+        stars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height, r: Math.random()*1.5+0.2, alpha: Math.random()*0.8+0.2, twinkle: Math.random()*Math.PI*2 });
+      }
+    }
+
+    function addShootingStar() {
+      shootingStars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height*0.5, len: Math.random()*120+60, speed: Math.random()*8+6, alpha: 1, angle: Math.PI/4+(Math.random()-0.5)*0.3 });
+    }
+
+    function drawStars() {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      stars.forEach(s => {
+        s.twinkle += 0.02;
+        ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+        ctx.fillStyle = `rgba(255,255,255,${s.alpha*(0.7+0.3*Math.sin(s.twinkle))})`; ctx.fill();
+      });
+      shootingStars = shootingStars.filter(s => s.alpha > 0.01);
+      shootingStars.forEach(s => {
+        const grad = ctx.createLinearGradient(s.x,s.y,s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        grad.addColorStop(0,`rgba(245,166,35,${s.alpha})`); grad.addColorStop(1,'transparent');
+        ctx.beginPath(); ctx.moveTo(s.x,s.y); ctx.lineTo(s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        ctx.strokeStyle=grad; ctx.lineWidth=1.5; ctx.stroke();
+        s.x+=Math.cos(s.angle)*s.speed; s.y+=Math.sin(s.angle)*s.speed; s.alpha-=0.018;
+      });
+    }
+
+    let lastShoot = 0;
+    function animate(t) {
+      drawStars();
+      if (t-lastShoot > 3000+Math.random()*4000) { addShootingStar(); lastShoot=t; }
+      requestAnimationFrame(animate);
+    }
+
+    window.addEventListener('resize', () => { resize(); initStars(); });
+    resize(); initStars(); requestAnimationFrame(animate);
     loadToday();
   </script>
 
