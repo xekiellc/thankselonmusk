@@ -3,16 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thanks Elon Musk – Celebrating the Man Building Our Future</title>
-  <meta name="description" content="A tribute and aggregator site celebrating Elon Musk and his ventures — SpaceX, Tesla, xAI, Neuralink, X, Starlink, and more." />
-  <meta property="og:title" content="Thanks Elon Musk" />
-  <meta property="og:description" content="Tracking the companies, ideas, launches, and innovations changing the future." />
+  <title>Elon's Ventures – Thanks Elon Musk</title>
+  <meta name="description" content="Explore all of Elon Musk's ventures — SpaceX, Tesla, xAI, X, Starlink, Neuralink, and The Boring Company." />
+  <meta property="og:title" content="Elon's Ventures – Thanks Elon Musk" />
   <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
-  <meta property="og:url" content="https://thankselonmusk.com" />
+  <meta property="og:url" content="https://thankselonmusk.com/ventures.html" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHJPTKLGN1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -28,19 +26,17 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --black:     #000008;
-      --deep:      #05051a;
-      --gold:      #f5a623;
-      --gold-glow: #f5a62366;
-      --gold-dim:  #c8831a;
-      --orange:    #ff6b2b;
-      --blue:      #00d4ff;
-      --purple:    #7c3aed;
-      --white:     #ffffff;
-      --off-white: #e8e8f0;
-      --gray:      #6b7280;
-      --card-bg:   rgba(255,255,255,0.03);
-      --border:    rgba(255,255,255,0.08);
+      --black:       #000008;
+      --gold:        #f5a623;
+      --gold-glow:   #f5a62366;
+      --gold-dim:    #c8831a;
+      --orange:      #ff6b2b;
+      --blue:        #00d4ff;
+      --white:       #ffffff;
+      --off-white:   #e8e8f0;
+      --gray:        #6b7280;
+      --card-bg:     rgba(255,255,255,0.03);
+      --border:      rgba(255,255,255,0.08);
       --border-gold: rgba(245,166,35,0.4);
     }
 
@@ -55,7 +51,6 @@
       overflow-x: hidden;
     }
 
-    /* ── CANVAS STARFIELD ── */
     #starfield {
       position: fixed;
       top: 0; left: 0;
@@ -64,7 +59,6 @@
       pointer-events: none;
     }
 
-    /* ── NAV ── */
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -109,7 +103,7 @@
       font-family: 'Orbitron', sans-serif;
     }
 
-    .nav-links a:hover { color: var(--gold); }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
 
     .nav-cta {
       background: linear-gradient(135deg, var(--gold), var(--orange));
@@ -118,528 +112,94 @@
       border-radius: 4px;
       font-weight: 700 !important;
       box-shadow: 0 0 20px var(--gold-glow);
-      transition: box-shadow 0.2s, transform 0.2s !important;
     }
 
-    .nav-cta:hover {
-      box-shadow: 0 0 40px var(--gold-glow) !important;
-      transform: translateY(-1px);
-    }
-
-    /* ── HERO ── */
-    .hero {
+    /* PAGE HEADER */
+    .page-header {
       position: relative;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
       z-index: 1;
-      overflow: hidden;
+      padding: 8rem 2rem 4rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
     }
 
-    .hero-bg {
-      position: absolute;
-      inset: 0;
-      background-image: url('images/elon2.png');
-      background-size: cover;
-      background-position: center 20%;
-      opacity: 0.25;
-      filter: saturate(1.4) brightness(0.6);
-    }
-
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at center, rgba(245,166,35,0.08) 0%, rgba(0,0,8,0.6) 50%, rgba(0,0,8,0.95) 100%);
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      max-width: 900px;
-      padding: 0 2rem;
-    }
-
-    .hero-eyebrow {
+    .page-eyebrow {
       font-family: 'Cinzel', serif;
-      font-size: 0.8rem;
+      font-size: 0.72rem;
       font-weight: 600;
       letter-spacing: 0.35em;
       text-transform: uppercase;
       color: var(--gold);
-      margin-bottom: 1.5rem;
-      opacity: 0;
-      animation: fadeUp 0.8s ease 0.3s forwards;
+      margin-bottom: 1rem;
     }
 
-    .hero-title {
+    .page-title {
       font-family: 'Orbitron', sans-serif;
+      font-size: clamp(2rem, 5vw, 4rem);
       font-weight: 900;
-      font-size: clamp(2.5rem, 7vw, 6rem);
-      line-height: 1.05;
       color: var(--white);
-      margin-bottom: 0.5rem;
-      opacity: 0;
-      animation: fadeUp 0.8s ease 0.5s forwards;
-      text-shadow: 0 0 60px rgba(255,255,255,0.1);
+      line-height: 1.05;
+      margin-bottom: 1rem;
     }
 
-    .hero-title .gold {
-      color: var(--gold);
-      text-shadow: 0 0 40px var(--gold-glow), 0 0 80px var(--gold-glow);
-      display: block;
-    }
-
-    .hero-sub {
-      font-size: 1.1rem;
-      color: rgba(232,232,240,0.7);
-      max-width: 600px;
-      margin: 1.5rem auto 2.5rem;
+    .page-sub {
+      font-size: 1.05rem;
+      color: rgba(232,232,240,0.6);
       font-weight: 300;
-      line-height: 1.7;
-      opacity: 0;
-      animation: fadeUp 0.8s ease 0.7s forwards;
+      max-width: 560px;
+      margin: 0 auto 4rem;
     }
 
-    .hero-btns {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      opacity: 0;
-      animation: fadeUp 0.8s ease 0.9s forwards;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, var(--gold), var(--orange));
-      color: var(--black);
-      padding: 0.85rem 2.2rem;
-      border-radius: 6px;
-      font-weight: 700;
-      font-size: 0.9rem;
-      text-decoration: none;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-family: 'Orbitron', sans-serif;
-      box-shadow: 0 0 30px var(--gold-glow);
-      transition: all 0.3s;
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 0 50px var(--gold-glow), 0 8px 25px rgba(245,166,35,0.3);
-    }
-
-    .btn-secondary {
-      border: 1px solid var(--border-gold);
-      color: var(--gold);
-      padding: 0.85rem 2.2rem;
-      border-radius: 6px;
-      font-weight: 600;
-      font-size: 0.9rem;
-      text-decoration: none;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-family: 'Orbitron', sans-serif;
-      transition: all 0.3s;
-      backdrop-filter: blur(10px);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(245,166,35,0.1);
-      border-color: var(--gold);
-      transform: translateY(-3px);
-      box-shadow: 0 0 30px var(--gold-glow);
-    }
-
-    /* ── SCROLL INDICATOR ── */
-    .scroll-indicator {
-      position: absolute;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-      opacity: 0;
-      animation: fadeIn 1s ease 1.5s forwards;
-    }
-
-    .scroll-line {
-      width: 1px;
-      height: 50px;
-      background: linear-gradient(to bottom, var(--gold), transparent);
-      animation: scrollPulse 2s ease-in-out infinite;
-    }
-
-    .scroll-text {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.6rem;
-      letter-spacing: 0.2em;
-      color: var(--gold);
-      opacity: 0.6;
-    }
-
-    @keyframes scrollPulse {
-      0%, 100% { opacity: 0.4; transform: scaleY(1); }
-      50% { opacity: 1; transform: scaleY(1.2); }
-    }
-
-    /* ── STATS TICKER ── */
-    .stats-ticker {
-      position: relative;
-      z-index: 1;
-      background: linear-gradient(90deg, transparent, rgba(245,166,35,0.05), transparent);
-      border-top: 1px solid var(--border-gold);
-      border-bottom: 1px solid var(--border-gold);
-      padding: 1.25rem 0;
-      overflow: hidden;
-    }
-
-    .ticker-track {
-      display: flex;
-      gap: 4rem;
-      animation: ticker 30s linear infinite;
-      width: max-content;
-    }
-
-    .ticker-track:hover { animation-play-state: paused; }
-
-    @keyframes ticker {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-
-    .ticker-item {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      white-space: nowrap;
-    }
-
-    .ticker-value {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--gold);
-      text-shadow: 0 0 10px var(--gold-glow);
-    }
-
-    .ticker-label {
-      font-size: 0.75rem;
-      color: var(--gray);
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
-
-    .ticker-dot {
-      width: 4px;
-      height: 4px;
-      border-radius: 50%;
-      background: var(--gold);
-      opacity: 0.4;
-    }
-
-    /* ── SECTIONS ── */
-    .section-wrap {
+    /* VENTURES GRID */
+    .ventures-wrap {
       position: relative;
       z-index: 1;
       max-width: 1200px;
       margin: 0 auto;
-      padding: 5rem 2rem;
+      padding: 0 2rem 8rem;
     }
 
-    .section-eyebrow {
-      font-family: 'Cinzel', serif;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 0.75rem;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .section-eyebrow::after {
-      content: '';
-      flex: 1;
-      max-width: 60px;
-      height: 1px;
-      background: linear-gradient(to right, var(--gold), transparent);
-    }
-
-    .section-title {
-      font-family: 'Orbitron', sans-serif;
-      font-size: clamp(1.8rem, 4vw, 3rem);
-      font-weight: 900;
-      color: var(--white);
-      margin-bottom: 3rem;
-      line-height: 1.1;
-    }
-
-    /* ── VENTURE CARDS ── */
     .ventures-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.75rem;
     }
 
+    /* VENTURE CARD */
     .venture-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.75rem;
+      border-radius: 16px;
+      padding: 2.5rem 2rem 2rem;
       text-decoration: none;
       color: var(--off-white);
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       display: flex;
       flex-direction: column;
-      gap: 0.85rem;
+      align-items: center;
+      gap: 1.25rem;
+      text-align: center;
       backdrop-filter: blur(20px);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       position: relative;
       overflow: hidden;
+      cursor: pointer;
     }
 
-    .venture-card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(circle at top left, rgba(245,166,35,0.08), transparent 60%);
-      opacity: 0;
-      transition: opacity 0.4s;
-    }
-
+    /* Gold glow border on hover */
     .venture-card::after {
       content: '';
       position: absolute;
       inset: -1px;
-      border-radius: 12px;
-      background: linear-gradient(135deg, var(--gold), var(--orange), transparent);
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--gold), var(--orange), transparent, transparent);
       z-index: -1;
       opacity: 0;
       transition: opacity 0.4s;
     }
 
-    .venture-card:hover {
-      transform: translateY(-8px) scale(1.02);
-      border-color: transparent;
-      box-shadow: 0 20px 60px rgba(245,166,35,0.2), 0 0 0 1px var(--border-gold);
-    }
-
-    .venture-card:hover::before { opacity: 1; }
-    .venture-card:hover::after { opacity: 1; }
-
-    .venture-icon {
-      font-size: 2.5rem;
-      line-height: 1;
-      filter: drop-shadow(0 0 8px rgba(245,166,35,0.4));
-    }
-
-    .venture-name {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.1rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      color: var(--gold);
-      text-shadow: 0 0 20px var(--gold-glow);
-    }
-
-    .venture-desc {
-      font-size: 0.85rem;
-      color: rgba(232,232,240,0.6);
-      line-height: 1.6;
-    }
-
-    .venture-milestone {
-      font-size: 0.78rem;
-      color: var(--blue);
-      margin-top: auto;
-      padding-top: 0.85rem;
-      border-top: 1px solid var(--border);
-      letter-spacing: 0.02em;
-    }
-
-    /* ── TODAY FEED ── */
-    .today-feed {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-    }
-
-    .today-item {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-left: 2px solid var(--gold);
-      border-radius: 0 10px 10px 0;
-      padding: 1.25rem 1.5rem;
-      display: flex;
-      gap: 1rem;
-      backdrop-filter: blur(20px);
-      transition: all 0.3s;
-    }
-
-    .today-item:hover {
-      border-left-color: var(--orange);
-      background: rgba(245,166,35,0.05);
-      transform: translateX(4px);
-    }
-
-    .today-time {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.7rem;
-      color: var(--gold);
-      white-space: nowrap;
-      min-width: 55px;
-      padding-top: 0.2rem;
-      letter-spacing: 0.08em;
-    }
-
-    .today-text {
-      font-size: 0.88rem;
-      color: var(--off-white);
-      line-height: 1.4;
-    }
-
-    .today-text a { color: var(--off-white); text-decoration: none; }
-    .today-text a:hover { color: var(--gold); }
-
-    .today-company {
-      font-size: 0.65rem;
-      color: var(--gray);
-      margin-top: 0.3rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      font-family: 'Orbitron', sans-serif;
-    }
-
-    /* ── QUOTE SECTION ── */
-    .quote-section {
-      position: relative;
-      z-index: 1;
-      background: linear-gradient(135deg, rgba(245,166,35,0.04), rgba(124,58,237,0.04));
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-      padding: 5rem 2rem;
-      text-align: center;
-      overflow: hidden;
-    }
-
-    .quote-section::before {
-      content: '"';
-      position: absolute;
-      top: -2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      font-family: 'Cinzel', serif;
-      font-size: 20rem;
-      color: var(--gold);
-      opacity: 0.03;
-      line-height: 1;
-      pointer-events: none;
-    }
-
-    .quote-text {
-      font-family: 'Cinzel', serif;
-      font-size: clamp(1.4rem, 3vw, 2.2rem);
-      color: var(--white);
-      line-height: 1.4;
-      max-width: 800px;
-      margin: 0 auto 1.5rem;
-      font-weight: 400;
-      font-style: italic;
-      transition: opacity 0.4s ease;
-    }
-
-    .quote-attr {
-      font-family: 'Orbitron', sans-serif;
-      color: var(--gold);
-      font-size: 0.8rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-    }
-
-    /* ── NEWS CARDS ── */
-    .news-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1.25rem;
-    }
-
-    .news-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.7rem;
-      backdrop-filter: blur(20px);
-      transition: all 0.3s;
-    }
-
-    .news-card:hover {
-      border-color: var(--border-gold);
-      transform: translateY(-4px);
-      box-shadow: 0 10px 40px rgba(245,166,35,0.1);
-    }
-
-    .news-tag {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.6rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: var(--orange);
-    }
-
-    .news-headline {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: var(--white);
-      line-height: 1.4;
-    }
-
-    .news-headline a { color: var(--white); text-decoration: none; }
-    .news-headline a:hover { color: var(--gold); }
-
-    .news-source { font-size: 0.72rem; color: var(--gray); margin-top: auto; }
-
-    .news-link {
-      font-size: 0.78rem;
-      color: var(--gold);
-      text-decoration: none;
-      font-weight: 500;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.65rem;
-      letter-spacing: 0.08em;
-    }
-
-    .news-link:hover { text-decoration: underline; }
-
-    /* ── NUMBERS ── */
-    .numbers-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 1.25rem;
-    }
-
-    .number-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 2rem 1.5rem;
-      text-align: center;
-      backdrop-filter: blur(20px);
-      transition: all 0.3s;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .number-card::before {
+    /* Bottom accent line */
+    .venture-card::before {
       content: '';
       position: absolute;
       bottom: 0; left: 0; right: 0;
@@ -649,72 +209,100 @@
       transition: transform 0.4s;
     }
 
-    .number-card:hover::before { transform: scaleX(1); }
-    .number-card:hover { border-color: var(--border-gold); }
+    .venture-card:hover {
+      transform: translateY(-12px) scale(1.02);
+      border-color: rgba(245,166,35,0.3);
+      box-shadow:
+        0 25px 60px rgba(245,166,35,0.15),
+        0 0 0 1px rgba(245,166,35,0.15),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+    }
 
-    .number-value {
+    .venture-card:hover::before { transform: scaleX(1); }
+    .venture-card:hover::after { opacity: 0.15; }
+
+    /* LOGO AREA */
+    .venture-logo {
+      width: 100%;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1.5rem;
+    }
+
+    .venture-logo img {
+      max-width: 200px;
+      max-height: 70px;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      opacity: 0.9;
+      transition: all 0.4s;
+    }
+
+    .venture-card:hover .venture-logo img {
+      filter: brightness(0) saturate(100%) invert(72%) sepia(55%) saturate(600%) hue-rotate(350deg) brightness(108%);
+      opacity: 1;
+    }
+
+    /* DIVIDER */
+    .venture-divider {
+      width: 32px;
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(245,166,35,0.5), transparent);
+      transition: width 0.4s;
+    }
+
+    .venture-card:hover .venture-divider { width: 80px; }
+
+    /* TEXT */
+    .venture-tagline {
+      font-size: 0.82rem;
+      color: rgba(232,232,240,0.5);
+      line-height: 1.55;
+      font-weight: 300;
+    }
+
+    .venture-stat {
       font-family: 'Orbitron', sans-serif;
-      font-size: 2.2rem;
-      font-weight: 900;
+      font-size: 0.6rem;
       color: var(--gold);
-      line-height: 1;
-      margin-bottom: 0.5rem;
-      text-shadow: 0 0 20px var(--gold-glow);
-    }
-
-    .number-label {
-      font-size: 0.72rem;
-      color: var(--gray);
-      text-transform: uppercase;
       letter-spacing: 0.12em;
-      font-family: 'Orbitron', sans-serif;
-    }
-
-    /* ── THANKS WALL ── */
-    .thanks-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1.25rem;
-      margin-bottom: 2.5rem;
-    }
-
-    .thanks-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.5rem;
-      font-size: 0.9rem;
-      color: rgba(232,232,240,0.8);
-      line-height: 1.6;
-      font-style: italic;
-      backdrop-filter: blur(20px);
+      text-transform: uppercase;
+      margin-top: auto;
+      padding: 0.4rem 1rem;
+      border: 1px solid rgba(245,166,35,0.2);
+      border-radius: 20px;
       transition: all 0.3s;
     }
 
-    .thanks-card:hover {
+    .venture-card:hover .venture-stat {
+      background: rgba(245,166,35,0.08);
       border-color: var(--border-gold);
-      box-shadow: 0 0 30px rgba(245,166,35,0.08);
+      box-shadow: 0 0 15px var(--gold-glow);
     }
 
-    .thanks-from {
-      margin-top: 1rem;
-      font-size: 0.75rem;
-      color: var(--gold);
-      font-style: normal;
-      font-weight: 600;
+    /* EXTERNAL LINK ARROW */
+    .venture-arrow {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.25rem;
       font-family: 'Orbitron', sans-serif;
-      letter-spacing: 0.08em;
+      font-size: 0.65rem;
+      color: var(--gray);
+      opacity: 0;
+      transition: all 0.3s;
     }
 
-    /* ── DIVIDER ── */
-    .divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      position: relative;
-      z-index: 1;
+    .venture-card:hover .venture-arrow {
+      opacity: 1;
+      color: var(--gold);
+      transform: translate(2px, -2px);
     }
 
-    /* ── FOOTER ── */
+    /* FOOTER */
     footer {
       position: relative;
       z-index: 1;
@@ -740,47 +328,26 @@
       margin-bottom: 0.5rem;
     }
 
-    /* ── SCROLL ANIMATIONS ── */
-    .reveal {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: opacity 0.7s ease, transform 0.7s ease;
-    }
-
-    .reveal.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* ── KEYFRAMES ── */
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       .nav-links { display: none; }
-      .today-feed { grid-template-columns: 1fr; }
-      .hero-title { font-size: 2.2rem; }
+      .ventures-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+      .venture-card { padding: 2rem 1.25rem 1.5rem; }
+      .venture-logo { height: 70px; }
+    }
+
+    @media (max-width: 480px) {
+      .ventures-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
 
-  <!-- STARFIELD -->
   <canvas id="starfield"></canvas>
 
-  <!-- NAV -->
   <nav>
     <a class="nav-logo" href="/">THANKS <span>ELON</span></a>
     <ul class="nav-links">
-      <li><a href="ventures.html">Ventures</a></li>
+      <li><a href="ventures.html" class="active">Ventures</a></li>
       <li><a href="news.html">News</a></li>
       <li><a href="timeline.html">Timeline</a></li>
       <li><a href="quotes.html">Quotes</a></li>
@@ -790,221 +357,95 @@
     </ul>
   </nav>
 
-  <!-- HERO -->
-  <div class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <p class="hero-eyebrow">A Tribute to a Builder of Worlds</p>
-      <h1 class="hero-title">
-        THANKS
-        <span class="gold">ELON MUSK</span>
-      </h1>
-      <p class="hero-sub">Celebrating the companies, launches, breakthroughs, and bold bets changing the future of humanity — one impossible thing at a time.</p>
-      <div class="hero-btns">
-        <a href="news.html" class="btn-primary">Latest Updates</a>
-        <a href="thanks.html" class="btn-secondary">Say Thanks →</a>
-      </div>
-    </div>
-    <div class="scroll-indicator">
-      <span class="scroll-text">Scroll</span>
-      <div class="scroll-line"></div>
-    </div>
+  <div class="page-header">
+    <p class="page-eyebrow">The Empire</p>
+    <h1 class="page-title">ELON'S VENTURES</h1>
+    <p class="page-sub">Seven companies reshaping transportation, energy, communication, intelligence, and the future of civilization. Click any card to visit.</p>
   </div>
 
-  <!-- STATS TICKER -->
-  <div class="stats-ticker">
-    <div class="ticker-track" id="ticker-track">
-      <div class="ticker-item"><span class="ticker-value">7,000+</span><span class="ticker-label">Starlink Satellites</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">400+</span><span class="ticker-label">SpaceX Launches</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">6M+</span><span class="ticker-label">Teslas on the Road</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">600M+</span><span class="ticker-label">X Monthly Users</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">40+</span><span class="ticker-label">Neuralink Patients</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">Grok 3</span><span class="ticker-label">xAI Latest Model</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">$160B+</span><span class="ticker-label">DOGE Savings</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">100+</span><span class="ticker-label">Countries on Starlink</span></div>
-      <div class="ticker-dot"></div>
-      <!-- Duplicate for seamless loop -->
-      <div class="ticker-item"><span class="ticker-value">7,000+</span><span class="ticker-label">Starlink Satellites</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">400+</span><span class="ticker-label">SpaceX Launches</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">6M+</span><span class="ticker-label">Teslas on the Road</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">600M+</span><span class="ticker-label">X Monthly Users</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">40+</span><span class="ticker-label">Neuralink Patients</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">Grok 3</span><span class="ticker-label">xAI Latest Model</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">$160B+</span><span class="ticker-label">DOGE Savings</span></div>
-      <div class="ticker-dot"></div>
-      <div class="ticker-item"><span class="ticker-value">100+</span><span class="ticker-label">Countries on Starlink</span></div>
-    </div>
-  </div>
-
-  <!-- VENTURES -->
-  <div class="section-wrap reveal">
-    <p class="section-eyebrow">The Empire</p>
-    <h2 class="section-title">ELON'S VENTURES</h2>
+  <div class="ventures-wrap">
     <div class="ventures-grid">
-      <a class="venture-card" href="ventures.html#spacex">
-        <div class="venture-icon">🚀</div>
-        <div class="venture-name">SpaceX</div>
-        <div class="venture-desc">Reusable rockets, Starship, and the mission to make humanity multi-planetary.</div>
-        <div class="venture-milestone">↑ Starship Flight 9 milestone achieved</div>
+
+      <!-- SPACEX -->
+      <a class="venture-card" href="https://spacex.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <img src="images/logo-spacex.png" alt="SpaceX" />
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-tagline">Reusable rockets, Starship, and the mission to make humanity multi-planetary.</div>
+        <div class="venture-stat">400+ Launches · ~$350B Valuation</div>
       </a>
-      <a class="venture-card" href="ventures.html#tesla">
-        <div class="venture-icon">⚡</div>
-        <div class="venture-name">Tesla</div>
-        <div class="venture-desc">Electric vehicles, FSD, energy storage, and the Optimus humanoid robot.</div>
-        <div class="venture-milestone">↑ Cybertruck production ramping</div>
+
+      <!-- TESLA -->
+      <a class="venture-card" href="https://tesla.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <img src="images/logo-tesla.png" alt="Tesla" />
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-tagline">Electric vehicles, FSD autonomy, energy storage, and the Optimus humanoid robot.</div>
+        <div class="venture-stat">6M+ EVs on the Road · ~$1T Market Cap</div>
       </a>
-      <a class="venture-card" href="ventures.html#xai">
-        <div class="venture-icon">🧠</div>
-        <div class="venture-name">xAI</div>
-        <div class="venture-desc">Building Grok — the most truth-seeking AI assistant on the planet.</div>
-        <div class="venture-milestone">↑ Grok 3 released with reasoning</div>
+
+      <!-- XAI -->
+      <a class="venture-card" href="https://x.ai" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <img src="images/logo-xai.png" alt="xAI" />
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-tagline">Building Grok — the most truth-seeking AI assistant on the planet.</div>
+        <div class="venture-stat">Grok 3 · $50B+ Valuation</div>
       </a>
-      <a class="venture-card" href="ventures.html#x">
-        <div class="venture-icon">✕</div>
-        <div class="venture-name">X</div>
-        <div class="venture-desc">The world's free speech platform and everything app, formerly Twitter.</div>
-        <div class="venture-milestone">↑ Payments and creator monetization live</div>
+
+      <!-- X -->
+      <a class="venture-card" href="https://x.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <img src="images/logo-x.png" alt="X" />
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-tagline">The world's free speech platform and everything app, formerly Twitter.</div>
+        <div class="venture-stat">600M+ Monthly Users</div>
       </a>
-      <a class="venture-card" href="ventures.html#starlink">
-        <div class="venture-icon">🛰️</div>
-        <div class="venture-name">Starlink</div>
-        <div class="venture-desc">Blanket broadband internet coverage for the entire planet from orbit.</div>
-        <div class="venture-milestone">↑ 100+ countries now covered</div>
+
+      <!-- STARLINK -->
+      <a class="venture-card" href="https://starlink.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <img src="images/logo-starlink.png" alt="Starlink" />
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-tagline">Blanket broadband internet coverage for the entire planet from low Earth orbit.</div>
+        <div class="venture-stat">7,000+ Satellites · 100+ Countries</div>
       </a>
-      <a class="venture-card" href="ventures.html#neuralink">
-        <div class="venture-icon">🔬</div>
-        <div class="venture-name">Neuralink</div>
-        <div class="venture-desc">Brain-computer interfaces restoring independence for paralyzed patients.</div>
-        <div class="venture-milestone">↑ Multiple patients gaming, typing with BCI</div>
+
+      <!-- NEURALINK -->
+      <a class="venture-card" href="https://neuralink.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <img src="images/logo-neuralink.png" alt="Neuralink" />
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-tagline">Brain-computer interfaces restoring independence for paralyzed patients worldwide.</div>
+        <div class="venture-stat">40+ Human Patients · FDA Breakthrough</div>
       </a>
-      <a class="venture-card" href="ventures.html#boring">
-        <div class="venture-icon">🚇</div>
-        <div class="venture-name">The Boring Company</div>
-        <div class="venture-desc">Underground transportation tunnels eliminating urban traffic forever.</div>
-        <div class="venture-milestone">↑ Las Vegas Loop expanding citywide</div>
+
+      <!-- BORING COMPANY -->
+      <a class="venture-card" href="https://boringcompany.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <img src="images/logo-boring.png" alt="The Boring Company" />
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-tagline">Underground transportation tunnels eliminating urban traffic forever.</div>
+        <div class="venture-stat">10x Cheaper Tunneling · LV Loop Live</div>
       </a>
-      <a class="venture-card" href="ventures.html#doge">
-        <div class="venture-icon">🦅</div>
-        <div class="venture-name">DOGE</div>
-        <div class="venture-desc">Department of Government Efficiency — cutting waste, restoring accountability.</div>
-        <div class="venture-milestone">↑ $160B+ in savings identified</div>
-      </a>
+
     </div>
   </div>
 
-  <hr class="divider" />
-
-  <!-- TODAY IN ELON -->
-  <div class="section-wrap reveal">
-    <p class="section-eyebrow">Daily Digest</p>
-    <h2 class="section-title">TODAY IN ELON</h2>
-    <div class="today-feed" id="today-feed">
-      <div class="today-item">
-        <div class="today-time">—</div>
-        <div><div class="today-text">Loading today's updates...</div></div>
-      </div>
-    </div>
-    <br /><br />
-    <a href="today.html" class="btn-secondary">Full Daily Digest →</a>
-  </div>
-
-  <hr class="divider" />
-
-  <!-- QUOTE -->
-  <div class="quote-section reveal">
-    <p class="section-eyebrow" style="justify-content:center; margin-bottom:2rem;">Words to Live By</p>
-    <div class="quote-text" id="quote-display">"When something is important enough, you do it even if the odds are not in your favor."</div>
-    <div class="quote-attr" style="margin-top:1.5rem;">— Elon Musk</div>
-  </div>
-
-  <!-- NEWS -->
-  <div class="section-wrap reveal">
-    <p class="section-eyebrow">Positive News Only</p>
-    <h2 class="section-title">LATEST FROM ELON-WORLD</h2>
-    <div class="news-grid" id="news-feed">
-      <div class="news-card">
-        <div class="news-tag">Loading</div>
-        <div class="news-headline">Fetching latest updates...</div>
-      </div>
-    </div>
-    <br /><br />
-    <a href="news.html" class="btn-secondary">Full News Feed →</a>
-  </div>
-
-  <hr class="divider" />
-
-  <!-- BY THE NUMBERS -->
-  <div class="section-wrap reveal">
-    <p class="section-eyebrow">The Scorecard</p>
-    <h2 class="section-title">BY THE NUMBERS</h2>
-    <div class="numbers-grid">
-      <div class="number-card">
-        <div class="number-value">400+</div>
-        <div class="number-label">Rockets Launched</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">7,000+</div>
-        <div class="number-label">Starlink Satellites</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">6M+</div>
-        <div class="number-label">Teslas on Road</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">40+</div>
-        <div class="number-label">Neuralink Patients</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">$160B</div>
-        <div class="number-label">Gov. Savings</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">100+</div>
-        <div class="number-label">Countries on Starlink</div>
-      </div>
-    </div>
-    <br /><br />
-    <a href="numbers.html" class="btn-secondary">Full Scorecard →</a>
-  </div>
-
-  <hr class="divider" />
-
-  <!-- WALL OF THANKS -->
-  <div class="section-wrap reveal">
-    <p class="section-eyebrow">From the Community</p>
-    <h2 class="section-title">WALL OF THANKS</h2>
-    <div class="thanks-grid">
-      <div class="thanks-card">
-        "Starlink connected my family in rural Montana for the first time. Real internet. Changed everything."
-        <div class="thanks-from">— Sarah M., Montana</div>
-      </div>
-      <div class="thanks-card">
-        "My son is paralyzed. What Neuralink is doing gives our family genuine hope for the first time in years."
-        <div class="thanks-from">— David R., Ohio</div>
-      </div>
-      <div class="thanks-card">
-        "SpaceX made me fall in love with science again. I want to be a rocket engineer because of him."
-        <div class="thanks-from">— Jake T., Texas</div>
-      </div>
-    </div>
-    <a href="thanks.html" class="btn-primary">Add Your Thanks →</a>
-  </div>
-
-  <!-- FOOTER -->
   <footer>
     <div class="footer-logo">THANKS ELON MUSK</div>
     <p>A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
@@ -1020,169 +461,70 @@
   </footer>
 
   <script>
-    // ── STARFIELD ──
     const canvas = document.getElementById('starfield');
     const ctx = canvas.getContext('2d');
-    let stars = [];
-    let shootingStars = [];
+    let stars = [], shootingStars = [];
 
-    function resize() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    }
+    function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
 
     function initStars() {
       stars = [];
       for (let i = 0; i < 200; i++) {
-        stars.push({
-          x: Math.random() * canvas.width,
-          y: Math.random() * canvas.height,
-          r: Math.random() * 1.5 + 0.2,
-          alpha: Math.random() * 0.8 + 0.2,
-          speed: Math.random() * 0.3 + 0.05,
-          twinkle: Math.random() * Math.PI * 2
-        });
+        stars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height, r: Math.random()*1.5+0.2, alpha: Math.random()*0.8+0.2, twinkle: Math.random()*Math.PI*2 });
       }
     }
 
     function addShootingStar() {
-      shootingStars.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height * 0.5,
-        len: Math.random() * 120 + 60,
-        speed: Math.random() * 8 + 6,
-        alpha: 1,
-        angle: Math.PI / 4 + (Math.random() - 0.5) * 0.3
-      });
+      shootingStars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height*0.5, len: Math.random()*120+60, speed: Math.random()*8+6, alpha: 1, angle: Math.PI/4+(Math.random()-0.5)*0.3 });
     }
 
-    function drawStars(t) {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-
+    function drawStars() {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
       stars.forEach(s => {
         s.twinkle += 0.02;
-        const a = s.alpha * (0.7 + 0.3 * Math.sin(s.twinkle));
-        ctx.beginPath();
-        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255,255,255,${a})`;
-        ctx.fill();
+        ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+        ctx.fillStyle = `rgba(255,255,255,${s.alpha*(0.7+0.3*Math.sin(s.twinkle))})`; ctx.fill();
       });
-
       shootingStars = shootingStars.filter(s => s.alpha > 0.01);
       shootingStars.forEach(s => {
-        const grad = ctx.createLinearGradient(
-          s.x, s.y,
-          s.x - Math.cos(s.angle) * s.len,
-          s.y - Math.sin(s.angle) * s.len
-        );
-        grad.addColorStop(0, `rgba(245,166,35,${s.alpha})`);
-        grad.addColorStop(1, 'transparent');
-        ctx.beginPath();
-        ctx.moveTo(s.x, s.y);
-        ctx.lineTo(s.x - Math.cos(s.angle) * s.len, s.y - Math.sin(s.angle) * s.len);
-        ctx.strokeStyle = grad;
-        ctx.lineWidth = 1.5;
-        ctx.stroke();
-        s.x += Math.cos(s.angle) * s.speed;
-        s.y += Math.sin(s.angle) * s.speed;
-        s.alpha -= 0.018;
+        const grad = ctx.createLinearGradient(s.x,s.y,s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        grad.addColorStop(0,`rgba(245,166,35,${s.alpha})`); grad.addColorStop(1,'transparent');
+        ctx.beginPath(); ctx.moveTo(s.x,s.y); ctx.lineTo(s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        ctx.strokeStyle=grad; ctx.lineWidth=1.5; ctx.stroke();
+        s.x+=Math.cos(s.angle)*s.speed; s.y+=Math.sin(s.angle)*s.speed; s.alpha-=0.018;
       });
     }
 
     let lastShoot = 0;
     function animate(t) {
-      drawStars(t);
-      if (t - lastShoot > 3000 + Math.random() * 4000) {
-        addShootingStar();
-        lastShoot = t;
-      }
+      drawStars();
+      if (t-lastShoot > 3000+Math.random()*4000) { addShootingStar(); lastShoot=t; }
       requestAnimationFrame(animate);
     }
 
     window.addEventListener('resize', () => { resize(); initStars(); });
-    resize();
-    initStars();
-    requestAnimationFrame(animate);
+    resize(); initStars(); requestAnimationFrame(animate);
 
-    // ── SCROLL REVEAL ──
-    const revealEls = document.querySelectorAll('.reveal');
-    const revealObserver = new IntersectionObserver((entries) => {
+    // STAGGER CARD REVEAL
+    const cards = document.querySelectorAll('.venture-card');
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry, i) => {
         if (entry.isIntersecting) {
-          setTimeout(() => entry.target.classList.add('visible'), i * 100);
-          revealObserver.unobserve(entry.target);
+          setTimeout(() => {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }, i * 100);
+          observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.1 });
-    revealEls.forEach(el => revealObserver.observe(el));
+    }, { threshold: 0.05 });
 
-    // ── ROTATING QUOTES ──
-    const quotes = [
-      "When something is important enough, you do it even if the odds are not in your favor.",
-      "I don't create companies for the money. I do it to try to make the world a better place.",
-      "Failure is an option here. If things are not failing, you are not innovating enough.",
-      "The first step is to establish that something is possible; then probability will occur.",
-      "Persistence is very important. You should not give up unless you are forced to give up.",
-      "Physics is the law, everything else is a recommendation.",
-      "I would like to die on Mars. Just not on impact.",
-      "If you get up in the morning and think the future is going to be better, it is a bright day."
-    ];
-
-    let qi = 0;
-    const qEl = document.getElementById('quote-display');
-    qEl.style.transition = 'opacity 0.4s ease';
-    setInterval(() => {
-      qEl.style.opacity = '0';
-      setTimeout(() => {
-        qi = (qi + 1) % quotes.length;
-        qEl.textContent = `"${quotes[qi]}"`;
-        qEl.style.opacity = '1';
-      }, 400);
-    }, 7000);
-
-    // ── LOAD TODAY FEED ──
-    async function loadTodayFeed() {
-      try {
-        const res = await fetch('data/today.json?v=' + Date.now());
-        const data = await res.json();
-        const items = (data.items || []).slice(0, 4);
-        if (!items.length) return;
-        document.getElementById('today-feed').innerHTML = items.map((item, i) => `
-          <div class="today-item">
-            <div class="today-time">${i === 0 ? 'LATEST' : 'TODAY'}</div>
-            <div>
-              <div class="today-text">${item.url
-                ? `<a href="${item.url}" target="_blank" rel="noopener">${item.headline}</a>`
-                : item.headline}</div>
-              <div class="today-company">${item.label}</div>
-            </div>
-          </div>
-        `).join('');
-      } catch(e) {}
-    }
-
-    // ── LOAD NEWS FEED ──
-    async function loadNewsFeed() {
-      try {
-        const res = await fetch('data/news.json?v=' + Date.now());
-        const data = await res.json();
-        const articles = (data.articles || []).slice(0, 3);
-        if (!articles.length) return;
-        document.getElementById('news-feed').innerHTML = articles.map(a => `
-          <div class="news-card">
-            <div class="news-tag">${a.label}</div>
-            <div class="news-headline">
-              ${a.url ? `<a href="${a.url}" target="_blank" rel="noopener">${a.headline}</a>` : a.headline}
-            </div>
-            <div class="news-source">${a.source} · ${a.date}</div>
-            ${a.url ? `<a class="news-link" href="${a.url}" target="_blank" rel="noopener">Read more →</a>` : ''}
-          </div>
-        `).join('');
-      } catch(e) {}
-    }
-
-    loadTodayFeed();
-    loadNewsFeed();
+    cards.forEach(card => {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(40px)';
+      card.style.transition = 'opacity 0.6s ease, transform 0.6s ease, border-color 0.4s, box-shadow 0.4s';
+      observer.observe(card);
+    });
   </script>
 
 </body>
