@@ -1,1 +1,741 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Today in Elon – Thanks Elon Musk</title>
+  <meta name="description" content="Your daily digest of everything happening in Elon Musk's world — SpaceX, Tesla, xAI, X, Neuralink, and more." />
+  <meta property="og:title" content="Today in Elon – Thanks Elon Musk" />
+  <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
+  <meta property="og:url" content="https://thankselonmusk.com/today.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHJPTKLGN1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CHJPTKLGN1');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:    #07090f;
+      --navy:     #0a0e1a;
+      --gold:     #f0a500;
+      --gold-dim: #c8922a;
+      --orange:   #e85d20;
+      --blue:     #4a9eff;
+      --white:    #f0ece0;
+      --gray:     #8a8fa8;
+      --card-bg:  #0f1422;
+      --border:   #1e2540;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(7,9,15,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 62px;
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      color: var(--gold);
+      letter-spacing: 0.05em;
+      text-decoration: none;
+    }
+
+    .nav-logo span { color: var(--white); }
+
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--gray);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+    .nav-cta {
+      background: var(--gold);
+      color: var(--black) !important;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      font-weight: 600 !important;
+    }
+
+    .nav-cta:hover { background: var(--gold-dim); }
+
+    /* PAGE HEADER */
+    .page-header {
+      padding: 7rem 2rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .page-eyebrow {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .date-display {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      color: var(--white);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.03em;
+    }
+
+    .date-display span { color: var(--gold); }
+
+    .page-sub {
+      font-size: 0.95rem;
+      color: var(--gray);
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+
+    /* LIVE BADGE */
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 0.35rem 0.9rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 2.5rem;
+    }
+
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4caf50;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    /* VENTURE FILTER */
+    .venture-filter {
+      max-width: 900px;
+      margin: 0 auto 2rem;
+      padding: 0 2rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 0.35rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gray);
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover, .filter-btn.active {
+      border-color: var(--gold);
+      color: var(--gold);
+      background: rgba(240,165,0,0.08);
+    }
+
+    /* MAIN LAYOUT */
+    .today-layout {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem 5rem;
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    /* FEED */
+    .feed-wrap { display: flex; flex-direction: column; gap: 0; }
+
+    .feed-date-header {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      padding: 1.25rem 0 0.75rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+    }
+
+    .feed-item {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 1rem;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+    }
+
+    .feed-item:hover { background: rgba(255,255,255,0.01); }
+
+    .feed-time {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 0.95rem;
+      color: var(--gold);
+      letter-spacing: 0.08em;
+      padding-top: 0.15rem;
+      white-space: nowrap;
+    }
+
+    .feed-body { display: flex; flex-direction: column; gap: 0.35rem; }
+
+    .feed-company {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      display: inline-block;
+      align-self: flex-start;
+    }
+
+    .co-spacex  { background: rgba(74,158,255,0.15); color: var(--blue); }
+    .co-tesla   { background: rgba(232,93,32,0.15);  color: var(--orange); }
+    .co-xai     { background: rgba(74,158,255,0.12); color: #7ab8ff; }
+    .co-x       { background: rgba(240,240,224,0.1); color: var(--white); }
+    .co-neura   { background: rgba(150,100,255,0.15);color: #b088ff; }
+    .co-boring  { background: rgba(240,165,0,0.1);   color: var(--gold-dim); }
+    .co-doge    { background: rgba(232,93,32,0.1);   color: var(--orange); }
+    .co-starlink{ background: rgba(74,158,255,0.1);  color: var(--blue); }
+
+    .feed-headline {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.4;
+    }
+
+    .feed-summary {
+      font-size: 0.82rem;
+      color: var(--gray);
+      line-height: 1.5;
+    }
+
+    .feed-link {
+      font-size: 0.78rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 500;
+      align-self: flex-start;
+    }
+
+    .feed-link:hover { text-decoration: underline; }
+
+    /* SIDEBAR */
+    .sidebar { display: flex; flex-direction: column; gap: 1.25rem; }
+
+    .sidebar-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+    }
+
+    .sidebar-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1rem;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* TODAY'S SCORECARD */
+    .score-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.82rem;
+    }
+
+    .score-row:last-child { border-bottom: none; }
+
+    .score-label { color: var(--gray); }
+
+    .score-value {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1rem;
+      color: var(--white);
+      letter-spacing: 0.05em;
+    }
+
+    .score-up { color: #4caf50; }
+    .score-down { color: var(--orange); }
+
+    /* QUOTE OF THE DAY */
+    .sidebar-quote {
+      font-size: 0.88rem;
+      color: var(--white);
+      font-style: italic;
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+
+    .sidebar-quote-attr {
+      font-size: 0.75rem;
+      color: var(--gold);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    /* VENTURE ACTIVITY */
+    .activity-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .activity-row:last-child { border-bottom: none; }
+
+    .activity-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .activity-name {
+      font-size: 0.8rem;
+      color: var(--white);
+      font-weight: 500;
+      flex: 1;
+    }
+
+    .activity-count {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 0.95rem;
+      color: var(--gold);
+      letter-spacing: 0.05em;
+    }
+
+    /* ARCHIVE NAV */
+    .archive-nav {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem 2rem;
+    }
+
+    .archive-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.2rem;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+    }
+
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 0.5rem;
+    }
+
+    .archive-link {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.6rem 1rem;
+      font-size: 0.8rem;
+      color: var(--gray);
+      text-decoration: none;
+      text-align: center;
+      transition: all 0.2s;
+    }
+
+    .archive-link:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* EMPTY STATE */
+    .empty-state {
+      padding: 3rem 1rem;
+      text-align: center;
+      color: var(--gray);
+    }
+
+    .empty-state-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    .empty-state-text { font-size: 0.9rem; line-height: 1.6; }
+
+    /* FOOTER */
+    footer {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-size: 0.8rem;
+      color: var(--gray);
+      line-height: 1.8;
+    }
+
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .today-layout { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="/">THANKS <span>ELON MUSK</span></a>
+    <ul class="nav-links">
+      <li><a href="ventures.html">Ventures</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="quotes.html">Quotes</a></li>
+      <li><a href="numbers.html">By the Numbers</a></li>
+      <li><a href="today.html" class="active">Today in Elon</a></li>
+      <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <p class="page-eyebrow">Daily Digest</p>
+    <h1 class="date-display" id="today-date">SATURDAY, <span>JUNE 13 2026</span></h1>
+    <p class="page-sub">Everything happening in Elon-world today — updated throughout the day.</p>
+    <div class="live-badge">
+      <div class="live-dot"></div>
+      Updating Daily
+    </div>
+  </div>
+
+  <!-- VENTURE FILTER -->
+  <div class="venture-filter">
+    <button class="filter-btn active" data-co="all">All</button>
+    <button class="filter-btn" data-co="spacex">SpaceX</button>
+    <button class="filter-btn" data-co="tesla">Tesla</button>
+    <button class="filter-btn" data-co="xai">xAI</button>
+    <button class="filter-btn" data-co="x">X</button>
+    <button class="filter-btn" data-co="starlink">Starlink</button>
+    <button class="filter-btn" data-co="neura">Neuralink</button>
+    <button class="filter-btn" data-co="boring">Boring Co</button>
+    <button class="filter-btn" data-co="doge">DOGE</button>
+  </div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="today-layout">
+
+    <!-- FEED -->
+    <div class="feed-wrap" id="feed-wrap">
+
+      <div class="feed-date-header" id="feed-date-header">TODAY</div>
+
+      <!-- Feed items injected by JS / pipeline -->
+      <div id="feed-items">
+        <div class="feed-item" data-co="spacex">
+          <div class="feed-time">LATEST</div>
+          <div class="feed-body">
+            <span class="feed-company co-spacex">SpaceX</span>
+            <div class="feed-headline">Starship prepares for next test flight as ground systems are verified</div>
+            <div class="feed-summary">SpaceX teams at Starbase completed a full ground systems check ahead of the next Starship integrated flight test, with propellant loading procedures validated successfully.</div>
+          </div>
+        </div>
+
+        <div class="feed-item" data-co="tesla">
+          <div class="feed-time">TODAY</div>
+          <div class="feed-body">
+            <span class="feed-company co-tesla">Tesla</span>
+            <div class="feed-headline">Tesla FSD continues expanding supervised autonomy milestones</div>
+            <div class="feed-summary">The Tesla fleet has now logged over one billion autonomous miles with FSD, with the latest software update improving performance in complex urban intersection scenarios.</div>
+          </div>
+        </div>
+
+        <div class="feed-item" data-co="xai">
+          <div class="feed-time">TODAY</div>
+          <div class="feed-body">
+            <span class="feed-company co-xai">xAI</span>
+            <div class="feed-headline">Grok receives new reasoning enhancement in background update</div>
+            <div class="feed-summary">xAI quietly shipped improvements to Grok 3's chain-of-thought reasoning module, with users reporting noticeably stronger performance on multi-step math and logic problems.</div>
+          </div>
+        </div>
+
+        <div class="feed-item" data-co="starlink">
+          <div class="feed-time">TODAY</div>
+          <div class="feed-body">
+            <span class="feed-company co-starlink">Starlink</span>
+            <div class="feed-headline">Starlink Direct-to-Cell hits new connectivity milestone</div>
+            <div class="feed-summary">SpaceX's Direct-to-Cell service, which beams Starlink internet directly to standard smartphones without special hardware, expanded coverage to additional US markets this week.</div>
+          </div>
+        </div>
+
+        <div class="feed-item" data-co="x">
+          <div class="feed-time">TODAY</div>
+          <div class="feed-body">
+            <span class="feed-company co-x">X</span>
+            <div class="feed-headline">X creator payouts continue growing as monetization expands</div>
+            <div class="feed-summary">X's creator revenue sharing program continues to pay out to verified creators, with total monthly distributions growing quarter-over-quarter since the program launched.</div>
+          </div>
+        </div>
+
+        <div class="feed-item" data-co="neura">
+          <div class="feed-time">TODAY</div>
+          <div class="feed-body">
+            <span class="feed-company co-neura">Neuralink</span>
+            <div class="feed-headline">PRIME study participants showing continued progress in BCI performance</div>
+            <div class="feed-summary">Neuralink's clinical trial participants continue to demonstrate improved control accuracy with the N1 implant, with the latest patient achieving cursor control speeds exceeding able-bodied typing rates.</div>
+          </div>
+        </div>
+
+        <div class="feed-item" data-co="tesla">
+          <div class="feed-time">TODAY</div>
+          <div class="feed-body">
+            <span class="feed-company co-tesla">Tesla</span>
+            <div class="feed-headline">Optimus robot seen performing new factory assembly tasks at Gigafactory Texas</div>
+            <div class="feed-summary">Tesla's Optimus humanoid robot has been captured on video completing a new set of assembly line tasks at the Austin Gigafactory, expanding its real-world work capabilities beyond prior demonstrations.</div>
+          </div>
+        </div>
+
+        <div class="feed-item" data-co="doge">
+          <div class="feed-time">TODAY</div>
+          <div class="feed-body">
+            <span class="feed-company co-doge">DOGE</span>
+            <div class="feed-headline">DOGE transparency dashboard updated with new savings data</div>
+            <div class="feed-summary">The Department of Government Efficiency updated its public-facing dashboard with the latest figures on identified waste elimination, with cumulative savings now exceeding $160 billion.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <!-- TODAY'S SCORECARD -->
+      <div class="sidebar-card">
+        <div class="sidebar-title">Today's Scorecard</div>
+        <div class="score-row">
+          <span class="score-label">SpaceX Launches YTD</span>
+          <span class="score-value score-up">67</span>
+        </div>
+        <div class="score-row">
+          <span class="score-label">Tesla Deliveries YTD</span>
+          <span class="score-value score-up">386K</span>
+        </div>
+        <div class="score-row">
+          <span class="score-label">Starlink Satellites</span>
+          <span class="score-value score-up">7,043</span>
+        </div>
+        <div class="score-row">
+          <span class="score-label">Grok Model</span>
+          <span class="score-value">3.5</span>
+        </div>
+        <div class="score-row">
+          <span class="score-label">Neuralink Patients</span>
+          <span class="score-value score-up">40+</span>
+        </div>
+        <div class="score-row">
+          <span class="score-label">DOGE Savings</span>
+          <span class="score-value score-up">$160B+</span>
+        </div>
+      </div>
+
+      <!-- QUOTE OF THE DAY -->
+      <div class="sidebar-card">
+        <div class="sidebar-title">Quote of the Day</div>
+        <div class="sidebar-quote" id="sidebar-quote">"When something is important enough, you do it even if the odds are not in your favor."</div>
+        <div class="sidebar-quote-attr">— Elon Musk</div>
+      </div>
+
+      <!-- VENTURE ACTIVITY -->
+      <div class="sidebar-card">
+        <div class="sidebar-title">Today's Activity</div>
+        <div class="activity-row">
+          <div class="activity-dot" style="background:var(--blue)"></div>
+          <span class="activity-name">SpaceX</span>
+          <span class="activity-count">2 updates</span>
+        </div>
+        <div class="activity-row">
+          <div class="activity-dot" style="background:var(--orange)"></div>
+          <span class="activity-name">Tesla</span>
+          <span class="activity-count">2 updates</span>
+        </div>
+        <div class="activity-row">
+          <div class="activity-dot" style="background:#7ab8ff"></div>
+          <span class="activity-name">xAI / Grok</span>
+          <span class="activity-count">1 update</span>
+        </div>
+        <div class="activity-row">
+          <div class="activity-dot" style="background:var(--white)"></div>
+          <span class="activity-name">X</span>
+          <span class="activity-count">1 update</span>
+        </div>
+        <div class="activity-row">
+          <div class="activity-dot" style="background:#b088ff"></div>
+          <span class="activity-name">Neuralink</span>
+          <span class="activity-count">1 update</span>
+        </div>
+        <div class="activity-row">
+          <div class="activity-dot" style="background:var(--orange)"></div>
+          <span class="activity-name">DOGE</span>
+          <span class="activity-count">1 update</span>
+        </div>
+      </div>
+
+      <!-- FULL NEWS LINK -->
+      <a href="news.html" style="display:block; background:var(--gold); color:var(--black); text-align:center; padding:0.9rem; border-radius:8px; font-weight:700; font-size:0.85rem; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none;">
+        Full News Feed →
+      </a>
+
+    </aside>
+  </div>
+
+  <!-- ARCHIVE -->
+  <div class="archive-nav">
+    <div class="archive-title">RECENT DIGESTS</div>
+    <div class="archive-grid" id="archive-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong style="color:var(--white); font-family:'Bebas Neue',sans-serif; letter-spacing:0.05em; font-size:1.1rem;">THANKS ELON MUSK</strong></p>
+    <p style="margin-top:0.5rem;">A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
+    <p style="margin-top:0.25rem;">Not affiliated with Elon Musk, Tesla, SpaceX, X, xAI, Neuralink, or any associated companies.</p>
+    <p style="margin-top:1rem;">
+      <a href="ventures.html">Ventures</a> &nbsp;·&nbsp;
+      <a href="news.html">News</a> &nbsp;·&nbsp;
+      <a href="timeline.html">Timeline</a> &nbsp;·&nbsp;
+      <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
+      <a href="thanks.html">Say Thanks</a>
+    </p>
+    <p style="margin-top:1rem; font-size:0.72rem;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
+  </footer>
+
+  <script>
+    // Set today's date
+    const now = new Date();
+    const dayNames = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+    const monthNames = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
+    const dateStr = `${dayNames[now.getDay()]}, <span>${monthNames[now.getMonth()]} ${now.getDate()} ${now.getFullYear()}</span>`;
+    document.getElementById('today-date').innerHTML = dateStr;
+    document.getElementById('feed-date-header').textContent = `${monthNames[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+
+    // Venture filter
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const feedItems = document.querySelectorAll('.feed-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const co = btn.dataset.co;
+        feedItems.forEach(item => {
+          item.style.display = (co === 'all' || item.dataset.co === co) ? 'grid' : 'none';
+        });
+      });
+    });
+
+    // Rotating sidebar quote
+    const quotes = [
+      "When something is important enough, you do it even if the odds are not in your favor.",
+      "Failure is an option here. If things are not failing, you are not innovating enough.",
+      "The first step is to establish that something is possible; then probability will occur.",
+      "I would like to die on Mars. Just not on impact.",
+      "Persistence is very important. You should not give up unless you are forced to give up.",
+      "Physics is the law, everything else is a recommendation.",
+      "Life is too short for long-term grudges.",
+      "If you get up in the morning and think the future is going to be better, it is a bright day."
+    ];
+
+    const sidebarQuote = document.getElementById('sidebar-quote');
+    let qi = 0;
+    sidebarQuote.style.transition = 'opacity 0.4s ease';
+    setInterval(() => {
+      sidebarQuote.style.opacity = '0';
+      setTimeout(() => {
+        qi = (qi + 1) % quotes.length;
+        sidebarQuote.textContent = `"${quotes[qi]}"`;
+        sidebarQuote.style.opacity = '1';
+      }, 400);
+    }, 9000);
+
+    // Generate archive links (last 14 days)
+    const archiveGrid = document.getElementById('archive-grid');
+    for (let i = 1; i <= 14; i++) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const label = `${monthNames[d.getMonth()].slice(0,3)} ${d.getDate()}`;
+      const link = document.createElement('a');
+      link.className = 'archive-link';
+      link.href = '#';
+      link.textContent = label;
+      archiveGrid.appendChild(link);
+    }
+  </script>
+
+</body>
+</html>
