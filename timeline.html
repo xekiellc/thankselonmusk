@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elon Musk Timeline – Thanks Elon Musk</title>
-  <meta name="description" content="The complete timeline of Elon Musk's life, companies, and achievements — from Pretoria to Mars." />
-  <meta property="og:title" content="Elon Musk Timeline – Thanks Elon Musk" />
+  <title>Elon's Ventures – Thanks Elon Musk</title>
+  <meta name="description" content="Explore all of Elon Musk's ventures — SpaceX, Tesla, xAI, X, Starlink, Neuralink, The Boring Company, and DOGE." />
+  <meta property="og:title" content="Elon's Ventures – Thanks Elon Musk" />
   <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
-  <meta property="og:url" content="https://thankselonmusk.com/timeline.html" />
+  <meta property="og:url" content="https://thankselonmusk.com/ventures.html" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHJPTKLGN1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -33,7 +32,6 @@
       --gold-dim:    #c8831a;
       --orange:      #ff6b2b;
       --blue:        #00d4ff;
-      --purple:      #7c3aed;
       --white:       #ffffff;
       --off-white:   #e8e8f0;
       --gray:        #6b7280;
@@ -61,7 +59,6 @@
       pointer-events: none;
     }
 
-    /* NAV */
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -122,7 +119,7 @@
       position: relative;
       z-index: 1;
       padding: 8rem 2rem 4rem;
-      max-width: 900px;
+      max-width: 1200px;
       margin: 0 auto;
       text-align: center;
     }
@@ -151,185 +148,173 @@
       color: rgba(232,232,240,0.6);
       font-weight: 300;
       max-width: 560px;
-      margin: 0 auto 3rem;
+      margin: 0 auto 4rem;
     }
 
-    /* ERA FILTER */
-    .era-filter {
+    /* VENTURE CARDS GRID */
+    .ventures-wrap {
       position: relative;
       z-index: 1;
-      max-width: 900px;
-      margin: 0 auto 3rem;
-      padding: 0 2rem;
-      display: flex;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .era-btn {
-      padding: 0.45rem 1.1rem;
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--gray);
-      background: transparent;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .era-btn:hover, .era-btn.active {
-      border-color: var(--gold);
-      color: var(--gold);
-      background: rgba(245,166,35,0.08);
-      box-shadow: 0 0 15px var(--gold-glow);
-    }
-
-    /* TIMELINE */
-    .timeline-wrap {
-      position: relative;
-      z-index: 1;
-      max-width: 900px;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 0 2rem 6rem;
     }
 
-    .timeline-wrap::before {
+    .ventures-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .venture-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      text-decoration: none;
+      color: var(--off-white);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      text-align: center;
+      backdrop-filter: blur(20px);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .venture-card::before {
       content: '';
       position: absolute;
-      left: 50%;
-      top: 0; bottom: 0;
-      width: 1px;
-      background: linear-gradient(to bottom, var(--gold), rgba(245,166,35,0.1), transparent);
-      transform: translateX(-50%);
+      inset: 0;
+      background: radial-gradient(circle at center, rgba(245,166,35,0.06), transparent 70%);
+      opacity: 0;
+      transition: opacity 0.4s;
     }
 
-    .timeline-year {
-      text-align: center;
-      position: relative;
-      margin: 3rem 0 2rem;
-      z-index: 2;
+    .venture-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+      transform: scaleX(0);
+      transition: transform 0.4s;
     }
 
-    .timeline-year span {
+    .venture-card:hover {
+      border-color: var(--border-gold);
+      transform: translateY(-10px) scale(1.02);
+      box-shadow:
+        0 20px 60px rgba(245,166,35,0.15),
+        0 0 0 1px rgba(245,166,35,0.2),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+    }
+
+    .venture-card:hover::before { opacity: 1; }
+    .venture-card:hover::after { transform: scaleX(1); }
+
+    /* LOGO AREA */
+    .venture-logo {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1rem;
+    }
+
+    .venture-logo svg,
+    .venture-logo img {
+      max-width: 160px;
+      max-height: 60px;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      fill: white;
+      filter: brightness(0) invert(1);
+      transition: filter 0.4s;
+    }
+
+    .venture-card:hover .venture-logo svg,
+    .venture-card:hover .venture-logo img {
+      filter: brightness(0) saturate(100%) invert(75%) sepia(50%) saturate(600%) hue-rotate(350deg) brightness(105%);
+    }
+
+    /* DIVIDER LINE */
+    .venture-divider {
+      width: 40px;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--border-gold), transparent);
+      transition: width 0.4s;
+    }
+
+    .venture-card:hover .venture-divider {
+      width: 80px;
+    }
+
+    /* CARD CONTENT */
+    .venture-name {
       font-family: 'Orbitron', sans-serif;
       font-size: 1rem;
-      font-weight: 900;
-      letter-spacing: 0.2em;
-      color: var(--gold);
-      background: var(--black);
-      padding: 0.3rem 1.5rem;
-      border: 1px solid var(--border-gold);
-      border-radius: 20px;
-      text-shadow: 0 0 15px var(--gold-glow);
-      box-shadow: 0 0 20px rgba(245,166,35,0.1);
-    }
-
-    .timeline-item {
-      display: grid;
-      grid-template-columns: 1fr 40px 1fr;
-      gap: 0;
-      margin-bottom: 1.5rem;
-      align-items: start;
-      position: relative;
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.5s ease, transform 0.5s ease;
-    }
-
-    .timeline-item.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .timeline-item.left .item-card {
-      grid-column: 1;
-      text-align: right;
-      padding-right: 2rem;
-    }
-
-    .timeline-item.left .item-dot { grid-column: 2; }
-    .timeline-item.left .item-spacer { grid-column: 3; }
-    .timeline-item.right .item-spacer { grid-column: 1; }
-    .timeline-item.right .item-dot { grid-column: 2; }
-
-    .timeline-item.right .item-card {
-      grid-column: 3;
-      text-align: left;
-      padding-left: 2rem;
-    }
-
-    .item-dot {
-      display: flex;
-      justify-content: center;
-      padding-top: 0.5rem;
-    }
-
-    .item-dot-inner {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background: var(--gold);
-      border: 2px solid var(--black);
-      box-shadow: 0 0 0 2px var(--gold), 0 0 10px var(--gold-glow);
-      flex-shrink: 0;
-      transition: transform 0.2s;
-    }
-
-    .item-dot-inner.major {
-      width: 16px;
-      height: 16px;
-      background: var(--orange);
-      box-shadow: 0 0 0 2px var(--orange), 0 0 20px rgba(255,107,43,0.5);
-    }
-
-    .timeline-item:hover .item-dot-inner {
-      transform: scale(1.4);
-    }
-
-    .item-card {
-      padding-bottom: 0.5rem;
-    }
-
-    .item-tag {
-      display: inline-block;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.58rem;
       font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--white);
+      text-transform: uppercase;
+    }
+
+    .venture-tagline {
+      font-size: 0.82rem;
+      color: rgba(232,232,240,0.55);
+      line-height: 1.5;
+      font-weight: 300;
+    }
+
+    .venture-stat {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.65rem;
+      color: var(--gold);
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      padding: 0.2rem 0.6rem;
-      border-radius: 3px;
-      margin-bottom: 0.5rem;
+      margin-top: auto;
+      padding: 0.4rem 0.9rem;
+      border: 1px solid rgba(245,166,35,0.2);
+      border-radius: 20px;
+      transition: all 0.3s;
     }
 
-    .tag-spacex { background: rgba(0,212,255,0.1);   color: var(--blue); }
-    .tag-tesla  { background: rgba(255,107,43,0.1);  color: var(--orange); }
-    .tag-early  { background: rgba(245,166,35,0.1);  color: var(--gold); }
-    .tag-x      { background: rgba(255,255,255,0.05);color: var(--off-white); }
-    .tag-xai    { background: rgba(0,212,255,0.1);   color: var(--blue); }
-    .tag-neura  { background: rgba(124,58,237,0.15); color: #a78bfa; }
-    .tag-boring { background: rgba(245,166,35,0.08); color: var(--gold-dim); }
-    .tag-doge   { background: rgba(255,107,43,0.08); color: var(--orange); }
-    .tag-life   { background: rgba(107,114,128,0.15);color: var(--gray); }
-
-    .item-title {
-      font-weight: 600;
-      font-size: 0.92rem;
-      color: var(--white);
-      line-height: 1.3;
-      margin-bottom: 0.3rem;
+    .venture-card:hover .venture-stat {
+      background: rgba(245,166,35,0.1);
+      border-color: var(--border-gold);
+      box-shadow: 0 0 15px var(--gold-glow);
     }
 
-    .item-desc {
-      font-size: 0.78rem;
-      color: rgba(232,232,240,0.5);
-      line-height: 1.5;
+    .venture-arrow {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.25rem;
+      font-size: 0.75rem;
+      color: var(--gray);
+      transition: all 0.3s;
+      opacity: 0;
     }
+
+    .venture-card:hover .venture-arrow {
+      opacity: 1;
+      color: var(--gold);
+      transform: translate(2px, -2px);
+    }
+
+    /* REVEAL */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible { opacity: 1; transform: translateY(0); }
 
     /* FOOTER */
     footer {
@@ -357,20 +342,14 @@
       margin-bottom: 0.5rem;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       .nav-links { display: none; }
-      .timeline-wrap::before { left: 16px; transform: none; }
-      .timeline-item { grid-template-columns: 32px 1fr; }
-      .timeline-item.left .item-card,
-      .timeline-item.right .item-card {
-        grid-column: 2; grid-row: 1;
-        text-align: left;
-        padding-left: 1rem; padding-right: 0;
-      }
-      .timeline-item.left .item-dot,
-      .timeline-item.right .item-dot { grid-column: 1; grid-row: 1; }
-      .timeline-item.left .item-spacer,
-      .timeline-item.right .item-spacer { display: none; }
+      .ventures-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+      .venture-card { padding: 1.75rem 1.25rem; }
+    }
+
+    @media (max-width: 480px) {
+      .ventures-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -381,9 +360,9 @@
   <nav>
     <a class="nav-logo" href="/">THANKS <span>ELON</span></a>
     <ul class="nav-links">
-      <li><a href="ventures.html">Ventures</a></li>
+      <li><a href="ventures.html" class="active">Ventures</a></li>
       <li><a href="news.html">News</a></li>
-      <li><a href="timeline.html" class="active">Timeline</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
       <li><a href="quotes.html">Quotes</a></li>
       <li><a href="numbers.html">Numbers</a></li>
       <li><a href="today.html">Today</a></li>
@@ -392,176 +371,128 @@
   </nav>
 
   <div class="page-header">
-    <p class="page-eyebrow">From Pretoria to Mars</p>
-    <h1 class="page-title">THE ELON MUSK TIMELINE</h1>
-    <p class="page-sub">Every founding, launch, milestone, and moonshot — from a kid teaching himself to code to the most consequential builder in human history.</p>
+    <p class="page-eyebrow">The Empire</p>
+    <h1 class="page-title">ELON'S VENTURES</h1>
+    <p class="page-sub">Eight companies reshaping transportation, energy, communication, intelligence, and the future of civilization. Click any card to visit.</p>
   </div>
 
-  <div class="era-filter">
-    <button class="era-btn active" data-era="all">All</button>
-    <button class="era-btn" data-era="early">Early Life</button>
-    <button class="era-btn" data-era="spacex">SpaceX</button>
-    <button class="era-btn" data-era="tesla">Tesla</button>
-    <button class="era-btn" data-era="x">X</button>
-    <button class="era-btn" data-era="xai">xAI</button>
-    <button class="era-btn" data-era="neura">Neuralink</button>
-    <button class="era-btn" data-era="boring">Boring Co</button>
-    <button class="era-btn" data-era="doge">DOGE</button>
-  </div>
+  <div class="ventures-wrap reveal">
+    <div class="ventures-grid">
 
-  <div class="timeline-wrap" id="timeline">
+      <!-- SPACEX -->
+      <a class="venture-card" href="https://spacex.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <svg viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="68" font-family="Arial Black, sans-serif" font-weight="900" font-size="72" letter-spacing="-2" fill="white">SPACEX</text>
+          </svg>
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-name">SpaceX</div>
+        <div class="venture-tagline">Reusable rockets, Starship, and the mission to make humanity multi-planetary.</div>
+        <div class="venture-stat">400+ Launches</div>
+      </a>
 
-    <div class="timeline-year"><span>1971</span></div>
-    <div class="timeline-item left" data-era="life early">
-      <div class="item-card"><span class="item-tag tag-life">Origins</span><div class="item-title">Born in Pretoria, South Africa</div><div class="item-desc">Elon Reeve Musk born June 28, 1971. Shows early aptitude for reading and computers.</div></div>
-      <div class="item-dot"><div class="item-dot-inner"></div></div>
-      <div class="item-spacer"></div>
+      <!-- TESLA -->
+      <a class="venture-card" href="https://tesla.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <svg viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="68" font-family="Arial Black, sans-serif" font-weight="900" font-size="72" letter-spacing="-2" fill="white">TESLA</text>
+          </svg>
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-name">Tesla</div>
+        <div class="venture-tagline">Electric vehicles, FSD autonomy, energy storage, and the Optimus humanoid robot.</div>
+        <div class="venture-stat">6M+ EVs on the Road</div>
+      </a>
+
+      <!-- XAI -->
+      <a class="venture-card" href="https://x.ai" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <svg viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="68" font-family="Arial Black, sans-serif" font-weight="900" font-size="72" letter-spacing="-2" fill="white">xAI</text>
+          </svg>
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-name">xAI</div>
+        <div class="venture-tagline">Building Grok — the most truth-seeking AI assistant on the planet.</div>
+        <div class="venture-stat">Grok 3 · $50B Valuation</div>
+      </a>
+
+      <!-- X -->
+      <a class="venture-card" href="https://x.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <path d="M178.57 127.15L290.27 0H263.81L166.78 110.38L89.34 0H0L117.13 166.93L0 300H26.46L128.86 183.54L210.66 300H300M36.01 19.54H76.66L263.79 281.46H223.13" fill="white"/>
+          </svg>
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-name">X</div>
+        <div class="venture-tagline">The world's free speech platform and everything app, formerly Twitter.</div>
+        <div class="venture-stat">600M+ Monthly Users</div>
+      </a>
+
+      <!-- STARLINK -->
+      <a class="venture-card" href="https://starlink.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <svg viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="62" font-family="Arial, sans-serif" font-weight="300" font-size="52" letter-spacing="8" fill="white">STARLINK</text>
+          </svg>
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-name">Starlink</div>
+        <div class="venture-tagline">Blanket broadband internet coverage for the entire planet from low Earth orbit.</div>
+        <div class="venture-stat">7,000+ Satellites · 100+ Countries</div>
+      </a>
+
+      <!-- NEURALINK -->
+      <a class="venture-card" href="https://neuralink.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <svg viewBox="0 0 500 80" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="62" font-family="Arial, sans-serif" font-weight="300" font-size="44" letter-spacing="4" fill="white">NEURALINK</text>
+          </svg>
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-name">Neuralink</div>
+        <div class="venture-tagline">Brain-computer interfaces restoring independence for paralyzed patients.</div>
+        <div class="venture-stat">40+ Human Patients</div>
+      </a>
+
+      <!-- BORING COMPANY -->
+      <a class="venture-card" href="https://boringcompany.com" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <svg viewBox="0 0 420 80" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="42" font-family="Arial Black, sans-serif" font-weight="900" font-size="34" letter-spacing="1" fill="white">THE BORING</text>
+            <text x="2" y="74" font-family="Arial, sans-serif" font-weight="300" font-size="20" letter-spacing="10" fill="white">COMPANY</text>
+          </svg>
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-name">The Boring Company</div>
+        <div class="venture-tagline">Underground transportation tunnels eliminating urban traffic forever.</div>
+        <div class="venture-stat">10x Cheaper Tunneling</div>
+      </a>
+
+      <!-- DOGE -->
+      <a class="venture-card" href="https://doge.gov" target="_blank" rel="noopener">
+        <span class="venture-arrow">↗</span>
+        <div class="venture-logo">
+          <svg viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="68" font-family="Arial Black, sans-serif" font-weight="900" font-size="72" letter-spacing="-1" fill="white">DOGE</text>
+          </svg>
+        </div>
+        <div class="venture-divider"></div>
+        <div class="venture-name">DOGE</div>
+        <div class="venture-tagline">Department of Government Efficiency — cutting waste, restoring accountability.</div>
+        <div class="venture-stat">$160B+ Savings Identified</div>
+      </a>
+
     </div>
-
-    <div class="timeline-year"><span>1983</span></div>
-    <div class="timeline-item right" data-era="early">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner"></div></div>
-      <div class="item-card"><span class="item-tag tag-early">Early Life</span><div class="item-title">Sells First Software at Age 12</div><div class="item-desc">Self-taught on a Commodore computer, Elon creates and sells a video game called Blastar for $500.</div></div>
-    </div>
-
-    <div class="timeline-year"><span>1992</span></div>
-    <div class="timeline-item left" data-era="early">
-      <div class="item-card"><span class="item-tag tag-early">Early Life</span><div class="item-title">University of Pennsylvania</div><div class="item-desc">Earns dual degrees in economics and physics. Begins PhD at Stanford — leaves after two days to start companies.</div></div>
-      <div class="item-dot"><div class="item-dot-inner"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>1995</span></div>
-    <div class="timeline-item right" data-era="early">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-early">Zip2</span><div class="item-title">Co-founds Zip2</div><div class="item-desc">First company — web software for newspapers. Sold to Compaq for $307M in 1999. Elon's share: $22M.</div></div>
-    </div>
-
-    <div class="timeline-year"><span>1999</span></div>
-    <div class="timeline-item left" data-era="early">
-      <div class="item-card"><span class="item-tag tag-early">X.com / PayPal</span><div class="item-title">Founds X.com — Becomes PayPal</div><div class="item-desc">Online financial services company merges with Confinity to become PayPal. eBay acquires it for $1.5B. Elon nets $180M.</div></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>2002</span></div>
-    <div class="timeline-item right" data-era="spacex">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-spacex">SpaceX</span><div class="item-title">Founds Space Exploration Technologies</div><div class="item-desc">Invests $100M of personal fortune. Mission: make humanity multi-planetary. Industry experts give it near-zero odds.</div></div>
-    </div>
-
-    <div class="timeline-year"><span>2004</span></div>
-    <div class="timeline-item left" data-era="tesla">
-      <div class="item-card"><span class="item-tag tag-tesla">Tesla</span><div class="item-title">Joins Tesla Motors as Chairman</div><div class="item-desc">Leads Series A funding of $7.5M. Takes over as CEO in 2008. Mission: accelerate sustainable energy transition.</div></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>2008</span></div>
-    <div class="timeline-item right" data-era="spacex">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-spacex">SpaceX</span><div class="item-title">Falcon 1 Reaches Orbit</div><div class="item-desc">After three failures nearly bankrupting SpaceX, Falcon 1 becomes the first privately developed liquid-fueled rocket to reach orbit.</div></div>
-    </div>
-
-    <div class="timeline-year"><span>2012</span></div>
-    <div class="timeline-item left" data-era="tesla">
-      <div class="item-card"><span class="item-tag tag-tesla">Tesla</span><div class="item-title">Model S Launches — Changes Everything</div><div class="item-desc">Named Motor Trend Car of the Year. Earns highest Consumer Reports score ever recorded.</div></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>2015</span></div>
-    <div class="timeline-item right" data-era="spacex">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-spacex">SpaceX</span><div class="item-title">Falcon 9 Booster Lands Itself for First Time</div><div class="item-desc">Orbital rocket booster returns and lands vertically — declared impossible by aerospace industry. Reusability era begins.</div></div>
-    </div>
-
-    <div class="timeline-year"><span>2016</span></div>
-    <div class="timeline-item left" data-era="neura boring">
-      <div class="item-card"><span class="item-tag tag-neura">Neuralink</span><div class="item-title">Co-founds Neuralink</div><div class="item-desc">Brain-computer interface company aimed at restoring mobility and eventually merging human cognition with AI.</div></div>
-      <div class="item-dot"><div class="item-dot-inner"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-item right" data-era="boring">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner"></div></div>
-      <div class="item-card"><span class="item-tag tag-boring">Boring Co</span><div class="item-title">Founds The Boring Company</div><div class="item-desc">After tweeting frustration about LA traffic, starts a tunneling company applying first principles to reduce costs 10x.</div></div>
-    </div>
-
-    <div class="timeline-year"><span>2018</span></div>
-    <div class="timeline-item left" data-era="spacex">
-      <div class="item-card"><span class="item-tag tag-spacex">SpaceX</span><div class="item-title">Falcon Heavy Launches with Roadster</div><div class="item-desc">Most powerful rocket since Saturn V carries Elon's Tesla Roadster to Mars orbit with mannequin Starman aboard.</div></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>2020</span></div>
-    <div class="timeline-item right" data-era="spacex">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-spacex">SpaceX</span><div class="item-title">First Private Crewed Mission to the ISS</div><div class="item-desc">Crew Dragon launches NASA astronauts Behnken and Hurley. SpaceX becomes first private company to send humans to orbit.</div></div>
-    </div>
-
-    <div class="timeline-year"><span>2021</span></div>
-    <div class="timeline-item left" data-era="tesla">
-      <div class="item-card"><span class="item-tag tag-tesla">Tesla</span><div class="item-title">Tesla Reaches $1 Trillion Market Cap</div><div class="item-desc">Joins the exclusive club of trillion-dollar companies. Elon becomes world's richest person for the first time.</div></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>2022</span></div>
-    <div class="timeline-item right" data-era="x">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-x">X</span><div class="item-title">Acquires Twitter for $44B — Renames it X</div><div class="item-desc">Restores free speech, reinstates banned accounts, cuts costs by 80%, introduces creator monetization and Community Notes.</div></div>
-    </div>
-
-    <div class="timeline-year"><span>2023</span></div>
-    <div class="timeline-item left" data-era="xai">
-      <div class="item-card"><span class="item-tag tag-xai">xAI</span><div class="item-title">Founds xAI — Launches Grok</div><div class="item-desc">Creates truth-seeking AI company. Grok integrates into X for hundreds of millions of users. Raises $6B+ in funding.</div></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>2024</span></div>
-    <div class="timeline-item right" data-era="neura">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-neura">Neuralink</span><div class="item-title">First Human Neuralink Patient Implanted</div><div class="item-desc">Noland Arbaugh, paralyzed from shoulders down, controls a computer cursor with thoughts. Games, browses, communicates independently.</div></div>
-    </div>
-
-    <div class="timeline-item left" data-era="spacex">
-      <div class="item-card"><span class="item-tag tag-spacex">SpaceX</span><div class="item-title">Starship Booster Caught by Mechazilla</div><div class="item-desc">After iterative testing, Starship's Super Heavy booster is caught mid-air by the launch tower arms — a world first.</div></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>2025</span></div>
-    <div class="timeline-item right" data-era="doge">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-doge">DOGE</span><div class="item-title">Leads Department of Government Efficiency</div><div class="item-desc">Applies first-principles thinking to federal government. Identifies $160B+ in savings. Most significant government audit in modern history.</div></div>
-    </div>
-
-    <div class="timeline-item left" data-era="xai">
-      <div class="item-card"><span class="item-tag tag-xai">xAI</span><div class="item-title">Grok 3 Released with Advanced Reasoning</div><div class="item-desc">Colossus supercomputer — 100,000+ H100 GPUs — powers Grok 3, competing with the world's frontier AI models.</div></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-spacer"></div>
-    </div>
-
-    <div class="timeline-year"><span>2026 →</span></div>
-    <div class="timeline-item right" data-era="spacex">
-      <div class="item-spacer"></div>
-      <div class="item-dot"><div class="item-dot-inner major"></div></div>
-      <div class="item-card"><span class="item-tag tag-spacex">SpaceX</span><div class="item-title">Mars Mission on the Horizon</div><div class="item-desc">Starship on track for first uncrewed Mars mission. Humanity's multi-planetary future moves from vision to imminent reality.</div></div>
-    </div>
-
   </div>
 
   <footer>
@@ -579,7 +510,6 @@
   </footer>
 
   <script>
-    // STARFIELD
     const canvas = document.getElementById('starfield');
     const ctx = canvas.getContext('2d');
     let stars = [], shootingStars = [];
@@ -624,29 +554,29 @@
     window.addEventListener('resize', () => { resize(); initStars(); });
     resize(); initStars(); requestAnimationFrame(animate);
 
-    // ERA FILTER
-    const eraBtns = document.querySelectorAll('.era-btn');
-    const timelineItems = document.querySelectorAll('.timeline-item');
-
-    eraBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        eraBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const era = btn.dataset.era;
-        timelineItems.forEach(item => {
-          const eras = item.dataset.era || '';
-          item.style.display = (era === 'all' || eras.includes(era)) ? 'grid' : 'none';
-        });
+    // SCROLL REVEAL with stagger
+    const cards = document.querySelectorAll('.venture-card');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }, i * 80);
+          observer.unobserve(entry.target);
+        }
       });
+    }, { threshold: 0.05 });
+
+    cards.forEach(card => {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(30px)';
+      card.style.transition = 'opacity 0.6s ease, transform 0.6s ease, border-color 0.4s, box-shadow 0.4s';
+      observer.observe(card);
     });
 
-    // SCROLL REVEAL
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
-      });
-    }, { threshold: 0.1 });
-    timelineItems.forEach(item => observer.observe(item));
+    document.querySelector('.reveal').style.opacity = '1';
+    document.querySelector('.reveal').style.transform = 'none';
   </script>
 
 </body>
