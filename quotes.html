@@ -1,1 +1,529 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elon Musk Quotes – Thanks Elon Musk</title>
+  <meta name="description" content="The most powerful Elon Musk quotes — on first principles, risk, engineering, Mars, AI, and civilization." />
+  <meta property="og:title" content="Elon Musk Quotes – Thanks Elon Musk" />
+  <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
+  <meta property="og:url" content="https://thankselonmusk.com/quotes.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHJPTKLGN1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CHJPTKLGN1');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:    #07090f;
+      --navy:     #0a0e1a;
+      --gold:     #f0a500;
+      --gold-dim: #c8922a;
+      --orange:   #e85d20;
+      --blue:     #4a9eff;
+      --white:    #f0ece0;
+      --gray:     #8a8fa8;
+      --card-bg:  #0f1422;
+      --border:   #1e2540;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(7,9,15,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 62px;
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      color: var(--gold);
+      letter-spacing: 0.05em;
+      text-decoration: none;
+    }
+
+    .nav-logo span { color: var(--white); }
+
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--gray);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+    .nav-cta {
+      background: var(--gold);
+      color: var(--black) !important;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      font-weight: 600 !important;
+    }
+
+    .nav-cta:hover { background: var(--gold-dim); }
+
+    /* PAGE HEADER */
+    .page-header {
+      padding: 7rem 2rem 3rem;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .page-eyebrow {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .page-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      color: var(--white);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    .page-sub {
+      font-size: 1.05rem;
+      color: var(--gray);
+      font-weight: 300;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* FEATURED QUOTE */
+    .featured-quote {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 4rem 2rem;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .featured-quote-text {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 3.2rem);
+      color: var(--white);
+      line-height: 1.15;
+      max-width: 800px;
+      margin: 0 auto 1.25rem;
+      transition: opacity 0.4s ease;
+    }
+
+    .featured-quote-attr {
+      color: var(--gold);
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    .featured-quote-category {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--black);
+      background: var(--gold);
+      padding: 0.3rem 0.8rem;
+      border-radius: 3px;
+      margin-bottom: 1.5rem;
+    }
+
+    .quote-nav-btns {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+
+    .quote-nav-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--gray);
+      padding: 0.5rem 1.2rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .quote-nav-btn:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* CATEGORY FILTER */
+    .category-filter {
+      max-width: 1100px;
+      margin: 0 auto 2.5rem;
+      padding: 0 2rem;
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .cat-btn {
+      padding: 0.4rem 1.1rem;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gray);
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .cat-btn:hover, .cat-btn.active {
+      border-color: var(--gold);
+      color: var(--gold);
+      background: rgba(240,165,0,0.08);
+    }
+
+    /* QUOTES GRID */
+    .quotes-wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem 5rem;
+    }
+
+    .quotes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .quote-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: border-color 0.2s, transform 0.2s;
+      position: relative;
+    }
+
+    .quote-card:hover {
+      border-color: var(--gold-dim);
+      transform: translateY(-2px);
+    }
+
+    .quote-mark {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 4rem;
+      color: var(--gold);
+      opacity: 0.2;
+      line-height: 0.8;
+      position: absolute;
+      top: 1rem;
+      left: 1.5rem;
+    }
+
+    .quote-card-category {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+      align-self: flex-start;
+      margin-top: 1.5rem;
+    }
+
+    .cat-first-principles { background: rgba(74,158,255,0.15); color: var(--blue); }
+    .cat-risk             { background: rgba(232,93,32,0.15);  color: var(--orange); }
+    .cat-engineering      { background: rgba(240,165,0,0.15);  color: var(--gold); }
+    .cat-business         { background: rgba(240,240,224,0.1); color: var(--white); }
+    .cat-civilization     { background: rgba(150,100,255,0.15);color: #b088ff; }
+    .cat-ai               { background: rgba(74,158,255,0.15); color: var(--blue); }
+    .cat-mars             { background: rgba(232,93,32,0.15);  color: var(--orange); }
+    .cat-mindset          { background: rgba(138,143,168,0.2); color: var(--gray); }
+
+    .quote-card-text {
+      font-size: 1rem;
+      color: var(--white);
+      line-height: 1.6;
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    .quote-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .quote-card-attr {
+      font-size: 0.78rem;
+      color: var(--gold);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .share-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--gray);
+      padding: 0.3rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .share-btn:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .share-btn.copied {
+      border-color: #4caf50;
+      color: #4caf50;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-size: 0.8rem;
+      color: var(--gray);
+      line-height: 1.8;
+    }
+
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .quotes-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="/">THANKS <span>ELON MUSK</span></a>
+    <ul class="nav-links">
+      <li><a href="ventures.html">Ventures</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="quotes.html" class="active">Quotes</a></li>
+      <li><a href="numbers.html">By the Numbers</a></li>
+      <li><a href="today.html">Today in Elon</a></li>
+      <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <p class="page-eyebrow">Words That Move the World</p>
+    <h1 class="page-title">ELON MUSK QUOTES</h1>
+    <p class="page-sub">First principles. Risk. Engineering. Mars. AI. Business. Civilization. In his own words.</p>
+  </div>
+
+  <!-- FEATURED QUOTE -->
+  <div class="featured-quote">
+    <div class="featured-quote-category" id="featured-cat">First Principles</div>
+    <div class="featured-quote-text" id="featured-text">"Boil things down to the most fundamental truths and reason up from there."</div>
+    <div class="featured-quote-attr">— Elon Musk</div>
+    <div class="quote-nav-btns">
+      <button class="quote-nav-btn" onclick="prevFeatured()">← Previous</button>
+      <button class="quote-nav-btn" onclick="nextFeatured()">Next →</button>
+    </div>
+  </div>
+
+  <!-- CATEGORY FILTER -->
+  <div class="category-filter">
+    <button class="cat-btn active" data-cat="all">All</button>
+    <button class="cat-btn" data-cat="first-principles">First Principles</button>
+    <button class="cat-btn" data-cat="risk">Risk</button>
+    <button class="cat-btn" data-cat="engineering">Engineering</button>
+    <button class="cat-btn" data-cat="business">Business</button>
+    <button class="cat-btn" data-cat="civilization">Civilization</button>
+    <button class="cat-btn" data-cat="ai">AI</button>
+    <button class="cat-btn" data-cat="mars">Mars</button>
+    <button class="cat-btn" data-cat="mindset">Mindset</button>
+  </div>
+
+  <!-- QUOTES GRID -->
+  <div class="quotes-wrap">
+    <div class="quotes-grid" id="quotes-grid"></div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong style="color:var(--white); font-family:'Bebas Neue',sans-serif; letter-spacing:0.05em; font-size:1.1rem;">THANKS ELON MUSK</strong></p>
+    <p style="margin-top:0.5rem;">A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
+    <p style="margin-top:0.25rem;">Not affiliated with Elon Musk, Tesla, SpaceX, X, xAI, Neuralink, or any associated companies.</p>
+    <p style="margin-top:1rem;">
+      <a href="ventures.html">Ventures</a> &nbsp;·&nbsp;
+      <a href="news.html">News</a> &nbsp;·&nbsp;
+      <a href="timeline.html">Timeline</a> &nbsp;·&nbsp;
+      <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
+      <a href="thanks.html">Say Thanks</a>
+    </p>
+    <p style="margin-top:1rem; font-size:0.72rem;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
+  </footer>
+
+  <script>
+    const quotes = [
+      { text: "Boil things down to the most fundamental truths and reason up from there.", cat: "first-principles", label: "First Principles" },
+      { text: "I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better.", cat: "first-principles", label: "First Principles" },
+      { text: "The first step is to establish that something is possible; then probability will occur.", cat: "first-principles", label: "First Principles" },
+      { text: "Physics is the law, everything else is a recommendation.", cat: "first-principles", label: "First Principles" },
+      { text: "Really pay attention to negative feedback and solicit it, particularly from friends. Hardly anyone does that, and it's incredibly helpful.", cat: "first-principles", label: "First Principles" },
+      { text: "When something is important enough, you do it even if the odds are not in your favor.", cat: "risk", label: "Risk" },
+      { text: "Failure is an option here. If things are not failing, you are not innovating enough.", cat: "risk", label: "Risk" },
+      { text: "If you're trying to create a company, it's like baking a cake. You have to have all the ingredients in the right proportion.", cat: "risk", label: "Risk" },
+      { text: "Starting a business is not for everyone. It's quite painful. You will be told your idea is insane. You will have massive stress.", cat: "risk", label: "Risk" },
+      { text: "Persistence is very important. You should not give up unless you are forced to give up.", cat: "mindset", label: "Mindset" },
+      { text: "I don't create companies for the money. I do it to try to make the world a better place.", cat: "business", label: "Business" },
+      { text: "A company is a group of people organized to create a product or service. What matters is having all the ingredients in the right proportion.", cat: "business", label: "Business" },
+      { text: "Work like hell. I mean you just have to put in 80 to 100 hour weeks every week.", cat: "business", label: "Business" },
+      { text: "If you go back a few hundred years, what we take for granted today would seem like magic — being able to talk to people over long distances, to transmit images.", cat: "civilization", label: "Civilization" },
+      { text: "I would like to die on Mars. Just not on impact.", cat: "mars", label: "Mars" },
+      { text: "You want to wake up in the morning and think the future is going to be great — and that's what being a spacefaring civilization is all about.", cat: "mars", label: "Mars" },
+      { text: "Making life multiplanetary expands the scope and scale of human consciousness.", cat: "mars", label: "Mars" },
+      { text: "Humans need to be a multi-planet species.", cat: "mars", label: "Mars" },
+      { text: "AI is the most transformative technology in human history, far more powerful than fire.", cat: "ai", label: "AI" },
+      { text: "The thing I find most concerning about AI is that we may create something so intelligent that it exceeds our ability to understand it.", cat: "ai", label: "AI" },
+      { text: "I am not sure I want to be the CEO of AI. I want AI to be good for humanity.", cat: "ai", label: "AI" },
+      { text: "Rockets are the only form of transportation on Earth where the vehicle is built anew for each journey.", cat: "engineering", label: "Engineering" },
+      { text: "If you want to grow a giant tree, you do not water a midget tree. You get a seed, put it in the ground and water it constantly.", cat: "engineering", label: "Engineering" },
+      { text: "The best part is no part. The best process is no process.", cat: "engineering", label: "Engineering" },
+      { text: "Any product that needs a manual to work is broken.", cat: "engineering", label: "Engineering" },
+      { text: "Life is too short for long-term grudges.", cat: "mindset", label: "Mindset" },
+      { text: "If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not.", cat: "mindset", label: "Mindset" },
+      { text: "It's OK to have your eggs in one basket as long as you control what happens to that basket.", cat: "mindset", label: "Mindset" },
+      { text: "The path to the CEO's office should not be through the CFO's office, and it should not be through the marketing department. It needs to be through engineering and design.", cat: "business", label: "Business" },
+      { text: "I always invest my own money in the companies that I create. I don't believe in the whole thing of just using other people's money.", cat: "business", label: "Business" },
+      { text: "We're running the most dangerous experiment in history right now, which is to see how much carbon dioxide the atmosphere can handle before there is an environmental catastrophe.", cat: "civilization", label: "Civilization" },
+      { text: "The future is vastly more exciting and interesting if we're a spacefaring civilization and a multi-planet species than if we're not.", cat: "civilization", label: "Civilization" },
+    ];
+
+    // Featured quote rotator
+    let featuredIndex = 0;
+    const featuredText = document.getElementById('featured-text');
+    const featuredCat = document.getElementById('featured-cat');
+
+    function setFeatured(index) {
+      featuredText.style.opacity = '0';
+      setTimeout(() => {
+        featuredIndex = (index + quotes.length) % quotes.length;
+        featuredText.textContent = `"${quotes[featuredIndex].text}"`;
+        featuredCat.textContent = quotes[featuredIndex].label;
+        featuredText.style.opacity = '1';
+      }, 300);
+    }
+
+    featuredText.style.transition = 'opacity 0.3s ease';
+    function nextFeatured() { setFeatured(featuredIndex + 1); }
+    function prevFeatured() { setFeatured(featuredIndex - 1); }
+    setInterval(nextFeatured, 8000);
+
+    // Render quote cards
+    function renderQuotes(filter) {
+      const grid = document.getElementById('quotes-grid');
+      const filtered = filter === 'all' ? quotes : quotes.filter(q => q.cat === filter);
+      grid.innerHTML = filtered.map((q, i) => `
+        <div class="quote-card" data-cat="${q.cat}">
+          <div class="quote-mark">"</div>
+          <span class="quote-card-category cat-${q.cat}">${q.label}</span>
+          <div class="quote-card-text">"${q.text}"</div>
+          <div class="quote-card-footer">
+            <span class="quote-card-attr">— Elon Musk</span>
+            <button class="share-btn" onclick="copyQuote(this, '${q.text.replace(/'/g, "\\'")}')">Copy</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Category filter
+    const catBtns = document.querySelectorAll('.cat-btn');
+    catBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        catBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderQuotes(btn.dataset.cat);
+      });
+    });
+
+    // Copy quote
+    function copyQuote(btn, text) {
+      navigator.clipboard.writeText(`"${text}" — Elon Musk`).then(() => {
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = 'Copy';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+
+    // Init
+    renderQuotes('all');
+  </script>
+
+</body>
+</html>
