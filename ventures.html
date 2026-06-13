@@ -186,19 +186,6 @@
       cursor: pointer;
     }
 
-    /* Gold glow border on hover */
-    .venture-card::after {
-      content: '';
-      position: absolute;
-      inset: -1px;
-      border-radius: 16px;
-      background: linear-gradient(135deg, var(--gold), var(--orange), transparent, transparent);
-      z-index: -1;
-      opacity: 0;
-      transition: opacity 0.4s;
-    }
-
-    /* Bottom accent line */
     .venture-card::before {
       content: '';
       position: absolute;
@@ -209,17 +196,26 @@
       transition: transform 0.4s;
     }
 
+    .venture-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at center, rgba(245,166,35,0.05), transparent 70%);
+      opacity: 0;
+      transition: opacity 0.4s;
+    }
+
     .venture-card:hover {
       transform: translateY(-12px) scale(1.02);
-      border-color: rgba(245,166,35,0.3);
+      border-color: rgba(245,166,35,0.35);
       box-shadow:
         0 25px 60px rgba(245,166,35,0.15),
-        0 0 0 1px rgba(245,166,35,0.15),
+        0 0 0 1px rgba(245,166,35,0.12),
         inset 0 1px 0 rgba(255,255,255,0.05);
     }
 
     .venture-card:hover::before { transform: scaleX(1); }
-    .venture-card:hover::after { opacity: 0.15; }
+    .venture-card:hover::after { opacity: 1; }
 
     /* LOGO AREA */
     .venture-logo {
@@ -229,6 +225,8 @@
       align-items: center;
       justify-content: center;
       padding: 0 1.5rem;
+      position: relative;
+      z-index: 1;
     }
 
     .venture-logo img {
@@ -237,14 +235,14 @@
       width: 100%;
       height: 100%;
       object-fit: contain;
-      filter: brightness(0) invert(1);
-      opacity: 0.9;
+      opacity: 0.85;
       transition: all 0.4s;
     }
 
     .venture-card:hover .venture-logo img {
-      filter: brightness(0) saturate(100%) invert(72%) sepia(55%) saturate(600%) hue-rotate(350deg) brightness(108%);
       opacity: 1;
+      filter: drop-shadow(0 0 14px rgba(245,166,35,0.5));
+      transform: scale(1.05);
     }
 
     /* DIVIDER */
@@ -253,6 +251,8 @@
       height: 1px;
       background: linear-gradient(to right, transparent, rgba(245,166,35,0.5), transparent);
       transition: width 0.4s;
+      position: relative;
+      z-index: 1;
     }
 
     .venture-card:hover .venture-divider { width: 80px; }
@@ -263,6 +263,8 @@
       color: rgba(232,232,240,0.5);
       line-height: 1.55;
       font-weight: 300;
+      position: relative;
+      z-index: 1;
     }
 
     .venture-stat {
@@ -276,6 +278,8 @@
       border: 1px solid rgba(245,166,35,0.2);
       border-radius: 20px;
       transition: all 0.3s;
+      position: relative;
+      z-index: 1;
     }
 
     .venture-card:hover .venture-stat {
@@ -290,16 +294,18 @@
       top: 1.25rem;
       right: 1.25rem;
       font-family: 'Orbitron', sans-serif;
-      font-size: 0.65rem;
+      font-size: 0.75rem;
       color: var(--gray);
       opacity: 0;
       transition: all 0.3s;
+      z-index: 2;
     }
 
     .venture-card:hover .venture-arrow {
       opacity: 1;
       color: var(--gold);
       transform: translate(2px, -2px);
+      text-shadow: 0 0 10px var(--gold-glow);
     }
 
     /* FOOTER */
