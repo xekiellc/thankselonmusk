@@ -162,30 +162,27 @@
 
     .ventures-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1.75rem;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
     }
 
-    /* VENTURE CARD */
+    /* VENTURE CARD — logo fills the whole card */
     .venture-card {
-      background: var(--card-bg);
+      background: #0a0a14;
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 2.5rem 2rem 2rem;
       text-decoration: none;
-      color: var(--off-white);
       display: flex;
-      flex-direction: column;
       align-items: center;
-      gap: 1.25rem;
-      text-align: center;
-      backdrop-filter: blur(20px);
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      justify-content: center;
+      aspect-ratio: 16/9;
       position: relative;
       overflow: hidden;
       cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
 
+    /* Gold bottom line animation */
     .venture-card::before {
       content: '';
       position: absolute;
@@ -194,111 +191,57 @@
       background: linear-gradient(to right, transparent, var(--gold), transparent);
       transform: scaleX(0);
       transition: transform 0.4s;
+      z-index: 2;
     }
 
+    /* Radial glow on hover */
     .venture-card::after {
       content: '';
       position: absolute;
       inset: 0;
-      background: radial-gradient(circle at center, rgba(245,166,35,0.05), transparent 70%);
+      background: radial-gradient(circle at center, rgba(245,166,35,0.08), transparent 70%);
       opacity: 0;
       transition: opacity 0.4s;
+      z-index: 1;
     }
 
     .venture-card:hover {
-      transform: translateY(-12px) scale(1.02);
-      border-color: rgba(245,166,35,0.35);
+      border-color: rgba(245,166,35,0.4);
+      transform: translateY(-8px) scale(1.02);
       box-shadow:
-        0 25px 60px rgba(245,166,35,0.15),
-        0 0 0 1px rgba(245,166,35,0.12),
-        inset 0 1px 0 rgba(255,255,255,0.05);
+        0 20px 50px rgba(245,166,35,0.15),
+        0 0 0 1px rgba(245,166,35,0.15);
     }
 
     .venture-card:hover::before { transform: scaleX(1); }
     .venture-card:hover::after { opacity: 1; }
 
-    /* LOGO AREA */
-    .venture-logo {
-      width: 100%;
-      height: 90px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0 1.5rem;
-      position: relative;
-      z-index: 1;
-    }
-
-    .venture-logo img {
-      max-width: 200px;
-      max-height: 70px;
-      width: 100%;
-      height: 100%;
+    /* LOGO IMAGE — fills card, mix-blend-mode removes white bg */
+    .venture-card img {
+      width: 65%;
+      height: 65%;
       object-fit: contain;
-      opacity: 0.85;
+      mix-blend-mode: lighten;
       transition: all 0.4s;
-    }
-
-    .venture-card:hover .venture-logo img {
-      opacity: 1;
-      filter: drop-shadow(0 0 14px rgba(245,166,35,0.5));
-      transform: scale(1.05);
-    }
-
-    /* DIVIDER */
-    .venture-divider {
-      width: 32px;
-      height: 1px;
-      background: linear-gradient(to right, transparent, rgba(245,166,35,0.5), transparent);
-      transition: width 0.4s;
       position: relative;
-      z-index: 1;
+      z-index: 2;
     }
 
-    .venture-card:hover .venture-divider { width: 80px; }
-
-    /* TEXT */
-    .venture-tagline {
-      font-size: 0.82rem;
-      color: rgba(232,232,240,0.5);
-      line-height: 1.55;
-      font-weight: 300;
-      position: relative;
-      z-index: 1;
+    .venture-card:hover img {
+      transform: scale(1.08);
+      filter: drop-shadow(0 0 20px rgba(245,166,35,0.4));
     }
 
-    .venture-stat {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.6rem;
-      color: var(--gold);
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-top: auto;
-      padding: 0.4rem 1rem;
-      border: 1px solid rgba(245,166,35,0.2);
-      border-radius: 20px;
-      transition: all 0.3s;
-      position: relative;
-      z-index: 1;
-    }
-
-    .venture-card:hover .venture-stat {
-      background: rgba(245,166,35,0.08);
-      border-color: var(--border-gold);
-      box-shadow: 0 0 15px var(--gold-glow);
-    }
-
-    /* EXTERNAL LINK ARROW */
+    /* ARROW */
     .venture-arrow {
       position: absolute;
-      top: 1.25rem;
-      right: 1.25rem;
-      font-family: 'Orbitron', sans-serif;
+      top: 1rem;
+      right: 1rem;
       font-size: 0.75rem;
       color: var(--gray);
       opacity: 0;
       transition: all 0.3s;
-      z-index: 2;
+      z-index: 3;
     }
 
     .venture-card:hover .venture-arrow {
@@ -307,6 +250,27 @@
       transform: translate(2px, -2px);
       text-shadow: 0 0 10px var(--gold-glow);
     }
+
+    /* LABEL at bottom */
+    .venture-label {
+      position: absolute;
+      bottom: 0;
+      left: 0; right: 0;
+      padding: 0.6rem 1rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(245,166,35,0.7);
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 3;
+    }
+
+    .venture-card:hover .venture-label { opacity: 1; }
 
     /* FOOTER */
     footer {
@@ -337,8 +301,6 @@
     @media (max-width: 768px) {
       .nav-links { display: none; }
       .ventures-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-      .venture-card { padding: 2rem 1.25rem 1.5rem; }
-      .venture-logo { height: 70px; }
     }
 
     @media (max-width: 480px) {
@@ -366,87 +328,52 @@
   <div class="page-header">
     <p class="page-eyebrow">The Empire</p>
     <h1 class="page-title">ELON'S VENTURES</h1>
-    <p class="page-sub">Seven companies reshaping transportation, energy, communication, intelligence, and the future of civilization. Click any card to visit.</p>
+    <p class="page-sub">Seven companies reshaping transportation, energy, communication, intelligence, and the future of civilization. Click any to visit.</p>
   </div>
 
   <div class="ventures-wrap">
     <div class="ventures-grid">
 
-      <!-- SPACEX -->
       <a class="venture-card" href="https://spacex.com" target="_blank" rel="noopener">
         <span class="venture-arrow">↗</span>
-        <div class="venture-logo">
-          <img src="images/logo-spacex.png" alt="SpaceX" />
-        </div>
-        <div class="venture-divider"></div>
-        <div class="venture-tagline">Reusable rockets, Starship, and the mission to make humanity multi-planetary.</div>
-        <div class="venture-stat">400+ Launches · ~$350B Valuation</div>
+        <img src="images/logo-spacex.png" alt="SpaceX" />
+        <div class="venture-label">spacex.com</div>
       </a>
 
-      <!-- TESLA -->
       <a class="venture-card" href="https://tesla.com" target="_blank" rel="noopener">
         <span class="venture-arrow">↗</span>
-        <div class="venture-logo">
-          <img src="images/logo-tesla.png" alt="Tesla" />
-        </div>
-        <div class="venture-divider"></div>
-        <div class="venture-tagline">Electric vehicles, FSD autonomy, energy storage, and the Optimus humanoid robot.</div>
-        <div class="venture-stat">6M+ EVs on the Road · ~$1T Market Cap</div>
+        <img src="images/logo-tesla.png" alt="Tesla" />
+        <div class="venture-label">tesla.com</div>
       </a>
 
-      <!-- XAI -->
       <a class="venture-card" href="https://x.ai" target="_blank" rel="noopener">
         <span class="venture-arrow">↗</span>
-        <div class="venture-logo">
-          <img src="images/logo-xai.png" alt="xAI" />
-        </div>
-        <div class="venture-divider"></div>
-        <div class="venture-tagline">Building Grok — the most truth-seeking AI assistant on the planet.</div>
-        <div class="venture-stat">Grok 3 · $50B+ Valuation</div>
+        <img src="images/logo-xai.png" alt="xAI" />
+        <div class="venture-label">x.ai</div>
       </a>
 
-      <!-- X -->
       <a class="venture-card" href="https://x.com" target="_blank" rel="noopener">
         <span class="venture-arrow">↗</span>
-        <div class="venture-logo">
-          <img src="images/logo-x.png" alt="X" />
-        </div>
-        <div class="venture-divider"></div>
-        <div class="venture-tagline">The world's free speech platform and everything app, formerly Twitter.</div>
-        <div class="venture-stat">600M+ Monthly Users</div>
+        <img src="images/logo-x.png" alt="X" />
+        <div class="venture-label">x.com</div>
       </a>
 
-      <!-- STARLINK -->
       <a class="venture-card" href="https://starlink.com" target="_blank" rel="noopener">
         <span class="venture-arrow">↗</span>
-        <div class="venture-logo">
-          <img src="images/logo-starlink.png" alt="Starlink" />
-        </div>
-        <div class="venture-divider"></div>
-        <div class="venture-tagline">Blanket broadband internet coverage for the entire planet from low Earth orbit.</div>
-        <div class="venture-stat">7,000+ Satellites · 100+ Countries</div>
+        <img src="images/logo-starlink.png" alt="Starlink" />
+        <div class="venture-label">starlink.com</div>
       </a>
 
-      <!-- NEURALINK -->
       <a class="venture-card" href="https://neuralink.com" target="_blank" rel="noopener">
         <span class="venture-arrow">↗</span>
-        <div class="venture-logo">
-          <img src="images/logo-neuralink.png" alt="Neuralink" />
-        </div>
-        <div class="venture-divider"></div>
-        <div class="venture-tagline">Brain-computer interfaces restoring independence for paralyzed patients worldwide.</div>
-        <div class="venture-stat">40+ Human Patients · FDA Breakthrough</div>
+        <img src="images/logo-neuralink.png" alt="Neuralink" />
+        <div class="venture-label">neuralink.com</div>
       </a>
 
-      <!-- BORING COMPANY -->
       <a class="venture-card" href="https://boringcompany.com" target="_blank" rel="noopener">
         <span class="venture-arrow">↗</span>
-        <div class="venture-logo">
-          <img src="images/logo-boring.png" alt="The Boring Company" />
-        </div>
-        <div class="venture-divider"></div>
-        <div class="venture-tagline">Underground transportation tunnels eliminating urban traffic forever.</div>
-        <div class="venture-stat">10x Cheaper Tunneling · LV Loop Live</div>
+        <img src="images/logo-boring.png" alt="The Boring Company" />
+        <div class="venture-label">boringcompany.com</div>
       </a>
 
     </div>
@@ -511,7 +438,7 @@
     window.addEventListener('resize', () => { resize(); initStars(); });
     resize(); initStars(); requestAnimationFrame(animate);
 
-    // STAGGER CARD REVEAL
+    // STAGGER REVEAL
     const cards = document.querySelectorAll('.venture-card');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry, i) => {
@@ -527,7 +454,7 @@
 
     cards.forEach(card => {
       card.style.opacity = '0';
-      card.style.transform = 'translateY(40px)';
+      card.style.transform = 'translateY(30px)';
       card.style.transition = 'opacity 0.6s ease, transform 0.6s ease, border-color 0.4s, box-shadow 0.4s';
       observer.observe(card);
     });
