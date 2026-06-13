@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>By the Numbers – Thanks Elon Musk</title>
-  <meta name="description" content="The Elon Musk scorecard — rockets launched, EVs delivered, satellites in orbit, lives changed. By the numbers." />
-  <meta property="og:title" content="By the Numbers – Thanks Elon Musk" />
+  <title>Today in Elon – Thanks Elon Musk</title>
+  <meta name="description" content="Your daily digest of everything happening in Elon Musk's world — SpaceX, Tesla, xAI, X, Neuralink, and more." />
+  <meta property="og:title" content="Today in Elon – Thanks Elon Musk" />
   <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
-  <meta property="og:url" content="https://thankselonmusk.com/numbers.html" />
+  <meta property="og:url" content="https://thankselonmusk.com/today.html" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Google Analytics -->
@@ -49,7 +48,6 @@
       line-height: 1.6;
     }
 
-    /* NAV */
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -102,12 +100,10 @@
 
     .nav-cta:hover { background: var(--gold-dim); }
 
-    /* PAGE HEADER */
     .page-header {
-      padding: 7rem 2rem 3rem;
-      max-width: 1100px;
+      padding: 7rem 2rem 2rem;
+      max-width: 900px;
       margin: 0 auto;
-      text-align: center;
     }
 
     .page-eyebrow {
@@ -119,280 +115,299 @@
       margin-bottom: 0.5rem;
     }
 
-    .page-title {
+    .date-display {
       font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-size: clamp(2rem, 5vw, 3.5rem);
       color: var(--white);
       line-height: 1;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.03em;
     }
+
+    .date-display span { color: var(--gold); }
 
     .page-sub {
-      font-size: 1.05rem;
+      font-size: 0.95rem;
       color: var(--gray);
       font-weight: 300;
-      max-width: 520px;
-      margin: 0 auto;
+      margin-bottom: 1.5rem;
     }
 
-    /* HERO STAT */
-    .hero-stat {
-      background: var(--card-bg);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-      padding: 3rem 2rem;
-      text-align: center;
-      margin-bottom: 4rem;
-    }
-
-    .hero-stat-value {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(4rem, 10vw, 8rem);
-      color: var(--gold);
-      line-height: 1;
-      letter-spacing: 0.03em;
-    }
-
-    .hero-stat-label {
-      font-size: 1.1rem;
-      color: var(--gray);
-      margin-top: 0.5rem;
-      font-weight: 300;
-    }
-
-    .hero-stat-sub {
-      font-size: 0.8rem;
-      color: var(--gray);
-      margin-top: 0.25rem;
-      opacity: 0.7;
-    }
-
-    /* SECTIONS */
-    .numbers-section {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 2rem 4rem;
-    }
-
-    .section-label {
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 0.4rem;
-    }
-
-    .section-title {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-      color: var(--white);
-      margin-bottom: 1.75rem;
-      line-height: 1;
-      display: flex;
+    .live-badge {
+      display: inline-flex;
       align-items: center;
-      gap: 0.75rem;
-    }
-
-    .section-title span { font-size: 1.8rem; }
-
-    /* NUMBERS GRID */
-    .numbers-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .number-card {
+      gap: 0.5rem;
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.75rem 1.5rem;
-      text-align: center;
-      transition: border-color 0.2s, transform 0.2s;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .number-card:hover {
-      border-color: var(--gold-dim);
-      transform: translateY(-2px);
-    }
-
-    .number-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 2px;
-      background: var(--gold);
-      opacity: 0;
-      transition: opacity 0.2s;
-    }
-
-    .number-card:hover::before { opacity: 1; }
-
-    .number-value {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 2.6rem;
-      color: var(--gold);
-      line-height: 1;
-      margin-bottom: 0.4rem;
-      letter-spacing: 0.03em;
-    }
-
-    .number-value.blue { color: var(--blue); }
-    .number-value.orange { color: var(--orange); }
-
-    .number-label {
-      font-size: 0.82rem;
-      color: var(--white);
-      font-weight: 500;
-      margin-bottom: 0.3rem;
-    }
-
-    .number-context {
-      font-size: 0.72rem;
-      color: var(--gray);
-      line-height: 1.4;
-    }
-
-    /* COMPARISON BARS */
-    .comparison-section {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 2rem 4rem;
-    }
-
-    .comparison-item {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .comparison-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 0.75rem;
-    }
-
-    .comparison-label {
-      font-size: 0.9rem;
+      border-radius: 20px;
+      padding: 0.35rem 0.9rem;
+      font-size: 0.75rem;
       font-weight: 600;
-      color: var(--white);
-    }
-
-    .comparison-value {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.2rem;
-      color: var(--gold);
-      letter-spacing: 0.05em;
-    }
-
-    .comparison-bar-wrap {
-      background: var(--border);
-      border-radius: 4px;
-      height: 8px;
-      overflow: hidden;
-    }
-
-    .comparison-bar {
-      height: 100%;
-      border-radius: 4px;
-      background: linear-gradient(to right, var(--gold-dim), var(--gold));
-      transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
-      width: 0;
-    }
-
-    .comparison-bar.blue {
-      background: linear-gradient(to right, #2a6bbf, var(--blue));
-    }
-
-    .comparison-bar.orange {
-      background: linear-gradient(to right, #a03010, var(--orange));
-    }
-
-    .comparison-context {
-      font-size: 0.72rem;
-      color: var(--gray);
-      margin-top: 0.5rem;
-    }
-
-    /* MILESTONES TABLE */
-    .milestones-section {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 2rem 4rem;
-    }
-
-    .milestone-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    .milestone-table th {
-      text-align: left;
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--gray);
-      padding: 0.75rem 1rem;
-      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
     }
 
-    .milestone-table td {
-      padding: 1rem;
-      border-bottom: 1px solid var(--border);
-      font-size: 0.9rem;
-      vertical-align: top;
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4caf50;
+      animation: pulse 2s infinite;
     }
 
-    .milestone-table tr:last-child td { border-bottom: none; }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
 
-    .milestone-table tr:hover td { background: rgba(255,255,255,0.02); }
+    .venture-filter {
+      max-width: 900px;
+      margin: 0 auto 2rem;
+      padding: 0 2rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
 
-    .milestone-table .td-year {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.1rem;
+    .filter-btn {
+      padding: 0.35rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gray);
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover, .filter-btn.active {
+      border-color: var(--gold);
       color: var(--gold);
-      letter-spacing: 0.1em;
+      background: rgba(240,165,0,0.08);
+    }
+
+    .today-layout {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem 5rem;
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .feed-wrap { display: flex; flex-direction: column; gap: 0; }
+
+    .feed-date-header {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      padding: 1.25rem 0 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .feed-item {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 1rem;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+    }
+
+    .feed-item:hover { background: rgba(255,255,255,0.01); }
+
+    .feed-time {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 0.95rem;
+      color: var(--gold);
+      letter-spacing: 0.08em;
+      padding-top: 0.15rem;
       white-space: nowrap;
     }
 
-    .milestone-table .td-company {
-      color: var(--gray);
-      font-size: 0.75rem;
-      font-weight: 600;
+    .feed-body { display: flex; flex-direction: column; gap: 0.35rem; }
+
+    .feed-company {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      display: inline-block;
+      align-self: flex-start;
     }
 
-    .milestone-table .td-title {
-      color: var(--white);
+    .co-spacex  { background: rgba(74,158,255,0.15); color: var(--blue); }
+    .co-tesla   { background: rgba(232,93,32,0.15);  color: var(--orange); }
+    .co-xai     { background: rgba(74,158,255,0.12); color: #7ab8ff; }
+    .co-x       { background: rgba(240,240,224,0.1); color: var(--white); }
+    .co-neura   { background: rgba(150,100,255,0.15);color: #b088ff; }
+    .co-boring  { background: rgba(240,165,0,0.1);   color: var(--gold-dim); }
+    .co-doge    { background: rgba(232,93,32,0.1);   color: var(--orange); }
+    .co-starlink{ background: rgba(74,158,255,0.1);  color: var(--blue); }
+
+    .feed-headline {
+      font-size: 0.95rem;
       font-weight: 600;
+      color: var(--white);
+      line-height: 1.4;
     }
 
-    .milestone-table .td-number {
+    .feed-headline a {
+      color: var(--white);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .feed-headline a:hover { color: var(--gold); }
+
+    .feed-summary {
+      font-size: 0.82rem;
+      color: var(--gray);
+      line-height: 1.5;
+    }
+
+    .feed-link {
+      font-size: 0.78rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 500;
+      align-self: flex-start;
+    }
+
+    .feed-link:hover { text-decoration: underline; }
+
+    .empty-state {
+      padding: 3rem 1rem;
+      text-align: center;
+      color: var(--gray);
+    }
+
+    .empty-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+
+    .loading-spinner {
+      width: 32px;
+      height: 32px;
+      border: 2px solid var(--border);
+      border-top-color: var(--gold);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 2rem auto;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .sidebar { display: flex; flex-direction: column; gap: 1.25rem; }
+
+    .sidebar-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+    }
+
+    .sidebar-title {
       font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.3rem;
-      color: var(--blue);
-      letter-spacing: 0.05em;
-      text-align: right;
+      font-size: 1rem;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
     }
 
-    /* DIVIDER */
-    .section-divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      max-width: 1100px;
-      margin: 0 auto 4rem;
+    .score-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.82rem;
     }
 
-    /* FOOTER */
+    .score-row:last-child { border-bottom: none; }
+    .score-label { color: var(--gray); }
+    .score-value { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--white); }
+    .score-up { color: #4caf50; }
+
+    .sidebar-quote {
+      font-size: 0.88rem;
+      color: var(--white);
+      font-style: italic;
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar-quote-attr {
+      font-size: 0.75rem;
+      color: var(--gold);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .activity-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .activity-row:last-child { border-bottom: none; }
+
+    .activity-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .activity-name { font-size: 0.8rem; color: var(--white); font-weight: 500; flex: 1; }
+    .activity-count { font-family: 'Bebas Neue', sans-serif; font-size: 0.95rem; color: var(--gold); }
+
+    .archive-nav {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem 3rem;
+    }
+
+    .archive-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.2rem;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+    }
+
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 0.5rem;
+    }
+
+    .archive-link {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.6rem 1rem;
+      font-size: 0.8rem;
+      color: var(--gray);
+      text-decoration: none;
+      text-align: center;
+      transition: all 0.2s;
+    }
+
+    .archive-link:hover { border-color: var(--gold); color: var(--gold); }
+
     footer {
       background: var(--card-bg);
       border-top: 1px solid var(--border);
@@ -408,14 +423,13 @@
 
     @media (max-width: 768px) {
       .nav-links { display: none; }
-      .numbers-grid { grid-template-columns: repeat(2, 1fr); }
-      .milestone-table .td-number { display: none; }
+      .today-layout { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
     }
   </style>
 </head>
 <body>
 
-  <!-- NAV -->
   <nav>
     <a class="nav-logo" href="/">THANKS <span>ELON MUSK</span></a>
     <ul class="nav-links">
@@ -423,308 +437,75 @@
       <li><a href="news.html">News</a></li>
       <li><a href="timeline.html">Timeline</a></li>
       <li><a href="quotes.html">Quotes</a></li>
-      <li><a href="numbers.html" class="active">By the Numbers</a></li>
-      <li><a href="today.html">Today in Elon</a></li>
+      <li><a href="numbers.html">By the Numbers</a></li>
+      <li><a href="today.html" class="active">Today in Elon</a></li>
       <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
     </ul>
   </nav>
 
-  <!-- PAGE HEADER -->
   <div class="page-header">
-    <p class="page-eyebrow">The Scorecard</p>
-    <h1 class="page-title">BY THE NUMBERS</h1>
-    <p class="page-sub">Rockets. Satellites. EVs. Patients. Savings. The scale of what one person has built is staggering.</p>
-  </div>
-
-  <!-- HERO STAT -->
-  <div class="hero-stat">
-    <div class="hero-stat-value" id="hero-counter">0</div>
-    <div class="hero-stat-label">Orbital rocket launches completed by SpaceX</div>
-    <div class="hero-stat-sub">More than any other launch provider in history</div>
-  </div>
-
-  <!-- SPACEX NUMBERS -->
-  <div class="numbers-section">
-    <p class="section-label">SpaceX + Starlink</p>
-    <h2 class="section-title"><span>🚀</span> SPACE & SATELLITES</h2>
-    <div class="numbers-grid">
-      <div class="number-card">
-        <div class="number-value">400+</div>
-        <div class="number-label">Orbital Launches</div>
-        <div class="number-context">More than any launch provider in history</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">20+</div>
-        <div class="number-label">Booster Reuses</div>
-        <div class="number-context">Single Falcon 9 booster flown and recovered</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value blue">7,000+</div>
-        <div class="number-label">Starlink Satellites</div>
-        <div class="number-context">Largest satellite constellation ever deployed</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">100+</div>
-        <div class="number-label">Countries on Starlink</div>
-        <div class="number-context">Bringing broadband to the underserved world</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value blue">4M+</div>
-        <div class="number-label">Starlink Subscribers</div>
-        <div class="number-context">Fastest-growing ISP in history</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">~20ms</div>
-        <div class="number-label">Starlink Latency</div>
-        <div class="number-context">Comparable to ground-based broadband</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value orange">33</div>
-        <div class="number-label">Raptor Engines</div>
-        <div class="number-context">Powering Starship's Super Heavy booster</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value orange">~$67M</div>
-        <div class="number-label">Cost Per Falcon 9 Launch</div>
-        <div class="number-context">vs $450M+ for traditional expendable rockets</div>
-      </div>
+    <p class="page-eyebrow">Daily Digest</p>
+    <h1 class="date-display" id="today-date">LOADING...</h1>
+    <p class="page-sub">Everything happening in Elon-world today — updated 4 times daily.</p>
+    <div class="live-badge">
+      <div class="live-dot"></div>
+      <span id="live-label">Updating Daily</span>
     </div>
   </div>
 
-  <hr class="section-divider" />
-
-  <!-- TESLA NUMBERS -->
-  <div class="numbers-section">
-    <p class="section-label">Tesla</p>
-    <h2 class="section-title"><span>⚡</span> ELECTRIC VEHICLES & ENERGY</h2>
-    <div class="numbers-grid">
-      <div class="number-card">
-        <div class="number-value">6M+</div>
-        <div class="number-label">Teslas on the Road</div>
-        <div class="number-context">Cumulative global deliveries</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value blue">1B+</div>
-        <div class="number-label">FSD Miles Driven</div>
-        <div class="number-context">Autonomous miles logged by the fleet</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">60,000+</div>
-        <div class="number-label">Superchargers</div>
-        <div class="number-context">World's largest fast-charging network</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">6</div>
-        <div class="number-label">Gigafactories</div>
-        <div class="number-context">Fremont, Nevada, Texas, Berlin, Shanghai, New York</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value orange">~$1T</div>
-        <div class="number-label">Market Cap</div>
-        <div class="number-context">Most valuable automaker on earth</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">50M+</div>
-        <div class="number-label">Tons CO₂ Avoided</div>
-        <div class="number-context">Estimated emissions displaced by Tesla fleet</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value blue">405mi</div>
-        <div class="number-label">Model S Max Range</div>
-        <div class="number-context">Longest range production EV ever built</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">1.9s</div>
-        <div class="number-label">Model S Plaid 0-60</div>
-        <div class="number-context">Fastest production car ever made</div>
-      </div>
-    </div>
+  <div class="venture-filter">
+    <button class="filter-btn active" data-co="all">All</button>
+    <button class="filter-btn" data-co="spacex">SpaceX</button>
+    <button class="filter-btn" data-co="tesla">Tesla</button>
+    <button class="filter-btn" data-co="xai">xAI</button>
+    <button class="filter-btn" data-co="x">X</button>
+    <button class="filter-btn" data-co="starlink">Starlink</button>
+    <button class="filter-btn" data-co="neura">Neuralink</button>
+    <button class="filter-btn" data-co="boring">Boring Co</button>
+    <button class="filter-btn" data-co="doge">DOGE</button>
   </div>
 
-  <hr class="section-divider" />
-
-  <!-- COMPARISON BARS -->
-  <div class="comparison-section">
-    <p class="section-label">Elon vs The World</p>
-    <h2 class="section-title"><span>📊</span> SCALE COMPARISONS</h2>
-
-    <div class="comparison-item">
-      <div class="comparison-header">
-        <span class="comparison-label">SpaceX Launches (2024)</span>
-        <span class="comparison-value">100+</span>
+  <div class="today-layout">
+    <div class="feed-wrap">
+      <div class="feed-date-header" id="feed-date-header">TODAY</div>
+      <div id="feed-items">
+        <div class="loading-spinner"></div>
       </div>
-      <div class="comparison-bar-wrap"><div class="comparison-bar" data-width="95"></div></div>
-      <div class="comparison-context">vs. entire rest of world combined (~80 launches). SpaceX alone does more launches than all other nations combined.</div>
     </div>
 
-    <div class="comparison-item">
-      <div class="comparison-header">
-        <span class="comparison-label">Starlink Satellites vs All Others</span>
-        <span class="comparison-value">7,000+ of ~9,000 total</span>
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <div class="sidebar-title">Today's Scorecard</div>
+        <div class="score-row"><span class="score-label">SpaceX Launches YTD</span><span class="score-value score-up">67</span></div>
+        <div class="score-row"><span class="score-label">Tesla Deliveries YTD</span><span class="score-value score-up">386K</span></div>
+        <div class="score-row"><span class="score-label">Starlink Satellites</span><span class="score-value score-up">7,043</span></div>
+        <div class="score-row"><span class="score-label">Grok Model</span><span class="score-value">3.5</span></div>
+        <div class="score-row"><span class="score-label">Neuralink Patients</span><span class="score-value score-up">40+</span></div>
+        <div class="score-row"><span class="score-label">DOGE Savings</span><span class="score-value score-up">$160B+</span></div>
       </div>
-      <div class="comparison-bar-wrap"><div class="comparison-bar blue" data-width="78"></div></div>
-      <div class="comparison-context">Starlink accounts for roughly 78% of all active satellites currently in orbit.</div>
-    </div>
 
-    <div class="comparison-item">
-      <div class="comparison-header">
-        <span class="comparison-label">Tesla Market Cap vs Next 9 Automakers</span>
-        <span class="comparison-value">~$1T vs ~$800B combined</span>
+      <div class="sidebar-card">
+        <div class="sidebar-title">Quote of the Day</div>
+        <div class="sidebar-quote" id="sidebar-quote">"When something is important enough, you do it even if the odds are not in your favor."</div>
+        <div class="sidebar-quote-attr">— Elon Musk</div>
       </div>
-      <div class="comparison-bar-wrap"><div class="comparison-bar orange" data-width="55"></div></div>
-      <div class="comparison-context">Tesla's market cap exceeds Toyota, VW, Mercedes, GM, Ford, BMW, Stellantis, Honda, and Ferrari combined.</div>
-    </div>
 
-    <div class="comparison-item">
-      <div class="comparison-header">
-        <span class="comparison-label">Falcon 9 Launch Cost vs Competitors</span>
-        <span class="comparison-value">$67M vs $450M+</span>
+      <div class="sidebar-card">
+        <div class="sidebar-title">Today's Activity</div>
+        <div id="activity-list"></div>
       </div>
-      <div class="comparison-bar-wrap"><div class="comparison-bar" data-width="85"></div></div>
-      <div class="comparison-context">SpaceX reduced the cost of orbital launch by more than 85% compared to legacy rocket providers.</div>
-    </div>
 
-    <div class="comparison-item">
-      <div class="comparison-header">
-        <span class="comparison-label">X Monthly Users vs Other Platforms</span>
-        <span class="comparison-value">600M+</span>
-      </div>
-      <div class="comparison-bar-wrap"><div class="comparison-bar blue" data-width="60"></div></div>
-      <div class="comparison-context">X has 600M+ monthly active users — larger than Twitter ever was under previous ownership.</div>
-    </div>
+      <a href="news.html" style="display:block; background:var(--gold); color:var(--black); text-align:center; padding:0.9rem; border-radius:8px; font-weight:700; font-size:0.85rem; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none;">
+        Full News Feed →
+      </a>
+    </aside>
   </div>
 
-  <hr class="section-divider" />
-
-  <!-- OTHER VENTURES -->
-  <div class="numbers-section">
-    <p class="section-label">xAI · Neuralink · Boring Co · DOGE</p>
-    <h2 class="section-title"><span>🧠</span> THE REST OF THE EMPIRE</h2>
-    <div class="numbers-grid">
-      <div class="number-card">
-        <div class="number-value blue">100K+</div>
-        <div class="number-label">xAI GPU Cluster</div>
-        <div class="number-context">H100 GPUs in the Colossus supercomputer</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">$6B+</div>
-        <div class="number-label">xAI Funding Raised</div>
-        <div class="number-context">At a $50B+ valuation</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value orange">40+</div>
-        <div class="number-label">Neuralink Patients</div>
-        <div class="number-context">Human BCI implants in the PRIME study</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">1,024</div>
-        <div class="number-label">Electrodes per Chip</div>
-        <div class="number-context">Neuralink N1 implant neural channels</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value blue">10x</div>
-        <div class="number-label">Tunnel Cost Reduction</div>
-        <div class="number-context">Boring Co vs traditional tunnel boring</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">50+</div>
-        <div class="number-label">Las Vegas Loop Stations</div>
-        <div class="number-context">Operational underground transit stops</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value orange">$160B+</div>
-        <div class="number-label">DOGE Savings</div>
-        <div class="number-context">Government waste identified and eliminated</div>
-      </div>
-      <div class="number-card">
-        <div class="number-value">600M+</div>
-        <div class="number-label">X Monthly Users</div>
-        <div class="number-context">Active users on the free speech platform</div>
-      </div>
-    </div>
+  <div class="archive-nav">
+    <div class="archive-title">RECENT DIGESTS</div>
+    <div class="archive-grid" id="archive-grid"></div>
   </div>
 
-  <hr class="section-divider" />
-
-  <!-- PERSONAL MILESTONES TABLE -->
-  <div class="milestones-section">
-    <p class="section-label">The Man Himself</p>
-    <h2 class="section-title"><span>🏆</span> PERSONAL MILESTONES</h2>
-    <table class="milestone-table">
-      <thead>
-        <tr>
-          <th>Year</th>
-          <th>Company</th>
-          <th>Milestone</th>
-          <th style="text-align:right">Value</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="td-year">1999</td>
-          <td class="td-company">PayPal</td>
-          <td class="td-title">X.com / PayPal sale to eBay</td>
-          <td class="td-number">$180M</td>
-        </tr>
-        <tr>
-          <td class="td-year">2008</td>
-          <td class="td-company">SpaceX</td>
-          <td class="td-title">First private liquid-fueled rocket to reach orbit</td>
-          <td class="td-number">Falcon 1</td>
-        </tr>
-        <tr>
-          <td class="td-year">2012</td>
-          <td class="td-company">Tesla</td>
-          <td class="td-title">Model S wins Motor Trend Car of the Year</td>
-          <td class="td-number">100/100</td>
-        </tr>
-        <tr>
-          <td class="td-year">2015</td>
-          <td class="td-company">SpaceX</td>
-          <td class="td-title">First orbital booster vertical landing</td>
-          <td class="td-number">Historic</td>
-        </tr>
-        <tr>
-          <td class="td-year">2020</td>
-          <td class="td-company">SpaceX</td>
-          <td class="td-title">First private crewed mission to ISS</td>
-          <td class="td-number">2 Astronauts</td>
-        </tr>
-        <tr>
-          <td class="td-year">2021</td>
-          <td class="td-company">Tesla</td>
-          <td class="td-title">Becomes world's richest person</td>
-          <td class="td-number">$300B+</td>
-        </tr>
-        <tr>
-          <td class="td-year">2022</td>
-          <td class="td-company">X</td>
-          <td class="td-title">Acquires Twitter, renames to X</td>
-          <td class="td-number">$44B</td>
-        </tr>
-        <tr>
-          <td class="td-year">2024</td>
-          <td class="td-company">Neuralink</td>
-          <td class="td-title">First human BCI patient controls computer with thoughts</td>
-          <td class="td-number">1,024 ch</td>
-        </tr>
-        <tr>
-          <td class="td-year">2024</td>
-          <td class="td-company">SpaceX</td>
-          <td class="td-title">Starship booster caught by Mechazilla arms</td>
-          <td class="td-number">World First</td>
-        </tr>
-        <tr>
-          <td class="td-year">2025</td>
-          <td class="td-company">DOGE</td>
-          <td class="td-title">Largest government efficiency audit in US history</td>
-          <td class="td-number">$160B+</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- FOOTER -->
   <footer>
     <p><strong style="color:var(--white); font-family:'Bebas Neue',sans-serif; letter-spacing:0.05em; font-size:1.1rem;">THANKS ELON MUSK</strong></p>
     <p style="margin-top:0.5rem;">A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
@@ -740,71 +521,145 @@
   </footer>
 
   <script>
-    // Animated counter for hero stat
-    function animateCounter(target, duration) {
-      const el = document.getElementById('hero-counter');
-      const start = 0;
-      const increment = target / (duration / 16);
-      let current = start;
-      const timer = setInterval(() => {
-        current += increment;
-        if (current >= target) {
-          current = target;
-          clearInterval(timer);
-          el.textContent = target + '+';
-        } else {
-          el.textContent = Math.floor(current);
-        }
-      }, 16);
+    const VENTURE_ICONS = {
+      spacex:'🚀', tesla:'⚡', xai:'🧠', x:'✕',
+      starlink:'🛰️', neura:'🔬', boring:'🚇', doge:'🦅'
+    };
+
+    const VENTURE_COLORS = {
+      spacex:'var(--blue)', tesla:'var(--orange)', xai:'#7ab8ff',
+      x:'var(--white)', starlink:'var(--blue)', neura:'#b088ff',
+      boring:'var(--gold-dim)', doge:'var(--orange)'
+    };
+
+    const MONTH_NAMES = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE',
+      'JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
+    const DAY_NAMES = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+
+    let allItems = [];
+    let currentFilter = 'all';
+
+    async function loadToday() {
+      try {
+        const res = await fetch('data/today.json?v=' + Date.now());
+        const data = await res.json();
+        allItems = data.items || [];
+
+        // Set date display
+        const now = new Date();
+        document.getElementById('today-date').innerHTML =
+          `${DAY_NAMES[now.getDay()]}, <span>${MONTH_NAMES[now.getMonth()]} ${now.getDate()} ${now.getFullYear()}</span>`;
+
+        document.getElementById('feed-date-header').textContent =
+          `${MONTH_NAMES[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+
+        document.getElementById('live-label').textContent =
+          `Updated ${data.generatedAt ? new Date(data.generatedAt).toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit'}) : 'today'}`;
+
+        renderFeed();
+        renderActivity();
+      } catch (err) {
+        document.getElementById('today-date').innerHTML = 'TODAY IN ELON';
+        document.getElementById('feed-items').innerHTML =
+          '<div class="empty-state"><div class="empty-icon">📡</div><div>Feed loading shortly. Check back in a moment.</div></div>';
+      }
     }
 
-    // Trigger counter when hero stat is visible
-    const heroObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          animateCounter(400, 2000);
-          heroObserver.disconnect();
-        }
+    function renderFeed() {
+      const filtered = currentFilter === 'all'
+        ? allItems
+        : allItems.filter(i => i.venture === currentFilter);
+
+      if (filtered.length === 0) {
+        document.getElementById('feed-items').innerHTML =
+          '<div class="empty-state"><div class="empty-icon">🔍</div><div>No updates for this venture today. Try another filter.</div></div>';
+        return;
+      }
+
+      document.getElementById('feed-items').innerHTML = filtered.map((item, idx) => `
+        <div class="feed-item" data-co="${item.venture}">
+          <div class="feed-time">${idx === 0 ? 'LATEST' : 'TODAY'}</div>
+          <div class="feed-body">
+            <span class="feed-company co-${item.venture}">${item.label}</span>
+            <div class="feed-headline">
+              ${item.url
+                ? `<a href="${item.url}" target="_blank" rel="noopener">${item.headline}</a>`
+                : item.headline}
+            </div>
+            ${item.summary ? `<div class="feed-summary">${item.summary}</div>` : ''}
+            ${item.url ? `<a class="feed-link" href="${item.url}" target="_blank" rel="noopener">Read more →</a>` : ''}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderActivity() {
+      const ventures = ['spacex','tesla','xai','x','starlink','neura','boring','doge'];
+      const labels = {spacex:'SpaceX',tesla:'Tesla',xai:'xAI / Grok',x:'X',starlink:'Starlink',neura:'Neuralink',boring:'Boring Co',doge:'DOGE'};
+      const counts = {};
+      ventures.forEach(v => { counts[v] = allItems.filter(i => i.venture === v).length; });
+
+      document.getElementById('activity-list').innerHTML = ventures
+        .filter(v => counts[v] > 0)
+        .sort((a,b) => counts[b] - counts[a])
+        .map(v => `
+          <div class="activity-row">
+            <div class="activity-dot" style="background:${VENTURE_COLORS[v]}"></div>
+            <span class="activity-name">${labels[v]}</span>
+            <span class="activity-count">${counts[v]} update${counts[v] !== 1 ? 's' : ''}</span>
+          </div>
+        `).join('');
+    }
+
+    // Venture filter
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentFilter = btn.dataset.co;
+        renderFeed();
       });
-    }, { threshold: 0.5 });
-
-    heroObserver.observe(document.getElementById('hero-counter'));
-
-    // Animate comparison bars on scroll
-    const barObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const bar = entry.target.querySelector('.comparison-bar');
-          if (bar) {
-            const width = bar.dataset.width;
-            setTimeout(() => { bar.style.width = width + '%'; }, 100);
-          }
-          barObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.3 });
-
-    document.querySelectorAll('.comparison-item').forEach(item => {
-      barObserver.observe(item);
     });
 
-    // Fade in number cards on scroll
-    const cardObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.style.opacity = '1';
-          entry.target.style.transform = 'translateY(0)';
-          cardObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1 });
+    // Rotating quote
+    const quotes = [
+      "When something is important enough, you do it even if the odds are not in your favor.",
+      "Failure is an option here. If things are not failing, you are not innovating enough.",
+      "The first step is to establish that something is possible; then probability will occur.",
+      "I would like to die on Mars. Just not on impact.",
+      "Persistence is very important. You should not give up unless you are forced to give up.",
+      "Physics is the law, everything else is a recommendation.",
+      "Life is too short for long-term grudges.",
+      "If you get up in the morning and think the future is going to be better, it is a bright day."
+    ];
 
-    document.querySelectorAll('.number-card').forEach((card, i) => {
-      card.style.opacity = '0';
-      card.style.transform = 'translateY(16px)';
-      card.style.transition = `opacity 0.4s ease ${i * 0.05}s, transform 0.4s ease ${i * 0.05}s`;
-      cardObserver.observe(card);
-    });
+    const sidebarQuote = document.getElementById('sidebar-quote');
+    let qi = 0;
+    sidebarQuote.style.transition = 'opacity 0.4s ease';
+    setInterval(() => {
+      sidebarQuote.style.opacity = '0';
+      setTimeout(() => {
+        qi = (qi + 1) % quotes.length;
+        sidebarQuote.textContent = `"${quotes[qi]}"`;
+        sidebarQuote.style.opacity = '1';
+      }, 400);
+    }, 9000);
+
+    // Archive links
+    const archiveGrid = document.getElementById('archive-grid');
+    const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    for (let i = 1; i <= 14; i++) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const label = `${monthNames[d.getMonth()]} ${d.getDate()}`;
+      const link = document.createElement('a');
+      link.className = 'archive-link';
+      link.href = 'news.html';
+      link.textContent = label;
+      archiveGrid.appendChild(link);
+    }
+
+    loadToday();
   </script>
 
 </body>
