@@ -1,1 +1,695 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elon's Ventures – Thanks Elon Musk</title>
+  <meta name="description" content="Explore all of Elon Musk's ventures — SpaceX, Tesla, xAI, X, Starlink, Neuralink, The Boring Company, and DOGE." />
+  <meta property="og:title" content="Elon's Ventures – Thanks Elon Musk" />
+  <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
+  <meta property="og:url" content="https://thankselonmusk.com/ventures.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHJPTKLGN1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CHJPTKLGN1');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:    #07090f;
+      --navy:     #0a0e1a;
+      --gold:     #f0a500;
+      --gold-dim: #c8922a;
+      --orange:   #e85d20;
+      --blue:     #4a9eff;
+      --white:    #f0ece0;
+      --gray:     #8a8fa8;
+      --card-bg:  #0f1422;
+      --border:   #1e2540;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(7,9,15,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 62px;
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      color: var(--gold);
+      letter-spacing: 0.05em;
+      text-decoration: none;
+    }
+
+    .nav-logo span { color: var(--white); }
+
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--gray);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+    .nav-cta {
+      background: var(--gold);
+      color: var(--black) !important;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      font-weight: 600 !important;
+    }
+
+    .nav-cta:hover { background: var(--gold-dim); }
+
+    /* PAGE HEADER */
+    .page-header {
+      padding: 7rem 2rem 3rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .page-eyebrow {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .page-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      color: var(--white);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    .page-sub {
+      font-size: 1.05rem;
+      color: var(--gray);
+      max-width: 600px;
+      font-weight: 300;
+    }
+
+    /* VENTURE TABS */
+    .venture-tabs {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 62px;
+      z-index: 50;
+      overflow-x: auto;
+    }
+
+    .tabs-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      gap: 0;
+    }
+
+    .tab-link {
+      padding: 1rem 1.25rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gray);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .tab-link:hover { color: var(--gold); }
+    .tab-link.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+    /* VENTURE SECTIONS */
+    .venture-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .venture-section:last-child { border-bottom: none; }
+
+    .venture-header {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: start;
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .venture-emoji {
+      font-size: 3rem;
+      line-height: 1;
+    }
+
+    .venture-meta h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.5rem;
+      color: var(--gold);
+      line-height: 1;
+      letter-spacing: 0.05em;
+    }
+
+    .venture-meta p {
+      color: var(--gray);
+      font-size: 0.9rem;
+      margin-top: 0.35rem;
+    }
+
+    .venture-badge {
+      background: var(--card-bg);
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.8rem;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    .venture-body {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .venture-description {
+      font-size: 1rem;
+      color: var(--white);
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      font-weight: 300;
+    }
+
+    .milestone-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .milestone-list li {
+      font-size: 0.9rem;
+      color: var(--white);
+      padding-left: 1.25rem;
+      position: relative;
+      line-height: 1.4;
+    }
+
+    .milestone-list li::before {
+      content: '↑';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    /* STATS PANEL */
+    .stats-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .stats-panel-title {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+    }
+
+    .stat-row-label {
+      font-size: 0.8rem;
+      color: var(--gray);
+    }
+
+    .stat-row-value {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.2rem;
+      color: var(--white);
+      letter-spacing: 0.05em;
+    }
+
+    .venture-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+
+    .venture-link:hover { text-decoration: underline; }
+
+    /* BUTTONS */
+    .btn-secondary {
+      border: 1px solid var(--border);
+      color: var(--white);
+      padding: 0.75rem 1.8rem;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      transition: border-color 0.2s, color 0.2s;
+      display: inline-block;
+    }
+
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* FOOTER */
+    footer {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-size: 0.8rem;
+      color: var(--gray);
+      line-height: 1.8;
+    }
+
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .venture-body { grid-template-columns: 1fr; }
+      .venture-header { grid-template-columns: auto 1fr; }
+      .venture-badge { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="/">THANKS <span>ELON MUSK</span></a>
+    <ul class="nav-links">
+      <li><a href="ventures.html" class="active">Ventures</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="quotes.html">Quotes</a></li>
+      <li><a href="numbers.html">By the Numbers</a></li>
+      <li><a href="today.html">Today in Elon</a></li>
+      <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <p class="page-eyebrow">The Empire</p>
+    <h1 class="page-title">ELON'S VENTURES</h1>
+    <p class="page-sub">Eight companies reshaping transportation, energy, communication, intelligence, and the future of civilization itself.</p>
+  </div>
+
+  <!-- TABS -->
+  <div class="venture-tabs">
+    <div class="tabs-inner">
+      <a class="tab-link" href="#spacex">SpaceX</a>
+      <a class="tab-link" href="#tesla">Tesla</a>
+      <a class="tab-link" href="#xai">xAI</a>
+      <a class="tab-link" href="#x">X</a>
+      <a class="tab-link" href="#starlink">Starlink</a>
+      <a class="tab-link" href="#neuralink">Neuralink</a>
+      <a class="tab-link" href="#boring">Boring Co</a>
+      <a class="tab-link" href="#doge">DOGE</a>
+    </div>
+  </div>
+
+  <!-- SPACEX -->
+  <div class="venture-section" id="spacex">
+    <div class="venture-header">
+      <div class="venture-emoji">🚀</div>
+      <div class="venture-meta">
+        <h2>SpaceX</h2>
+        <p>Founded 2002 · Hawthorne, California</p>
+      </div>
+      <span class="venture-badge">Multi-Planetary Mission</span>
+    </div>
+    <div class="venture-body">
+      <div>
+        <p class="venture-description">Space Exploration Technologies Corp. is the most successful rocket company in human history. SpaceX pioneered reusable rocket technology with Falcon 9, making orbital launches routine and affordable. Starship — the largest and most powerful rocket ever built — is designed to carry humans to Mars and beyond. With Starlink, SpaceX is simultaneously building the world's largest satellite internet constellation.</p>
+        <ul class="milestone-list">
+          <li>First private company to send humans to the ISS (2020)</li>
+          <li>Falcon 9 booster recovered and reflown 20+ times</li>
+          <li>Starship successfully reached orbit and executed full flight profile</li>
+          <li>7,000+ Starlink satellites in orbit, covering 100+ countries</li>
+          <li>400+ total orbital launches and counting</li>
+        </ul>
+        <a class="venture-link" href="https://spacex.com" target="_blank" rel="noopener">Visit SpaceX.com →</a>
+      </div>
+      <div class="stats-panel">
+        <div class="stats-panel-title">Quick Stats</div>
+        <div class="stat-row"><span class="stat-row-label">Founded</span><span class="stat-row-value">2002</span></div>
+        <div class="stat-row"><span class="stat-row-label">Total Launches</span><span class="stat-row-value">400+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Booster Reuses</span><span class="stat-row-value">20+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Starlink Satellites</span><span class="stat-row-value">7,000+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Countries Covered</span><span class="stat-row-value">100+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Valuation</span><span class="stat-row-value">~$350B</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESLA -->
+  <div class="venture-section" id="tesla">
+    <div class="venture-header">
+      <div class="venture-emoji">⚡</div>
+      <div class="venture-meta">
+        <h2>Tesla</h2>
+        <p>Founded 2003 · Austin, Texas</p>
+      </div>
+      <span class="venture-badge">Accelerating Sustainable Energy</span>
+    </div>
+    <div class="venture-body">
+      <div>
+        <p class="venture-description">Tesla's mission is to accelerate the world's transition to sustainable energy. Under Elon Musk's leadership, Tesla transformed from a niche EV startup into the world's most valuable automaker, proving that electric vehicles could be both desirable and superior. Beyond cars, Tesla produces energy storage systems, solar products, and is developing Optimus — a general-purpose humanoid robot that could redefine human labor.</p>
+        <ul class="milestone-list">
+          <li>Over 6 million EVs delivered globally</li>
+          <li>Full Self-Driving approaching Level 4 autonomy</li>
+          <li>Cybertruck production ramping at Gigafactory Texas</li>
+          <li>Optimus robot performing real factory tasks</li>
+          <li>Megapack energy storage transforming the grid</li>
+        </ul>
+        <a class="venture-link" href="https://tesla.com" target="_blank" rel="noopener">Visit Tesla.com →</a>
+      </div>
+      <div class="stats-panel">
+        <div class="stats-panel-title">Quick Stats</div>
+        <div class="stat-row"><span class="stat-row-label">Founded</span><span class="stat-row-value">2003</span></div>
+        <div class="stat-row"><span class="stat-row-label">EVs Delivered/Yr</span><span class="stat-row-value">7M+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Gigafactories</span><span class="stat-row-value">6</span></div>
+        <div class="stat-row"><span class="stat-row-label">Superchargers</span><span class="stat-row-value">60,000+</span></div>
+        <div class="stat-row"><span class="stat-row-label">FSD Miles</span><span class="stat-row-value">1B+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Market Cap</span><span class="stat-row-value">~$1T</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- XAI -->
+  <div class="venture-section" id="xai">
+    <div class="venture-header">
+      <div class="venture-emoji">🧠</div>
+      <div class="venture-meta">
+        <h2>xAI</h2>
+        <p>Founded 2023 · Palo Alto, California</p>
+      </div>
+      <span class="venture-badge">Truth-Seeking AI</span>
+    </div>
+    <div class="venture-body">
+      <div>
+        <p class="venture-description">xAI was founded with a singular mission: to understand the true nature of the universe. Its flagship product, Grok, is an AI assistant built to be maximally curious, truth-seeking, and helpful — integrated directly into X for hundreds of millions of users. Grok 3 introduced advanced reasoning capabilities, competing directly with the world's most powerful AI models. xAI's Colossus supercomputer is among the most powerful AI training clusters ever assembled.</p>
+        <ul class="milestone-list">
+          <li>Grok 3 released with reasoning and deep research modes</li>
+          <li>Colossus cluster: 100,000+ H100 GPUs operational</li>
+          <li>Integrated into X for 600M+ users</li>
+          <li>Aurora video generation model launched</li>
+          <li>Raised $6B+ in funding at $50B+ valuation</li>
+        </ul>
+        <a class="venture-link" href="https://x.ai" target="_blank" rel="noopener">Visit x.ai →</a>
+      </div>
+      <div class="stats-panel">
+        <div class="stats-panel-title">Quick Stats</div>
+        <div class="stat-row"><span class="stat-row-label">Founded</span><span class="stat-row-value">2023</span></div>
+        <div class="stat-row"><span class="stat-row-label">Latest Model</span><span class="stat-row-value">Grok 3</span></div>
+        <div class="stat-row"><span class="stat-row-label">GPU Cluster</span><span class="stat-row-value">100K+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Funding Raised</span><span class="stat-row-value">$6B+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Valuation</span><span class="stat-row-value">$50B+</span></div>
+        <div class="stat-row"><span class="stat-row-label">X Integration</span><span class="stat-row-value">Live</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- X -->
+  <div class="venture-section" id="x">
+    <div class="venture-header">
+      <div class="venture-emoji">✕</div>
+      <div class="venture-meta">
+        <h2>X</h2>
+        <p>Acquired 2022 · San Francisco, California</p>
+      </div>
+      <span class="venture-badge">Free Speech Platform</span>
+    </div>
+    <div class="venture-body">
+      <div>
+        <p class="venture-description">Elon Musk acquired Twitter in 2022 and transformed it into X — a free speech maximalist platform and the foundation of an everything app. Under his ownership, X restored countless banned accounts, eliminated legacy verification pay-to-play, introduced creator monetization, and integrated Grok AI. X Payments is building toward becoming a full financial services platform. X is the digital town square of the world.</p>
+        <ul class="milestone-list">
+          <li>600M+ monthly active users globally</li>
+          <li>Creator monetization paying out millions per month</li>
+          <li>Grok AI integrated natively into the platform</li>
+          <li>X Payments launching in multiple markets</li>
+          <li>Community Notes replacing one-sided fact-checking</li>
+        </ul>
+        <a class="venture-link" href="https://x.com" target="_blank" rel="noopener">Visit X.com →</a>
+      </div>
+      <div class="stats-panel">
+        <div class="stats-panel-title">Quick Stats</div>
+        <div class="stat-row"><span class="stat-row-label">Acquired</span><span class="stat-row-value">2022</span></div>
+        <div class="stat-row"><span class="stat-row-label">Monthly Users</span><span class="stat-row-value">600M+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Daily Posts</span><span class="stat-row-value">500M+</span></div>
+        <div class="stat-row"><span class="stat-row-label">AI Integration</span><span class="stat-row-value">Grok 3</span></div>
+        <div class="stat-row"><span class="stat-row-label">Payments</span><span class="stat-row-value">Live</span></div>
+        <div class="stat-row"><span class="stat-row-label">Cost Reduction</span><span class="stat-row-value">80%+</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STARLINK -->
+  <div class="venture-section" id="starlink">
+    <div class="venture-header">
+      <div class="venture-emoji">🛰️</div>
+      <div class="venture-meta">
+        <h2>Starlink</h2>
+        <p>Launched 2019 · Global Coverage</p>
+      </div>
+      <span class="venture-badge">Connecting the World</span>
+    </div>
+    <div class="venture-body">
+      <div>
+        <p class="venture-description">Starlink is SpaceX's low-Earth orbit satellite internet constellation, delivering high-speed broadband to underserved and remote areas worldwide. With over 7,000 satellites in orbit and growing, Starlink has connected rural families, disaster relief zones, maritime vessels, airlines, and military operations. It is the fastest-growing internet service provider in history and is bringing connectivity to billions who had none.</p>
+        <ul class="milestone-list">
+          <li>7,000+ satellites in low Earth orbit</li>
+          <li>100+ countries and territories covered</li>
+          <li>Used by Ukraine military and disaster relief globally</li>
+          <li>Aviation and maritime Starlink terminals widely deployed</li>
+          <li>Direct-to-cell service now reaching standard smartphones</li>
+        </ul>
+        <a class="venture-link" href="https://starlink.com" target="_blank" rel="noopener">Visit Starlink.com →</a>
+      </div>
+      <div class="stats-panel">
+        <div class="stats-panel-title">Quick Stats</div>
+        <div class="stat-row"><span class="stat-row-label">Launched</span><span class="stat-row-value">2019</span></div>
+        <div class="stat-row"><span class="stat-row-label">Satellites in Orbit</span><span class="stat-row-value">7,000+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Countries Served</span><span class="stat-row-value">100+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Subscribers</span><span class="stat-row-value">4M+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Latency</span><span class="stat-row-value">~20ms</span></div>
+        <div class="stat-row"><span class="stat-row-label">Direct-to-Cell</span><span class="stat-row-value">Live</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEURALINK -->
+  <div class="venture-section" id="neuralink">
+    <div class="venture-header">
+      <div class="venture-emoji">🔬</div>
+      <div class="venture-meta">
+        <h2>Neuralink</h2>
+        <p>Founded 2016 · Fremont, California</p>
+      </div>
+      <span class="venture-badge">Restoring Human Potential</span>
+    </div>
+    <div class="venture-body">
+      <div>
+        <p class="venture-description">Neuralink is developing ultra-high bandwidth brain-computer interfaces designed to restore full-body functionality to people with paralysis and neurological conditions. The N1 implant — a coin-sized chip placed by a surgical robot — allows paralyzed patients to control computers, play games, and communicate using only their thoughts. Long-term, Neuralink envisions a merger of human cognition with AI, unlocking capabilities beyond biological limits.</p>
+        <ul class="milestone-list">
+          <li>FDA Breakthrough Device designation received</li>
+          <li>Multiple patients controlling computers and gaming with BCI</li>
+          <li>Paralyzed patient regained digital communication and chess play</li>
+          <li>R1 surgical robot achieves sub-millimeter precision implants</li>
+          <li>PRIME study expanded with additional trial participants</li>
+        </ul>
+        <a class="venture-link" href="https://neuralink.com" target="_blank" rel="noopener">Visit Neuralink.com →</a>
+      </div>
+      <div class="stats-panel">
+        <div class="stats-panel-title">Quick Stats</div>
+        <div class="stat-row"><span class="stat-row-label">Founded</span><span class="stat-row-value">2016</span></div>
+        <div class="stat-row"><span class="stat-row-label">Human Patients</span><span class="stat-row-value">40+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Electrodes/Chip</span><span class="stat-row-value">1,024</span></div>
+        <div class="stat-row"><span class="stat-row-label">FDA Status</span><span class="stat-row-value">Breakthrough</span></div>
+        <div class="stat-row"><span class="stat-row-label">Implant Size</span><span class="stat-row-value">Coin</span></div>
+        <div class="stat-row"><span class="stat-row-label">Surgery Time</span><span class="stat-row-value">&lt;1 Hour</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BORING COMPANY -->
+  <div class="venture-section" id="boring">
+    <div class="venture-header">
+      <div class="venture-emoji">🚇</div>
+      <div class="venture-meta">
+        <h2>The Boring Company</h2>
+        <p>Founded 2016 · Bastrop, Texas</p>
+      </div>
+      <span class="venture-badge">Solving Urban Traffic</span>
+    </div>
+    <div class="venture-body">
+      <div>
+        <p class="venture-description">The Boring Company was founded on the belief that traffic is a solvable problem — by going underground. Using Elon's philosophy of first principles, TBC has reinvented tunnel boring to be dramatically faster and cheaper than traditional methods. The Las Vegas Loop system shuttles passengers beneath the convention center at speeds impossible above ground. Projects in multiple cities signal a new era of urban mobility.</p>
+        <ul class="milestone-list">
+          <li>Las Vegas Loop fully operational, expanding citywide</li>
+          <li>Tunneling cost reduced 10x vs industry average</li>
+          <li>Prufrock-2 boring machine reaches 1 mile/week speed</li>
+          <li>Projects approved in multiple US cities</li>
+          <li>Hyperloop technology patents made open-source</li>
+        </ul>
+        <a class="venture-link" href="https://boringcompany.com" target="_blank" rel="noopener">Visit BoringCompany.com →</a>
+      </div>
+      <div class="stats-panel">
+        <div class="stats-panel-title">Quick Stats</div>
+        <div class="stat-row"><span class="stat-row-label">Founded</span><span class="stat-row-value">2016</span></div>
+        <div class="stat-row"><span class="stat-row-label">LV Loop Stations</span><span class="stat-row-value">50+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Tunnel Speed</span><span class="stat-row-value">1mi/week</span></div>
+        <div class="stat-row"><span class="stat-row-label">Cost Reduction</span><span class="stat-row-value">10x</span></div>
+        <div class="stat-row"><span class="stat-row-label">Travel Speed</span><span class="stat-row-value">155mph</span></div>
+        <div class="stat-row"><span class="stat-row-label">Cities Active</span><span class="stat-row-value">Growing</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DOGE -->
+  <div class="venture-section" id="doge">
+    <div class="venture-header">
+      <div class="venture-emoji">🦅</div>
+      <div class="venture-meta">
+        <h2>DOGE</h2>
+        <p>Established 2025 · Washington, D.C.</p>
+      </div>
+      <span class="venture-badge">Government Efficiency</span>
+    </div>
+    <div class="venture-body">
+      <div>
+        <p class="venture-description">The Department of Government Efficiency is Elon Musk's bold effort to bring Silicon Valley-speed accountability to the federal government. DOGE applied the same first-principles thinking that built SpaceX and Tesla to identify waste, redundancy, and inefficiency across federal agencies. The project represents the most significant attempt at government modernization in modern American history — cutting bureaucracy and returning taxpayer money.</p>
+        <ul class="milestone-list">
+          <li>$160B+ in government savings identified and documented</li>
+          <li>Thousands of redundant federal contracts cancelled</li>
+          <li>Streamlined multiple federal agency operations</li>
+          <li>Real-time spending transparency dashboard launched</li>
+          <li>First-principles audit of federal workforce efficiency</li>
+        </ul>
+        <a class="venture-link" href="https://doge.gov" target="_blank" rel="noopener">Visit DOGE.gov →</a>
+      </div>
+      <div class="stats-panel">
+        <div class="stats-panel-title">Quick Stats</div>
+        <div class="stat-row"><span class="stat-row-label">Established</span><span class="stat-row-value">2025</span></div>
+        <div class="stat-row"><span class="stat-row-label">Savings Identified</span><span class="stat-row-value">$160B+</span></div>
+        <div class="stat-row"><span class="stat-row-label">Contracts Cut</span><span class="stat-row-value">1,000s</span></div>
+        <div class="stat-row"><span class="stat-row-label">Agencies Audited</span><span class="stat-row-value">Many</span></div>
+        <div class="stat-row"><span class="stat-row-label">Transparency</span><span class="stat-row-value">Public</span></div>
+        <div class="stat-row"><span class="stat-row-label">Mission</span><span class="stat-row-value">Ongoing</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong style="color:var(--white); font-family:'Bebas Neue',sans-serif; letter-spacing:0.05em; font-size:1.1rem;">THANKS ELON MUSK</strong></p>
+    <p style="margin-top:0.5rem;">A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
+    <p style="margin-top:0.25rem;">Not affiliated with Elon Musk, Tesla, SpaceX, X, xAI, Neuralink, or any associated companies.</p>
+    <p style="margin-top:1rem;">
+      <a href="ventures.html">Ventures</a> &nbsp;·&nbsp;
+      <a href="news.html">News</a> &nbsp;·&nbsp;
+      <a href="timeline.html">Timeline</a> &nbsp;·&nbsp;
+      <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
+      <a href="thanks.html">Say Thanks</a>
+    </p>
+    <p style="margin-top:1rem; font-size:0.72rem;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
+  </footer>
+
+  <script>
+    // Highlight active tab on scroll
+    const sections = document.querySelectorAll('.venture-section');
+    const tabLinks = document.querySelectorAll('.tab-link');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          tabLinks.forEach(link => link.classList.remove('active'));
+          const activeLink = document.querySelector(`.tab-link[href="#${entry.target.id}"]`);
+          if (activeLink) activeLink.classList.add('active');
+        }
+      });
+    }, { threshold: 0.3 });
+
+    sections.forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
