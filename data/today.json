@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-13",
+  "displayDate": "Saturday, June 13, 2026",
+  "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Soars 27% in Nasdaq Debut as Shares Hit $172.17",
+      "summary": "SpaceX shares surged 27% on their Nasdaq debut, closing at $172.17. The IPO valued the company over $2 trillion, marking a milestone for Elon Musk's aerospace venture.",
+      "url": "https://www.ibtimes.com.au/spacex-nasdaq-debut-shares-surge-1870578",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 12, 2026",
+      "publishedAt": "2026-06-12T17:29:29Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Musk becomes world's first trillionaire as SpaceX shares jump",
+      "summary": "Shares in Elon Musk's SpaceX jumped 11 percent to $150 on their first day of trading Friday after the biggest initial public offering in history, making the polarizing entrepreneur the world's first trillionaire as he vowed to take humanity to Mars.",
+      "url": "https://www.hurriyetdailynews.com/musk-becomes-worlds-first-trillionaire-as-spacex-shares-jump-223221",
+      "source": "Hurriyet Daily News",
+      "date": "Jun 12, 2026",
+      "publishedAt": "2026-06-12T17:01:20Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla showcases autonomous driving with San Francisco to Palo Alto round trip",
+      "summary": "Tesla's autonomous driving progress could revolutionize transportation, shifting revenue models from car sales to recurring robotaxi services.\nThe post Tesla showcases autonomous driving with San Francisco to Palo Alto round trip appeared first on Crypto Brie…",
+      "url": "https://cryptobriefing.com/tesla-autonomous-driving-san-francisco-palo-alto/",
+      "source": "Crypto Briefing",
+      "date": "Jun 7, 2026",
+      "publishedAt": "2026-06-07T20:14:19Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Elon finally did it.",
+      "summary": "A new Texas law allows companies with SAE Level 4 or higher autonomous vehicles to offer commercial driverless transportation. Tesla wasted no time in self-certifying their vehicles. On the same day the law went into effect, Tesla officially self-certified th…",
+      "url": "https://freerepublic.com/focus/f-chat/4381587/posts",
+      "source": "Freerepublic.com",
+      "date": "May 30, 2026",
+      "publishedAt": "2026-05-30T13:46:45Z"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk Becomes World’s First Trillionaire Amid SpaceX IPO",
+      "summary": "Elon Musk saw his net worth surge as SpaceX hit the public market Friday. The biggest public offering ever was priced at $135 a share. The shares opened at $150 and jumped some more when they started trading on the Nasdaq under the symbol SPCX. The stock is u…",
+      "url": "http://deadline.com/2026/06/elon-musk-first-trillionaire-spacex-ipo-1236955050/",
+      "source": "Deadline",
+      "date": "Jun 12, 2026",
+      "publishedAt": "2026-06-12T19:49:52Z"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk becomes world’s first trillionaire as SpaceX shares jump",
+      "summary": "SpaceX shares jumped as much as 30% as Musk promised to take people to Mars.",
+      "url": "https://www.nzherald.co.nz/business/elon-musk-becomes-worlds-first-trillionaire-as-spacex-shares-jump/HXKUBZRMENHH5PD2PTQFUUES7Q/",
+      "source": "New Zealand Herald",
+      "date": "Jun 12, 2026",
+      "publishedAt": "2026-06-12T18:19:00Z"
+    }
+  ],
+  "generatedAt": "2026-06-13T21:47:37.574Z"
+}
