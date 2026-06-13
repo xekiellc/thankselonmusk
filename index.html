@@ -1,1 +1,808 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanks Elon Musk – Celebrating the Man Building Our Future</title>
+  <meta name="description" content="A tribute and aggregator site celebrating Elon Musk and his ventures — SpaceX, Tesla, xAI, Neuralink, X, Starlink, and more." />
+  <meta property="og:title" content="Thanks Elon Musk" />
+  <meta property="og:description" content="Tracking the companies, ideas, launches, and innovations changing the future." />
+  <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
+  <meta property="og:url" content="https://thankselonmusk.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHJPTKLGN1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CHJPTKLGN1');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:    #07090f;
+      --navy:     #0a0e1a;
+      --gold:     #f0a500;
+      --gold-dim: #c8922a;
+      --orange:   #e85d20;
+      --blue:     #4a9eff;
+      --white:    #f0ece0;
+      --gray:     #8a8fa8;
+      --card-bg:  #0f1422;
+      --border:   #1e2540;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(7,9,15,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 62px;
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      color: var(--gold);
+      letter-spacing: 0.05em;
+      text-decoration: none;
+    }
+
+    .nav-logo span { color: var(--white); }
+
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--gray);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    .nav-cta {
+      background: var(--gold);
+      color: var(--black) !important;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      font-weight: 600 !important;
+    }
+
+    .nav-cta:hover { background: var(--gold-dim); color: var(--black) !important; }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 5rem;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('images/elon2.png');
+      background-size: cover;
+      background-position: center top;
+      filter: brightness(0.45);
+    }
+
+    .hero-gradient {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(7,9,15,0.1) 0%,
+        rgba(7,9,15,0.3) 50%,
+        rgba(7,9,15,0.95) 100%
+      );
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      width: 100%;
+    }
+
+    .hero-eyebrow {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .hero-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3.5rem, 8vw, 7rem);
+      line-height: 0.95;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title span { color: var(--gold); }
+
+    .hero-sub {
+      font-size: 1.15rem;
+      color: var(--gray);
+      max-width: 560px;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+
+    .hero-btns {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--black);
+      padding: 0.75rem 1.8rem;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      transition: background 0.2s;
+    }
+
+    .btn-primary:hover { background: var(--gold-dim); }
+
+    .btn-secondary {
+      border: 1px solid var(--border);
+      color: var(--white);
+      padding: 0.75rem 1.8rem;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      overflow: hidden;
+    }
+
+    .stats-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      gap: 2.5rem;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.15rem;
+    }
+
+    .stat-value {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.6rem;
+      color: var(--gold);
+      letter-spacing: 0.05em;
+    }
+
+    .stat-label {
+      font-size: 0.7rem;
+      color: var(--gray);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── SECTIONS ── */
+    section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .section-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--white);
+      margin-bottom: 2.5rem;
+      line-height: 1;
+    }
+
+    /* ── VENTURES GRID ── */
+    .ventures-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .venture-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: var(--white);
+      transition: border-color 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .venture-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+    }
+
+    .venture-icon {
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    .venture-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.05em;
+      color: var(--gold);
+    }
+
+    .venture-desc {
+      font-size: 0.85rem;
+      color: var(--gray);
+      line-height: 1.5;
+    }
+
+    .venture-milestone {
+      font-size: 0.8rem;
+      color: var(--blue);
+      margin-top: auto;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── NEWS FEED ── */
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      transition: border-color 0.2s;
+    }
+
+    .news-card:hover { border-color: var(--gold-dim); }
+
+    .news-tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--orange);
+    }
+
+    .news-headline {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.4;
+    }
+
+    .news-source {
+      font-size: 0.75rem;
+      color: var(--gray);
+      margin-top: auto;
+    }
+
+    .news-link {
+      font-size: 0.8rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .news-link:hover { text-decoration: underline; }
+
+    /* ── QUOTE ── */
+    .quote-section {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .quote-section section {
+      text-align: center;
+    }
+
+    .quote-text {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      color: var(--white);
+      line-height: 1.2;
+      max-width: 800px;
+      margin: 0 auto 1rem;
+    }
+
+    .quote-attr {
+      color: var(--gold);
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── TODAY IN ELON ── */
+    .today-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    .today-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 8px 8px 0;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .today-time {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1rem;
+      color: var(--gold);
+      white-space: nowrap;
+      min-width: 70px;
+    }
+
+    .today-text {
+      font-size: 0.9rem;
+      color: var(--white);
+      line-height: 1.4;
+    }
+
+    .today-company {
+      font-size: 0.7rem;
+      color: var(--gray);
+      margin-top: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── NUMBERS ── */
+    .numbers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .number-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.75rem 1.5rem;
+      text-align: center;
+    }
+
+    .number-value {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.8rem;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 0.4rem;
+    }
+
+    .number-label {
+      font-size: 0.8rem;
+      color: var(--gray);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── THANKS WALL PREVIEW ── */
+    .thanks-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .thanks-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      font-size: 0.9rem;
+      color: var(--white);
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    .thanks-from {
+      margin-top: 0.75rem;
+      font-size: 0.75rem;
+      color: var(--gold);
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-size: 0.8rem;
+      color: var(--gray);
+      line-height: 1.8;
+    }
+
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .today-grid { grid-template-columns: 1fr; }
+      .stats-inner { justify-content: center; gap: 1.5rem; }
+      .hero { min-height: 90vh; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="/">THANKS <span>ELON MUSK</span></a>
+    <ul class="nav-links">
+      <li><a href="ventures.html">Ventures</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="quotes.html">Quotes</a></li>
+      <li><a href="numbers.html">By the Numbers</a></li>
+      <li><a href="today.html">Today in Elon</a></li>
+      <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-gradient"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">🚀 A tribute to a builder of worlds</p>
+      <h1 class="hero-title">THANKS<br /><span>ELON MUSK</span></h1>
+      <p class="hero-sub">Celebrating the companies, ideas, launches, and innovations changing the future of humanity.</p>
+      <div class="hero-btns">
+        <a href="news.html" class="btn-primary">Latest Updates</a>
+        <a href="thanks.html" class="btn-secondary">Say Thanks →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <span class="stat-value">7,000+</span>
+        <span class="stat-label">Starlink Satellites</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value">400+</span>
+        <span class="stat-label">SpaceX Launches</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value">7M+</span>
+        <span class="stat-label">Tesla Deliveries/Yr</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value">600M+</span>
+        <span class="stat-label">X Monthly Users</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value">40+</span>
+        <span class="stat-label">Neuralink Patients</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value">Grok 3</span>
+        <span class="stat-label">xAI Latest Model</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- VENTURES -->
+  <section>
+    <p class="section-label">The Empire</p>
+    <h2 class="section-title">ELON'S VENTURES</h2>
+    <div class="ventures-grid">
+      <a class="venture-card" href="ventures.html#spacex">
+        <div class="venture-icon">🚀</div>
+        <div class="venture-name">SpaceX</div>
+        <div class="venture-desc">Reusable rockets, Starship, and the mission to make humanity multi-planetary.</div>
+        <div class="venture-milestone">↑ Starship Flight 9 milestone achieved</div>
+      </a>
+      <a class="venture-card" href="ventures.html#tesla">
+        <div class="venture-icon">⚡</div>
+        <div class="venture-name">Tesla</div>
+        <div class="venture-desc">Electric vehicles, FSD, energy storage, and the Optimus humanoid robot.</div>
+        <div class="venture-milestone">↑ Cybertruck production ramping</div>
+      </a>
+      <a class="venture-card" href="ventures.html#xai">
+        <div class="venture-icon">🧠</div>
+        <div class="venture-name">xAI</div>
+        <div class="venture-desc">Building Grok — the most truth-seeking AI assistant on the planet.</div>
+        <div class="venture-milestone">↑ Grok 3 released with reasoning</div>
+      </a>
+      <a class="venture-card" href="ventures.html#x">
+        <div class="venture-icon">✕</div>
+        <div class="venture-name">X</div>
+        <div class="venture-desc">The world's free speech platform and everything app, formerly Twitter.</div>
+        <div class="venture-milestone">↑ Payments and creator monetization live</div>
+      </a>
+      <a class="venture-card" href="ventures.html#starlink">
+        <div class="venture-icon">🛰️</div>
+        <div class="venture-name">Starlink</div>
+        <div class="venture-desc">Blanket broadband internet coverage for the entire planet from orbit.</div>
+        <div class="venture-milestone">↑ 100+ countries now covered</div>
+      </a>
+      <a class="venture-card" href="ventures.html#neuralink">
+        <div class="venture-icon">🔬</div>
+        <div class="venture-name">Neuralink</div>
+        <div class="venture-desc">Brain-computer interfaces restoring independence for paralyzed patients.</div>
+        <div class="venture-milestone">↑ Multiple patients gaming, typing with BCI</div>
+      </a>
+      <a class="venture-card" href="ventures.html#boring">
+        <div class="venture-icon">🚇</div>
+        <div class="venture-name">The Boring Company</div>
+        <div class="venture-desc">Underground transportation tunnels eliminating urban traffic forever.</div>
+        <div class="venture-milestone">↑ Las Vegas Loop expanding citywide</div>
+      </a>
+      <a class="venture-card" href="ventures.html#doge">
+        <div class="venture-icon">🦅</div>
+        <div class="venture-name">DOGE</div>
+        <div class="venture-desc">Department of Government Efficiency — cutting waste, restoring accountability.</div>
+        <div class="venture-milestone">↑ $160B+ in savings identified</div>
+      </a>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- TODAY IN ELON -->
+  <section>
+    <p class="section-label">Daily Digest</p>
+    <h2 class="section-title">TODAY IN ELON</h2>
+    <div class="today-grid" id="today-feed">
+      <div class="today-item">
+        <div class="today-time">LOADING</div>
+        <div>
+          <div class="today-text">Fetching today's updates...</div>
+          <div class="today-company">Stand by</div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <a href="today.html" class="btn-secondary">Full Daily Digest →</a>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- QUOTE -->
+  <div class="quote-section">
+    <section>
+      <p class="section-label">Words to Live By</p>
+      <div class="quote-text" id="quote-display">"When something is important enough, you do it even if the odds are not in your favor."</div>
+      <div class="quote-attr">— Elon Musk</div>
+    </section>
+  </div>
+
+  <!-- NEWS -->
+  <section>
+    <p class="section-label">Positive News Only</p>
+    <h2 class="section-title">LATEST FROM ELON-WORLD</h2>
+    <div class="news-grid" id="news-feed">
+      <div class="news-card">
+        <div class="news-tag">SpaceX</div>
+        <div class="news-headline">Loading latest positive news...</div>
+        <div class="news-source">Updating feed</div>
+      </div>
+    </div>
+    <br />
+    <a href="news.html" class="btn-secondary">Full News Feed →</a>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- BY THE NUMBERS -->
+  <section>
+    <p class="section-label">The Scorecard</p>
+    <h2 class="section-title">BY THE NUMBERS</h2>
+    <div class="numbers-grid">
+      <div class="number-card">
+        <div class="number-value">400+</div>
+        <div class="number-label">Rockets Launched</div>
+      </div>
+      <div class="number-card">
+        <div class="number-value">7,000+</div>
+        <div class="number-label">Starlink Satellites</div>
+      </div>
+      <div class="number-card">
+        <div class="number-value">6M+</div>
+        <div class="number-label">Teslas on the Road</div>
+      </div>
+      <div class="number-card">
+        <div class="number-value">40+</div>
+        <div class="number-label">Neuralink Patients</div>
+      </div>
+      <div class="number-card">
+        <div class="number-value">$160B</div>
+        <div class="number-label">Gov. Savings (DOGE)</div>
+      </div>
+      <div class="number-card">
+        <div class="number-value">100+</div>
+        <div class="number-label">Countries on Starlink</div>
+      </div>
+    </div>
+    <br />
+    <a href="numbers.html" class="btn-secondary">Full Scorecard →</a>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- WALL OF THANKS PREVIEW -->
+  <section>
+    <p class="section-label">From the Community</p>
+    <h2 class="section-title">WALL OF THANKS</h2>
+    <div class="thanks-grid">
+      <div class="thanks-card">
+        "Starlink connected my family in rural Montana for the first time. Real internet. Changed everything."
+        <div class="thanks-from">— Sarah M., Montana</div>
+      </div>
+      <div class="thanks-card">
+        "My son is paralyzed. What Neuralink is doing gives our family genuine hope for the first time in years."
+        <div class="thanks-from">— David R., Ohio</div>
+      </div>
+      <div class="thanks-card">
+        "SpaceX made me fall in love with science again. I'm 14 and I want to be a rocket engineer because of him."
+        <div class="thanks-from">— Jake T., Texas</div>
+      </div>
+    </div>
+    <a href="thanks.html" class="btn-primary">Add Your Thanks →</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong style="color:var(--white); font-family:'Bebas Neue',sans-serif; letter-spacing:0.05em; font-size:1.1rem;">THANKS ELON MUSK</strong></p>
+    <p style="margin-top:0.5rem;">A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
+    <p style="margin-top:0.25rem;">Not affiliated with Elon Musk, Tesla, SpaceX, X, xAI, Neuralink, or any associated companies.</p>
+    <p style="margin-top:1rem;">
+      <a href="ventures.html">Ventures</a> &nbsp;·&nbsp;
+      <a href="news.html">News</a> &nbsp;·&nbsp;
+      <a href="timeline.html">Timeline</a> &nbsp;·&nbsp;
+      <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
+      <a href="thanks.html">Say Thanks</a>
+    </p>
+    <p style="margin-top:1rem; font-size:0.72rem;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
+  </footer>
+
+  <script>
+    // Rotating quotes
+    const quotes = [
+      { text: "When something is important enough, you do it even if the odds are not in your favor.", attr: "Elon Musk" },
+      { text: "I don't create companies for the money. I do it to try to make the world a better place.", attr: "Elon Musk" },
+      { text: "Failure is an option here. If things are not failing, you are not innovating enough.", attr: "Elon Musk" },
+      { text: "The first step is to establish that something is possible; then probability will occur.", attr: "Elon Musk" },
+      { text: "Persistence is very important. You should not give up unless you are forced to give up.", attr: "Elon Musk" },
+      { text: "I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better.", attr: "Elon Musk" },
+      { text: "Life is too short for long-term grudges.", attr: "Elon Musk" },
+      { text: "If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not.", attr: "Elon Musk" }
+    ];
+
+    let quoteIndex = 0;
+    const quoteDisplay = document.getElementById('quote-display');
+
+    function rotateQuote() {
+      quoteIndex = (quoteIndex + 1) % quotes.length;
+      quoteDisplay.style.opacity = '0';
+      setTimeout(() => {
+        quoteDisplay.textContent = `"${quotes[quoteIndex].text}"`;
+        quoteDisplay.style.opacity = '1';
+      }, 400);
+    }
+
+    quoteDisplay.style.transition = 'opacity 0.4s ease';
+    setInterval(rotateQuote, 7000);
+
+    // Today in Elon placeholder items (will be replaced by pipeline)
+    const todayItems = [
+      { time: "Latest", text: "SpaceX completes another successful Starship static fire test", company: "SpaceX" },
+      { time: "Today", text: "Tesla FSD v13 reaches new autonomy milestone in beta fleet", company: "Tesla" },
+      { time: "Today", text: "Grok adds new reasoning capabilities in latest xAI update", company: "xAI" },
+      { time: "Today", text: "Starlink expands maritime coverage to new ocean corridors", company: "Starlink" },
+    ];
+
+    const todayFeed = document.getElementById('today-feed');
+    todayFeed.innerHTML = todayItems.map(item => `
+      <div class="today-item">
+        <div class="today-time">${item.time}</div>
+        <div>
+          <div class="today-text">${item.text}</div>
+          <div class="today-company">${item.company}</div>
+        </div>
+      </div>
+    `).join('');
+  </script>
+
+</body>
+</html>
