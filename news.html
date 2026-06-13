@@ -9,8 +9,8 @@
   <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
   <meta property="og:url" content="https://thankselonmusk.com/news.html" />
   <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHJPTKLGN1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -20,113 +20,133 @@
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet" />
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --black:    #07090f;
-      --navy:     #0a0e1a;
-      --gold:     #f0a500;
-      --gold-dim: #c8922a;
-      --orange:   #e85d20;
-      --blue:     #4a9eff;
-      --white:    #f0ece0;
-      --gray:     #8a8fa8;
-      --card-bg:  #0f1422;
-      --border:   #1e2540;
+      --black:       #000008;
+      --gold:        #f5a623;
+      --gold-glow:   #f5a62366;
+      --gold-dim:    #c8831a;
+      --orange:      #ff6b2b;
+      --blue:        #00d4ff;
+      --white:       #ffffff;
+      --off-white:   #e8e8f0;
+      --gray:        #6b7280;
+      --card-bg:     rgba(255,255,255,0.03);
+      --border:      rgba(255,255,255,0.08);
+      --border-gold: rgba(245,166,35,0.4);
     }
 
     html { scroll-behavior: smooth; }
 
     body {
       background: var(--black);
-      color: var(--white);
-      font-family: 'DM Sans', sans-serif;
+      color: var(--off-white);
+      font-family: 'Inter', sans-serif;
       font-size: 16px;
       line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    #starfield {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
+      pointer-events: none;
     }
 
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
-      z-index: 100;
-      background: rgba(7,9,15,0.92);
-      backdrop-filter: blur(12px);
+      z-index: 1000;
+      background: rgba(0,0,8,0.7);
+      backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 0 2rem;
-      height: 62px;
+      height: 64px;
     }
 
     .nav-logo {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.5rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 900;
       color: var(--gold);
-      letter-spacing: 0.05em;
       text-decoration: none;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-shadow: 0 0 20px var(--gold-glow);
     }
 
     .nav-logo span { color: var(--white); }
 
     .nav-links {
       display: flex;
-      gap: 1.8rem;
+      gap: 2rem;
       list-style: none;
     }
 
     .nav-links a {
       color: var(--gray);
       text-decoration: none;
-      font-size: 0.85rem;
+      font-size: 0.78rem;
       font-weight: 500;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       transition: color 0.2s;
+      font-family: 'Orbitron', sans-serif;
     }
 
     .nav-links a:hover, .nav-links a.active { color: var(--gold); }
 
     .nav-cta {
-      background: var(--gold);
+      background: linear-gradient(135deg, var(--gold), var(--orange));
       color: var(--black) !important;
-      padding: 0.4rem 1rem;
+      padding: 0.45rem 1.2rem;
       border-radius: 4px;
-      font-weight: 600 !important;
+      font-weight: 700 !important;
+      box-shadow: 0 0 20px var(--gold-glow);
     }
 
-    .nav-cta:hover { background: var(--gold-dim); }
-
+    /* PAGE HEADER */
     .page-header {
+      position: relative;
+      z-index: 1;
       padding: 7rem 2rem 2.5rem;
       max-width: 1200px;
       margin: 0 auto;
     }
 
     .page-eyebrow {
-      font-size: 0.75rem;
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
       font-weight: 600;
-      letter-spacing: 0.2em;
+      letter-spacing: 0.35em;
       text-transform: uppercase;
       color: var(--gold);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
     }
 
     .page-title {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(2rem, 5vw, 4rem);
+      font-weight: 900;
       color: var(--white);
-      line-height: 1;
+      line-height: 1.05;
       margin-bottom: 0.5rem;
     }
 
     .page-sub {
       font-size: 1rem;
-      color: var(--gray);
+      color: rgba(232,232,240,0.55);
       font-weight: 300;
+      margin-bottom: 1rem;
     }
 
     .updated-badge {
@@ -136,26 +156,142 @@
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 20px;
-      padding: 0.3rem 0.9rem;
-      font-size: 0.72rem;
+      padding: 0.35rem 0.9rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       color: var(--gray);
-      margin-top: 0.75rem;
     }
 
     .updated-dot {
       width: 6px;
       height: 6px;
       border-radius: 50%;
-      background: #4caf50;
+      background: #4ade80;
+      box-shadow: 0 0 6px #4ade80;
       animation: pulse 2s infinite;
     }
 
     @keyframes pulse {
       0%, 100% { opacity: 1; }
-      50% { opacity: 0.4; }
+      50% { opacity: 0.3; }
     }
 
+    /* FEATURED */
+    .featured-wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem 2.5rem;
+    }
+
+    .featured-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: 12px;
+      padding: 2.5rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      align-items: center;
+      backdrop-filter: blur(20px);
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .featured-card:hover {
+      box-shadow: 0 0 40px rgba(245,166,35,0.1);
+    }
+
+    .featured-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top left, rgba(245,166,35,0.04), transparent 60%);
+      pointer-events: none;
+    }
+
+    .featured-label {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+      text-shadow: 0 0 10px var(--gold-glow);
+    }
+
+    .featured-headline {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+      font-weight: 900;
+      color: var(--white);
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.75rem;
+    }
+
+    .featured-headline a { color: var(--white); text-decoration: none; transition: color 0.2s; }
+    .featured-headline a:hover { color: var(--gold); }
+
+    .featured-summary {
+      font-size: 0.9rem;
+      color: rgba(232,232,240,0.6);
+      line-height: 1.6;
+      max-width: 600px;
+      margin-bottom: 1rem;
+      font-weight: 300;
+    }
+
+    .featured-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .featured-tag {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.58rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+    }
+
+    .featured-source {
+      font-size: 0.75rem;
+      color: var(--gray);
+    }
+
+    .featured-link {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.62rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      transition: text-shadow 0.2s;
+    }
+
+    .featured-link:hover { text-shadow: 0 0 10px var(--gold-glow); }
+
+    .featured-icon {
+      font-size: 5rem;
+      opacity: 0.4;
+      filter: drop-shadow(0 0 20px var(--gold-glow));
+    }
+
+    /* FILTER BAR */
     .filter-bar {
+      position: relative;
+      z-index: 1;
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 2rem 2rem;
@@ -165,19 +301,16 @@
       flex-wrap: wrap;
     }
 
-    .filter-group {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-    }
+    .filter-group { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 
     .filter-btn {
       padding: 0.4rem 1rem;
       border: 1px solid var(--border);
       border-radius: 20px;
-      font-size: 0.78rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--gray);
       background: transparent;
@@ -188,95 +321,38 @@
     .filter-btn:hover, .filter-btn.active {
       border-color: var(--gold);
       color: var(--gold);
-      background: rgba(240,165,0,0.08);
+      background: rgba(245,166,35,0.08);
+      box-shadow: 0 0 12px var(--gold-glow);
     }
 
-    .search-wrap {
-      margin-left: auto;
-      position: relative;
-    }
+    .search-wrap { margin-left: auto; position: relative; }
 
     .search-input {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 0.45rem 1rem 0.45rem 2.2rem;
+      border-radius: 8px;
+      padding: 0.5rem 1rem 0.5rem 2.4rem;
       font-size: 0.85rem;
       color: var(--white);
-      font-family: 'DM Sans', sans-serif;
-      width: 220px;
-      transition: border-color 0.2s;
+      font-family: 'Inter', sans-serif;
+      width: 240px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      backdrop-filter: blur(10px);
     }
 
-    .search-input:focus { outline: none; border-color: var(--gold); }
+    .search-input:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 15px var(--gold-glow);
+    }
+
     .search-input::placeholder { color: var(--gray); }
+    .search-icon { position: absolute; left: 0.8rem; top: 50%; transform: translateY(-50%); color: var(--gray); pointer-events: none; }
 
-    .search-icon {
-      position: absolute;
-      left: 0.7rem;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--gray);
-      font-size: 0.85rem;
-      pointer-events: none;
-    }
-
-    .featured-wrap {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem 2rem;
-    }
-
-    .featured-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 2rem;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 2rem;
-      align-items: center;
-      border-left: 3px solid var(--gold);
-    }
-
-    .featured-label {
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 0.5rem;
-    }
-
-    .featured-headline {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(1.5rem, 3vw, 2.2rem);
-      color: var(--white);
-      line-height: 1.1;
-      letter-spacing: 0.02em;
-      margin-bottom: 0.75rem;
-    }
-
-    .featured-summary {
-      font-size: 0.9rem;
-      color: var(--gray);
-      line-height: 1.6;
-      max-width: 600px;
-      margin-bottom: 1rem;
-    }
-
-    .featured-meta {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      font-size: 0.75rem;
-      color: var(--gray);
-      flex-wrap: wrap;
-    }
-
-    .featured-icon { font-size: 4rem; opacity: 0.6; }
-
+    /* NEWS LAYOUT */
     .news-layout {
+      position: relative;
+      z-index: 1;
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 2rem 5rem;
@@ -286,66 +362,72 @@
       align-items: start;
     }
 
+    /* NEWS GRID */
     .news-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
+      gap: 1.25rem;
     }
 
     .news-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 10px;
       padding: 1.5rem;
       display: flex;
       flex-direction: column;
-      gap: 0.6rem;
-      transition: border-color 0.2s, transform 0.2s;
+      gap: 0.65rem;
+      backdrop-filter: blur(20px);
+      transition: all 0.3s;
+      opacity: 0;
+      transform: translateY(15px);
+    }
+
+    .news-card.visible {
+      opacity: 1;
+      transform: translateY(0);
     }
 
     .news-card:hover {
-      border-color: var(--gold-dim);
-      transform: translateY(-2px);
+      border-color: var(--border-gold);
+      transform: translateY(-4px);
+      box-shadow: 0 10px 40px rgba(245,166,35,0.08);
     }
 
     .news-tag {
-      font-size: 0.65rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.56rem;
       font-weight: 700;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      padding: 0.2rem 0.55rem;
+      padding: 0.18rem 0.55rem;
       border-radius: 3px;
       display: inline-block;
       align-self: flex-start;
     }
 
-    .tag-spacex  { background: rgba(74,158,255,0.15); color: var(--blue); }
-    .tag-tesla   { background: rgba(232,93,32,0.15);  color: var(--orange); }
-    .tag-xai     { background: rgba(74,158,255,0.12); color: #7ab8ff; }
-    .tag-x       { background: rgba(240,240,224,0.1); color: var(--white); }
-    .tag-neura   { background: rgba(150,100,255,0.15);color: #b088ff; }
-    .tag-boring  { background: rgba(240,165,0,0.1);   color: var(--gold-dim); }
-    .tag-doge    { background: rgba(232,93,32,0.1);   color: var(--orange); }
-    .tag-starlink{ background: rgba(74,158,255,0.1);  color: var(--blue); }
+    .tag-spacex  { background: rgba(0,212,255,0.1);   color: var(--blue); }
+    .tag-tesla   { background: rgba(255,107,43,0.1);  color: var(--orange); }
+    .tag-xai     { background: rgba(0,212,255,0.08);  color: #7ab8ff; }
+    .tag-x       { background: rgba(255,255,255,0.06);color: var(--off-white); }
+    .tag-neura   { background: rgba(124,58,237,0.12); color: #a78bfa; }
+    .tag-boring  { background: rgba(245,166,35,0.08); color: var(--gold-dim); }
+    .tag-doge    { background: rgba(255,107,43,0.08); color: var(--orange); }
+    .tag-starlink{ background: rgba(0,212,255,0.08);  color: var(--blue); }
 
     .news-headline {
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       font-weight: 600;
       color: var(--white);
       line-height: 1.4;
     }
 
-    .news-headline a {
-      color: var(--white);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
+    .news-headline a { color: var(--white); text-decoration: none; transition: color 0.2s; }
     .news-headline a:hover { color: var(--gold); }
 
     .news-summary {
-      font-size: 0.82rem;
-      color: var(--gray);
+      font-size: 0.78rem;
+      color: rgba(232,232,240,0.5);
       line-height: 1.5;
       flex: 1;
     }
@@ -354,103 +436,120 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-top: 0.5rem;
-      padding-top: 0.75rem;
+      padding-top: 0.6rem;
       border-top: 1px solid var(--border);
+      margin-top: auto;
     }
 
-    .news-source { font-size: 0.72rem; color: var(--gray); }
-    .news-date   { font-size: 0.72rem; color: var(--gray); }
+    .news-source { font-size: 0.7rem; color: var(--gray); }
+    .news-date   { font-size: 0.7rem; color: var(--gray); }
 
-    .news-read-more {
-      font-size: 0.75rem;
+    .news-read {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.56rem;
       color: var(--gold);
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      transition: text-shadow 0.2s;
     }
 
-    .news-read-more:hover { text-decoration: underline; }
+    .news-read:hover { text-shadow: 0 0 10px var(--gold-glow); }
 
-    .load-more-wrap {
-      text-align: center;
-      padding: 2rem 0 0;
-    }
+    .load-more-wrap { text-align: center; padding: 2rem 0 0; }
 
     .load-more-btn {
       background: transparent;
-      border: 1px solid var(--border);
-      color: var(--gray);
-      padding: 0.75rem 2rem;
+      border: 1px solid var(--border-gold);
+      color: var(--gold);
+      padding: 0.8rem 2.5rem;
       border-radius: 6px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       cursor: pointer;
-      font-family: 'DM Sans', sans-serif;
       transition: all 0.2s;
     }
 
-    .load-more-btn:hover { border-color: var(--gold); color: var(--gold); }
+    .load-more-btn:hover {
+      background: rgba(245,166,35,0.08);
+      box-shadow: 0 0 20px var(--gold-glow);
+    }
 
+    /* SIDEBAR */
     .sidebar { display: flex; flex-direction: column; gap: 1.25rem; }
 
     .sidebar-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 12px;
       padding: 1.25rem;
+      backdrop-filter: blur(20px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sidebar-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
     }
 
     .sidebar-title {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1rem;
-      letter-spacing: 0.1em;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
       color: var(--gold);
       margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.6rem;
       border-bottom: 1px solid var(--border);
     }
 
     .top-story {
       display: flex;
       gap: 0.75rem;
-      padding: 0.6rem 0;
+      padding: 0.65rem 0;
       border-bottom: 1px solid var(--border);
       align-items: flex-start;
+      transition: background 0.2s;
     }
 
     .top-story:last-child { border-bottom: none; }
+    .top-story:hover { background: rgba(245,166,35,0.02); }
 
     .top-story-num {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.4rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.2rem;
       color: var(--gold);
-      opacity: 0.4;
+      opacity: 0.3;
       line-height: 1;
-      min-width: 24px;
+      min-width: 22px;
+      font-weight: 900;
     }
 
     .top-story-text {
-      font-size: 0.82rem;
+      font-size: 0.8rem;
       color: var(--white);
       line-height: 1.4;
       font-weight: 500;
     }
 
-    .top-story-text a {
-      color: var(--white);
-      text-decoration: none;
-    }
-
+    .top-story-text a { color: var(--white); text-decoration: none; }
     .top-story-text a:hover { color: var(--gold); }
 
     .top-story-co {
-      font-size: 0.68rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.58rem;
       color: var(--gray);
       margin-top: 0.2rem;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
     }
 
     .breakdown-row {
@@ -462,73 +561,65 @@
     }
 
     .breakdown-row:last-child { border-bottom: none; }
+    .breakdown-label { font-size: 0.72rem; color: var(--gray); min-width: 62px; }
 
     .breakdown-bar-wrap {
       flex: 1;
-      background: var(--border);
+      background: rgba(255,255,255,0.04);
       border-radius: 3px;
       height: 5px;
       overflow: hidden;
     }
 
-    .breakdown-bar {
-      height: 100%;
-      border-radius: 3px;
-    }
-
-    .breakdown-label { font-size: 0.75rem; color: var(--gray); min-width: 60px; }
-    .breakdown-count { font-family: 'Bebas Neue', sans-serif; font-size: 0.9rem; color: var(--white); min-width: 24px; text-align: right; }
+    .breakdown-bar { height: 100%; border-radius: 3px; transition: width 1s ease; }
+    .breakdown-count { font-family: 'Orbitron', sans-serif; font-size: 0.7rem; color: var(--white); min-width: 20px; text-align: right; font-weight: 700; }
 
     .positive-badge {
-      background: rgba(76,175,80,0.1);
-      border: 1px solid rgba(76,175,80,0.3);
-      border-radius: 8px;
+      background: rgba(74,222,128,0.05);
+      border: 1px solid rgba(74,222,128,0.2);
+      border-radius: 10px;
       padding: 1rem;
       text-align: center;
     }
 
     .positive-badge-icon { font-size: 1.5rem; margin-bottom: 0.4rem; }
-    .positive-badge-text { font-size: 0.78rem; color: #81c784; line-height: 1.5; }
+    .positive-badge-text { font-size: 0.75rem; color: rgba(74,222,128,0.8); line-height: 1.5; }
 
     .no-results {
-      grid-column: 1 / -1;
+      grid-column: 1/-1;
       text-align: center;
-      padding: 3rem;
+      padding: 4rem;
       color: var(--gray);
-      font-size: 0.9rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
     }
 
-    .loading-state {
-      grid-column: 1 / -1;
-      text-align: center;
-      padding: 3rem;
-      color: var(--gray);
-    }
-
-    .loading-spinner {
-      width: 32px;
-      height: 32px;
-      border: 2px solid var(--border);
-      border-top-color: var(--gold);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin: 0 auto 1rem;
-    }
-
-    @keyframes spin { to { transform: rotate(360deg); } }
-
+    /* FOOTER */
     footer {
-      background: var(--card-bg);
+      position: relative;
+      z-index: 1;
+      background: rgba(0,0,8,0.9);
       border-top: 1px solid var(--border);
       text-align: center;
-      padding: 2.5rem 2rem;
+      padding: 3rem 2rem;
       font-size: 0.8rem;
       color: var(--gray);
-      line-height: 1.8;
+      line-height: 2;
     }
 
     footer a { color: var(--gold); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
+
+    .footer-logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+      text-shadow: 0 0 20px var(--gold-glow);
+      margin-bottom: 0.5rem;
+    }
 
     @media (max-width: 900px) {
       .nav-links { display: none; }
@@ -537,21 +628,24 @@
       .news-grid { grid-template-columns: 1fr; }
       .featured-card { grid-template-columns: 1fr; }
       .featured-icon { display: none; }
-      .search-wrap { margin-left: 0; }
+      .search-wrap { margin-left: 0; width: 100%; }
+      .search-input { width: 100%; }
     }
   </style>
 </head>
 <body>
 
+  <canvas id="starfield"></canvas>
+
   <nav>
-    <a class="nav-logo" href="/">THANKS <span>ELON MUSK</span></a>
+    <a class="nav-logo" href="/">THANKS <span>ELON</span></a>
     <ul class="nav-links">
       <li><a href="ventures.html">Ventures</a></li>
       <li><a href="news.html" class="active">News</a></li>
       <li><a href="timeline.html">Timeline</a></li>
       <li><a href="quotes.html">Quotes</a></li>
-      <li><a href="numbers.html">By the Numbers</a></li>
-      <li><a href="today.html">Today in Elon</a></li>
+      <li><a href="numbers.html">Numbers</a></li>
+      <li><a href="today.html">Today</a></li>
       <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
     </ul>
   </nav>
@@ -563,6 +657,18 @@
     <div class="updated-badge">
       <div class="updated-dot"></div>
       <span id="updated-label">Loading feed...</span>
+    </div>
+  </div>
+
+  <div class="featured-wrap">
+    <div class="featured-card">
+      <div>
+        <div class="featured-label">⭐ Featured Story</div>
+        <div class="featured-headline" id="featured-headline"><a href="#">Loading top story...</a></div>
+        <div class="featured-summary" id="featured-summary"></div>
+        <div class="featured-meta" id="featured-meta"></div>
+      </div>
+      <div class="featured-icon" id="featured-icon">🚀</div>
     </div>
   </div>
 
@@ -580,29 +686,14 @@
     </div>
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
-      <input class="search-input" type="text" id="search-input" placeholder="Search news..." />
-    </div>
-  </div>
-
-  <div class="featured-wrap">
-    <div class="featured-card" id="featured-card">
-      <div>
-        <div class="featured-label">⭐ Featured Story</div>
-        <div class="featured-headline" id="featured-headline">Loading top story...</div>
-        <div class="featured-summary" id="featured-summary"></div>
-        <div class="featured-meta" id="featured-meta"></div>
-      </div>
-      <div class="featured-icon" id="featured-icon">🚀</div>
+      <input class="search-input" type="text" id="search-input" placeholder="Search stories..." />
     </div>
   </div>
 
   <div class="news-layout">
     <div>
       <div class="news-grid" id="news-grid">
-        <div class="loading-state">
-          <div class="loading-spinner"></div>
-          <div>Loading latest news...</div>
-        </div>
+        <div class="no-results">Loading stories...</div>
       </div>
       <div class="load-more-wrap">
         <button class="load-more-btn" id="load-more-btn" style="display:none">Load More Stories</button>
@@ -612,7 +703,7 @@
     <aside class="sidebar">
       <div class="positive-badge">
         <div class="positive-badge-icon">✅</div>
-        <div class="positive-badge-text">This feed contains <strong>positive news only</strong>. No negativity, no drama — just wins, milestones, and breakthroughs.</div>
+        <div class="positive-badge-text">Positive news only — wins, milestones, and breakthroughs. No negativity, no drama.</div>
       </div>
 
       <div class="sidebar-card">
@@ -625,16 +716,16 @@
         <div id="breakdown-list"></div>
       </div>
 
-      <a href="today.html" style="display:block; background:var(--card-bg); border:1px solid var(--border); color:var(--gold); text-align:center; padding:0.9rem; border-radius:8px; font-weight:700; font-size:0.85rem; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none;">
+      <a href="today.html" style="display:block;background:var(--card-bg);border:1px solid var(--border-gold);color:var(--gold);text-align:center;padding:0.9rem;border-radius:10px;font-family:'Orbitron',sans-serif;font-weight:700;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;transition:all 0.2s;">
         Today's Full Digest →
       </a>
     </aside>
   </div>
 
   <footer>
-    <p><strong style="color:var(--white); font-family:'Bebas Neue',sans-serif; letter-spacing:0.05em; font-size:1.1rem;">THANKS ELON MUSK</strong></p>
-    <p style="margin-top:0.5rem;">A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
-    <p style="margin-top:0.25rem;">Not affiliated with Elon Musk, Tesla, SpaceX, X, xAI, Neuralink, or any associated companies.</p>
+    <div class="footer-logo">THANKS ELON MUSK</div>
+    <p>A fan tribute site celebrating Elon Musk's vision and impact on humanity.</p>
+    <p>Not affiliated with Elon Musk, Tesla, SpaceX, X, xAI, Neuralink, or any associated companies.</p>
     <p style="margin-top:1rem;">
       <a href="ventures.html">Ventures</a> &nbsp;·&nbsp;
       <a href="news.html">News</a> &nbsp;·&nbsp;
@@ -642,19 +733,19 @@
       <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
       <a href="thanks.html">Say Thanks</a>
     </p>
-    <p style="margin-top:1rem; font-size:0.72rem;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
+    <p style="margin-top:1rem; font-size:0.72rem; opacity:0.5;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
   </footer>
 
   <script>
     const VENTURE_ICONS = {
-      spacex: '🚀', tesla: '⚡', xai: '🧠', x: '✕',
-      starlink: '🛰️', neura: '🔬', boring: '🚇', doge: '🦅'
+      spacex:'🚀', tesla:'⚡', xai:'🧠', x:'✕',
+      starlink:'🛰️', neura:'🔬', boring:'🚇', doge:'🦅'
     };
 
     const VENTURE_COLORS = {
-      spacex: 'var(--blue)', tesla: 'var(--orange)', xai: '#7ab8ff',
-      x: 'var(--white)', starlink: 'var(--blue)', neura: '#b088ff',
-      boring: 'var(--gold-dim)', doge: 'var(--orange)'
+      spacex:'var(--blue)', tesla:'var(--orange)', xai:'#7ab8ff',
+      x:'rgba(232,232,240,0.6)', starlink:'var(--blue)', neura:'#a78bfa',
+      boring:'var(--gold-dim)', doge:'var(--orange)'
     };
 
     let allArticles = [];
@@ -674,9 +765,9 @@
         renderFeatured();
         renderNews();
         renderSidebar();
-      } catch (err) {
+      } catch(err) {
         document.getElementById('news-grid').innerHTML =
-          '<div class="no-results">Unable to load news feed. Please try again shortly.</div>';
+          '<div class="no-results">Unable to load feed. Please try again shortly.</div>';
         document.getElementById('updated-label').textContent = 'Feed temporarily unavailable';
       }
     }
@@ -686,7 +777,7 @@
         const matchFilter = currentFilter === 'all' || a.venture === currentFilter;
         const matchSearch = !currentSearch ||
           a.headline.toLowerCase().includes(currentSearch) ||
-          (a.summary || '').toLowerCase().includes(currentSearch);
+          (a.summary||'').toLowerCase().includes(currentSearch);
         return matchFilter && matchSearch;
       });
     }
@@ -694,13 +785,16 @@
     function renderFeatured() {
       const top = allArticles[0];
       if (!top) return;
-      document.getElementById('featured-headline').textContent = top.headline;
+      const hl = document.getElementById('featured-headline');
+      hl.innerHTML = top.url
+        ? `<a href="${top.url}" target="_blank" rel="noopener">${top.headline}</a>`
+        : top.headline;
       document.getElementById('featured-summary').textContent = top.summary || '';
       document.getElementById('featured-icon').textContent = VENTURE_ICONS[top.venture] || '🚀';
       document.getElementById('featured-meta').innerHTML = `
-        <span class="news-tag tag-${top.venture}">${top.label}</span>
-        <span>${top.date}</span>
-        <a class="news-read-more" href="${top.url}" target="_blank" rel="noopener">Read Full Story →</a>
+        <span class="featured-tag tag-${top.venture}">${top.label}</span>
+        <span class="featured-source">${top.source} · ${top.date}</span>
+        ${top.url ? `<a class="featured-link" href="${top.url}" target="_blank" rel="noopener">Read Full Story →</a>` : ''}
       `;
     }
 
@@ -709,72 +803,71 @@
       const visible = filtered.slice(0, visibleCount);
       const grid = document.getElementById('news-grid');
 
-      if (visible.length === 0) {
-        grid.innerHTML = '<div class="no-results">No stories found. Try a different filter or search term.</div>';
+      if (!visible.length) {
+        grid.innerHTML = '<div class="no-results">No stories found. Try a different filter.</div>';
         document.getElementById('load-more-btn').style.display = 'none';
         return;
       }
 
-      grid.innerHTML = visible.map(a => `
-        <div class="news-card">
+      grid.innerHTML = visible.map((a, i) => `
+        <div class="news-card" style="transition-delay:${i*0.04}s">
           <span class="news-tag tag-${a.venture}">${a.label}</span>
           <div class="news-headline">
-            ${a.url
-              ? `<a href="${a.url}" target="_blank" rel="noopener">${a.headline}</a>`
-              : a.headline}
+            ${a.url ? `<a href="${a.url}" target="_blank" rel="noopener">${a.headline}</a>` : a.headline}
           </div>
-          <div class="news-summary">${a.summary || ''}</div>
+          ${a.summary ? `<div class="news-summary">${a.summary}</div>` : ''}
           <div class="news-footer">
             <span class="news-source">${a.source}</span>
             <span class="news-date">${a.date}</span>
           </div>
-          ${a.url ? `<a class="news-read-more" href="${a.url}" target="_blank" rel="noopener">Read more →</a>` : ''}
+          ${a.url ? `<a class="news-read" href="${a.url}" target="_blank" rel="noopener">Read More →</a>` : ''}
         </div>
       `).join('');
 
-      const loadBtn = document.getElementById('load-more-btn');
-      loadBtn.style.display = filtered.length > visibleCount ? 'inline-block' : 'none';
+      requestAnimationFrame(() => {
+        document.querySelectorAll('.news-card').forEach(c => c.classList.add('visible'));
+      });
+
+      document.getElementById('load-more-btn').style.display =
+        filtered.length > visibleCount ? 'inline-block' : 'none';
     }
 
     function renderSidebar() {
-      // Top stories
-      const top5 = allArticles.slice(0, 5);
-      document.getElementById('top-stories-list').innerHTML = top5.map((a, i) => `
+      // Top 5
+      document.getElementById('top-stories-list').innerHTML = allArticles.slice(0,5).map((a,i) => `
         <div class="top-story">
-          <div class="top-story-num">${i + 1}</div>
+          <div class="top-story-num">${i+1}</div>
           <div>
             <div class="top-story-text">
-              ${a.url
-                ? `<a href="${a.url}" target="_blank" rel="noopener">${a.headline}</a>`
-                : a.headline}
+              ${a.url ? `<a href="${a.url}" target="_blank" rel="noopener">${a.headline}</a>` : a.headline}
             </div>
             <div class="top-story-co">${a.label}</div>
           </div>
         </div>
       `).join('');
 
-      // Breakdown by venture
-      const ventures = ['spacex', 'tesla', 'xai', 'starlink', 'x', 'neura', 'boring', 'doge'];
-      const labels = { spacex:'SpaceX', tesla:'Tesla', xai:'xAI', starlink:'Starlink', x:'X', neura:'Neuralink', boring:'Boring Co', doge:'DOGE' };
+      // Breakdown
+      const ventures = ['spacex','tesla','xai','starlink','x','neura','boring','doge'];
+      const labels = {spacex:'SpaceX',tesla:'Tesla',xai:'xAI',starlink:'Starlink',x:'X',neura:'Neuralink',boring:'Boring Co',doge:'DOGE'};
       const counts = {};
-      ventures.forEach(v => { counts[v] = allArticles.filter(a => a.venture === v).length; });
+      ventures.forEach(v => { counts[v] = allArticles.filter(a => a.venture===v).length; });
       const maxCount = Math.max(...Object.values(counts), 1);
 
       document.getElementById('breakdown-list').innerHTML = ventures
         .filter(v => counts[v] > 0)
-        .sort((a, b) => counts[b] - counts[a])
+        .sort((a,b) => counts[b]-counts[a])
         .map(v => `
           <div class="breakdown-row">
             <span class="breakdown-label">${labels[v]}</span>
             <div class="breakdown-bar-wrap">
-              <div class="breakdown-bar" style="width:${Math.round(counts[v]/maxCount*100)}%; background:${VENTURE_COLORS[v]}"></div>
+              <div class="breakdown-bar" style="width:${Math.round(counts[v]/maxCount*100)}%;background:${VENTURE_COLORS[v]}"></div>
             </div>
             <span class="breakdown-count">${counts[v]}</span>
           </div>
         `).join('');
     }
 
-    // Filter buttons
+    // FILTERS
     document.querySelectorAll('.filter-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -785,19 +878,63 @@
       });
     });
 
-    // Search
+    // SEARCH
     document.getElementById('search-input').addEventListener('input', e => {
       currentSearch = e.target.value.toLowerCase().trim();
       visibleCount = 12;
       renderNews();
     });
 
-    // Load more
+    // LOAD MORE
     document.getElementById('load-more-btn').addEventListener('click', () => {
       visibleCount += 6;
       renderNews();
     });
 
+    // STARFIELD
+    const canvas = document.getElementById('starfield');
+    const ctx = canvas.getContext('2d');
+    let stars = [], shootingStars = [];
+
+    function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+
+    function initStars() {
+      stars = [];
+      for (let i = 0; i < 200; i++) {
+        stars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height, r: Math.random()*1.5+0.2, alpha: Math.random()*0.8+0.2, twinkle: Math.random()*Math.PI*2 });
+      }
+    }
+
+    function addShootingStar() {
+      shootingStars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height*0.5, len: Math.random()*120+60, speed: Math.random()*8+6, alpha: 1, angle: Math.PI/4+(Math.random()-0.5)*0.3 });
+    }
+
+    function drawStars() {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      stars.forEach(s => {
+        s.twinkle += 0.02;
+        ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+        ctx.fillStyle = `rgba(255,255,255,${s.alpha*(0.7+0.3*Math.sin(s.twinkle))})`; ctx.fill();
+      });
+      shootingStars = shootingStars.filter(s => s.alpha > 0.01);
+      shootingStars.forEach(s => {
+        const grad = ctx.createLinearGradient(s.x,s.y,s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        grad.addColorStop(0,`rgba(245,166,35,${s.alpha})`); grad.addColorStop(1,'transparent');
+        ctx.beginPath(); ctx.moveTo(s.x,s.y); ctx.lineTo(s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        ctx.strokeStyle=grad; ctx.lineWidth=1.5; ctx.stroke();
+        s.x+=Math.cos(s.angle)*s.speed; s.y+=Math.sin(s.angle)*s.speed; s.alpha-=0.018;
+      });
+    }
+
+    let lastShoot = 0;
+    function animate(t) {
+      drawStars();
+      if (t-lastShoot > 3000+Math.random()*4000) { addShootingStar(); lastShoot=t; }
+      requestAnimationFrame(animate);
+    }
+
+    window.addEventListener('resize', () => { resize(); initStars(); });
+    resize(); initStars(); requestAnimationFrame(animate);
     loadNews();
   </script>
 
