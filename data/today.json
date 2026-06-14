@@ -1,26 +1,26 @@
 {
-  "date": "2026-06-13",
-  "displayDate": "Saturday, June 13, 2026",
+  "date": "2026-06-14",
+  "displayDate": "Sunday, June 14, 2026",
   "items": [
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX Soars 27% in Nasdaq Debut as Shares Hit $172.17",
-      "summary": "SpaceX shares surged 27% on their Nasdaq debut, closing at $172.17. The IPO valued the company over $2 trillion, marking a milestone for Elon Musk's aerospace venture.",
-      "url": "https://www.ibtimes.com.au/spacex-nasdaq-debut-shares-surge-1870578",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 12, 2026",
-      "publishedAt": "2026-06-12T17:29:29Z"
+      "headline": "Wall Street Liftoff: SpaceX IPO Rockets to Historic Heights",
+      "summary": "\"I am filled with optimism at the fact that the world's first trillionaire was made not by hedge funds or market manipulation, but by building the infrastructure to take America to the stars.\"\nThe post Wall Street Liftoff: SpaceX IPO Rockets to Historic Heigh…",
+      "url": "https://legalinsurrection.com/2026/06/wall-street-liftoff-spacex-ipo-rockets-to-historic-heights/",
+      "source": "Legalinsurrection.com",
+      "date": "Jun 13, 2026",
+      "publishedAt": "2026-06-13T00:00:47Z"
     },
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Musk becomes world's first trillionaire as SpaceX shares jump",
-      "summary": "Shares in Elon Musk's SpaceX jumped 11 percent to $150 on their first day of trading Friday after the biggest initial public offering in history, making the polarizing entrepreneur the world's first trillionaire as he vowed to take humanity to Mars.",
-      "url": "https://www.hurriyetdailynews.com/musk-becomes-worlds-first-trillionaire-as-spacex-shares-jump-223221",
-      "source": "Hurriyet Daily News",
+      "headline": "SpaceX shares soar 19% after record $75B IPO led by Elon Musk",
+      "summary": "SpaceX's IPO success underscores the growing investor confidence in space exploration, potentially accelerating advancements in the industry.\nThe post SpaceX shares soar 19% after record $75B IPO led by Elon Musk appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-ipo-record-shares-soar/",
+      "source": "Crypto Briefing",
       "date": "Jun 12, 2026",
-      "publishedAt": "2026-06-12T17:01:20Z"
+      "publishedAt": "2026-06-12T23:45:25Z"
     },
     {
       "venture": "tesla",
@@ -61,7 +61,17 @@
       "source": "New Zealand Herald",
       "date": "Jun 12, 2026",
       "publishedAt": "2026-06-12T18:19:00Z"
+    },
+    {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Elon Musk Describes His Neuralink Brain Implants as 'Jesus-Level Technology'",
+      "summary": "Elon Musk has characterized his Neuralink brain-computer interface technology as achieving miracle-level breakthroughs, while the company's president revealed plans to implant chips in healthy individuals within the next four years. Musk called his creepy bra…",
+      "url": "https://www.breitbart.com/tech/2026/05/22/elon-musk-describes-his-neuralink-brain-implants-as-jesus-level-technology/",
+      "source": "Breitbart News",
+      "date": "May 22, 2026",
+      "publishedAt": "2026-05-22T16:16:47Z"
     }
   ],
-  "generatedAt": "2026-06-13T21:47:37.574Z"
+  "generatedAt": "2026-06-14T00:01:46.295Z"
 }
