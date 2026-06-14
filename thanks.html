@@ -284,11 +284,7 @@
 
     input::placeholder, textarea::placeholder { color: rgba(107,114,128,0.6); }
 
-    textarea {
-      min-height: 130px;
-      resize: vertical;
-      line-height: 1.6;
-    }
+    textarea { min-height: 130px; resize: vertical; line-height: 1.6; }
 
     .char-count {
       font-family: 'Orbitron', sans-serif;
@@ -309,11 +305,7 @@
       display: block;
     }
 
-    .venture-pills {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-    }
+    .venture-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 
     .venture-pill {
       padding: 0.38rem 0.9rem;
@@ -411,7 +403,6 @@
       border: 1px solid rgba(255,80,80,0.3);
       border-radius: 8px;
       padding: 0.75rem 1rem;
-      font-size: 0.82rem;
       color: #ff8080;
       margin-top: 1rem;
       display: none;
@@ -420,105 +411,45 @@
       letter-spacing: 0.05em;
     }
 
-    .wall-header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      margin-bottom: 1.5rem;
-    }
-
-    .wall-title {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: var(--white);
-      letter-spacing: 0.05em;
-    }
-
-    .wall-count {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.6rem;
-      color: var(--gray);
-      letter-spacing: 0.1em;
-    }
-
-    .thanks-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.25rem;
-      margin-bottom: 2.5rem;
-    }
-
-    .thanks-card {
+    .coming-soon {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
+      border-radius: 16px;
+      padding: 3rem 2rem;
+      text-align: center;
       backdrop-filter: blur(20px);
-      transition: all 0.3s;
+      margin-bottom: 3rem;
       position: relative;
       overflow: hidden;
     }
 
-    .thanks-card::before {
-      content: '"';
+    .coming-soon::before {
+      content: '';
       position: absolute;
-      top: -1rem;
-      right: 1rem;
-      font-family: 'Cinzel', serif;
-      font-size: 5rem;
-      color: var(--gold);
-      opacity: 0.06;
-      pointer-events: none;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
     }
 
-    .thanks-card:hover {
-      border-color: var(--border-gold);
-      box-shadow: 0 0 30px rgba(245,166,35,0.06);
-      transform: translateY(-3px);
-    }
+    .coming-soon-icon { font-size: 3rem; margin-bottom: 1rem; }
 
-    .thanks-venture-tag {
+    .coming-soon-title {
       font-family: 'Orbitron', sans-serif;
-      font-size: 0.58rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 0.2rem 0.6rem;
-      border-radius: 3px;
-      display: inline-block;
-      align-self: flex-start;
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 0 20px var(--gold-glow);
     }
 
-    .thanks-message {
-      font-family: 'Cinzel', serif;
-      font-size: 0.88rem;
-      color: rgba(232,232,240,0.8);
+    .coming-soon-text {
+      font-size: 0.85rem;
+      color: var(--gray);
+      max-width: 400px;
+      margin: 0 auto;
       line-height: 1.6;
-      font-style: italic;
-      flex: 1;
     }
-
-    .thanks-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-top: 0.75rem;
-      border-top: 1px solid var(--border);
-    }
-
-    .thanks-from {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.62rem;
-      color: var(--gold);
-      font-weight: 700;
-      letter-spacing: 0.08em;
-    }
-
-    .thanks-date { font-size: 0.7rem; color: var(--gray); }
 
     .share-section {
       background: var(--card-bg);
@@ -526,7 +457,6 @@
       border-radius: 16px;
       padding: 2rem;
       text-align: center;
-      margin-top: 2rem;
       backdrop-filter: blur(20px);
       position: relative;
       overflow: hidden;
@@ -602,7 +532,6 @@
     @media (max-width: 640px) {
       .nav-links { display: none; }
       .form-grid { grid-template-columns: 1fr; }
-      .thanks-grid { grid-template-columns: 1fr; }
       .impact-inner { gap: 1.5rem; }
     }
   </style>
@@ -634,11 +563,7 @@
     <div class="impact-inner">
       <div class="impact-item">
         <span class="impact-value" id="thanks-count">—</span>
-        <span class="impact-label">Messages Sent</span>
-      </div>
-      <div class="impact-item">
-        <span class="impact-value">38</span>
-        <span class="impact-label">Countries</span>
+        <span class="impact-label">Messages Received</span>
       </div>
       <div class="impact-item">
         <span class="impact-value">7</span>
@@ -653,9 +578,10 @@
 
   <div class="main-layout">
 
-    <div class="form-card" id="form-card">
+    <!-- FORM -->
+    <div class="form-card">
       <div class="form-title">Leave Your Message</div>
-      <div class="form-sub">Your message will be reviewed and added to the Wall of Thanks.</div>
+      <div class="form-sub">Your message will appear on the Wall of Thanks once it goes live.</div>
 
       <div id="form-content">
         <div class="form-grid">
@@ -686,28 +612,23 @@
             <div class="char-count"><span id="char-remaining">500</span> characters remaining</div>
           </div>
         </div>
-
-        <button class="submit-btn" id="submit-btn" onclick="submitThanks()">
-          🙏 Send My Thanks
-        </button>
+        <button class="submit-btn" id="submit-btn" onclick="submitThanks()">🙏 Send My Thanks</button>
         <div class="error-msg" id="error-msg">Something went wrong. Please try again.</div>
       </div>
 
       <div class="success-state" id="success-state">
         <div class="success-icon">🎉</div>
         <div class="success-title">Thanks Sent!</div>
-        <div class="success-text">Your message has been received and will appear on the Wall of Thanks after a quick review. Thank you for being part of this community.</div>
+        <div class="success-text">Your message has been received and will appear on the Wall of Thanks when it launches. Thank you for being part of this community.</div>
         <button class="success-btn" onclick="resetForm()">Send Another Message</button>
       </div>
     </div>
 
-    <!-- WALL OF THANKS -->
-    <div>
-      <div class="wall-header">
-        <div class="wall-title">WALL OF THANKS</div>
-        <div class="wall-count" id="wall-count">Loading messages...</div>
-      </div>
-      <div class="thanks-grid" id="thanks-wall"></div>
+    <!-- WALL COMING SOON -->
+    <div class="coming-soon">
+      <div class="coming-soon-icon">🏆</div>
+      <div class="coming-soon-title">Wall of Thanks — Coming Soon</div>
+      <div class="coming-soon-text">Messages are being collected. The Wall of Thanks launches soon — submit yours now to be among the first featured.</div>
     </div>
 
     <!-- SHARE -->
@@ -717,12 +638,8 @@
       <div class="share-btns">
         <a class="share-btn share-btn-x"
            href="https://x.com/intent/tweet?text=I%20just%20left%20my%20message%20on%20%23ThanksElonMusk%20%E2%80%94%20a%20tribute%20site%20celebrating%20everything%20being%20built.%20Check%20it%20out%3A%20https%3A%2F%2Fthankselonmusk.com"
-           target="_blank" rel="noopener">
-          ✕ Share on X
-        </a>
-        <button class="share-btn share-btn-copy" onclick="copyLink(this)">
-          🔗 Copy Link
-        </button>
+           target="_blank" rel="noopener">✕ Share on X</a>
+        <button class="share-btn share-btn-copy" onclick="copyLink(this)">🔗 Copy Link</button>
       </div>
     </div>
 
@@ -746,7 +663,6 @@
     const SUPABASE_URL = 'https://rzodviycqueorprwwzpe.supabase.co';
     const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ6b2R2aXljcXVlb3Jwcnd3enBlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzODQ1NzMsImV4cCI6MjA5Njk2MDU3M30.oGlQa3gAZp3PgDJKxTurwkCI-xpDI-O9AgZRfCHgz4E';
 
-    // SUPABASE HELPERS
     async function supabaseInsert(table, data) {
       const res = await fetch(`${SUPABASE_URL}/rest/v1/${table}`, {
         method: 'POST',
@@ -761,17 +677,19 @@
       return res;
     }
 
-    async function supabaseSelect(table, params = '') {
-      const res = await fetch(`${SUPABASE_URL}/rest/v1/${table}${params}`, {
-        headers: {
-          'apikey': SUPABASE_ANON,
-          'Authorization': `Bearer ${SUPABASE_ANON}`
-        }
-      });
-      return res.json();
+    async function loadCount() {
+      try {
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/thanks?select=id`, {
+          headers: { 'apikey': SUPABASE_ANON, 'Authorization': `Bearer ${SUPABASE_ANON}` }
+        });
+        const data = await res.json();
+        const count = Array.isArray(data) ? data.length : 0;
+        document.getElementById('thanks-count').textContent = count;
+      } catch(e) {
+        document.getElementById('thanks-count').textContent = '—';
+      }
     }
 
-    // VENTURE PILLS
     let selectedVenture = '';
     document.querySelectorAll('.venture-pill').forEach(pill => {
       pill.addEventListener('click', () => {
@@ -781,7 +699,6 @@
       });
     });
 
-    // CHAR COUNT
     const msgInput = document.getElementById('input-message');
     const charEl = document.getElementById('char-remaining');
     msgInput.addEventListener('input', () => {
@@ -790,7 +707,6 @@
       charEl.style.color = rem < 50 ? 'var(--orange)' : 'var(--gray)';
     });
 
-    // SUBMIT
     async function submitThanks() {
       const name = document.getElementById('input-name').value.trim();
       const location = document.getElementById('input-location').value.trim();
@@ -816,7 +732,7 @@
         if (res.ok || res.status === 201) {
           document.getElementById('form-content').style.display = 'none';
           document.getElementById('success-state').style.display = 'block';
-          loadWall();
+          loadCount();
         } else {
           throw new Error('Insert failed');
         }
@@ -842,67 +758,6 @@
       document.getElementById('success-state').style.display = 'none';
       document.getElementById('error-msg').style.display = 'none';
     }
-
-    // LOAD WALL — only approved messages
-    async function loadWall() {
-      try {
-        const data = await supabaseSelect('thanks', '?approved=eq.true&order=created_at.desc&limit=8');
-        const wall = document.getElementById('thanks-wall');
-        const count = document.getElementById('wall-count');
-
-        // Get total count
-        const countData = await supabaseSelect('thanks', '?approved=eq.true&select=id');
-        const total = Array.isArray(countData) ? countData.length : 0;
-        count.textContent = `${total} message${total !== 1 ? 's' : ''} worldwide`;
-        document.getElementById('thanks-count').textContent = total;
-
-        if (!data || !data.length) {
-          // Show seed messages if no approved ones yet
-          wall.innerHTML = seedMessages.map(m => renderCard(m)).join('');
-          count.textContent = 'Be the first to leave a message';
-          document.getElementById('thanks-count').textContent = '0';
-          return;
-        }
-
-        wall.innerHTML = data.map(m => renderCard({
-          name: m.name,
-          location: m.location || 'Worldwide',
-          venture: m.venture || 'General',
-          message: m.message,
-          date: new Date(m.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-          color: 'rgba(245,166,35,0.1)',
-          textColor: 'var(--gold)'
-        })).join('');
-
-      } catch(err) {
-        // Fall back to seed messages
-        document.getElementById('thanks-wall').innerHTML = seedMessages.map(m => renderCard(m)).join('');
-      }
-    }
-
-    function renderCard(m) {
-      return `
-        <div class="thanks-card">
-          <span class="thanks-venture-tag" style="background:${m.color||'rgba(245,166,35,0.1)'};color:${m.textColor||'var(--gold)'}">${m.venture}</span>
-          <div class="thanks-message">"${m.message}"</div>
-          <div class="thanks-footer">
-            <span class="thanks-from">— ${m.name}, ${m.location}</span>
-            <span class="thanks-date">${m.date||''}</span>
-          </div>
-        </div>`;
-    }
-
-    // SEED MESSAGES shown before any approved submissions
-    const seedMessages = [
-      { name: 'Sarah M.', location: 'Montana', venture: 'Starlink', message: 'Starlink connected my family in rural Montana for the first time. Real internet. We can now work from home, stream, video call our grandkids. Changed everything for us.', date: 'Jun 12, 2026', color: 'rgba(0,212,255,0.1)', textColor: 'var(--blue)' },
-      { name: 'David R.', location: 'Ohio', venture: 'Neuralink', message: 'My son is paralyzed. What Neuralink is doing gives our family genuine hope for the first time in years. We watch every announcement. Thank you for not giving up on the hard problems.', date: 'Jun 11, 2026', color: 'rgba(124,58,237,0.12)', textColor: '#a78bfa' },
-      { name: 'Jake T.', location: 'Texas', venture: 'SpaceX', message: "SpaceX made me fall in love with science again. I'm 16 and I want to be a rocket engineer because of watching booster landings. Every launch I watch live.", date: 'Jun 11, 2026', color: 'rgba(0,212,255,0.1)', textColor: 'var(--blue)' },
-      { name: 'Maria L.', location: 'Brazil', venture: 'Tesla', message: 'I drive a Tesla Model 3 and it has fundamentally changed how I think about transportation and energy. The software updates feel like getting a new car every few months.', date: 'Jun 10, 2026', color: 'rgba(255,107,43,0.1)', textColor: 'var(--orange)' },
-      { name: 'Ahmed K.', location: 'Egypt', venture: 'X', message: 'X under Elon restored voices that were silenced. I can now read perspectives from across the political spectrum and make up my own mind. That is a real public square.', date: 'Jun 10, 2026', color: 'rgba(255,255,255,0.06)', textColor: 'var(--off-white)' },
-      { name: 'Priya S.', location: 'India', venture: 'xAI', message: 'Grok has become my daily research assistant. I am a PhD student and the reasoning capabilities have genuinely accelerated my work. xAI is moving faster than I ever expected.', date: 'Jun 9, 2026', color: 'rgba(0,212,255,0.08)', textColor: '#7ab8ff' },
-      { name: 'Tom B.', location: 'Australia', venture: 'SpaceX', message: 'The day Mechazilla caught the booster I cried. Genuinely cried. No one thought it was possible. That is what this man does — he makes the impossible routine.', date: 'Jun 9, 2026', color: 'rgba(0,212,255,0.1)', textColor: 'var(--blue)' },
-      { name: 'Anna W.', location: 'Ukraine', venture: 'Starlink', message: 'Starlink kept us connected during the hardest days. We could call family, receive news, coordinate help. Without it, we would have been completely isolated.', date: 'Jun 8, 2026', color: 'rgba(0,212,255,0.08)', textColor: 'var(--blue)' },
-    ];
 
     function copyLink(btn) {
       navigator.clipboard.writeText('https://thankselonmusk.com').then(() => {
@@ -955,7 +810,7 @@
 
     window.addEventListener('resize', () => { resize(); initStars(); });
     resize(); initStars(); requestAnimationFrame(animate);
-    loadWall();
+    loadCount();
   </script>
 
 </body>
