@@ -1,8 +1,38 @@
 {
-  "lastUpdated": "2026-06-14T09:24:55.589Z",
-  "displayUpdated": "Jun 14, 2026, 9:24 AM UTC",
-  "totalArticles": 10,
+  "lastUpdated": "2026-06-14T13:49:46.409Z",
+  "displayUpdated": "Jun 14, 2026, 1:49 PM UTC",
+  "totalArticles": 16,
   "articles": [
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
+      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses",
+      "url": "https://abcnews.com/Technology/wireStory/rockets-brain-implants-elon-musks-vast-empire-133841509",
+      "source": "Abcnews.com",
+      "publishedAt": "2026-06-13T12:30:00Z",
+      "date": "Jun 13, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
+      "summary": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by revenue of tech's megacaps.",
+      "url": "https://www.cnbc.com/2026/06/13/from-10percent-chance-of-success-to-2-trillion-spacexs-historic-ipo.html",
+      "source": "CNBC",
+      "publishedAt": "2026-06-13T12:00:01Z",
+      "date": "Jun 13, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX IPO Creates 4400 New Millionaires as Stock Surges in Record Debut",
+      "summary": "SpaceX's IPO has created thousands of millionaires among employees, highlighting the success of equity compensation. The event underscores the transformative power of equity in tech companies.",
+      "url": "https://www.ibtimes.com.au/spacex-ipo-creates-millionaires-equity-compensation-success-1870587",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-06-13T10:19:47Z",
+      "date": "Jun 13, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -16,11 +46,21 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Wall Street Liftoff: SpaceX IPO Rockets to Historic Heights",
-      "summary": "\"I am filled with optimism at the fact that the world's first trillionaire was made not by hedge funds or market manipulation, but by building the infrastructure to take America to the stars.\"\nThe post Wall Street Liftoff: SpaceX IPO Rockets to Historic Heigh…",
-      "url": "https://legalinsurrection.com/2026/06/wall-street-liftoff-spacex-ipo-rockets-to-historic-heights/",
-      "source": "Legalinsurrection.com",
-      "publishedAt": "2026-06-13T00:00:47Z",
+      "headline": "Musk became the first Trillionaire on the planet as SpaceX stock closed up 19.34% in its Wall Street debut",
+      "summary": "Elon Musk promised to take humans to Mars. The stock opened at $150, rose as high as $176.52 during trading, and closed at $161.11. The valuation of Elon Musk’s company is now approaching $2 trillion\nThe post Musk became the first Trillionaire on the planet a…",
+      "url": "https://en.protothema.gr/2026/06/13/musk-became-the-first-trillionaire-on-the-planet-as-spacex-stock-closed-up-19-34-in-its-wall-street-debut/",
+      "source": "Protothema.gr",
+      "publishedAt": "2026-06-13T07:09:20Z",
+      "date": "Jun 13, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk’s $1,100,000,000,000 net worth exceeds combined fortunes of Page, Brin, Bezos, Ellison & Dell; Here’s what the global rich list looks like now",
+      "summary": "Elon Musk's net worth has surged to approximately $1.1 trillion, driven by SpaceX's valuation reaching $2.2 trillion and continued strength in Tesla. This unprecedented wealth places him on the brink of becoming the world's first trillionaire, significantly w…",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/elon-musks-1100000000000-net-worth-exceeds-combined-fortunes-of-page-brin-bezos-ellison-dell-heres-what-the-global-rich-list-looks-like-now/articleshow/131697719.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-06-13T05:13:27Z",
       "date": "Jun 13, 2026"
     },
     {
@@ -34,13 +74,13 @@
       "date": "Jun 12, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Elon Musk Becomes the World's First Trillionaire. Is That Such a Bad Thing?",
-      "summary": "Growing economies benefit all people, not just the uberwealthy.",
-      "url": "https://reason.com/2026/06/12/elon-musk-becomes-the-worlds-first-trillionaire-is-that-such-a-bad-thing/",
-      "source": "Reason",
-      "publishedAt": "2026-06-12T18:45:50Z",
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk Becomes World’s First Trillionaire Amid SpaceX IPO",
+      "summary": "Elon Musk saw his net worth surge as SpaceX hit the public market Friday. The biggest public offering ever was priced at $135 a share. The shares opened at $150 and jumped some more when they started trading on the Nasdaq under the symbol SPCX. The stock is u…",
+      "url": "http://deadline.com/2026/06/elon-musk-first-trillionaire-spacex-ipo-1236955050/",
+      "source": "Deadline",
+      "publishedAt": "2026-06-12T19:49:52Z",
       "date": "Jun 12, 2026"
     },
     {
@@ -76,6 +116,16 @@
     {
       "venture": "tesla",
       "label": "Tesla",
+      "headline": "Tesla marks UK sales milestone as fierce competition looms",
+      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
+      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
+      "source": "The-independent.com",
+      "publishedAt": "2026-06-03T09:46:49Z",
+      "date": "Jun 3, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
       "headline": "Elon finally did it.",
       "summary": "A new Texas law allows companies with SAE Level 4 or higher autonomous vehicles to offer commercial driverless transportation. Tesla wasted no time in self-certifying their vehicles. On the same day the law went into effect, Tesla officially self-certified th…",
       "url": "https://freerepublic.com/focus/f-chat/4381587/posts",
@@ -92,6 +142,16 @@
       "source": "iPhone in Canada",
       "publishedAt": "2026-05-29T18:13:39Z",
       "date": "May 29, 2026"
+    },
+    {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Elon Musk Describes His Neuralink Brain Implants as 'Jesus-Level Technology'",
+      "summary": "Elon Musk has characterized his Neuralink brain-computer interface technology as achieving miracle-level breakthroughs, while the company's president revealed plans to implant chips in healthy individuals within the next four years. Musk called his creepy bra…",
+      "url": "https://www.breitbart.com/tech/2026/05/22/elon-musk-describes-his-neuralink-brain-implants-as-jesus-level-technology/",
+      "source": "Breitbart News",
+      "publishedAt": "2026-05-22T16:16:47Z",
+      "date": "May 22, 2026"
     },
     {
       "venture": "tesla",
