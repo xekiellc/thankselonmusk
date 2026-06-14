@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elon Musk Quotes – Thanks Elon Musk</title>
-  <meta name="description" content="The most powerful Elon Musk quotes — on first principles, risk, engineering, Mars, AI, and civilization." />
+  <meta name="description" content="The most powerful Elon Musk quotes on first principles, risk, engineering, business, civilization, AI, Mars, and mindset." />
   <meta property="og:title" content="Elon Musk Quotes – Thanks Elon Musk" />
   <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
   <meta property="og:url" content="https://thankselonmusk.com/quotes.html" />
@@ -29,10 +29,7 @@
       --black:       #000008;
       --gold:        #f5a623;
       --gold-glow:   #f5a62366;
-      --gold-dim:    #c8831a;
       --orange:      #ff6b2b;
-      --blue:        #00d4ff;
-      --purple:      #7c3aed;
       --white:       #ffffff;
       --off-white:   #e8e8f0;
       --gray:        #6b7280;
@@ -42,380 +39,118 @@
     }
 
     html { scroll-behavior: smooth; }
-
-    body {
-      background: var(--black);
-      color: var(--off-white);
-      font-family: 'Inter', sans-serif;
-      font-size: 16px;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    #starfield {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      z-index: 0;
-      pointer-events: none;
-    }
+    body { background: var(--black); color: var(--off-white); font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    #starfield { position: fixed; top:0; left:0; width:100%; height:100%; z-index:0; pointer-events:none; }
 
     nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 1000;
-      background: rgba(0,0,8,0.7);
-      backdrop-filter: blur(20px);
+      position: fixed; top:0; left:0; right:0; z-index:1000;
+      background: rgba(0,0,8,0.7); backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 2rem;
-      height: 64px;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2rem; height: 64px;
     }
-
-    .nav-logo {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.1rem;
-      font-weight: 900;
-      color: var(--gold);
-      text-decoration: none;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      text-shadow: 0 0 20px var(--gold-glow);
-    }
-
-    .nav-logo span { color: var(--white); }
-
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
-    }
-
-    .nav-links a {
-      color: var(--gray);
-      text-decoration: none;
-      font-size: 0.78rem;
-      font-weight: 500;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      transition: color 0.2s;
-      font-family: 'Orbitron', sans-serif;
-    }
-
-    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
-
-    .nav-cta {
-      background: linear-gradient(135deg, var(--gold), var(--orange));
-      color: var(--black) !important;
-      padding: 0.45rem 1.2rem;
-      border-radius: 4px;
-      font-weight: 700 !important;
-      box-shadow: 0 0 20px var(--gold-glow);
-    }
+    .nav-logo { font-family:'Orbitron',sans-serif; font-size:1.1rem; font-weight:900; color:var(--gold); text-decoration:none; letter-spacing:0.1em; text-transform:uppercase; text-shadow:0 0 20px var(--gold-glow); }
+    .nav-logo span { color:var(--white); }
+    .nav-links { display:flex; gap:1.6rem; list-style:none; }
+    .nav-links a { color:var(--gray); text-decoration:none; font-size:0.75rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; transition:color 0.2s; font-family:'Orbitron',sans-serif; }
+    .nav-links a:hover, .nav-links a.active { color:var(--gold); }
+    .nav-cta { background:linear-gradient(135deg,var(--gold),var(--orange)); color:var(--black)!important; padding:0.45rem 1.2rem; border-radius:4px; font-weight:700!important; box-shadow:0 0 20px var(--gold-glow); }
 
     /* HERO QUOTE */
-    .hero-quote {
-      position: relative;
-      z-index: 1;
-      min-height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 8rem 2rem 4rem;
-      overflow: hidden;
+    .quote-hero {
+      position: relative; z-index:1;
+      padding: 8rem 2rem 5rem; text-align: center; overflow: hidden;
     }
-
-    .hero-quote::before {
-      content: '"';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -55%);
-      font-family: 'Cinzel', serif;
-      font-size: 30rem;
-      color: var(--gold);
-      opacity: 0.025;
-      line-height: 1;
-      pointer-events: none;
-      user-select: none;
+    .quote-hero::before {
+      content:'"'; position:absolute; top:-3rem; left:50%; transform:translateX(-50%);
+      font-family:'Cinzel',serif; font-size:25rem; color:var(--gold); opacity:0.03; pointer-events:none; line-height:1;
     }
-
-    .hero-quote-inner {
-      position: relative;
-      max-width: 860px;
-    }
-
-    .hero-eyebrow {
-      font-family: 'Cinzel', serif;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.35em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 2rem;
-    }
+    .page-eyebrow { font-family:'Cinzel',serif; font-size:0.72rem; font-weight:600; letter-spacing:0.35em; text-transform:uppercase; color:var(--gold); margin-bottom:2rem; }
 
     .hero-quote-text {
-      font-family: 'Cinzel', serif;
-      font-size: clamp(1.5rem, 3.5vw, 2.5rem);
-      color: var(--white);
-      line-height: 1.5;
-      font-style: italic;
-      margin-bottom: 2rem;
-      transition: opacity 0.5s ease, transform 0.5s ease;
+      font-family:'Cinzel',serif; font-size:clamp(1.5rem,3.5vw,2.8rem);
+      color:var(--white); line-height:1.4; max-width:850px; margin:0 auto 1.5rem;
+      font-style:italic; transition:opacity 0.4s ease;
     }
+    .hero-quote-attr { font-family:'Orbitron',sans-serif; color:var(--gold); font-size:0.8rem; letter-spacing:0.2em; text-transform:uppercase; margin-bottom:2rem; }
 
-    .hero-quote-attr {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.75rem;
-      color: var(--gold);
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-bottom: 1.5rem;
-      text-shadow: 0 0 15px var(--gold-glow);
+    .hero-nav { display:flex; gap:1rem; justify-content:center; align-items:center; }
+    .hero-nav-btn {
+      background:transparent; border:1px solid var(--border-gold); color:var(--gold);
+      padding:0.5rem 1.2rem; border-radius:6px; font-family:'Orbitron',sans-serif;
+      font-size:0.65rem; font-weight:700; letter-spacing:0.1em; cursor:pointer;
+      transition:all 0.2s;
     }
+    .hero-nav-btn:hover { background:rgba(245,166,35,0.1); box-shadow:0 0 15px var(--gold-glow); }
+    .hero-quote-counter { font-family:'Orbitron',sans-serif; font-size:0.65rem; color:var(--gray); letter-spacing:0.1em; }
 
-    .hero-quote-cat {
-      display: inline-block;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.62rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      padding: 0.3rem 1rem;
-      border: 1px solid var(--border-gold);
-      border-radius: 20px;
-      color: var(--gold);
-      background: rgba(245,166,35,0.08);
-      margin-bottom: 2rem;
-    }
-
-    .hero-quote-nav {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      margin-top: 2rem;
-    }
-
-    .quote-nav-btn {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      color: var(--gray);
-      padding: 0.6rem 1.5rem;
-      border-radius: 6px;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      cursor: pointer;
-      transition: all 0.2s;
-      backdrop-filter: blur(10px);
-    }
-
-    .quote-nav-btn:hover {
-      border-color: var(--gold);
-      color: var(--gold);
-      box-shadow: 0 0 15px var(--gold-glow);
-    }
-
-    /* FILTER */
+    /* FILTERS */
     .filter-wrap {
-      position: relative;
-      z-index: 1;
-      max-width: 1100px;
-      margin: 0 auto 3rem;
-      padding: 0 2rem;
-      display: flex;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      justify-content: center;
+      position:relative; z-index:1; max-width:1200px; margin:0 auto 2.5rem;
+      padding:0 2rem; display:flex; gap:0.6rem; flex-wrap:wrap; justify-content:center;
     }
-
-    .cat-btn {
-      padding: 0.45rem 1.1rem;
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.62rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--gray);
-      background: transparent;
-      cursor: pointer;
-      transition: all 0.2s;
+    .filter-btn {
+      padding:0.4rem 1rem; border:1px solid var(--border); border-radius:20px;
+      font-family:'Orbitron',sans-serif; font-size:0.6rem; font-weight:700;
+      letter-spacing:0.1em; text-transform:uppercase; color:var(--gray);
+      background:transparent; cursor:pointer; transition:all 0.2s;
     }
-
-    .cat-btn:hover, .cat-btn.active {
-      border-color: var(--gold);
-      color: var(--gold);
-      background: rgba(245,166,35,0.08);
-      box-shadow: 0 0 15px var(--gold-glow);
+    .filter-btn:hover, .filter-btn.active {
+      border-color:var(--gold); color:var(--gold);
+      background:rgba(245,166,35,0.08); box-shadow:0 0 12px var(--gold-glow);
     }
 
     /* QUOTES GRID */
-    .quotes-wrap {
-      position: relative;
-      z-index: 1;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 2rem 6rem;
-    }
-
-    .quotes-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1.5rem;
-    }
+    .quotes-wrap { position:relative; z-index:1; max-width:1200px; margin:0 auto; padding:0 2rem 6rem; }
+    .quotes-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:1.25rem; }
 
     .quote-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      backdrop-filter: blur(20px);
-      transition: all 0.3s;
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
+      background:var(--card-bg); border:1px solid var(--border); border-radius:12px;
+      padding:1.75rem; display:flex; flex-direction:column; gap:1rem;
+      backdrop-filter:blur(20px); transition:all 0.3s; position:relative; overflow:hidden;
+      opacity:0; transform:translateY(20px);
     }
-
+    .quote-card.visible { opacity:1; transform:translateY(0); }
     .quote-card::before {
-      content: '"';
-      position: absolute;
-      top: -0.5rem;
-      left: 1rem;
-      font-family: 'Cinzel', serif;
-      font-size: 6rem;
-      color: var(--gold);
-      opacity: 0.07;
-      line-height: 1;
-      pointer-events: none;
-      transition: opacity 0.3s;
+      content:'"'; position:absolute; top:-0.5rem; right:1rem;
+      font-family:'Cinzel',serif; font-size:5rem; color:var(--gold); opacity:0.06; pointer-events:none;
     }
+    .quote-card:hover { border-color:var(--border-gold); box-shadow:0 0 30px rgba(245,166,35,0.08); transform:translateY(-3px); }
 
-    .quote-card:hover {
-      border-color: var(--border-gold);
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(245,166,35,0.1);
+    .quote-cat-tag {
+      font-family:'Orbitron',sans-serif; font-size:0.58rem; font-weight:700;
+      letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem;
+      border-radius:3px; display:inline-block; align-self:flex-start;
     }
-
-    .quote-card:hover::before { opacity: 0.12; }
-
-    .quote-card-cat {
-      display: inline-block;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.58rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      padding: 0.2rem 0.65rem;
-      border-radius: 3px;
-      align-self: flex-start;
-      margin-top: 1.5rem;
+    .quote-text {
+      font-family:'Cinzel',serif; font-size:0.92rem; color:rgba(232,232,240,0.85);
+      line-height:1.7; font-style:italic; flex:1;
     }
-
-    .cat-first-principles { background: rgba(0,212,255,0.1);   color: var(--blue); }
-    .cat-risk             { background: rgba(255,107,43,0.1);  color: var(--orange); }
-    .cat-engineering      { background: rgba(245,166,35,0.1);  color: var(--gold); }
-    .cat-business         { background: rgba(255,255,255,0.06);color: var(--off-white); }
-    .cat-civilization     { background: rgba(124,58,237,0.15); color: #a78bfa; }
-    .cat-ai               { background: rgba(0,212,255,0.08);  color: var(--blue); }
-    .cat-mars             { background: rgba(255,107,43,0.1);  color: var(--orange); }
-    .cat-mindset          { background: rgba(107,114,128,0.15);color: var(--gray); }
-
-    .quote-card-text {
-      font-family: 'Cinzel', serif;
-      font-size: 0.95rem;
-      color: rgba(232,232,240,0.85);
-      line-height: 1.7;
-      font-style: italic;
-      flex: 1;
-    }
-
-    .quote-card-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      margin-top: auto;
-    }
-
-    .quote-card-attr {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.62rem;
-      color: var(--gold);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-    }
-
+    .quote-footer { display:flex; align-items:center; justify-content:space-between; padding-top:0.75rem; border-top:1px solid var(--border); }
+    .quote-attr { font-family:'Orbitron',sans-serif; font-size:0.6rem; color:var(--gold); font-weight:700; letter-spacing:0.08em; }
     .copy-btn {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--gray);
-      padding: 0.3rem 0.8rem;
-      border-radius: 4px;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.58rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      cursor: pointer;
-      transition: all 0.2s;
+      background:transparent; border:1px solid var(--border); color:var(--gray);
+      padding:0.3rem 0.7rem; border-radius:4px; font-family:'Orbitron',sans-serif;
+      font-size:0.55rem; font-weight:700; cursor:pointer; transition:all 0.2s; letter-spacing:0.08em;
     }
+    .copy-btn:hover { border-color:var(--gold); color:var(--gold); }
 
-    .copy-btn:hover {
-      border-color: var(--gold);
-      color: var(--gold);
-      box-shadow: 0 0 10px var(--gold-glow);
-    }
-
-    .copy-btn.copied {
-      border-color: #4ade80;
-      color: #4ade80;
-    }
-
-    /* FOOTER */
     footer {
-      position: relative;
-      z-index: 1;
-      background: rgba(0,0,8,0.9);
-      border-top: 1px solid var(--border);
-      text-align: center;
-      padding: 3rem 2rem;
-      font-size: 0.8rem;
-      color: var(--gray);
-      line-height: 2;
+      position:relative; z-index:1; background:rgba(0,0,8,0.9);
+      border-top:1px solid var(--border); text-align:center;
+      padding:3rem 2rem; font-size:0.8rem; color:var(--gray); line-height:2;
     }
+    footer a { color:var(--gold); text-decoration:none; }
+    footer a:hover { text-decoration:underline; }
+    .footer-logo { font-family:'Orbitron',sans-serif; font-size:1.2rem; font-weight:900; color:var(--gold); letter-spacing:0.1em; text-shadow:0 0 20px var(--gold-glow); margin-bottom:0.5rem; }
 
-    footer a { color: var(--gold); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-
-    .footer-logo {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.2rem;
-      font-weight: 900;
-      color: var(--gold);
-      letter-spacing: 0.1em;
-      text-shadow: 0 0 20px var(--gold-glow);
-      margin-bottom: 0.5rem;
-    }
-
-    @media (max-width: 768px) {
-      .nav-links { display: none; }
-      .quotes-grid { grid-template-columns: 1fr; }
-      .hero-quote::before { font-size: 15rem; }
+    @media (max-width:768px) {
+      .nav-links { display:none; }
+      .quotes-grid { grid-template-columns:1fr; }
     }
   </style>
 </head>
 <body>
-
   <canvas id="starfield"></canvas>
 
   <nav>
@@ -427,38 +162,34 @@
       <li><a href="quotes.html" class="active">Quotes</a></li>
       <li><a href="numbers.html">Numbers</a></li>
       <li><a href="today.html">Today</a></li>
+      <li><a href="reading.html">Books</a></li>
       <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
     </ul>
   </nav>
 
-  <!-- HERO QUOTE -->
-  <div class="hero-quote">
-    <div class="hero-quote-inner">
-      <p class="hero-eyebrow">Words That Move the World</p>
-      <div class="hero-quote-cat" id="hero-cat">First Principles</div>
-      <div class="hero-quote-text" id="hero-text">"Boil things down to the most fundamental truths and reason up from there."</div>
-      <div class="hero-quote-attr">— Elon Musk</div>
-      <div class="hero-quote-nav">
-        <button class="quote-nav-btn" onclick="prevQuote()">← Prev</button>
-        <button class="quote-nav-btn" onclick="nextQuote()">Next →</button>
-      </div>
+  <div class="quote-hero">
+    <p class="page-eyebrow">Words That Changed the World</p>
+    <div class="hero-quote-text" id="hero-quote">"When something is important enough, you do it even if the odds are not in your favor."</div>
+    <div class="hero-quote-attr">— Elon Musk</div>
+    <div class="hero-nav">
+      <button class="hero-nav-btn" onclick="prevQuote()">← Prev</button>
+      <span class="hero-quote-counter" id="quote-counter">1 / 30</span>
+      <button class="hero-nav-btn" onclick="nextQuote()">Next →</button>
     </div>
   </div>
 
-  <!-- CATEGORY FILTER -->
   <div class="filter-wrap">
-    <button class="cat-btn active" data-cat="all">All</button>
-    <button class="cat-btn" data-cat="first-principles">First Principles</button>
-    <button class="cat-btn" data-cat="risk">Risk</button>
-    <button class="cat-btn" data-cat="engineering">Engineering</button>
-    <button class="cat-btn" data-cat="business">Business</button>
-    <button class="cat-btn" data-cat="civilization">Civilization</button>
-    <button class="cat-btn" data-cat="ai">AI</button>
-    <button class="cat-btn" data-cat="mars">Mars</button>
-    <button class="cat-btn" data-cat="mindset">Mindset</button>
+    <button class="filter-btn active" data-cat="all">All</button>
+    <button class="filter-btn" data-cat="firstprinciples">First Principles</button>
+    <button class="filter-btn" data-cat="risk">Risk</button>
+    <button class="filter-btn" data-cat="engineering">Engineering</button>
+    <button class="filter-btn" data-cat="business">Business</button>
+    <button class="filter-btn" data-cat="civilization">Civilization</button>
+    <button class="filter-btn" data-cat="ai">AI</button>
+    <button class="filter-btn" data-cat="mars">Mars</button>
+    <button class="filter-btn" data-cat="mindset">Mindset</button>
   </div>
 
-  <!-- QUOTES GRID -->
   <div class="quotes-wrap">
     <div class="quotes-grid" id="quotes-grid"></div>
   </div>
@@ -472,155 +203,125 @@
       <a href="news.html">News</a> &nbsp;·&nbsp;
       <a href="timeline.html">Timeline</a> &nbsp;·&nbsp;
       <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
+      <a href="reading.html">Books</a> &nbsp;·&nbsp;
       <a href="thanks.html">Say Thanks</a>
     </p>
     <p style="margin-top:1rem; font-size:0.72rem; opacity:0.5;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
   </footer>
 
   <script>
-    const quotes = [
-      { text: "Boil things down to the most fundamental truths and reason up from there.", cat: "first-principles", label: "First Principles" },
-      { text: "I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better.", cat: "first-principles", label: "First Principles" },
-      { text: "The first step is to establish that something is possible; then probability will occur.", cat: "first-principles", label: "First Principles" },
-      { text: "Physics is the law, everything else is a recommendation.", cat: "first-principles", label: "First Principles" },
-      { text: "Really pay attention to negative feedback and solicit it, particularly from friends. Hardly anyone does that, and it's incredibly helpful.", cat: "first-principles", label: "First Principles" },
-      { text: "The best part is no part. The best process is no process.", cat: "engineering", label: "Engineering" },
-      { text: "When something is important enough, you do it even if the odds are not in your favor.", cat: "risk", label: "Risk" },
-      { text: "Failure is an option here. If things are not failing, you are not innovating enough.", cat: "risk", label: "Risk" },
-      { text: "Starting a business is not for everyone. It's quite painful. You will be told your idea is insane.", cat: "risk", label: "Risk" },
-      { text: "Persistence is very important. You should not give up unless you are forced to give up.", cat: "mindset", label: "Mindset" },
-      { text: "I don't create companies for the money. I do it to try to make the world a better place.", cat: "business", label: "Business" },
-      { text: "Work like hell. I mean you just have to put in 80 to 100 hour weeks every week.", cat: "business", label: "Business" },
-      { text: "The path to the CEO's office should not be through the CFO's office. It needs to be through engineering and design.", cat: "business", label: "Business" },
-      { text: "I always invest my own money in the companies that I create. I don't believe in just using other people's money.", cat: "business", label: "Business" },
-      { text: "If you go back a few hundred years, what we take for granted today would seem like magic.", cat: "civilization", label: "Civilization" },
-      { text: "We're running the most dangerous experiment in history right now, which is to see how much carbon dioxide the atmosphere can handle.", cat: "civilization", label: "Civilization" },
-      { text: "The future is vastly more exciting and interesting if we're a spacefaring civilization and a multi-planet species.", cat: "civilization", label: "Civilization" },
-      { text: "I would like to die on Mars. Just not on impact.", cat: "mars", label: "Mars" },
-      { text: "You want to wake up in the morning and think the future is going to be great — and that's what being a spacefaring civilization is all about.", cat: "mars", label: "Mars" },
-      { text: "Making life multiplanetary expands the scope and scale of human consciousness.", cat: "mars", label: "Mars" },
-      { text: "Humans need to be a multi-planet species.", cat: "mars", label: "Mars" },
-      { text: "AI is the most transformative technology in human history, far more powerful than fire.", cat: "ai", label: "AI" },
-      { text: "I am not sure I want to be the CEO of AI. I want AI to be good for humanity.", cat: "ai", label: "AI" },
-      { text: "Rockets are the only form of transportation on Earth where the vehicle is built anew for each journey. That's insane.", cat: "engineering", label: "Engineering" },
-      { text: "Any product that needs a manual to work is broken.", cat: "engineering", label: "Engineering" },
-      { text: "Life is too short for long-term grudges.", cat: "mindset", label: "Mindset" },
-      { text: "If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not.", cat: "mindset", label: "Mindset" },
-      { text: "It's OK to have your eggs in one basket as long as you control what happens to that basket.", cat: "mindset", label: "Mindset" },
-      { text: "I think most people can learn a lot more than they think they can. They sell themselves short without trying.", cat: "mindset", label: "Mindset" },
-      { text: "When Henry Ford made cheap, reliable cars people said, 'Nah, what's wrong with a horse?' That was a huge bet he made, and it worked.", cat: "risk", label: "Risk" },
+    const QUOTES = [
+      { text:"When something is important enough, you do it even if the odds are not in your favor.", cat:"risk", catLabel:"Risk", catColor:"#ff6b2b", catBg:"rgba(255,107,43,0.12)" },
+      { text:"I think it's possible for ordinary people to choose to be extraordinary.", cat:"mindset", catLabel:"Mindset", catColor:"#f5a623", catBg:"rgba(245,166,35,0.12)" },
+      { text:"Failure is an option here. If things are not failing, you are not innovating enough.", cat:"risk", catLabel:"Risk", catColor:"#ff6b2b", catBg:"rgba(255,107,43,0.12)" },
+      { text:"The first step is to establish that something is possible; then probability will occur.", cat:"firstprinciples", catLabel:"First Principles", catColor:"#00d4ff", catBg:"rgba(0,212,255,0.1)" },
+      { text:"Physics is the law, everything else is a recommendation.", cat:"firstprinciples", catLabel:"First Principles", catColor:"#00d4ff", catBg:"rgba(0,212,255,0.1)" },
+      { text:"I don't create companies for the money. I create companies to get things done.", cat:"business", catLabel:"Business", catColor:"#4ade80", catBg:"rgba(74,222,128,0.1)" },
+      { text:"Persistence is very important. You should not give up unless you are forced to give up.", cat:"mindset", catLabel:"Mindset", catColor:"#f5a623", catBg:"rgba(245,166,35,0.12)" },
+      { text:"I would like to die on Mars. Just not on impact.", cat:"mars", catLabel:"Mars", catColor:"#ff6b2b", catBg:"rgba(255,107,43,0.12)" },
+      { text:"If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not.", cat:"mindset", catLabel:"Mindset", catColor:"#f5a623", catBg:"rgba(245,166,35,0.12)" },
+      { text:"It's OK to have your eggs in one basket as long as you control what happens to that basket.", cat:"business", catLabel:"Business", catColor:"#4ade80", catBg:"rgba(74,222,128,0.1)" },
+      { text:"When Henry Ford made cheap, reliable cars, people said 'Nah, what's wrong with a horse?' That was a huge bet he made, and it worked.", cat:"business", catLabel:"Business", catColor:"#4ade80", catBg:"rgba(74,222,128,0.1)" },
+      { text:"Really pay attention to negative feedback and solicit it, particularly from friends. Hardly anyone does that, and it's incredibly helpful.", cat:"firstprinciples", catLabel:"First Principles", catColor:"#00d4ff", catBg:"rgba(0,212,255,0.1)" },
+      { text:"I think we have a duty to maintain the light of consciousness, to make sure it continues into the future.", cat:"civilization", catLabel:"Civilization", catColor:"#a78bfa", catBg:"rgba(167,139,250,0.12)" },
+      { text:"Humanity is going to bifurcate in two directions — into space-faring civilization and those who stay on Earth. I hope the former.", cat:"civilization", catLabel:"Civilization", catColor:"#a78bfa", catBg:"rgba(167,139,250,0.12)" },
+      { text:"Being an entrepreneur is like eating glass and staring into the abyss of death.", cat:"risk", catLabel:"Risk", catColor:"#ff6b2b", catBg:"rgba(255,107,43,0.12)" },
+      { text:"You want to be extra rigorous about making the best possible thing you can. Find everything that's wrong with it and fix it.", cat:"engineering", catLabel:"Engineering", catColor:"#00d4ff", catBg:"rgba(0,212,255,0.1)" },
+      { text:"I could either watch it happen or be a part of it.", cat:"mindset", catLabel:"Mindset", catColor:"#f5a623", catBg:"rgba(245,166,35,0.12)" },
+      { text:"AI is a fundamental risk to the existence of human civilization in a way that car accidents, airplane crashes, faulty drugs or bad food were not.", cat:"ai", catLabel:"AI", catColor:"#a78bfa", catBg:"rgba(167,139,250,0.12)" },
+      { text:"With artificial intelligence we are summoning the demon. You know all those stories where there's the guy with the pentagram and the holy water and he's like, yeah, he's sure he can control the demon? Doesn't work out.", cat:"ai", catLabel:"AI", catColor:"#a78bfa", catBg:"rgba(167,139,250,0.12)" },
+      { text:"The thing that's worth doing is trying to improve our understanding of the world and gain a better appreciation of the universe and not to worry too much about there being no meaning.", cat:"civilization", catLabel:"Civilization", catColor:"#a78bfa", catBg:"rgba(167,139,250,0.12)" },
+      { text:"My biggest mistake is probably weighing too much on someone's talent and not someone's personality. I think it matters whether someone has a good heart.", cat:"business", catLabel:"Business", catColor:"#4ade80", catBg:"rgba(74,222,128,0.1)" },
+      { text:"Work like hell. I mean you just have to put in 80 to 100 hour weeks every week.", cat:"mindset", catLabel:"Mindset", catColor:"#f5a623", catBg:"rgba(245,166,35,0.12)" },
+      { text:"Making life multiplanetary expands the scope and scale of human consciousness.", cat:"mars", catLabel:"Mars", catColor:"#ff6b2b", catBg:"rgba(255,107,43,0.12)" },
+      { text:"The goal of SpaceX is to make humanity a multi-planet species.", cat:"mars", catLabel:"Mars", catColor:"#ff6b2b", catBg:"rgba(255,107,43,0.12)" },
+      { text:"I always invest my own money in the companies that I create. I don't believe in asking other people to invest in something if I'm not prepared to do so myself.", cat:"business", catLabel:"Business", catColor:"#4ade80", catBg:"rgba(74,222,128,0.1)" },
+      { text:"Boil things down to their fundamental truths and reason up from there, as opposed to reasoning by analogy.", cat:"firstprinciples", catLabel:"First Principles", catColor:"#00d4ff", catBg:"rgba(0,212,255,0.1)" },
+      { text:"The path to the CEO's office should not be through the CFO's office, and it should not be through the marketing department. It needs to be through engineering and design.", cat:"engineering", catLabel:"Engineering", catColor:"#00d4ff", catBg:"rgba(0,212,255,0.1)" },
+      { text:"I think the best way to attract venture capital is to try and come up with a demonstration of whatever product or service it is and ideally take that as far as you can.", cat:"business", catLabel:"Business", catColor:"#4ade80", catBg:"rgba(74,222,128,0.1)" },
+      { text:"There have to be reasons that you get up in the morning and you want to live. Why do you want to live? What's the point? What inspires you?", cat:"civilization", catLabel:"Civilization", catColor:"#a78bfa", catBg:"rgba(167,139,250,0.12)" },
+      { text:"Some people don't like change, but you need to embrace change if the alternative is disaster.", cat:"firstprinciples", catLabel:"First Principles", catColor:"#00d4ff", catBg:"rgba(0,212,255,0.1)" },
     ];
 
-    // Hero rotator
     let heroIndex = 0;
-    const heroText = document.getElementById('hero-text');
-    const heroCat = document.getElementById('hero-cat');
+    let autoTimer = setInterval(nextQuote, 8000);
 
-    heroText.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
-
-    function setHero(index) {
-      heroText.style.opacity = '0';
-      heroText.style.transform = 'translateY(10px)';
+    function updateHero() {
+      const el = document.getElementById('hero-quote');
+      el.style.opacity = '0';
       setTimeout(() => {
-        heroIndex = (index + quotes.length) % quotes.length;
-        heroText.textContent = `"${quotes[heroIndex].text}"`;
-        heroCat.textContent = quotes[heroIndex].label;
-        heroText.style.opacity = '1';
-        heroText.style.transform = 'translateY(0)';
+        el.textContent = `"${QUOTES[heroIndex].text}"`;
+        el.style.opacity = '1';
+        document.getElementById('quote-counter').textContent = `${heroIndex+1} / ${QUOTES.length}`;
       }, 400);
     }
 
-    function nextQuote() { setHero(heroIndex + 1); }
-    function prevQuote() { setHero(heroIndex - 1); }
-    setInterval(nextQuote, 8000);
+    function nextQuote() { heroIndex = (heroIndex+1) % QUOTES.length; updateHero(); clearInterval(autoTimer); autoTimer = setInterval(nextQuote, 8000); }
+    function prevQuote() { heroIndex = (heroIndex-1+QUOTES.length) % QUOTES.length; updateHero(); clearInterval(autoTimer); autoTimer = setInterval(nextQuote, 8000); }
 
-    // Render grid
-    function renderQuotes(filter) {
+    document.getElementById('hero-quote').style.transition = 'opacity 0.4s ease';
+
+    let currentCat = 'all';
+
+    function renderQuotes() {
+      const filtered = currentCat === 'all' ? QUOTES : QUOTES.filter(q => q.cat === currentCat);
       const grid = document.getElementById('quotes-grid');
-      const filtered = filter === 'all' ? quotes : quotes.filter(q => q.cat === filter);
       grid.innerHTML = filtered.map((q, i) => `
-        <div class="quote-card" style="opacity:0;transform:translateY(20px);transition:opacity 0.5s ease ${i*0.05}s,transform 0.5s ease ${i*0.05}s,border-color 0.3s,box-shadow 0.3s,transform 0.3s">
-          <span class="quote-card-cat cat-${q.cat}">${q.label}</span>
-          <div class="quote-card-text">"${q.text}"</div>
-          <div class="quote-card-footer">
-            <span class="quote-card-attr">— Elon Musk</span>
-            <button class="copy-btn" onclick="copyQ(this,'${q.text.replace(/'/g,"\\'")}')">Copy</button>
+        <div class="quote-card" style="transition-delay:${i*0.04}s">
+          <span class="quote-cat-tag" style="color:${q.catColor};background:${q.catBg}">${q.catLabel}</span>
+          <div class="quote-text">"${q.text}"</div>
+          <div class="quote-footer">
+            <span class="quote-attr">— Elon Musk</span>
+            <button class="copy-btn" onclick="copyQuote(this,'${q.text.replace(/'/g,"\\'")}')">Copy</button>
           </div>
-        </div>
-      `).join('');
+        </div>`).join('');
 
-      requestAnimationFrame(() => {
-        document.querySelectorAll('.quote-card').forEach(c => {
-          c.style.opacity = '1';
-          c.style.transform = 'translateY(0)';
-        });
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); } });
+      }, { threshold:0.05 });
+      document.querySelectorAll('.quote-card').forEach(c => obs.observe(c));
+    }
+
+    function copyQuote(btn, text) {
+      navigator.clipboard.writeText(`"${text}" — Elon Musk`).then(() => {
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = 'Copy', 2000);
       });
     }
 
-    // Category filter
-    document.querySelectorAll('.cat-btn').forEach(btn => {
+    document.querySelectorAll('.filter-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        renderQuotes(btn.dataset.cat);
+        currentCat = btn.dataset.cat;
+        renderQuotes();
       });
     });
 
-    // Copy
-    function copyQ(btn, text) {
-      navigator.clipboard.writeText(`"${text}" — Elon Musk`).then(() => {
-        btn.textContent = 'Copied!';
-        btn.classList.add('copied');
-        setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
-      });
-    }
+    renderQuotes();
 
-    // Starfield
     const canvas = document.getElementById('starfield');
     const ctx = canvas.getContext('2d');
     let stars = [], shootingStars = [];
-
-    function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
-
-    function initStars() {
-      stars = [];
-      for (let i = 0; i < 200; i++) {
-        stars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height, r: Math.random()*1.5+0.2, alpha: Math.random()*0.8+0.2, twinkle: Math.random()*Math.PI*2 });
-      }
-    }
-
-    function addShootingStar() {
-      shootingStars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height*0.5, len: Math.random()*120+60, speed: Math.random()*8+6, alpha: 1, angle: Math.PI/4+(Math.random()-0.5)*0.3 });
-    }
-
+    function resize() { canvas.width=window.innerWidth; canvas.height=window.innerHeight; }
+    function initStars() { stars=[]; for(let i=0;i<200;i++) stars.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,r:Math.random()*1.5+0.2,alpha:Math.random()*0.8+0.2,twinkle:Math.random()*Math.PI*2}); }
+    function addShootingStar() { shootingStars.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height*0.5,len:Math.random()*120+60,speed:Math.random()*8+6,alpha:1,angle:Math.PI/4+(Math.random()-0.5)*0.3}); }
     function drawStars() {
       ctx.clearRect(0,0,canvas.width,canvas.height);
-      stars.forEach(s => {
-        s.twinkle += 0.02;
-        ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
-        ctx.fillStyle = `rgba(255,255,255,${s.alpha*(0.7+0.3*Math.sin(s.twinkle))})`; ctx.fill();
-      });
-      shootingStars = shootingStars.filter(s => s.alpha > 0.01);
-      shootingStars.forEach(s => {
-        const grad = ctx.createLinearGradient(s.x,s.y,s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
-        grad.addColorStop(0,`rgba(245,166,35,${s.alpha})`); grad.addColorStop(1,'transparent');
-        ctx.beginPath(); ctx.moveTo(s.x,s.y); ctx.lineTo(s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
-        ctx.strokeStyle=grad; ctx.lineWidth=1.5; ctx.stroke();
-        s.x+=Math.cos(s.angle)*s.speed; s.y+=Math.sin(s.angle)*s.speed; s.alpha-=0.018;
+      stars.forEach(s=>{s.twinkle+=0.02;ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fillStyle=`rgba(255,255,255,${s.alpha*(0.7+0.3*Math.sin(s.twinkle))})`;ctx.fill();});
+      shootingStars=shootingStars.filter(s=>s.alpha>0.01);
+      shootingStars.forEach(s=>{
+        const grad=ctx.createLinearGradient(s.x,s.y,s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        grad.addColorStop(0,`rgba(245,166,35,${s.alpha})`);grad.addColorStop(1,'transparent');
+        ctx.beginPath();ctx.moveTo(s.x,s.y);ctx.lineTo(s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        ctx.strokeStyle=grad;ctx.lineWidth=1.5;ctx.stroke();
+        s.x+=Math.cos(s.angle)*s.speed;s.y+=Math.sin(s.angle)*s.speed;s.alpha-=0.018;
       });
     }
-
-    let lastShoot = 0;
-    function animate(t) {
-      drawStars();
-      if (t-lastShoot > 3000+Math.random()*4000) { addShootingStar(); lastShoot=t; }
-      requestAnimationFrame(animate);
-    }
-
-    window.addEventListener('resize', () => { resize(); initStars(); });
-    resize(); initStars(); requestAnimationFrame(animate);
-    renderQuotes('all');
+    let lastShoot=0;
+    function animate(t){drawStars();if(t-lastShoot>3000+Math.random()*4000){addShootingStar();lastShoot=t;}requestAnimationFrame(animate);}
+    window.addEventListener('resize',()=>{resize();initStars();});
+    resize();initStars();requestAnimationFrame(animate);
   </script>
-
 </body>
 </html>
