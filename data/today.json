@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "Photos of key moments in SpaceX history, from the scrappy startup days to milestone rocket launches",
+      "summary": "See key moments in SpaceX history, from Elon Musk celebrating with the team when there were fewer than 10 employees, to its milestone rocket launches.",
+      "url": "https://www.businessinsider.com/spacex-history-photos#article",
+      "source": "Business Insider",
+      "date": "Jun 13, 2026",
+      "publishedAt": "2026-06-13T09:15:01Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Wall Street Liftoff: SpaceX IPO Rockets to Historic Heights",
       "summary": "\"I am filled with optimism at the fact that the world's first trillionaire was made not by hedge funds or market manipulation, but by building the infrastructure to take America to the stars.\"\nThe post Wall Street Liftoff: SpaceX IPO Rockets to Historic Heigh…",
       "url": "https://legalinsurrection.com/2026/06/wall-street-liftoff-spacex-ipo-rockets-to-historic-heights/",
       "source": "Legalinsurrection.com",
       "date": "Jun 13, 2026",
       "publishedAt": "2026-06-13T00:00:47Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX shares soar 19% after record $75B IPO led by Elon Musk",
-      "summary": "SpaceX's IPO success underscores the growing investor confidence in space exploration, potentially accelerating advancements in the industry.\nThe post SpaceX shares soar 19% after record $75B IPO led by Elon Musk appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/spacex-ipo-record-shares-soar/",
-      "source": "Crypto Briefing",
-      "date": "Jun 12, 2026",
-      "publishedAt": "2026-06-12T23:45:25Z"
     },
     {
       "venture": "tesla",
@@ -45,33 +45,13 @@
     {
       "venture": "starlink",
       "label": "Starlink",
-      "headline": "Elon Musk Becomes World’s First Trillionaire Amid SpaceX IPO",
-      "summary": "Elon Musk saw his net worth surge as SpaceX hit the public market Friday. The biggest public offering ever was priced at $135 a share. The shares opened at $150 and jumped some more when they started trading on the Nasdaq under the symbol SPCX. The stock is u…",
-      "url": "http://deadline.com/2026/06/elon-musk-first-trillionaire-spacex-ipo-1236955050/",
-      "source": "Deadline",
-      "date": "Jun 12, 2026",
-      "publishedAt": "2026-06-12T19:49:52Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
       "headline": "Elon Musk becomes world’s first trillionaire as SpaceX shares jump",
       "summary": "SpaceX shares jumped as much as 30% as Musk promised to take people to Mars.",
       "url": "https://www.nzherald.co.nz/business/elon-musk-becomes-worlds-first-trillionaire-as-spacex-shares-jump/HXKUBZRMENHH5PD2PTQFUUES7Q/",
       "source": "New Zealand Herald",
       "date": "Jun 12, 2026",
       "publishedAt": "2026-06-12T18:19:00Z"
-    },
-    {
-      "venture": "neura",
-      "label": "Neuralink",
-      "headline": "Elon Musk Describes His Neuralink Brain Implants as 'Jesus-Level Technology'",
-      "summary": "Elon Musk has characterized his Neuralink brain-computer interface technology as achieving miracle-level breakthroughs, while the company's president revealed plans to implant chips in healthy individuals within the next four years. Musk called his creepy bra…",
-      "url": "https://www.breitbart.com/tech/2026/05/22/elon-musk-describes-his-neuralink-brain-implants-as-jesus-level-technology/",
-      "source": "Breitbart News",
-      "date": "May 22, 2026",
-      "publishedAt": "2026-05-22T16:16:47Z"
     }
   ],
-  "generatedAt": "2026-06-14T00:01:46.295Z"
+  "generatedAt": "2026-06-14T09:24:55.590Z"
 }
