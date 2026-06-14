@@ -88,14 +88,14 @@
 
     .nav-links {
       display: flex;
-      gap: 2rem;
+      gap: 1.6rem;
       list-style: none;
     }
 
     .nav-links a {
       color: var(--gray);
       text-decoration: none;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       font-weight: 500;
       letter-spacing: 0.12em;
       text-transform: uppercase;
@@ -114,7 +114,6 @@
       box-shadow: 0 0 20px var(--gold-glow);
     }
 
-    /* PAGE HEADER */
     .page-header {
       position: relative;
       z-index: 1;
@@ -151,7 +150,6 @@
       margin: 0 auto 4rem;
     }
 
-    /* VENTURES GRID */
     .ventures-wrap {
       position: relative;
       z-index: 1;
@@ -166,7 +164,6 @@
       gap: 1.5rem;
     }
 
-    /* VENTURE CARD — logo fills the whole card */
     .venture-card {
       background: #0a0a14;
       border: 1px solid var(--border);
@@ -182,7 +179,6 @@
       transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
 
-    /* Gold bottom line animation */
     .venture-card::before {
       content: '';
       position: absolute;
@@ -194,7 +190,6 @@
       z-index: 2;
     }
 
-    /* Radial glow on hover */
     .venture-card::after {
       content: '';
       position: absolute;
@@ -208,15 +203,12 @@
     .venture-card:hover {
       border-color: rgba(245,166,35,0.4);
       transform: translateY(-8px) scale(1.02);
-      box-shadow:
-        0 20px 50px rgba(245,166,35,0.15),
-        0 0 0 1px rgba(245,166,35,0.15);
+      box-shadow: 0 20px 50px rgba(245,166,35,0.15), 0 0 0 1px rgba(245,166,35,0.15);
     }
 
     .venture-card:hover::before { transform: scaleX(1); }
     .venture-card:hover::after { opacity: 1; }
 
-    /* LOGO IMAGE — fills card, mix-blend-mode removes white bg */
     .venture-card img {
       width: 65%;
       height: 65%;
@@ -232,7 +224,6 @@
       filter: drop-shadow(0 0 20px rgba(245,166,35,0.4));
     }
 
-    /* ARROW */
     .venture-arrow {
       position: absolute;
       top: 1rem;
@@ -251,7 +242,6 @@
       text-shadow: 0 0 10px var(--gold-glow);
     }
 
-    /* LABEL at bottom */
     .venture-label {
       position: absolute;
       bottom: 0;
@@ -272,7 +262,6 @@
 
     .venture-card:hover .venture-label { opacity: 1; }
 
-    /* FOOTER */
     footer {
       position: relative;
       z-index: 1;
@@ -321,6 +310,7 @@
       <li><a href="quotes.html">Quotes</a></li>
       <li><a href="numbers.html">Numbers</a></li>
       <li><a href="today.html">Today</a></li>
+      <li><a href="reading.html">Books</a></li>
       <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
     </ul>
   </nav>
@@ -388,6 +378,7 @@
       <a href="news.html">News</a> &nbsp;·&nbsp;
       <a href="timeline.html">Timeline</a> &nbsp;·&nbsp;
       <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
+      <a href="reading.html">Books</a> &nbsp;·&nbsp;
       <a href="thanks.html">Say Thanks</a>
     </p>
     <p style="margin-top:1rem; font-size:0.72rem; opacity:0.5;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
@@ -438,7 +429,6 @@
     window.addEventListener('resize', () => { resize(); initStars(); });
     resize(); initStars(); requestAnimationFrame(animate);
 
-    // STAGGER REVEAL
     const cards = document.querySelectorAll('.venture-card');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry, i) => {
