@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>By the Numbers – Thanks Elon Musk</title>
-  <meta name="description" content="The Elon Musk scorecard — rockets launched, EVs delivered, satellites in orbit, lives changed. By the numbers." />
-  <meta property="og:title" content="By the Numbers – Thanks Elon Musk" />
+  <title>Elon Musk By the Numbers – Thanks Elon Musk</title>
+  <meta name="description" content="The numbers behind Elon Musk's empire — SpaceX launches, Tesla deliveries, Starlink satellites, Neuralink patients, and more." />
+  <meta property="og:title" content="Elon Musk By the Numbers – Thanks Elon Musk" />
   <meta property="og:image" content="https://thankselonmusk.com/images/elon2.png" />
   <meta property="og:url" content="https://thankselonmusk.com/numbers.html" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -24,472 +24,103 @@
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
-      --black:       #000008;
-      --gold:        #f5a623;
-      --gold-glow:   #f5a62366;
-      --gold-dim:    #c8831a;
-      --orange:      #ff6b2b;
-      --blue:        #00d4ff;
-      --purple:      #7c3aed;
-      --white:       #ffffff;
-      --off-white:   #e8e8f0;
-      --gray:        #6b7280;
-      --card-bg:     rgba(255,255,255,0.03);
-      --border:      rgba(255,255,255,0.08);
+      --black: #000008; --gold: #f5a623; --gold-glow: #f5a62366;
+      --orange: #ff6b2b; --blue: #00d4ff; --white: #ffffff;
+      --off-white: #e8e8f0; --gray: #6b7280;
+      --card-bg: rgba(255,255,255,0.03); --border: rgba(255,255,255,0.08);
       --border-gold: rgba(245,166,35,0.4);
     }
-
     html { scroll-behavior: smooth; }
-
-    body {
-      background: var(--black);
-      color: var(--off-white);
-      font-family: 'Inter', sans-serif;
-      font-size: 16px;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    #starfield {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      z-index: 0;
-      pointer-events: none;
-    }
+    body { background: var(--black); color: var(--off-white); font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    #starfield { position: fixed; top:0; left:0; width:100%; height:100%; z-index:0; pointer-events:none; }
 
     nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 1000;
-      background: rgba(0,0,8,0.7);
-      backdrop-filter: blur(20px);
+      position: fixed; top:0; left:0; right:0; z-index:1000;
+      background: rgba(0,0,8,0.7); backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 2rem;
-      height: 64px;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2rem; height: 64px;
     }
-
-    .nav-logo {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.1rem;
-      font-weight: 900;
-      color: var(--gold);
-      text-decoration: none;
-      letter-spacing: 0.1em;
-      text-shadow: 0 0 20px var(--gold-glow);
-    }
-
-    .nav-logo span { color: var(--white); }
-
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
-    }
-
-    .nav-links a {
-      color: var(--gray);
-      text-decoration: none;
-      font-size: 0.78rem;
-      font-weight: 500;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      transition: color 0.2s;
-      font-family: 'Orbitron', sans-serif;
-    }
-
-    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
-
-    .nav-cta {
-      background: linear-gradient(135deg, var(--gold), var(--orange));
-      color: var(--black) !important;
-      padding: 0.45rem 1.2rem;
-      border-radius: 4px;
-      font-weight: 700 !important;
-      box-shadow: 0 0 20px var(--gold-glow);
-    }
-
-    /* PAGE HEADER */
-    .page-header {
-      position: relative;
-      z-index: 1;
-      padding: 8rem 2rem 3rem;
-      max-width: 1200px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    .page-eyebrow {
-      font-family: 'Cinzel', serif;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.35em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 1rem;
-    }
-
-    .page-title {
-      font-family: 'Orbitron', sans-serif;
-      font-size: clamp(2rem, 5vw, 4rem);
-      font-weight: 900;
-      color: var(--white);
-      line-height: 1.05;
-      margin-bottom: 1rem;
-    }
-
-    .page-sub {
-      font-size: 1.05rem;
-      color: rgba(232,232,240,0.6);
-      font-weight: 300;
-      max-width: 520px;
-      margin: 0 auto;
-    }
+    .nav-logo { font-family:'Orbitron',sans-serif; font-size:1.1rem; font-weight:900; color:var(--gold); text-decoration:none; letter-spacing:0.1em; text-transform:uppercase; text-shadow:0 0 20px var(--gold-glow); }
+    .nav-logo span { color:var(--white); }
+    .nav-links { display:flex; gap:1.6rem; list-style:none; }
+    .nav-links a { color:var(--gray); text-decoration:none; font-size:0.75rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; transition:color 0.2s; font-family:'Orbitron',sans-serif; }
+    .nav-links a:hover, .nav-links a.active { color:var(--gold); }
+    .nav-cta { background:linear-gradient(135deg,var(--gold),var(--orange)); color:var(--black)!important; padding:0.45rem 1.2rem; border-radius:4px; font-weight:700!important; box-shadow:0 0 20px var(--gold-glow); }
 
     /* HERO COUNTER */
     .hero-counter {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      padding: 4rem 2rem;
-      background: linear-gradient(135deg, rgba(245,166,35,0.04), rgba(0,212,255,0.02));
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 5rem;
-      overflow: hidden;
+      position: relative; z-index:1;
+      text-align: center; padding: 8rem 2rem 5rem; overflow: hidden;
     }
-
     .hero-counter::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at center, rgba(245,166,35,0.06), transparent 70%);
-      pointer-events: none;
+      content:'∞'; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+      font-size:25rem; color:var(--gold); opacity:0.02; pointer-events:none; line-height:1;
+      font-family:'Orbitron',sans-serif;
     }
-
-    .hero-counter-value {
-      font-family: 'Orbitron', sans-serif;
-      font-size: clamp(5rem, 15vw, 10rem);
-      font-weight: 900;
-      color: var(--gold);
-      line-height: 1;
-      text-shadow: 0 0 60px var(--gold-glow), 0 0 120px rgba(245,166,35,0.2);
-      letter-spacing: -0.02em;
-    }
-
-    .hero-counter-label {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.85rem;
-      color: var(--off-white);
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-top: 1rem;
-      opacity: 0.7;
-    }
-
-    .hero-counter-sub {
-      font-size: 0.8rem;
-      color: var(--gray);
-      margin-top: 0.5rem;
-      font-style: italic;
-    }
+    .page-eyebrow { font-family:'Cinzel',serif; font-size:0.72rem; font-weight:600; letter-spacing:0.35em; text-transform:uppercase; color:var(--gold); margin-bottom:1rem; }
+    .hero-number { font-family:'Orbitron',sans-serif; font-size:clamp(4rem,10vw,9rem); font-weight:900; color:var(--gold); line-height:1; text-shadow:0 0 60px var(--gold-glow), 0 0 120px var(--gold-glow); }
+    .hero-number-label { font-family:'Orbitron',sans-serif; font-size:clamp(0.8rem,2vw,1.2rem); color:var(--off-white); letter-spacing:0.15em; text-transform:uppercase; margin-top:0.5rem; }
+    .hero-number-sub { font-size:0.9rem; color:var(--gray); margin-top:0.75rem; }
 
     /* SECTION */
-    .numbers-section {
-      position: relative;
-      z-index: 1;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem 5rem;
+    .section-wrap { position:relative; z-index:1; max-width:1200px; margin:0 auto; padding:4rem 2rem; }
+    .section-eyebrow { font-family:'Cinzel',serif; font-size:0.72rem; font-weight:600; letter-spacing:0.3em; text-transform:uppercase; color:var(--gold); margin-bottom:0.75rem; display:flex; align-items:center; gap:1rem; }
+    .section-eyebrow::after { content:''; flex:1; max-width:60px; height:1px; background:linear-gradient(to right,var(--gold),transparent); }
+    .section-title { font-family:'Orbitron',sans-serif; font-size:clamp(1.5rem,3vw,2.5rem); font-weight:900; color:var(--white); margin-bottom:2rem; }
+
+    /* STATS GRID */
+    .stats-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:1.25rem; }
+    .stat-card {
+      background:var(--card-bg); border:1px solid var(--border); border-radius:12px;
+      padding:1.75rem 1.5rem; text-align:center; backdrop-filter:blur(20px);
+      transition:all 0.3s; position:relative; overflow:hidden;
     }
-
-    .section-eyebrow {
-      font-family: 'Cinzel', serif;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 0.5rem;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .section-eyebrow::after {
-      content: '';
-      flex: 1;
-      max-width: 60px;
-      height: 1px;
-      background: linear-gradient(to right, var(--gold), transparent);
-    }
-
-    .section-title {
-      font-family: 'Orbitron', sans-serif;
-      font-size: clamp(1.5rem, 3vw, 2.2rem);
-      font-weight: 900;
-      color: var(--white);
-      margin-bottom: 2.5rem;
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-
-    /* NUMBER CARDS */
-    .numbers-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1.25rem;
-      margin-bottom: 4rem;
-    }
-
-    .number-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 2rem 1.5rem;
-      text-align: center;
-      backdrop-filter: blur(20px);
-      transition: all 0.3s;
-      position: relative;
-      overflow: hidden;
-      opacity: 0;
-      transform: translateY(20px);
-    }
-
-    .number-card.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .number-card::before {
-      content: '';
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      height: 2px;
-      background: linear-gradient(to right, transparent, var(--gold), transparent);
-      transform: scaleX(0);
-      transition: transform 0.4s;
-    }
-
-    .number-card:hover { border-color: var(--border-gold); box-shadow: 0 0 30px rgba(245,166,35,0.08); }
-    .number-card:hover::before { transform: scaleX(1); }
-
-    .number-value {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.2rem;
-      font-weight: 900;
-      color: var(--gold);
-      line-height: 1;
-      margin-bottom: 0.5rem;
-      text-shadow: 0 0 20px var(--gold-glow);
-    }
-
-    .number-value.blue { color: var(--blue); text-shadow: 0 0 20px rgba(0,212,255,0.3); }
-    .number-value.orange { color: var(--orange); text-shadow: 0 0 20px rgba(255,107,43,0.3); }
-
-    .number-label {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.62rem;
-      color: var(--gray);
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      margin-bottom: 0.4rem;
-    }
-
-    .number-context {
-      font-size: 0.75rem;
-      color: rgba(232,232,240,0.4);
-      line-height: 1.4;
-      margin-top: 0.5rem;
-    }
+    .stat-card::before { content:''; position:absolute; bottom:0; left:0; right:0; height:2px; background:linear-gradient(to right,transparent,var(--gold),transparent); transform:scaleX(0); transition:transform 0.4s; }
+    .stat-card:hover { border-color:var(--border-gold); transform:translateY(-4px); box-shadow:0 10px 30px rgba(245,166,35,0.1); }
+    .stat-card:hover::before { transform:scaleX(1); }
+    .stat-value { font-family:'Orbitron',sans-serif; font-size:2rem; font-weight:900; color:var(--gold); line-height:1; margin-bottom:0.5rem; text-shadow:0 0 20px var(--gold-glow); }
+    .stat-label { font-family:'Orbitron',sans-serif; font-size:0.6rem; color:var(--gray); text-transform:uppercase; letter-spacing:0.12em; line-height:1.4; }
+    .stat-context { font-size:0.72rem; color:rgba(232,232,240,0.4); margin-top:0.5rem; line-height:1.4; }
 
     /* COMPARISON BARS */
-    .comparison-wrap {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-      margin-bottom: 4rem;
-    }
+    .comparison-grid { display:grid; gap:1.5rem; }
+    .comparison-item { background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:1.5rem; backdrop-filter:blur(20px); }
+    .comparison-header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:1rem; }
+    .comparison-label { font-family:'Orbitron',sans-serif; font-size:0.75rem; font-weight:700; color:var(--white); letter-spacing:0.05em; }
+    .comparison-value { font-family:'Orbitron',sans-serif; font-size:0.7rem; color:var(--gold); font-weight:700; }
+    .bar-wrap { display:flex; flex-direction:column; gap:0.5rem; }
+    .bar-row { display:flex; align-items:center; gap:1rem; }
+    .bar-name { font-family:'Orbitron',sans-serif; font-size:0.6rem; color:var(--gray); width:100px; flex-shrink:0; letter-spacing:0.06em; }
+    .bar-track { flex:1; background:rgba(255,255,255,0.05); border-radius:4px; height:8px; overflow:hidden; }
+    .bar-fill { height:100%; border-radius:4px; width:0; transition:width 1.2s cubic-bezier(0.4,0,0.2,1); }
+    .bar-val { font-family:'Orbitron',sans-serif; font-size:0.6rem; color:var(--off-white); width:60px; text-align:right; flex-shrink:0; }
 
-    .comparison-item {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem 2rem;
-      backdrop-filter: blur(20px);
-      transition: border-color 0.3s;
-    }
+    /* MILESTONES TABLE */
+    .milestones-table { width:100%; border-collapse:collapse; }
+    .milestones-table th { font-family:'Orbitron',sans-serif; font-size:0.62rem; color:var(--gold); letter-spacing:0.12em; text-transform:uppercase; padding:0.75rem 1rem; text-align:left; border-bottom:1px solid var(--border-gold); }
+    .milestones-table td { font-size:0.82rem; color:var(--off-white); padding:0.85rem 1rem; border-bottom:1px solid var(--border); line-height:1.4; }
+    .milestones-table tr:hover td { background:rgba(245,166,35,0.03); }
+    .milestone-year { font-family:'Orbitron',sans-serif; font-size:0.75rem; color:var(--gold); font-weight:700; }
 
-    .comparison-item:hover { border-color: var(--border-gold); }
+    .divider { border:none; border-top:1px solid var(--border); position:relative; z-index:1; }
 
-    .comparison-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 0.75rem;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
+    footer { position:relative; z-index:1; background:rgba(0,0,8,0.9); border-top:1px solid var(--border); text-align:center; padding:3rem 2rem; font-size:0.8rem; color:var(--gray); line-height:2; }
+    footer a { color:var(--gold); text-decoration:none; }
+    footer a:hover { text-decoration:underline; }
+    .footer-logo { font-family:'Orbitron',sans-serif; font-size:1.2rem; font-weight:900; color:var(--gold); letter-spacing:0.1em; text-shadow:0 0 20px var(--gold-glow); margin-bottom:0.5rem; }
 
-    .comparison-label {
-      font-size: 0.92rem;
-      font-weight: 600;
-      color: var(--white);
-    }
+    .reveal { opacity:0; transform:translateY(30px); transition:opacity 0.7s ease,transform 0.7s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
 
-    .comparison-value {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1rem;
-      color: var(--gold);
-      letter-spacing: 0.05em;
-      font-weight: 700;
-    }
-
-    .bar-wrap {
-      background: rgba(255,255,255,0.05);
-      border-radius: 4px;
-      height: 8px;
-      overflow: hidden;
-      margin-bottom: 0.6rem;
-    }
-
-    .bar-fill {
-      height: 100%;
-      border-radius: 4px;
-      width: 0;
-      transition: width 1.8s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .bar-gold   { background: linear-gradient(to right, var(--gold-dim), var(--gold)); }
-    .bar-blue   { background: linear-gradient(to right, #0088bb, var(--blue)); }
-    .bar-orange { background: linear-gradient(to right, #aa3300, var(--orange)); }
-
-    .comparison-context {
-      font-size: 0.75rem;
-      color: var(--gray);
-      line-height: 1.5;
-    }
-
-    /* MILESTONE TABLE */
-    .milestone-wrap {
-      position: relative;
-      z-index: 1;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem 6rem;
-    }
-
-    .milestone-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    .milestone-table th {
-      text-align: left;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.62rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: var(--gray);
-      padding: 0.75rem 1rem;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .milestone-table td {
-      padding: 1rem;
-      border-bottom: 1px solid var(--border);
-      font-size: 0.88rem;
-      vertical-align: middle;
-    }
-
-    .milestone-table tr { transition: background 0.2s; }
-    .milestone-table tr:hover td { background: rgba(245,166,35,0.03); }
-    .milestone-table tr:last-child td { border-bottom: none; }
-
-    .td-year {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1rem;
-      color: var(--gold);
-      letter-spacing: 0.1em;
-      font-weight: 700;
-      white-space: nowrap;
-      text-shadow: 0 0 10px var(--gold-glow);
-    }
-
-    .td-company {
-      color: var(--gray);
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.6rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-
-    .td-title {
-      color: var(--white);
-      font-weight: 500;
-    }
-
-    .td-number {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1rem;
-      color: var(--blue);
-      letter-spacing: 0.05em;
-      text-align: right;
-      font-weight: 700;
-    }
-
-    /* DIVIDER */
-    .section-divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      position: relative;
-      z-index: 1;
-      max-width: 1200px;
-      margin: 0 auto 5rem;
-    }
-
-    /* FOOTER */
-    footer {
-      position: relative;
-      z-index: 1;
-      background: rgba(0,0,8,0.9);
-      border-top: 1px solid var(--border);
-      text-align: center;
-      padding: 3rem 2rem;
-      font-size: 0.8rem;
-      color: var(--gray);
-      line-height: 2;
-    }
-
-    footer a { color: var(--gold); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-
-    .footer-logo {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.2rem;
-      font-weight: 900;
-      color: var(--gold);
-      letter-spacing: 0.1em;
-      text-shadow: 0 0 20px var(--gold-glow);
-      margin-bottom: 0.5rem;
-    }
-
-    @media (max-width: 768px) {
-      .nav-links { display: none; }
-      .numbers-grid { grid-template-columns: repeat(2, 1fr); }
-      .td-number { display: none; }
+    @media (max-width:768px) {
+      .nav-links { display:none; }
+      .stats-grid { grid-template-columns:repeat(2,1fr); }
     }
   </style>
 </head>
 <body>
-
   <canvas id="starfield"></canvas>
 
   <nav>
@@ -501,153 +132,132 @@
       <li><a href="quotes.html">Quotes</a></li>
       <li><a href="numbers.html" class="active">Numbers</a></li>
       <li><a href="today.html">Today</a></li>
+      <li><a href="reading.html">Books</a></li>
       <li><a href="thanks.html" class="nav-cta">Say Thanks</a></li>
     </ul>
   </nav>
 
-  <div class="page-header">
-    <p class="page-eyebrow">The Scorecard</p>
-    <h1 class="page-title">BY THE NUMBERS</h1>
-    <p class="page-sub">Rockets. Satellites. EVs. Patients. Savings. The scale of what one person has built is staggering.</p>
-  </div>
-
-  <!-- HERO COUNTER -->
+  <!-- HERO -->
   <div class="hero-counter">
-    <div class="hero-counter-value" id="hero-counter">0</div>
-    <div class="hero-counter-label">Orbital rocket launches completed by SpaceX</div>
-    <div class="hero-counter-sub">More than any other launch provider in history</div>
+    <p class="page-eyebrow">The Scorecard</p>
+    <div class="hero-number" id="hero-num">0</div>
+    <div class="hero-number-label">SpaceX Rocket Launches</div>
+    <div class="hero-number-sub">and counting — roughly one every 4 days</div>
   </div>
 
-  <!-- SPACEX + STARLINK -->
-  <div class="numbers-section">
-    <p class="section-eyebrow">SpaceX + Starlink</p>
-    <h2 class="section-title">🚀 Space & Satellites</h2>
-    <div class="numbers-grid" id="grid-space">
-      <div class="number-card"><div class="number-value">400+</div><div class="number-label">Orbital Launches</div><div class="number-context">More than any launch provider in history</div></div>
-      <div class="number-card"><div class="number-value">20+</div><div class="number-label">Booster Reuses</div><div class="number-context">Single Falcon 9 booster flown and recovered</div></div>
-      <div class="number-card"><div class="number-value blue">7,000+</div><div class="number-label">Starlink Satellites</div><div class="number-context">Largest satellite constellation ever deployed</div></div>
-      <div class="number-card"><div class="number-value">100+</div><div class="number-label">Countries on Starlink</div><div class="number-context">Bringing broadband to the underserved world</div></div>
-      <div class="number-card"><div class="number-value blue">4M+</div><div class="number-label">Starlink Subscribers</div><div class="number-context">Fastest-growing ISP in history</div></div>
-      <div class="number-card"><div class="number-value">~20ms</div><div class="number-label">Starlink Latency</div><div class="number-context">Comparable to ground-based broadband</div></div>
-      <div class="number-card"><div class="number-value orange">33</div><div class="number-label">Raptor Engines</div><div class="number-context">Powering Starship's Super Heavy booster</div></div>
-      <div class="number-card"><div class="number-value orange">~$67M</div><div class="number-label">Cost Per Launch</div><div class="number-context">vs $450M+ for traditional expendable rockets</div></div>
+  <!-- SPACE & SATELLITES -->
+  <div class="section-wrap reveal">
+    <p class="section-eyebrow">SpaceX & Starlink</p>
+    <h2 class="section-title">SPACE & SATELLITES</h2>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-value">400+</div><div class="stat-label">Total Launches</div><div class="stat-context">Since Falcon 1 first reached orbit in 2008</div></div>
+      <div class="stat-card"><div class="stat-value">7,000+</div><div class="stat-label">Starlink Satellites</div><div class="stat-context">Largest constellation ever deployed</div></div>
+      <div class="stat-card"><div class="stat-value">100+</div><div class="stat-label">Countries Covered</div><div class="stat-context">Starlink available globally</div></div>
+      <div class="stat-card"><div class="stat-value">$350B+</div><div class="stat-label">SpaceX Valuation</div><div class="stat-context">Most valuable private company in the world</div></div>
+      <div class="stat-card"><div class="stat-value">300+</div><div class="stat-label">Booster Landings</div><div class="stat-context">Successful first-stage recoveries</div></div>
+      <div class="stat-card"><div class="stat-value">~4 days</div><div class="stat-label">Between Launches</div><div class="stat-context">Average launch cadence in 2025</div></div>
+      <div class="stat-card"><div class="stat-value">120m</div><div class="stat-label">Starship Height</div><div class="stat-context">Tallest rocket ever built</div></div>
+      <div class="stat-card"><div class="stat-value">~$1,500</div><div class="stat-label">Cost Per Pound to Orbit</div><div class="stat-context">Down from $54,500 in 2000</div></div>
     </div>
   </div>
 
-  <hr class="section-divider" />
+  <hr class="divider" />
 
   <!-- TESLA -->
-  <div class="numbers-section">
-    <p class="section-eyebrow">Tesla</p>
-    <h2 class="section-title">⚡ Electric Vehicles & Energy</h2>
-    <div class="numbers-grid" id="grid-tesla">
-      <div class="number-card"><div class="number-value">6M+</div><div class="number-label">Teslas on the Road</div><div class="number-context">Cumulative global deliveries</div></div>
-      <div class="number-card"><div class="number-value blue">1B+</div><div class="number-label">FSD Miles Driven</div><div class="number-context">Autonomous miles logged by the fleet</div></div>
-      <div class="number-card"><div class="number-value">60,000+</div><div class="number-label">Superchargers</div><div class="number-context">World's largest fast-charging network</div></div>
-      <div class="number-card"><div class="number-value">6</div><div class="number-label">Gigafactories</div><div class="number-context">Fremont, Nevada, Texas, Berlin, Shanghai, NY</div></div>
-      <div class="number-card"><div class="number-value orange">~$1T</div><div class="number-label">Market Cap</div><div class="number-context">Most valuable automaker on earth</div></div>
-      <div class="number-card"><div class="number-value">50M+</div><div class="number-label">Tons CO₂ Avoided</div><div class="number-context">Estimated emissions displaced by fleet</div></div>
-      <div class="number-card"><div class="number-value blue">405mi</div><div class="number-label">Model S Max Range</div><div class="number-context">Longest range production EV ever built</div></div>
-      <div class="number-card"><div class="number-value">1.9s</div><div class="number-label">Model S Plaid 0-60</div><div class="number-context">Fastest production car ever made</div></div>
+  <div class="section-wrap reveal">
+    <p class="section-eyebrow">Electric Vehicles & Energy</p>
+    <h2 class="section-title">TESLA NUMBERS</h2>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-value">6M+</div><div class="stat-label">EVs Delivered</div><div class="stat-context">Cumulative since Roadster in 2008</div></div>
+      <div class="stat-card"><div class="stat-value">~$1T</div><div class="stat-label">Peak Market Cap</div><div class="stat-context">Reached in November 2021</div></div>
+      <div class="stat-card"><div class="stat-value">50,000+</div><div class="stat-label">Supercharger Stations</div><div class="stat-context">Largest EV charging network globally</div></div>
+      <div class="stat-card"><div class="stat-value">FSD</div><div class="stat-label">Full Self-Driving</div><div class="stat-context">v13+ deployed to millions of vehicles</div></div>
+      <div class="stat-card"><div class="stat-value">500mi+</div><div class="stat-label">Max Range</div><div class="stat-context">Model S Long Range on single charge</div></div>
+      <div class="stat-card"><div class="stat-value">Optimus</div><div class="stat-label">Humanoid Robot</div><div class="stat-context">Deployed in Tesla factories in 2025</div></div>
+      <div class="stat-card"><div class="stat-value">127GWh</div><div class="stat-label">Energy Deployed 2024</div><div class="stat-context">Megapack & Powerwall installations</div></div>
+      <div class="stat-card"><div class="stat-value">0–60</div><div class="stat-label">1.9 Seconds</div><div class="stat-context">Model S Plaid — fastest production car</div></div>
     </div>
   </div>
 
-  <hr class="section-divider" />
+  <hr class="divider" />
 
-  <!-- COMPARISONS -->
-  <div class="numbers-section">
+  <!-- COMPARISON BARS -->
+  <div class="section-wrap reveal">
     <p class="section-eyebrow">Elon vs The World</p>
-    <h2 class="section-title">📊 Scale Comparisons</h2>
-    <div class="comparison-wrap">
+    <h2 class="section-title">PUTTING IT IN PERSPECTIVE</h2>
+    <div class="comparison-grid">
       <div class="comparison-item">
-        <div class="comparison-header">
-          <span class="comparison-label">SpaceX Launches vs Rest of World (2024)</span>
-          <span class="comparison-value">100+ vs ~80</span>
+        <div class="comparison-header"><span class="comparison-label">Rocket Launches (2024)</span><span class="comparison-value">SpaceX dominates</span></div>
+        <div class="bar-wrap">
+          <div class="bar-row"><div class="bar-name">SpaceX</div><div class="bar-track"><div class="bar-fill" data-width="96" style="background:linear-gradient(to right,var(--gold),var(--orange))"></div></div><div class="bar-val">96 launches</div></div>
+          <div class="bar-row"><div class="bar-name">CNSA (China)</div><div class="bar-track"><div class="bar-fill" data-width="42" style="background:rgba(255,255,255,0.3)"></div></div><div class="bar-val">68 launches</div></div>
+          <div class="bar-row"><div class="bar-name">Roscosmos</div><div class="bar-track"><div class="bar-fill" data-width="18" style="background:rgba(255,255,255,0.2)"></div></div><div class="bar-val">17 launches</div></div>
+          <div class="bar-row"><div class="bar-name">Rocket Lab</div><div class="bar-track"><div class="bar-fill" data-width="10" style="background:rgba(255,255,255,0.15)"></div></div><div class="bar-val">10 launches</div></div>
         </div>
-        <div class="bar-wrap"><div class="bar-fill bar-gold" data-width="95"></div></div>
-        <div class="comparison-context">SpaceX alone conducted more orbital launches than all other nations and companies combined in 2024.</div>
       </div>
       <div class="comparison-item">
-        <div class="comparison-header">
-          <span class="comparison-label">Starlink Share of All Active Satellites</span>
-          <span class="comparison-value">7,000+ of ~9,000 total</span>
+        <div class="comparison-header"><span class="comparison-label">EV Market Share (US 2024)</span><span class="comparison-value">Tesla leads</span></div>
+        <div class="bar-wrap">
+          <div class="bar-row"><div class="bar-name">Tesla</div><div class="bar-track"><div class="bar-fill" data-width="51" style="background:linear-gradient(to right,var(--gold),var(--orange))"></div></div><div class="bar-val">51%</div></div>
+          <div class="bar-row"><div class="bar-name">Chevrolet</div><div class="bar-track"><div class="bar-fill" data-width="9" style="background:rgba(255,255,255,0.3)"></div></div><div class="bar-val">9%</div></div>
+          <div class="bar-row"><div class="bar-name">Ford</div><div class="bar-track"><div class="bar-fill" data-width="7" style="background:rgba(255,255,255,0.2)"></div></div><div class="bar-val">7%</div></div>
+          <div class="bar-row"><div class="bar-name">BMW</div><div class="bar-track"><div class="bar-fill" data-width="5" style="background:rgba(255,255,255,0.15)"></div></div><div class="bar-val">5%</div></div>
         </div>
-        <div class="bar-wrap"><div class="bar-fill bar-blue" data-width="78"></div></div>
-        <div class="comparison-context">Starlink accounts for roughly 78% of all active satellites currently in orbit around Earth.</div>
       </div>
       <div class="comparison-item">
-        <div class="comparison-header">
-          <span class="comparison-label">Tesla Market Cap vs Next 9 Automakers</span>
-          <span class="comparison-value">~$1T vs ~$800B combined</span>
+        <div class="comparison-header"><span class="comparison-label">Starlink vs Other ISPs (Latency)</span><span class="comparison-value">Lower is better</span></div>
+        <div class="bar-wrap">
+          <div class="bar-row"><div class="bar-name">Starlink</div><div class="bar-track"><div class="bar-fill" data-width="20" style="background:linear-gradient(to right,var(--gold),var(--orange))"></div></div><div class="bar-val">~40ms</div></div>
+          <div class="bar-row"><div class="bar-name">Cable</div><div class="bar-track"><div class="bar-fill" data-width="10" style="background:rgba(255,255,255,0.3)"></div></div><div class="bar-val">~20ms</div></div>
+          <div class="bar-row"><div class="bar-name">Old Satellite</div><div class="bar-track"><div class="bar-fill" data-width="100" style="background:rgba(255,255,255,0.15)"></div></div><div class="bar-val">~600ms</div></div>
         </div>
-        <div class="bar-wrap"><div class="bar-fill bar-orange" data-width="55"></div></div>
-        <div class="comparison-context">Tesla's market cap exceeds Toyota, VW, Mercedes, GM, Ford, BMW, Stellantis, Honda, and Ferrari combined.</div>
-      </div>
-      <div class="comparison-item">
-        <div class="comparison-header">
-          <span class="comparison-label">Falcon 9 Launch Cost vs Legacy Rockets</span>
-          <span class="comparison-value">$67M vs $450M+</span>
-        </div>
-        <div class="bar-wrap"><div class="bar-fill bar-gold" data-width="85"></div></div>
-        <div class="comparison-context">SpaceX reduced the cost of orbital launch by more than 85% compared to legacy rocket providers.</div>
-      </div>
-      <div class="comparison-item">
-        <div class="comparison-header">
-          <span class="comparison-label">X Monthly Users vs Twitter Peak</span>
-          <span class="comparison-value">600M+ vs 450M peak</span>
-        </div>
-        <div class="bar-wrap"><div class="bar-fill bar-blue" data-width="60"></div></div>
-        <div class="comparison-context">X now has more monthly active users than Twitter ever had under previous ownership.</div>
       </div>
     </div>
   </div>
 
-  <hr class="section-divider" />
+  <hr class="divider" />
 
-  <!-- OTHER VENTURES -->
-  <div class="numbers-section">
-    <p class="section-eyebrow">xAI · Neuralink · Boring Co · DOGE</p>
-    <h2 class="section-title">🧠 The Rest of the Empire</h2>
-    <div class="numbers-grid" id="grid-other">
-      <div class="number-card"><div class="number-value blue">100K+</div><div class="number-label">xAI GPU Cluster</div><div class="number-context">H100 GPUs in the Colossus supercomputer</div></div>
-      <div class="number-card"><div class="number-value">$6B+</div><div class="number-label">xAI Funding Raised</div><div class="number-context">At a $50B+ valuation</div></div>
-      <div class="number-card"><div class="number-value orange">40+</div><div class="number-label">Neuralink Patients</div><div class="number-context">Human BCI implants in the PRIME study</div></div>
-      <div class="number-card"><div class="number-value">1,024</div><div class="number-label">Electrodes per Chip</div><div class="number-context">Neuralink N1 implant neural channels</div></div>
-      <div class="number-card"><div class="number-value blue">10x</div><div class="number-label">Tunnel Cost Reduction</div><div class="number-context">Boring Co vs traditional tunnel boring</div></div>
-      <div class="number-card"><div class="number-value">50+</div><div class="number-label">Las Vegas Loop Stations</div><div class="number-context">Operational underground transit stops</div></div>
-      <div class="number-card"><div class="number-value orange">$160B+</div><div class="number-label">DOGE Savings</div><div class="number-context">Government waste identified and eliminated</div></div>
-      <div class="number-card"><div class="number-value">600M+</div><div class="number-label">X Monthly Users</div><div class="number-context">Active users on the free speech platform</div></div>
+  <!-- REST OF EMPIRE -->
+  <div class="section-wrap reveal">
+    <p class="section-eyebrow">xAI · Neuralink · X · Boring Co</p>
+    <h2 class="section-title">REST OF THE EMPIRE</h2>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-value">$50B+</div><div class="stat-label">xAI Valuation</div><div class="stat-context">After Series C funding in 2024</div></div>
+      <div class="stat-card"><div class="stat-value">Grok 3</div><div class="stat-label">Latest AI Model</div><div class="stat-context">Frontier reasoning capabilities</div></div>
+      <div class="stat-card"><div class="stat-value">40+</div><div class="stat-label">Neuralink Patients</div><div class="stat-context">Human clinical trial underway</div></div>
+      <div class="stat-card"><div class="stat-value">1,024</div><div class="stat-label">Neuralink Electrodes</div><div class="stat-context">Per implant vs 16 in prior devices</div></div>
+      <div class="stat-card"><div class="stat-value">600M+</div><div class="stat-label">X Monthly Users</div><div class="stat-context">After relaunch under Musk ownership</div></div>
+      <div class="stat-card"><div class="stat-value">$160B+</div><div class="stat-label">DOGE Savings ID'd</div><div class="stat-context">Government waste identified</div></div>
+      <div class="stat-card"><div class="stat-value">Las Vegas</div><div class="stat-label">Boring Co Loop Live</div><div class="stat-context">Convention Center loop operational</div></div>
+      <div class="stat-card"><div class="stat-value">10x</div><div class="stat-label">Cheaper Tunneling</div><div class="stat-context">Boring Co vs traditional methods</div></div>
     </div>
   </div>
 
-  <hr class="section-divider" />
+  <hr class="divider" />
 
-  <!-- MILESTONE TABLE -->
-  <div class="milestone-wrap">
-    <div class="numbers-section" style="padding-bottom:2rem;">
-      <p class="section-eyebrow">The Man Himself</p>
-      <h2 class="section-title">🏆 Personal Milestones</h2>
-    </div>
-    <table class="milestone-table">
+  <!-- MILESTONES TABLE -->
+  <div class="section-wrap reveal">
+    <p class="section-eyebrow">Personal Milestones</p>
+    <h2 class="section-title">ELON BY THE YEARS</h2>
+    <table class="milestones-table">
       <thead>
         <tr>
           <th>Year</th>
-          <th>Company</th>
           <th>Milestone</th>
-          <th style="text-align:right">Figure</th>
+          <th>Amount / Detail</th>
         </tr>
       </thead>
       <tbody>
-        <tr><td class="td-year">1999</td><td class="td-company">PayPal</td><td class="td-title">X.com / PayPal sale to eBay</td><td class="td-number">$180M</td></tr>
-        <tr><td class="td-year">2008</td><td class="td-company">SpaceX</td><td class="td-title">First private liquid-fueled rocket to reach orbit</td><td class="td-number">Falcon 1</td></tr>
-        <tr><td class="td-year">2012</td><td class="td-company">Tesla</td><td class="td-title">Model S wins Motor Trend Car of the Year</td><td class="td-number">100/100</td></tr>
-        <tr><td class="td-year">2015</td><td class="td-company">SpaceX</td><td class="td-title">First orbital booster vertical landing</td><td class="td-number">Historic</td></tr>
-        <tr><td class="td-year">2020</td><td class="td-company">SpaceX</td><td class="td-title">First private crewed mission to ISS</td><td class="td-number">2 Crew</td></tr>
-        <tr><td class="td-year">2021</td><td class="td-company">Tesla</td><td class="td-title">Becomes world's richest person</td><td class="td-number">$300B+</td></tr>
-        <tr><td class="td-year">2022</td><td class="td-company">X</td><td class="td-title">Acquires Twitter, renames to X</td><td class="td-number">$44B</td></tr>
-        <tr><td class="td-year">2024</td><td class="td-company">Neuralink</td><td class="td-title">First human BCI patient controls computer with thoughts</td><td class="td-number">1,024ch</td></tr>
-        <tr><td class="td-year">2024</td><td class="td-company">SpaceX</td><td class="td-title">Starship booster caught by Mechazilla arms</td><td class="td-number">World 1st</td></tr>
-        <tr><td class="td-year">2025</td><td class="td-company">DOGE</td><td class="td-title">Largest government efficiency audit in US history</td><td class="td-number">$160B+</td></tr>
+        <tr><td><span class="milestone-year">1999</span></td><td>Sold Zip2 to Compaq</td><td>$307M acquisition — $22M personal</td></tr>
+        <tr><td><span class="milestone-year">2002</span></td><td>eBay acquired PayPal</td><td>$1.5B — $165M personal payout</td></tr>
+        <tr><td><span class="milestone-year">2008</span></td><td>Nearly went bankrupt</td><td>Both SpaceX & Tesla on brink simultaneously</td></tr>
+        <tr><td><span class="milestone-year">2010</span></td><td>Tesla IPO</td><td>$17/share — $226M raised</td></tr>
+        <tr><td><span class="milestone-year">2012</span></td><td>Named CEO of the Year</td><td>Fortune Magazine</td></tr>
+        <tr><td><span class="milestone-year">2016</span></td><td>Forbes Billionaires List</td><td>$11.6B net worth</td></tr>
+        <tr><td><span class="milestone-year">2021</span></td><td>Richest person on Earth</td><td>Surpassed Jeff Bezos — $300B+ peak</td></tr>
+        <tr><td><span class="milestone-year">2022</span></td><td>Acquired Twitter</td><td>$44B all-cash deal</td></tr>
+        <tr><td><span class="milestone-year">2024</span></td><td>Time Person of the Year</td><td>Second time — also won in 2021</td></tr>
+        <tr><td><span class="milestone-year">2025</span></td><td>DOGE Appointment</td><td>Named co-head of Department of Government Efficiency</td></tr>
       </tbody>
     </table>
   </div>
@@ -661,109 +271,73 @@
       <a href="news.html">News</a> &nbsp;·&nbsp;
       <a href="timeline.html">Timeline</a> &nbsp;·&nbsp;
       <a href="quotes.html">Quotes</a> &nbsp;·&nbsp;
+      <a href="reading.html">Books</a> &nbsp;·&nbsp;
       <a href="thanks.html">Say Thanks</a>
     </p>
     <p style="margin-top:1rem; font-size:0.72rem; opacity:0.5;">© 2026 ThanksElonMusk.com — Fan tribute, positive news only.</p>
   </footer>
 
   <script>
+    // HERO COUNTER
+    function animateCounter(target, duration) {
+      const el = document.getElementById('hero-num');
+      const start = 0; const end = target;
+      const startTime = performance.now();
+      function update(now) {
+        const elapsed = now - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.floor(eased * end) + '+';
+        if (progress < 1) requestAnimationFrame(update);
+        else el.textContent = end + '+';
+      }
+      requestAnimationFrame(update);
+    }
+    animateCounter(400, 2500);
+
+    // REVEAL
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); revealObs.unobserve(e.target); } });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => revealObs.observe(el));
+
+    // BAR ANIMATIONS
+    const barObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if(e.isIntersecting) {
+          e.target.querySelectorAll('.bar-fill').forEach(bar => {
+            bar.style.width = bar.dataset.width + '%';
+          });
+          barObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.comparison-item').forEach(el => barObs.observe(el));
+
     // STARFIELD
     const canvas = document.getElementById('starfield');
     const ctx = canvas.getContext('2d');
     let stars = [], shootingStars = [];
-
-    function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
-
-    function initStars() {
-      stars = [];
-      for (let i = 0; i < 200; i++) {
-        stars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height, r: Math.random()*1.5+0.2, alpha: Math.random()*0.8+0.2, twinkle: Math.random()*Math.PI*2 });
-      }
-    }
-
-    function addShootingStar() {
-      shootingStars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height*0.5, len: Math.random()*120+60, speed: Math.random()*8+6, alpha: 1, angle: Math.PI/4+(Math.random()-0.5)*0.3 });
-    }
-
+    function resize() { canvas.width=window.innerWidth; canvas.height=window.innerHeight; }
+    function initStars() { stars=[]; for(let i=0;i<200;i++) stars.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,r:Math.random()*1.5+0.2,alpha:Math.random()*0.8+0.2,twinkle:Math.random()*Math.PI*2}); }
+    function addShootingStar() { shootingStars.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height*0.5,len:Math.random()*120+60,speed:Math.random()*8+6,alpha:1,angle:Math.PI/4+(Math.random()-0.5)*0.3}); }
     function drawStars() {
       ctx.clearRect(0,0,canvas.width,canvas.height);
-      stars.forEach(s => {
-        s.twinkle += 0.02;
-        ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
-        ctx.fillStyle = `rgba(255,255,255,${s.alpha*(0.7+0.3*Math.sin(s.twinkle))})`; ctx.fill();
-      });
-      shootingStars = shootingStars.filter(s => s.alpha > 0.01);
-      shootingStars.forEach(s => {
-        const grad = ctx.createLinearGradient(s.x,s.y,s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
-        grad.addColorStop(0,`rgba(245,166,35,${s.alpha})`); grad.addColorStop(1,'transparent');
-        ctx.beginPath(); ctx.moveTo(s.x,s.y); ctx.lineTo(s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
-        ctx.strokeStyle=grad; ctx.lineWidth=1.5; ctx.stroke();
-        s.x+=Math.cos(s.angle)*s.speed; s.y+=Math.sin(s.angle)*s.speed; s.alpha-=0.018;
+      stars.forEach(s=>{s.twinkle+=0.02;ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fillStyle=`rgba(255,255,255,${s.alpha*(0.7+0.3*Math.sin(s.twinkle))})`;ctx.fill();});
+      shootingStars=shootingStars.filter(s=>s.alpha>0.01);
+      shootingStars.forEach(s=>{
+        const grad=ctx.createLinearGradient(s.x,s.y,s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        grad.addColorStop(0,`rgba(245,166,35,${s.alpha})`);grad.addColorStop(1,'transparent');
+        ctx.beginPath();ctx.moveTo(s.x,s.y);ctx.lineTo(s.x-Math.cos(s.angle)*s.len,s.y-Math.sin(s.angle)*s.len);
+        ctx.strokeStyle=grad;ctx.lineWidth=1.5;ctx.stroke();
+        s.x+=Math.cos(s.angle)*s.speed;s.y+=Math.sin(s.angle)*s.speed;s.alpha-=0.018;
       });
     }
-
-    let lastShoot = 0;
-    function animate(t) {
-      drawStars();
-      if (t-lastShoot > 3000+Math.random()*4000) { addShootingStar(); lastShoot=t; }
-      requestAnimationFrame(animate);
-    }
-
-    window.addEventListener('resize', () => { resize(); initStars(); });
-    resize(); initStars(); requestAnimationFrame(animate);
-
-    // HERO COUNTER
-    function animateCounter(target, duration) {
-      const el = document.getElementById('hero-counter');
-      const start = performance.now();
-      function update(now) {
-        const progress = Math.min((now - start) / duration, 1);
-        const ease = 1 - Math.pow(1 - progress, 3);
-        const value = Math.floor(ease * target);
-        el.textContent = value + (progress >= 1 ? '+' : '');
-        if (progress < 1) requestAnimationFrame(update);
-      }
-      requestAnimationFrame(update);
-    }
-
-    const heroObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          animateCounter(400, 2500);
-          heroObserver.disconnect();
-        }
-      });
-    }, { threshold: 0.5 });
-    heroObserver.observe(document.getElementById('hero-counter'));
-
-    // NUMBER CARDS REVEAL
-    const cardObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry, i) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => entry.target.classList.add('visible'), i * 60);
-          cardObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.number-card').forEach(c => {
-      c.style.transition = 'opacity 0.5s ease, transform 0.5s ease, border-color 0.3s, box-shadow 0.3s';
-      cardObserver.observe(c);
-    });
-
-    // BAR ANIMATIONS
-    const barObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const bar = entry.target.querySelector('.bar-fill');
-          if (bar) setTimeout(() => { bar.style.width = bar.dataset.width + '%'; }, 200);
-          barObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.3 });
-
-    document.querySelectorAll('.comparison-item').forEach(item => barObserver.observe(item));
+    let lastShoot=0;
+    function animate(t){drawStars();if(t-lastShoot>3000+Math.random()*4000){addShootingStar();lastShoot=t;}requestAnimationFrame(animate);}
+    window.addEventListener('resize',()=>{resize();initStars();});
+    resize();initStars();requestAnimationFrame(animate);
   </script>
-
 </body>
 </html>
