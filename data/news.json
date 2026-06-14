@@ -1,16 +1,26 @@
 {
-  "lastUpdated": "2026-06-14T13:49:46.409Z",
-  "displayUpdated": "Jun 14, 2026, 1:49 PM UTC",
-  "totalArticles": 16,
+  "lastUpdated": "2026-06-14T19:17:29.984Z",
+  "displayUpdated": "Jun 14, 2026, 7:17 PM UTC",
+  "totalArticles": 14,
   "articles": [
     {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
-      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses",
-      "url": "https://abcnews.com/Technology/wireStory/rockets-brain-implants-elon-musks-vast-empire-133841509",
-      "source": "Abcnews.com",
-      "publishedAt": "2026-06-13T12:30:00Z",
+      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
+      "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
+      "source": "Midland Reporter-Telegram",
+      "publishedAt": "2026-06-13T16:15:28Z",
+      "date": "Jun 13, 2026"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk’s empire: Here’s a look at what the world’s first trillionaire owns",
+      "summary": "From rockets and electric cars to social media platforms and brain implants, Elon Musk’s business empire is huge",
+      "url": "https://www.thehindubusinessline.com/companies/elon-musks-empire-heres-a-look-at-what-the-worlds-first-trillionaire-owns/article71097964.ece",
+      "source": "BusinessLine",
+      "publishedAt": "2026-06-13T14:14:07Z",
       "date": "Jun 13, 2026"
     },
     {
@@ -84,26 +94,6 @@
       "date": "Jun 12, 2026"
     },
     {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "Elon Musk becomes world’s first trillionaire as SpaceX shares jump",
-      "summary": "SpaceX shares jumped as much as 30% as Musk promised to take people to Mars.",
-      "url": "https://www.nzherald.co.nz/business/elon-musk-becomes-worlds-first-trillionaire-as-spacex-shares-jump/HXKUBZRMENHH5PD2PTQFUUES7Q/",
-      "source": "New Zealand Herald",
-      "publishedAt": "2026-06-12T18:19:00Z",
-      "date": "Jun 12, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Soars 27% in Nasdaq Debut as Shares Hit $172.17",
-      "summary": "SpaceX shares surged 27% on their Nasdaq debut, closing at $172.17. The IPO valued the company over $2 trillion, marking a milestone for Elon Musk's aerospace venture.",
-      "url": "https://www.ibtimes.com.au/spacex-nasdaq-debut-shares-surge-1870578",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-06-12T17:29:29Z",
-      "date": "Jun 12, 2026"
-    },
-    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Tesla showcases autonomous driving with San Francisco to Palo Alto round trip",
@@ -112,16 +102,6 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla marks UK sales milestone as fierce competition looms",
-      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
-      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
-      "source": "The-independent.com",
-      "publishedAt": "2026-06-03T09:46:49Z",
-      "date": "Jun 3, 2026"
     },
     {
       "venture": "tesla",

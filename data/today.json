@@ -35,12 +35,12 @@
     {
       "venture": "tesla",
       "label": "Tesla",
-      "headline": "Tesla marks UK sales milestone as fierce competition looms",
-      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
-      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
-      "source": "The-independent.com",
-      "date": "Jun 3, 2026",
-      "publishedAt": "2026-06-03T09:46:49Z"
+      "headline": "Elon finally did it.",
+      "summary": "A new Texas law allows companies with SAE Level 4 or higher autonomous vehicles to offer commercial driverless transportation. Tesla wasted no time in self-certifying their vehicles. On the same day the law went into effect, Tesla officially self-certified th…",
+      "url": "https://freerepublic.com/focus/f-chat/4381587/posts",
+      "source": "Freerepublic.com",
+      "date": "May 30, 2026",
+      "publishedAt": "2026-05-30T13:46:45Z"
     },
     {
       "venture": "starlink",
@@ -76,12 +76,22 @@
       "venture": "boring",
       "label": "Boring Co",
       "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
-      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses",
-      "url": "https://abcnews.com/Technology/wireStory/rockets-brain-implants-elon-musks-vast-empire-133841509",
-      "source": "Abcnews.com",
+      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
+      "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
+      "source": "Midland Reporter-Telegram",
       "date": "Jun 13, 2026",
-      "publishedAt": "2026-06-13T12:30:00Z"
+      "publishedAt": "2026-06-13T16:15:28Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk’s empire: Here’s a look at what the world’s first trillionaire owns",
+      "summary": "From rockets and electric cars to social media platforms and brain implants, Elon Musk’s business empire is huge",
+      "url": "https://www.thehindubusinessline.com/companies/elon-musks-empire-heres-a-look-at-what-the-worlds-first-trillionaire-owns/article71097964.ece",
+      "source": "BusinessLine",
+      "date": "Jun 13, 2026",
+      "publishedAt": "2026-06-13T14:14:07Z"
     }
   ],
-  "generatedAt": "2026-06-14T13:49:46.411Z"
+  "generatedAt": "2026-06-14T19:17:29.985Z"
 }
