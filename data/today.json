@@ -55,12 +55,22 @@
     {
       "venture": "starlink",
       "label": "Starlink",
-      "headline": "Elon Musk Becomes World’s First Trillionaire Amid SpaceX IPO",
-      "summary": "Elon Musk saw his net worth surge as SpaceX hit the public market Friday. The biggest public offering ever was priced at $135 a share. The shares opened at $150 and jumped some more when they started trading on the Nasdaq under the symbol SPCX. The stock is u…",
-      "url": "http://deadline.com/2026/06/elon-musk-first-trillionaire-spacex-ipo-1236955050/",
-      "source": "Deadline",
-      "date": "Jun 12, 2026",
-      "publishedAt": "2026-06-12T19:49:52Z"
+      "headline": "Elon Musk’s $1,100,000,000,000 net worth exceeds combined fortunes of Page, Brin, Bezos, Ellison & Dell; Here’s what the global rich list looks like now",
+      "summary": "Elon Musk's net worth has surged to approximately $1.1 trillion, driven by SpaceX's valuation reaching $2.2 trillion and continued strength in Tesla. This unprecedented wealth places him on the brink of becoming the world's first trillionaire, significantly w…",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/elon-musks-1100000000000-net-worth-exceeds-combined-fortunes-of-page-brin-bezos-ellison-dell-heres-what-the-global-rich-list-looks-like-now/articleshow/131697719.cms",
+      "source": "The Times of India",
+      "date": "Jun 13, 2026",
+      "publishedAt": "2026-06-13T05:13:27Z"
+    },
+    {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Musk's trillions fuelled by AI and his pied piper power over investors",
+      "summary": "To get a sense of the difference between the Tesla and SpaceX IPOs, consider that 1.7 billion seconds ago was 1972, when Elton John released Rocket Man, while 1.7 trillion seconds ago was 52,000BC, when we shared the planet with Neanderthals.",
+      "url": "https://www.abc.net.au/news/2026-06-15/elon-musk-space-x-trillions/106796484",
+      "source": "ABC News (AU)",
+      "date": "Jun 14, 2026",
+      "publishedAt": "2026-06-14T18:43:51Z"
     },
     {
       "venture": "neura",
@@ -93,5 +103,5 @@
       "publishedAt": "2026-06-13T14:14:07Z"
     }
   ],
-  "generatedAt": "2026-06-15T17:07:07.902Z"
+  "generatedAt": "2026-06-15T20:50:27.173Z"
 }
