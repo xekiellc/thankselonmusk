@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-06-16T00:26:35.999Z",
-  "displayUpdated": "Jun 16, 2026, 12:26 AM UTC",
+  "lastUpdated": "2026-06-16T11:01:27.136Z",
+  "displayUpdated": "Jun 16, 2026, 11:01 AM UTC",
   "totalArticles": 10,
   "articles": [
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX and Google Forge $30 Billion AI Infrastructure Partnership Amid Competition and IPO Preparations",
+      "summary": "SpaceX and Google have signed a $30 billion AI infrastructure deal, enhancing Google's Gemini Enterprise platform and diversifying SpaceX's revenue as it prepares for a public offering.",
+      "url": "https://www.ibtimes.com.au/spacex-google-30-billion-ai-infrastructure-deal-1870635",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-06-15T06:17:53Z",
+      "date": "Jun 15, 2026"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
+      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-06-14T14:08:32Z",
+      "date": "Jun 14, 2026"
+    },
     {
       "venture": "boring",
       "label": "Boring Co",
@@ -44,16 +64,6 @@
       "date": "Jun 13, 2026"
     },
     {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "Elon Musk Becomes World’s First Trillionaire Amid SpaceX IPO",
-      "summary": "Elon Musk saw his net worth surge as SpaceX hit the public market Friday. The biggest public offering ever was priced at $135 a share. The shares opened at $150 and jumped some more when they started trading on the Nasdaq under the symbol SPCX. The stock is u…",
-      "url": "http://deadline.com/2026/06/elon-musk-first-trillionaire-spacex-ipo-1236955050/",
-      "source": "Deadline",
-      "publishedAt": "2026-06-12T19:49:52Z",
-      "date": "Jun 12, 2026"
-    },
-    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Tesla showcases autonomous driving with San Francisco to Palo Alto round trip",
@@ -62,16 +72,6 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla marks UK sales milestone as fierce competition looms",
-      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
-      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
-      "source": "The-independent.com",
-      "publishedAt": "2026-06-03T09:46:49Z",
-      "date": "Jun 3, 2026"
     },
     {
       "venture": "tesla",
