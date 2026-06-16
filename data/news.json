@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-06-16T16:40:20.185Z",
-  "displayUpdated": "Jun 16, 2026, 4:40 PM UTC",
-  "totalArticles": 9,
+  "lastUpdated": "2026-06-16T20:43:58.229Z",
+  "displayUpdated": "Jun 16, 2026, 8:43 PM UTC",
+  "totalArticles": 12,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX reaches $2.5T valuation after record-shattering IPO, becomes 6th largest public company",
+      "summary": "SpaceX's IPO success underscores the growing investor confidence in space exploration and AI integration, reshaping future market dynamics.\nThe post SpaceX reaches $2.5T valuation after record-shattering IPO, becomes 6th largest public company appeared first …",
+      "url": "https://cryptobriefing.com/spacex-ipo-2-5-trillion-valuation/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-06-15T20:38:59Z",
+      "date": "Jun 15, 2026"
+    },
     {
       "venture": "starlink",
       "label": "Starlink",
@@ -36,6 +46,16 @@
     {
       "venture": "boring",
       "label": "Boring Co",
+      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
+      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-06-14T14:08:32Z",
+      "date": "Jun 14, 2026"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
       "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
       "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
       "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
@@ -52,6 +72,16 @@
       "source": "BusinessLine",
       "publishedAt": "2026-06-13T14:14:07Z",
       "date": "Jun 13, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk Becomes the World's First Trillionaire. Is That Such a Bad Thing?",
+      "summary": "Growing economies benefit all people, not just the uberwealthy.",
+      "url": "https://reason.com/2026/06/12/elon-musk-becomes-the-worlds-first-trillionaire-is-that-such-a-bad-thing/",
+      "source": "Reason",
+      "publishedAt": "2026-06-12T18:45:50Z",
+      "date": "Jun 12, 2026"
     },
     {
       "venture": "tesla",
