@@ -5,12 +5,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Photos of key moments in SpaceX history, from the scrappy startup days to milestone rocket launches",
-      "summary": "See key moments in SpaceX history, from Elon Musk celebrating with the team when there were fewer than 10 employees, to its milestone rocket launches.",
-      "url": "https://www.businessinsider.com/spacex-history-photos#article",
-      "source": "Business Insider",
-      "date": "Jun 13, 2026",
-      "publishedAt": "2026-06-13T09:15:01Z"
+      "headline": "SpaceX stock rises over 10% in second day of trading, valued above $2T",
+      "summary": "SpaceX's rapid valuation surge highlights the potential volatility and speculative nature of high-profile IPOs, impacting investor strategies.\nThe post SpaceX stock rises over 10% in second day of trading, valued above $2T appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-stock-rises-second-day-trading-2-trillion/",
+      "source": "Crypto Briefing",
+      "date": "Jun 15, 2026",
+      "publishedAt": "2026-06-15T16:20:12Z"
     },
     {
       "venture": "tesla",
@@ -35,32 +35,22 @@
     {
       "venture": "starlink",
       "label": "Starlink",
+      "headline": "SpaceX surges 30% above IPO price after selling 83.3M shares",
+      "summary": "SpaceX's IPO success highlights a shift towards greater retail investor inclusion and sets a new benchmark for future public offerings.\nThe post SpaceX surges 30% above IPO price after selling 83.3M shares appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-ipo-surges-30-percent/",
+      "source": "Crypto Briefing",
+      "date": "Jun 15, 2026",
+      "publishedAt": "2026-06-15T16:32:41Z"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
       "headline": "SpaceX and Google Forge $30 Billion AI Infrastructure Partnership Amid Competition and IPO Preparations",
       "summary": "SpaceX and Google have signed a $30 billion AI infrastructure deal, enhancing Google's Gemini Enterprise platform and diversifying SpaceX's revenue as it prepares for a public offering.",
       "url": "https://www.ibtimes.com.au/spacex-google-30-billion-ai-infrastructure-deal-1870635",
       "source": "Ibtimes.com.au",
       "date": "Jun 15, 2026",
       "publishedAt": "2026-06-15T06:17:53Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX IPO Creates 4400 New Millionaires as Stock Surges in Record Debut",
-      "summary": "SpaceX's IPO has created thousands of millionaires among employees, highlighting the success of equity compensation. The event underscores the transformative power of equity in tech companies.",
-      "url": "https://www.ibtimes.com.au/spacex-ipo-creates-millionaires-equity-compensation-success-1870587",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 13, 2026",
-      "publishedAt": "2026-06-13T10:19:47Z"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
-      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
-      "source": "The Times of India",
-      "date": "Jun 14, 2026",
-      "publishedAt": "2026-06-14T14:08:32Z"
     },
     {
       "venture": "boring",
@@ -71,7 +61,17 @@
       "source": "Midland Reporter-Telegram",
       "date": "Jun 13, 2026",
       "publishedAt": "2026-06-13T16:15:28Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk’s empire: Here’s a look at what the world’s first trillionaire owns",
+      "summary": "From rockets and electric cars to social media platforms and brain implants, Elon Musk’s business empire is huge",
+      "url": "https://www.thehindubusinessline.com/companies/elon-musks-empire-heres-a-look-at-what-the-worlds-first-trillionaire-owns/article71097964.ece",
+      "source": "BusinessLine",
+      "date": "Jun 13, 2026",
+      "publishedAt": "2026-06-13T14:14:07Z"
     }
   ],
-  "generatedAt": "2026-06-16T11:01:27.137Z"
+  "generatedAt": "2026-06-16T16:40:20.187Z"
 }
