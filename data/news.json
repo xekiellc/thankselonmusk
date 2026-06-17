@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-16T20:43:58.229Z",
-  "displayUpdated": "Jun 16, 2026, 8:43 PM UTC",
-  "totalArticles": 12,
+  "lastUpdated": "2026-06-17T00:12:51.884Z",
+  "displayUpdated": "Jun 17, 2026, 12:12 AM UTC",
+  "totalArticles": 11,
   "articles": [
     {
       "venture": "spacex",
@@ -34,13 +34,13 @@
       "date": "Jun 15, 2026"
     },
     {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX and Google Forge $30 Billion AI Infrastructure Partnership Amid Competition and IPO Preparations",
-      "summary": "SpaceX and Google have signed a $30 billion AI infrastructure deal, enhancing Google's Gemini Enterprise platform and diversifying SpaceX's revenue as it prepares for a public offering.",
-      "url": "https://www.ibtimes.com.au/spacex-google-30-billion-ai-infrastructure-deal-1870635",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-06-15T06:17:53Z",
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX’s Historic IPO Opens a New Chapter for Mega-Cap Growth Stocks",
+      "summary": "The long-awaited public debut of SpaceX has become one of the most significant events in modern market history.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-historic-ipo-opens-chapter-145536717.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-06-15T14:55:36Z",
       "date": "Jun 15, 2026"
     },
     {
@@ -74,16 +74,6 @@
       "date": "Jun 13, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Elon Musk Becomes the World's First Trillionaire. Is That Such a Bad Thing?",
-      "summary": "Growing economies benefit all people, not just the uberwealthy.",
-      "url": "https://reason.com/2026/06/12/elon-musk-becomes-the-worlds-first-trillionaire-is-that-such-a-bad-thing/",
-      "source": "Reason",
-      "publishedAt": "2026-06-12T18:45:50Z",
-      "date": "Jun 12, 2026"
-    },
-    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Tesla showcases autonomous driving with San Francisco to Palo Alto round trip",
@@ -96,22 +86,22 @@
     {
       "venture": "tesla",
       "label": "Tesla",
+      "headline": "Tesla marks UK sales milestone as fierce competition looms",
+      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
+      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
+      "source": "The-independent.com",
+      "publishedAt": "2026-06-03T09:46:49Z",
+      "date": "Jun 3, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
       "headline": "Elon finally did it.",
       "summary": "A new Texas law allows companies with SAE Level 4 or higher autonomous vehicles to offer commercial driverless transportation. Tesla wasted no time in self-certifying their vehicles. On the same day the law went into effect, Tesla officially self-certified th…",
       "url": "https://freerepublic.com/focus/f-chat/4381587/posts",
       "source": "Freerepublic.com",
       "publishedAt": "2026-05-30T13:46:45Z",
       "date": "May 30, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "This Tesla Just Drove Itself From Vancouver to Halifax Without Anyone Touching the Wheel",
-      "summary": "Three Tesla fans just drove across all of Canada without touching the wheel once, leveraging the latest version of the company’s Full Self-Driving (Supervised) tech, version 14.3.3 on a new Model 3. David Moss and Spencer from the U.S., plus Devin Olsen from …",
-      "url": "https://www.iphoneincanada.ca/2026/05/29/tesla-fsd-canada-coast-to-coast-vancouver-halifax/",
-      "source": "iPhone in Canada",
-      "publishedAt": "2026-05-29T18:13:39Z",
-      "date": "May 29, 2026"
     },
     {
       "venture": "tesla",
