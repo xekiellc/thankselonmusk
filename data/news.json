@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-06-17T10:45:38.130Z",
-  "displayUpdated": "Jun 17, 2026, 10:45 AM UTC",
-  "totalArticles": 12,
+  "lastUpdated": "2026-06-17T15:01:05.186Z",
+  "displayUpdated": "Jun 17, 2026, 3:01 PM UTC",
+  "totalArticles": 13,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Valuation Tops Amazon and Microsoft: What Share Price Would Make It the World's Largest Company?",
+      "summary": "SpaceX's IPO has propelled it past Amazon and Microsoft in market value, positioning it as the fifth most valuable public company. The company's growth is driven by its reusable rockets and Starlink service.",
+      "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-microsoft-market-value-1870696",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-06-16T13:44:32Z",
+      "date": "Jun 16, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX surpasses Amazon and Microsoft in market valuation race after record-shattering IPO",
+      "summary": "SpaceX's IPO success highlights the growing influence of space tech in global markets, potentially reshaping investment priorities and innovation focus.\nThe post SpaceX surpasses Amazon and Microsoft in market valuation race after record-shattering IPO appear…",
+      "url": "https://cryptobriefing.com/spacex-ipo-market-valuation-bitcoin-treasury/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-06-16T13:29:22Z",
+      "date": "Jun 16, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -14,8 +34,8 @@
       "date": "Jun 16, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
+      "venture": "starlink",
+      "label": "Starlink",
       "headline": "SpaceX Stock Jumps 11% in Premarket Trading as Momentum Builds After Record-Breaking IPO",
       "summary": "SpaceX shares soared 11% in premarket trading following its record-breaking IPO, driven by strong investor demand and ambitious growth plans in space exploration and AI.",
       "url": "https://www.ibtimes.com.au/spacex-shares-surge-record-breaking-ipo-1870676",
@@ -24,8 +44,8 @@
       "date": "Jun 16, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
+      "venture": "starlink",
+      "label": "Starlink",
       "headline": "The SpaceX Story: Record IPO, valuation debate and next catalysts",
       "summary": "SpaceX's IPO has become one of the biggest market events of 2026. A strong rally after listing pushed the company's valuation above $2 trillion, making it one of the world's most valuable firms. While investors have welcomed the stock enthusiastically, analys…",
       "url": "https://m.economictimes.com/markets/us-stocks/news/the-spacex-story-record-ipo-valuation-debate-and-next-catalysts/spacex-ipo/slideshow/131763138.cms",
@@ -34,23 +54,13 @@
       "date": "Jun 16, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
+      "venture": "starlink",
+      "label": "Starlink",
       "headline": "SpaceX reaches $2.5T valuation after record-shattering IPO, becomes 6th largest public company",
       "summary": "SpaceX's IPO success underscores the growing investor confidence in space exploration and AI integration, reshaping future market dynamics.\nThe post SpaceX reaches $2.5T valuation after record-shattering IPO, becomes 6th largest public company appeared first …",
       "url": "https://cryptobriefing.com/spacex-ipo-2-5-trillion-valuation/",
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-15T20:38:59Z",
-      "date": "Jun 15, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX surges 30% above IPO price after selling 83.3M shares",
-      "summary": "SpaceX's IPO success highlights a shift towards greater retail investor inclusion and sets a new benchmark for future public offerings.\nThe post SpaceX surges 30% above IPO price after selling 83.3M shares appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/spacex-ipo-surges-30-percent/",
-      "source": "Crypto Briefing",
-      "publishedAt": "2026-06-15T16:32:41Z",
       "date": "Jun 15, 2026"
     },
     {
@@ -62,6 +72,16 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-15T16:20:12Z",
       "date": "Jun 15, 2026"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
+      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-06-14T14:08:32Z",
+      "date": "Jun 14, 2026"
     },
     {
       "venture": "boring",
@@ -102,16 +122,6 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Elon finally did it.",
-      "summary": "A new Texas law allows companies with SAE Level 4 or higher autonomous vehicles to offer commercial driverless transportation. Tesla wasted no time in self-certifying their vehicles. On the same day the law went into effect, Tesla officially self-certified th…",
-      "url": "https://freerepublic.com/focus/f-chat/4381587/posts",
-      "source": "Freerepublic.com",
-      "publishedAt": "2026-05-30T13:46:45Z",
-      "date": "May 30, 2026"
     },
     {
       "venture": "tesla",
