@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "Retail investors buy more SpaceX shares than the Magnificent Seven combined",
+      "summary": "SpaceX's IPO success signals a shift in retail investor focus, challenging traditional tech giants and reshaping market dynamics.\nThe post Retail investors buy more SpaceX shares than the Magnificent Seven combined appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-ipo-retail-investors-magnificent-seven/",
+      "source": "Crypto Briefing",
+      "date": "Jun 17, 2026",
+      "publishedAt": "2026-06-17T17:08:11Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "SpaceX Surpasses Amazon in Market Value: Inside Elon Musk's Rocket Empire Rise to $3 Trillion",
       "summary": "SpaceX's record-breaking IPO has pushed its market value past Amazon, underscoring the rapid growth of commercial space technology and satellite infrastructure.",
       "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-market-value-record-ipo-1870759",
       "source": "Ibtimes.com.au",
       "date": "Jun 17, 2026",
       "publishedAt": "2026-06-17T08:01:20Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "America didn’t give Elon Musk a trillion dollars. He earned every penny",
-      "summary": "Elon Musk became the world's first trillionaire when SpaceX went public, but his journey from immigrant to innovator tells a larger American story.",
-      "url": "https://www.foxnews.com/opinion/america-didnt-give-elon-musk-trillion-dollars-earned-every-penny",
-      "source": "Fox News",
-      "date": "Jun 16, 2026",
-      "publishedAt": "2026-06-16T09:00:40Z"
     },
     {
       "venture": "tesla",
@@ -63,5 +63,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-18T14:55:36.945Z"
+  "generatedAt": "2026-06-18T20:16:44.591Z"
 }
