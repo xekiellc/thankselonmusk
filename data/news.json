@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-18T10:13:04.387Z",
-  "displayUpdated": "Jun 18, 2026, 10:13 AM UTC",
-  "totalArticles": 11,
+  "lastUpdated": "2026-06-18T14:55:36.943Z",
+  "displayUpdated": "Jun 18, 2026, 2:55 PM UTC",
+  "totalArticles": 8,
   "articles": [
     {
       "venture": "spacex",
@@ -12,16 +12,6 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-17T08:01:20Z",
       "date": "Jun 17, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX Valuation Tops Amazon and Microsoft: What Share Price Would Make It the World's Largest Company?",
-      "summary": "SpaceX's IPO has propelled it past Amazon and Microsoft in market value, positioning it as the fifth most valuable public company. The company's growth is driven by its reusable rockets and Starlink service.",
-      "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-microsoft-market-value-1870696",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-06-16T13:44:32Z",
-      "date": "Jun 16, 2026"
     },
     {
       "venture": "spacex",
@@ -82,26 +72,6 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla marks UK sales milestone as fierce competition looms",
-      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
-      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
-      "source": "The-independent.com",
-      "publishedAt": "2026-06-03T09:46:49Z",
-      "date": "Jun 3, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla Model S Sparked Elon Musk's AI, Robotics And Space Revolution: 'Little Did We Know,' Says Cathie Wood",
-      "summary": "Investor Cathie Wood of ARK Invest has hailed the Tesla Inc. Model S following its sunset for kicking off a “revolution” led by Elon Musk in the artificial...",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/tesla-model-sparked-elon-musks-113132838.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-05-24T11:31:32Z",
-      "date": "May 24, 2026"
     },
     {
       "venture": "tesla",

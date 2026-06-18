@@ -35,22 +35,12 @@
     {
       "venture": "tesla",
       "label": "Tesla",
-      "headline": "Tesla marks UK sales milestone as fierce competition looms",
-      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
-      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
-      "source": "The-independent.com",
-      "date": "Jun 3, 2026",
-      "publishedAt": "2026-06-03T09:46:49Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX Valuation Tops Amazon and Microsoft: What Share Price Would Make It the World's Largest Company?",
-      "summary": "SpaceX's IPO has propelled it past Amazon and Microsoft in market value, positioning it as the fifth most valuable public company. The company's growth is driven by its reusable rockets and Starlink service.",
-      "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-microsoft-market-value-1870696",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 16, 2026",
-      "publishedAt": "2026-06-16T13:44:32Z"
+      "headline": "Tesla Model Y becomes Colombia’s top-selling car amid 304% EV surge",
+      "summary": "Tesla’s Model Y became the best-selling vehicle in Colombia in March 2026 with 1,791 units delivered — just two months after the automaker’s first deliveries in the country.\n\n\n\nThe achievement is part of an explosive EV market transformation in Colombia, wher…",
+      "url": "http://electrek.co/2026/05/18/tesla-model-y-colombia-best-selling-car-ev-surge-regulator/",
+      "source": "Electrek",
+      "date": "May 18, 2026",
+      "publishedAt": "2026-05-18T19:56:46Z"
     },
     {
       "venture": "boring",
@@ -73,5 +63,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-18T10:13:04.388Z"
+  "generatedAt": "2026-06-18T14:55:36.945Z"
 }
