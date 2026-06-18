@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-06-18T00:13:14.379Z",
-  "displayUpdated": "Jun 18, 2026, 12:13 AM UTC",
-  "totalArticles": 14,
+  "lastUpdated": "2026-06-18T10:13:04.387Z",
+  "displayUpdated": "Jun 18, 2026, 10:13 AM UTC",
+  "totalArticles": 11,
   "articles": [
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX Surpasses Amazon in Market Value: Inside Elon Musk's Rocket Empire Rise to $3 Trillion",
+      "summary": "SpaceX's record-breaking IPO has pushed its market value past Amazon, underscoring the rapid growth of commercial space technology and satellite infrastructure.",
+      "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-market-value-record-ipo-1870759",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-06-17T08:01:20Z",
+      "date": "Jun 17, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
       "headline": "SpaceX Valuation Tops Amazon and Microsoft: What Share Price Would Make It the World's Largest Company?",
       "summary": "SpaceX's IPO has propelled it past Amazon and Microsoft in market value, positioning it as the fifth most valuable public company. The company's growth is driven by its reusable rockets and Starlink service.",
       "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-microsoft-market-value-1870696",
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-16T13:44:32Z",
-      "date": "Jun 16, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX surpasses Amazon and Microsoft in market valuation race after record-shattering IPO",
-      "summary": "SpaceX's IPO success highlights the growing influence of space tech in global markets, potentially reshaping investment priorities and innovation focus.\nThe post SpaceX surpasses Amazon and Microsoft in market valuation race after record-shattering IPO appear…",
-      "url": "https://cryptobriefing.com/spacex-ipo-market-valuation-bitcoin-treasury/",
-      "source": "Crypto Briefing",
-      "publishedAt": "2026-06-16T13:29:22Z",
       "date": "Jun 16, 2026"
     },
     {
@@ -34,36 +34,6 @@
       "date": "Jun 16, 2026"
     },
     {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX Stock Jumps 11% in Premarket Trading as Momentum Builds After Record-Breaking IPO",
-      "summary": "SpaceX shares soared 11% in premarket trading following its record-breaking IPO, driven by strong investor demand and ambitious growth plans in space exploration and AI.",
-      "url": "https://www.ibtimes.com.au/spacex-shares-surge-record-breaking-ipo-1870676",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-06-16T08:36:33Z",
-      "date": "Jun 16, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "The SpaceX Story: Record IPO, valuation debate and next catalysts",
-      "summary": "SpaceX's IPO has become one of the biggest market events of 2026. A strong rally after listing pushed the company's valuation above $2 trillion, making it one of the world's most valuable firms. While investors have welcomed the stock enthusiastically, analys…",
-      "url": "https://m.economictimes.com/markets/us-stocks/news/the-spacex-story-record-ipo-valuation-debate-and-next-catalysts/spacex-ipo/slideshow/131763138.cms",
-      "source": "Economictimes.com",
-      "publishedAt": "2026-06-16T06:56:21Z",
-      "date": "Jun 16, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "The World’s First Trillionaire and What It Means for Wealth Creation in Dubai",
-      "summary": "Wealth Creation in Dubai: What the World’s First Trillionaire Signals for Investors When SpaceX completed its Nasdaq listing on June 12, 2026, it did not just set a record. The company priced 555.6 million shares at $135 each, raised $75 billion, and debuted …",
-      "url": "https://www.dubaichronicle.com/2026/06/16/wealth-creation-dubai-investors-spacex-ipo/",
-      "source": "Dubaichronicle.com",
-      "publishedAt": "2026-06-16T05:59:28Z",
-      "date": "Jun 16, 2026"
-    },
-    {
       "venture": "spacex",
       "label": "SpaceX",
       "headline": "SpaceX stock rises over 10% in second day of trading, valued above $2T",
@@ -72,16 +42,6 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-15T16:20:12Z",
       "date": "Jun 15, 2026"
-    },
-    {
-      "venture": "neura",
-      "label": "Neuralink",
-      "headline": "Musk's trillions fuelled by AI and his pied piper power over investors",
-      "summary": "To get a sense of the difference between the Tesla and SpaceX IPOs, consider that 1.7 billion seconds ago was 1972, when Elton John released Rocket Man, while 1.7 trillion seconds ago was 52,000BC, when we shared the planet with Neanderthals.",
-      "url": "https://www.abc.net.au/news/2026-06-15/elon-musk-space-x-trillions/106796484",
-      "source": "ABC News (AU)",
-      "publishedAt": "2026-06-14T18:43:51Z",
-      "date": "Jun 14, 2026"
     },
     {
       "venture": "boring",
@@ -132,6 +92,16 @@
       "source": "The-independent.com",
       "publishedAt": "2026-06-03T09:46:49Z",
       "date": "Jun 3, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla Model S Sparked Elon Musk's AI, Robotics And Space Revolution: 'Little Did We Know,' Says Cathie Wood",
+      "summary": "Investor Cathie Wood of ARK Invest has hailed the Tesla Inc. Model S following its sunset for kicking off a “revolution” led by Elon Musk in the artificial...",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/tesla-model-sparked-elon-musks-113132838.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-05-24T11:31:32Z",
+      "date": "May 24, 2026"
     },
     {
       "venture": "tesla",

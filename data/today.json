@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX Valuation Tops Amazon and Microsoft: What Share Price Would Make It the World's Largest Company?",
-      "summary": "SpaceX's IPO has propelled it past Amazon and Microsoft in market value, positioning it as the fifth most valuable public company. The company's growth is driven by its reusable rockets and Starlink service.",
-      "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-microsoft-market-value-1870696",
+      "headline": "SpaceX Surpasses Amazon in Market Value: Inside Elon Musk's Rocket Empire Rise to $3 Trillion",
+      "summary": "SpaceX's record-breaking IPO has pushed its market value past Amazon, underscoring the rapid growth of commercial space technology and satellite infrastructure.",
+      "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-market-value-record-ipo-1870759",
       "source": "Ibtimes.com.au",
-      "date": "Jun 16, 2026",
-      "publishedAt": "2026-06-16T13:44:32Z"
+      "date": "Jun 17, 2026",
+      "publishedAt": "2026-06-17T08:01:20Z"
     },
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX surpasses Amazon and Microsoft in market valuation race after record-shattering IPO",
-      "summary": "SpaceX's IPO success highlights the growing influence of space tech in global markets, potentially reshaping investment priorities and innovation focus.\nThe post SpaceX surpasses Amazon and Microsoft in market valuation race after record-shattering IPO appear…",
-      "url": "https://cryptobriefing.com/spacex-ipo-market-valuation-bitcoin-treasury/",
-      "source": "Crypto Briefing",
+      "headline": "America didn’t give Elon Musk a trillion dollars. He earned every penny",
+      "summary": "Elon Musk became the world's first trillionaire when SpaceX went public, but his journey from immigrant to innovator tells a larger American story.",
+      "url": "https://www.foxnews.com/opinion/america-didnt-give-elon-musk-trillion-dollars-earned-every-penny",
+      "source": "Fox News",
       "date": "Jun 16, 2026",
-      "publishedAt": "2026-06-16T13:29:22Z"
+      "publishedAt": "2026-06-16T09:00:40Z"
     },
     {
       "venture": "tesla",
@@ -45,32 +45,12 @@
     {
       "venture": "starlink",
       "label": "Starlink",
-      "headline": "SpaceX Stock Jumps 11% in Premarket Trading as Momentum Builds After Record-Breaking IPO",
-      "summary": "SpaceX shares soared 11% in premarket trading following its record-breaking IPO, driven by strong investor demand and ambitious growth plans in space exploration and AI.",
-      "url": "https://www.ibtimes.com.au/spacex-shares-surge-record-breaking-ipo-1870676",
+      "headline": "SpaceX Valuation Tops Amazon and Microsoft: What Share Price Would Make It the World's Largest Company?",
+      "summary": "SpaceX's IPO has propelled it past Amazon and Microsoft in market value, positioning it as the fifth most valuable public company. The company's growth is driven by its reusable rockets and Starlink service.",
+      "url": "https://www.ibtimes.com.au/spacex-surpasses-amazon-microsoft-market-value-1870696",
       "source": "Ibtimes.com.au",
       "date": "Jun 16, 2026",
-      "publishedAt": "2026-06-16T08:36:33Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "The SpaceX Story: Record IPO, valuation debate and next catalysts",
-      "summary": "SpaceX's IPO has become one of the biggest market events of 2026. A strong rally after listing pushed the company's valuation above $2 trillion, making it one of the world's most valuable firms. While investors have welcomed the stock enthusiastically, analys…",
-      "url": "https://m.economictimes.com/markets/us-stocks/news/the-spacex-story-record-ipo-valuation-debate-and-next-catalysts/spacex-ipo/slideshow/131763138.cms",
-      "source": "Economictimes.com",
-      "date": "Jun 16, 2026",
-      "publishedAt": "2026-06-16T06:56:21Z"
-    },
-    {
-      "venture": "neura",
-      "label": "Neuralink",
-      "headline": "Musk's trillions fuelled by AI and his pied piper power over investors",
-      "summary": "To get a sense of the difference between the Tesla and SpaceX IPOs, consider that 1.7 billion seconds ago was 1972, when Elton John released Rocket Man, while 1.7 trillion seconds ago was 52,000BC, when we shared the planet with Neanderthals.",
-      "url": "https://www.abc.net.au/news/2026-06-15/elon-musk-space-x-trillions/106796484",
-      "source": "ABC News (AU)",
-      "date": "Jun 14, 2026",
-      "publishedAt": "2026-06-14T18:43:51Z"
+      "publishedAt": "2026-06-16T13:44:32Z"
     },
     {
       "venture": "boring",
@@ -93,5 +73,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-18T00:13:14.380Z"
+  "generatedAt": "2026-06-18T10:13:04.388Z"
 }
