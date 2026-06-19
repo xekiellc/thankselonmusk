@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-18",
-  "displayDate": "Thursday, June 18, 2026",
+  "date": "2026-06-19",
+  "displayDate": "Friday, June 19, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -43,6 +43,16 @@
       "publishedAt": "2026-05-18T19:56:46Z"
     },
     {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX to Acquire AI Coding Startup Cursor in $60 Billion Deal to Strengthen Tech Capabilities",
+      "summary": "SpaceX has announced a $60 billion acquisition of AI startup Cursor, enhancing its AI capabilities and positioning it against rivals like Anthropic and OpenAI.",
+      "url": "https://www.ibtimes.com.au/spacex-acquires-ai-startup-cursor-1870708",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 16, 2026",
+      "publishedAt": "2026-06-16T15:15:11Z"
+    },
+    {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
@@ -63,5 +73,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-18T20:16:44.591Z"
+  "generatedAt": "2026-06-19T00:22:04.635Z"
 }

@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-18T20:16:44.590Z",
-  "displayUpdated": "Jun 18, 2026, 8:16 PM UTC",
-  "totalArticles": 9,
+  "lastUpdated": "2026-06-19T00:22:04.634Z",
+  "displayUpdated": "Jun 19, 2026, 12:22 AM UTC",
+  "totalArticles": 10,
   "articles": [
     {
       "venture": "spacex",
@@ -22,6 +22,16 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-17T08:01:20Z",
       "date": "Jun 17, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX to Acquire AI Coding Startup Cursor in $60 Billion Deal to Strengthen Tech Capabilities",
+      "summary": "SpaceX has announced a $60 billion acquisition of AI startup Cursor, enhancing its AI capabilities and positioning it against rivals like Anthropic and OpenAI.",
+      "url": "https://www.ibtimes.com.au/spacex-acquires-ai-startup-cursor-1870708",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-06-16T15:15:11Z",
+      "date": "Jun 16, 2026"
     },
     {
       "venture": "spacex",
