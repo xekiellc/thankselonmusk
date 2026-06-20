@@ -33,16 +33,6 @@
       "publishedAt": "2026-06-07T20:14:19Z"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla Model S Sparked Elon Musk's AI, Robotics And Space Revolution: 'Little Did We Know,' Says Cathie Wood",
-      "summary": "Investor Cathie Wood of ARK Invest has hailed the Tesla Inc. Model S following its sunset for kicking off a “revolution” led by Elon Musk in the artificial...",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/tesla-model-sparked-elon-musks-113132838.html",
-      "source": "Yahoo Entertainment",
-      "date": "May 24, 2026",
-      "publishedAt": "2026-05-24T11:31:32Z"
-    },
-    {
       "venture": "starlink",
       "label": "Starlink",
       "headline": "SpaceX's historic IPO rally hits first speed bump – What's next for investors?",
@@ -53,14 +43,14 @@
       "publishedAt": "2026-06-18T07:20:03Z"
     },
     {
-      "venture": "neura",
-      "label": "Neuralink",
-      "headline": "Elon Musk Describes His Neuralink Brain Implants as 'Jesus-Level Technology'",
-      "summary": "Elon Musk has characterized his Neuralink brain-computer interface technology as achieving miracle-level breakthroughs, while the company's president revealed plans to implant chips in healthy individuals within the next four years. Musk called his creepy bra…",
-      "url": "https://www.breitbart.com/tech/2026/05/22/elon-musk-describes-his-neuralink-brain-implants-as-jesus-level-technology/",
-      "source": "Breitbart News",
-      "date": "May 22, 2026",
-      "publishedAt": "2026-05-22T16:16:47Z"
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk Predicts SpaceX Revenue Could Hit $1 Trillion by 2030",
+      "summary": "Elon Musk forecasts SpaceX could achieve $1 trillion in revenue by 2030, driven by Starlink and reusable rockets, despite facing technical, regulatory, and competitive challenges.",
+      "url": "https://www.ibtimes.com.au/elon-musk-spacex-1-trillion-revenue-2030-1870809",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 18, 2026",
+      "publishedAt": "2026-06-18T05:18:51Z"
     },
     {
       "venture": "boring",
@@ -83,5 +73,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-20T13:48:51.628Z"
+  "generatedAt": "2026-06-20T19:16:40.857Z"
 }

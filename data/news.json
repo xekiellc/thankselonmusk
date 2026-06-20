@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-20T13:48:51.627Z",
-  "displayUpdated": "Jun 20, 2026, 1:48 PM UTC",
-  "totalArticles": 12,
+  "lastUpdated": "2026-06-20T19:16:40.856Z",
+  "displayUpdated": "Jun 20, 2026, 7:16 PM UTC",
+  "totalArticles": 11,
   "articles": [
     {
       "venture": "spacex",
@@ -34,14 +34,24 @@
       "date": "Jun 18, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
+      "venture": "starlink",
+      "label": "Starlink",
       "headline": "Elon Musk Predicts SpaceX Revenue Could Hit $1 Trillion by 2030",
       "summary": "Elon Musk forecasts SpaceX could achieve $1 trillion in revenue by 2030, driven by Starlink and reusable rockets, despite facing technical, regulatory, and competitive challenges.",
       "url": "https://www.ibtimes.com.au/elon-musk-spacex-1-trillion-revenue-2030-1870809",
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-18T05:18:51Z",
       "date": "Jun 18, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "NASA is on track to put humans back on the lunar surface for the first time in roughly 56 years by 2028— followed by the establishment of a sustained human presence near the Moon’s south pole in the 2030s — in a civilizational shift that would mark the first time in human history that our species has lived continuously on another world, rather than briefly visiting and returning home",
+      "summary": "The last human being to walk on the Moon stepped off the lunar surface at 5:40 AM Coordinated Universal Time on 14 December 1972. His name was Eugene Cernan. He was the commander of Apollo 17. As he climbed the ladder back into the lunar module, he said, “We …",
+      "url": "https://spacedaily.com/d-nasa-is-on-track-to-put-humans-back-on-the-lunar-surface-for-the-first-time-in-roughly-56-years-by-2028-followed-by-the-establishment-of-a-sustained-human-presence-near-the-moons-south-pole/",
+      "source": "Space Daily",
+      "publishedAt": "2026-06-17T10:45:17Z",
+      "date": "Jun 17, 2026"
     },
     {
       "venture": "spacex",
@@ -102,26 +112,6 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla Model S Sparked Elon Musk's AI, Robotics And Space Revolution: 'Little Did We Know,' Says Cathie Wood",
-      "summary": "Investor Cathie Wood of ARK Invest has hailed the Tesla Inc. Model S following its sunset for kicking off a “revolution” led by Elon Musk in the artificial...",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/tesla-model-sparked-elon-musks-113132838.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-05-24T11:31:32Z",
-      "date": "May 24, 2026"
-    },
-    {
-      "venture": "neura",
-      "label": "Neuralink",
-      "headline": "Elon Musk Describes His Neuralink Brain Implants as 'Jesus-Level Technology'",
-      "summary": "Elon Musk has characterized his Neuralink brain-computer interface technology as achieving miracle-level breakthroughs, while the company's president revealed plans to implant chips in healthy individuals within the next four years. Musk called his creepy bra…",
-      "url": "https://www.breitbart.com/tech/2026/05/22/elon-musk-describes-his-neuralink-brain-implants-as-jesus-level-technology/",
-      "source": "Breitbart News",
-      "publishedAt": "2026-05-22T16:16:47Z",
-      "date": "May 22, 2026"
     }
   ]
 }
