@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX vs. Blue Origin: Who's Really Winning the Space Race in 2026?",
+      "summary": "SpaceX leads the commercial space sector with unmatched launch frequency and cost efficiency, while Blue Origin makes strides with New Glenn but lags in overall market impact as of mid-2026.",
+      "url": "https://www.ibtimes.com.au/spacex-vs-blue-origin-space-supremacy-1870975",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 20, 2026",
+      "publishedAt": "2026-06-20T12:35:58Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "SpaceX's next frontier: AI, growth and investor expectations",
       "summary": "SpaceX made history with the largest IPO ever, raising nearly $75 billion before underwriters expanded the offering further. The stock rallied sharply after listing, briefly pushing the company's valuation close to the world's most valuable firms. Strong reta…",
       "url": "https://m.economictimes.com/markets/us-stocks/news/spacexs-next-frontier-ai-growth-and-investor-expectations/historic-ipo-creates-market-frenzy/slideshow/131848229.cms",
       "source": "Economictimes.com",
       "date": "Jun 19, 2026",
       "publishedAt": "2026-06-19T05:28:39Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "7 books recommended by Elon Musk that helped shape his thoughts, from childhood to trillion-dollar success",
-      "summary": "Elon Musk's intellectual journey is shaped by a diverse reading list, from existential sci-fi like 'The Hitchhiker's Guide to the Galaxy' to engineering principles in 'Structures.' Biographies of Benjamin Franklin and Einstein, alongside cautionary tales on A…",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/7-books-recommended-by-elon-musk-that-helped-shape-his-thoughts-from-childhood-to-trillion-dollar-success/articleshow/131820055.cms",
-      "source": "The Times of India",
-      "date": "Jun 18, 2026",
-      "publishedAt": "2026-06-18T07:09:56Z"
     },
     {
       "venture": "tesla",
@@ -53,6 +53,16 @@
       "publishedAt": "2026-06-18T05:18:51Z"
     },
     {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Elon Musk Describes His Neuralink Brain Implants as 'Jesus-Level Technology'",
+      "summary": "Elon Musk has characterized his Neuralink brain-computer interface technology as achieving miracle-level breakthroughs, while the company's president revealed plans to implant chips in healthy individuals within the next four years. Musk called his creepy bra…",
+      "url": "https://www.breitbart.com/tech/2026/05/22/elon-musk-describes-his-neuralink-brain-implants-as-jesus-level-technology/",
+      "source": "Breitbart News",
+      "date": "May 22, 2026",
+      "publishedAt": "2026-05-22T16:16:47Z"
+    },
+    {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
@@ -73,5 +83,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-21T09:41:59.442Z"
+  "generatedAt": "2026-06-21T13:56:33.196Z"
 }
