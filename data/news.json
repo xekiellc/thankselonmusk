@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-23T19:54:05.380Z",
-  "displayUpdated": "Jun 23, 2026, 7:54 PM UTC",
-  "totalArticles": 12,
+  "lastUpdated": "2026-06-23T23:52:15.558Z",
+  "displayUpdated": "Jun 23, 2026, 11:52 PM UTC",
+  "totalArticles": 13,
   "articles": [
     {
       "venture": "spacex",
@@ -11,6 +11,16 @@
       "url": "https://www.breitbart.com/tech/2026/06/22/elon-musks-spacex-ipo-spurs-momentum-for-orbital-ai-data-centers/",
       "source": "Breitbart News",
       "publishedAt": "2026-06-22T16:43:57Z",
+      "date": "Jun 22, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX’s Market Debut Ignites Investor Enthusiasm in First Week of Trading",
+      "summary": "SpaceX (NASDAQ:SPCX) delivered one of the most closely watched stock market debuts in recent history, with shares soaring during their first week of trading...",
+      "url": "https://investorshub.advfn.com/market-news/article/30873/spacexs-market-debut-ignites-investor-enthusiasm-in-first-week-of-trading",
+      "source": "Advfn.com",
+      "publishedAt": "2026-06-22T13:03:52Z",
       "date": "Jun 22, 2026"
     },
     {
@@ -44,16 +54,6 @@
       "date": "Jun 18, 2026"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
-      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
-      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-06-17T17:31:13Z",
-      "date": "Jun 17, 2026"
-    },
-    {
       "venture": "spacex",
       "label": "SpaceX",
       "headline": "America didn’t give Elon Musk a trillion dollars. He earned every penny",
@@ -62,6 +62,16 @@
       "source": "Fox News",
       "publishedAt": "2026-06-16T09:00:40Z",
       "date": "Jun 16, 2026"
+    },
+    {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Musk's trillions fuelled by AI and his pied piper power over investors",
+      "summary": "To get a sense of the difference between the Tesla and SpaceX IPOs, consider that 1.7 billion seconds ago was 1972, when Elton John released Rocket Man, while 1.7 trillion seconds ago was 52,000BC, when we shared the planet with Neanderthals.",
+      "url": "https://www.abc.net.au/news/2026-06-15/elon-musk-space-x-trillions/106796484",
+      "source": "ABC News (AU)",
+      "publishedAt": "2026-06-14T18:43:51Z",
+      "date": "Jun 14, 2026"
     },
     {
       "venture": "boring",
