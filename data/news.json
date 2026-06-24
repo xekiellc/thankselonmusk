@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-06-24T14:14:55.982Z",
-  "displayUpdated": "Jun 24, 2026, 2:14 PM UTC",
-  "totalArticles": 9,
+  "lastUpdated": "2026-06-24T19:29:29.577Z",
+  "displayUpdated": "Jun 24, 2026, 7:29 PM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
+      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
+      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-06-23T14:17:48Z",
+      "date": "Jun 23, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -21,16 +31,6 @@
       "url": "https://investorshub.advfn.com/market-news/article/30873/spacexs-market-debut-ignites-investor-enthusiasm-in-first-week-of-trading",
       "source": "Advfn.com",
       "publishedAt": "2026-06-22T13:03:52Z",
-      "date": "Jun 22, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "US stocks: SpaceX launches notes offering, discloses $100.8 billion cash balance",
-      "summary": "SpaceX is making waves with a new notes offering, and they've revealed a massive $100.8 billion cash balance. This significant financial position suggests the company is well-funded for its ambitious future plans, including further Starship development and it…",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/update-1-spacex-launches-notes-offering-discloses-100-8-billion-cash-balance/articleshow/131909733.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-06-22T12:38:39Z",
       "date": "Jun 22, 2026"
     },
     {
@@ -82,16 +82,6 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla marks UK sales milestone as fierce competition looms",
-      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
-      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
-      "source": "The-independent.com",
-      "publishedAt": "2026-06-03T09:46:49Z",
-      "date": "Jun 3, 2026"
     }
   ]
 }
