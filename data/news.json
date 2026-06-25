@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-24T19:29:29.577Z",
-  "displayUpdated": "Jun 24, 2026, 7:29 PM UTC",
-  "totalArticles": 8,
+  "lastUpdated": "2026-06-25T00:04:12.628Z",
+  "displayUpdated": "Jun 25, 2026, 12:04 AM UTC",
+  "totalArticles": 7,
   "articles": [
     {
       "venture": "spacex",
@@ -12,26 +12,6 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-23T14:17:48Z",
       "date": "Jun 23, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Elon Musk's SpaceX IPO Spurs Momentum for Orbital AI Data Centers",
-      "summary": "The concept of building AI data centers in orbit has gained renewed momentum following SpaceX's record-breaking IPO that raised over $85 billion and valued the company in the trillions. Elon Musk's success and the massive pushback against AI data centers in r…",
-      "url": "https://www.breitbart.com/tech/2026/06/22/elon-musks-spacex-ipo-spurs-momentum-for-orbital-ai-data-centers/",
-      "source": "Breitbart News",
-      "publishedAt": "2026-06-22T16:43:57Z",
-      "date": "Jun 22, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX’s Market Debut Ignites Investor Enthusiasm in First Week of Trading",
-      "summary": "SpaceX (NASDAQ:SPCX) delivered one of the most closely watched stock market debuts in recent history, with shares soaring during their first week of trading...",
-      "url": "https://investorshub.advfn.com/market-news/article/30873/spacexs-market-debut-ignites-investor-enthusiasm-in-first-week-of-trading",
-      "source": "Advfn.com",
-      "publishedAt": "2026-06-22T13:03:52Z",
-      "date": "Jun 22, 2026"
     },
     {
       "venture": "spacex",
@@ -82,6 +62,16 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla marks UK sales milestone as fierce competition looms",
+      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
+      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
+      "source": "The-independent.com",
+      "publishedAt": "2026-06-03T09:46:49Z",
+      "date": "Jun 3, 2026"
     }
   ]
 }
