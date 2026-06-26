@@ -43,6 +43,16 @@
       "publishedAt": "2026-06-07T20:14:19Z"
     },
     {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX plans to launch up to 1 million AI satellites, targeting 100 GW of compute power by 2030",
+      "summary": "SpaceX's ambitious satellite plan could reshape AI infrastructure, challenge decentralized compute networks, and impact global energy dynamics.\nThe post SpaceX plans to launch up to 1 million AI satellites, targeting 100 GW of compute power by 2030 appeared f…",
+      "url": "https://cryptobriefing.com/spacex-million-ai-satellites-2030/",
+      "source": "Crypto Briefing",
+      "date": "Jun 25, 2026",
+      "publishedAt": "2026-06-25T16:55:46Z"
+    },
+    {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
@@ -63,5 +73,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-26T14:11:50.886Z"
+  "generatedAt": "2026-06-26T19:40:23.909Z"
 }
