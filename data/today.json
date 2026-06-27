@@ -1,7 +1,17 @@
 {
-  "date": "2026-06-26",
-  "displayDate": "Friday, June 26, 2026",
+  "date": "2026-06-27",
+  "displayDate": "Saturday, June 27, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX’s Move Into Neocloud Operations Is Raising Expectations for Its Valuation and Partners Like Nvidia and Intel.",
+      "summary": "SpaceX's expansion into neocloud compute operations alongside its Starlink satellite internet and rocket business pushes its market value above $2 trillion s...",
+      "url": "https://www.barchart.com/story/news/2649218/spacexs-move-into-neocloud-operations-is-raising-expectations-for-its-valuation-and-partners-like-nvidia-and-intel",
+      "source": "Barchart.com",
+      "date": "Jun 25, 2026",
+      "publishedAt": "2026-06-25T13:15:02Z"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -11,16 +21,6 @@
       "source": "Ibtimes.com.au",
       "date": "Jun 25, 2026",
       "publishedAt": "2026-06-25T04:25:49Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
-      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
-      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 23, 2026",
-      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -73,5 +73,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-26T19:40:23.909Z"
+  "generatedAt": "2026-06-27T00:00:24.842Z"
 }
