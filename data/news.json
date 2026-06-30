@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-06-30T14:07:04.611Z",
-  "displayUpdated": "Jun 30, 2026, 2:07 PM UTC",
+  "lastUpdated": "2026-06-30T19:47:14.227Z",
+  "displayUpdated": "Jun 30, 2026, 7:47 PM UTC",
   "totalArticles": 12,
   "articles": [
+    {
+      "venture": "xai",
+      "label": "xAI",
+      "headline": "xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support",
+      "summary": "The integration of Grok voice APIs into Vercel AI Gateway enhances developer access to advanced voice tech, potentially accelerating AI-driven innovation.\nThe post xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support appeared fi…",
+      "url": "https://cryptobriefing.com/xai-grok-voice-apis-vercel-ai-gateway/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-06-29T18:33:57Z",
+      "date": "Jun 29, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Stock Edges Higher Today as Investors Brace for Historic Nasdaq-100 Entry Just 15 Days After IPO",
+      "summary": "SpaceX shares rise as the company prepares for rapid inclusion in the Nasdaq-100 index, following a volatile post-IPO period. Investors anticipate increased demand from index funds.",
+      "url": "https://www.ibtimes.com.au/spacex-nasdaq-100-inclusion-1871546",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-06-29T15:17:21Z",
+      "date": "Jun 29, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -64,16 +84,6 @@
       "date": "Jun 18, 2026"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
-      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
-      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-06-17T17:31:13Z",
-      "date": "Jun 17, 2026"
-    },
-    {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
@@ -112,16 +122,6 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla marks UK sales milestone as fierce competition looms",
-      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
-      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
-      "source": "The-independent.com",
-      "publishedAt": "2026-06-03T09:46:49Z",
-      "date": "Jun 3, 2026"
     }
   ]
 }

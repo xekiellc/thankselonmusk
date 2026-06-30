@@ -5,32 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX Stock Edges Higher Today as Investors Brace for Historic Nasdaq-100 Entry Just 15 Days After IPO",
+      "summary": "SpaceX shares rise as the company prepares for rapid inclusion in the Nasdaq-100 index, following a volatile post-IPO period. Investors anticipate increased demand from index funds.",
+      "url": "https://www.ibtimes.com.au/spacex-nasdaq-100-inclusion-1871546",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 29, 2026",
+      "publishedAt": "2026-06-29T15:17:21Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "SpaceX Stock Steadies Near $153 as $25 Billion Bond Sale Draws Record $89 Billion From Investors Worldwide",
       "summary": "SpaceX's stock stabilised after a volatile IPO month, driven by a massive bond offering and new contract wins, despite ongoing financial challenges and divided analyst opinions.",
       "url": "https://www.ibtimes.com.au/spacex-stock-stabilises-after-volatile-ipo-1871439",
       "source": "Ibtimes.com.au",
       "date": "Jun 27, 2026",
       "publishedAt": "2026-06-27T12:22:50Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX’s Move Into Neocloud Operations Is Raising Expectations for Its Valuation and Partners Like Nvidia and Intel.",
-      "summary": "SpaceX's expansion into neocloud compute operations alongside its Starlink satellite internet and rocket business pushes its market value above $2 trillion s...",
-      "url": "https://www.barchart.com/story/news/2649218/spacexs-move-into-neocloud-operations-is-raising-expectations-for-its-valuation-and-partners-like-nvidia-and-intel",
-      "source": "Barchart.com",
-      "date": "Jun 25, 2026",
-      "publishedAt": "2026-06-25T13:15:02Z"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
-      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
-      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
-      "source": "Yahoo Entertainment",
-      "date": "Jun 17, 2026",
-      "publishedAt": "2026-06-17T17:31:13Z"
     },
     {
       "venture": "tesla",
@@ -41,6 +31,16 @@
       "source": "Crypto Briefing",
       "date": "Jun 7, 2026",
       "publishedAt": "2026-06-07T20:14:19Z"
+    },
+    {
+      "venture": "xai",
+      "label": "xAI",
+      "headline": "xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support",
+      "summary": "The integration of Grok voice APIs into Vercel AI Gateway enhances developer access to advanced voice tech, potentially accelerating AI-driven innovation.\nThe post xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support appeared fi…",
+      "url": "https://cryptobriefing.com/xai-grok-voice-apis-vercel-ai-gateway/",
+      "source": "Crypto Briefing",
+      "date": "Jun 29, 2026",
+      "publishedAt": "2026-06-29T18:33:57Z"
     },
     {
       "venture": "starlink",
@@ -73,5 +73,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-06-30T14:07:04.612Z"
+  "generatedAt": "2026-06-30T19:47:14.228Z"
 }
