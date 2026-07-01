@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-01T14:22:32.661Z",
-  "displayUpdated": "Jul 1, 2026, 2:22 PM UTC",
-  "totalArticles": 12,
+  "lastUpdated": "2026-07-01T19:45:19.810Z",
+  "displayUpdated": "Jul 1, 2026, 7:45 PM UTC",
+  "totalArticles": 11,
   "articles": [
     {
       "venture": "xai",
@@ -22,16 +22,6 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-29T15:17:21Z",
       "date": "Jun 29, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "How Fast Is Starlink in 2026? My Tests Show Its Speed Taking an Unexpected Turn",
-      "summary": "Living in rural Idaho, I've relied on Starlink for my home internet access since 2022. It's so much better than it was then, but my latest performance data raises new questions about the value of its top-tier plan.\nWithout Starlink satellite internet from Spa…",
-      "url": "https://uk.pcmag.com/networking/165374/how-fast-is-starlink-2026-my-tests-show-speeds-taking-unexpected-turn",
-      "source": "PCMag.com",
-      "publishedAt": "2026-06-27T12:30:35Z",
-      "date": "Jun 27, 2026"
     },
     {
       "venture": "spacex",
@@ -62,16 +52,6 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-23T14:17:48Z",
       "date": "Jun 23, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "7 books recommended by Elon Musk that helped shape his thoughts, from childhood to trillion-dollar success",
-      "summary": "Elon Musk's intellectual journey is shaped by a diverse reading list, from existential sci-fi like 'The Hitchhiker's Guide to the Galaxy' to engineering principles in 'Structures.' Biographies of Benjamin Franklin and Einstein, alongside cautionary tales on A…",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/7-books-recommended-by-elon-musk-that-helped-shape-his-thoughts-from-childhood-to-trillion-dollar-success/articleshow/131820055.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-06-18T07:09:56Z",
-      "date": "Jun 18, 2026"
     },
     {
       "venture": "tesla",
@@ -122,6 +102,16 @@
       "source": "Crypto Briefing",
       "publishedAt": "2026-06-07T20:14:19Z",
       "date": "Jun 7, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla marks UK sales milestone as fierce competition looms",
+      "summary": "UK motorists have turned to electric vehicles as fuel prices soared",
+      "url": "https://www.the-independent.com/life-style/motoring/motoring-news/tesla-uk-model-electric-car-sales-b2988605.html",
+      "source": "The-independent.com",
+      "publishedAt": "2026-06-03T09:46:49Z",
+      "date": "Jun 3, 2026"
     }
   ]
 }
