@@ -15,12 +15,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX Stock Steadies Near $153 as $25 Billion Bond Sale Draws Record $89 Billion From Investors Worldwide",
-      "summary": "SpaceX's stock stabilised after a volatile IPO month, driven by a massive bond offering and new contract wins, despite ongoing financial challenges and divided analyst opinions.",
-      "url": "https://www.ibtimes.com.au/spacex-stock-stabilises-after-volatile-ipo-1871439",
+      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
+      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
+      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
       "source": "Ibtimes.com.au",
-      "date": "Jun 27, 2026",
-      "publishedAt": "2026-06-27T12:22:50Z"
+      "date": "Jun 23, 2026",
+      "publishedAt": "2026-06-23T14:17:48Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
+      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
+      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
+      "source": "Yahoo Entertainment",
+      "date": "Jun 17, 2026",
+      "publishedAt": "2026-06-17T17:31:13Z"
     },
     {
       "venture": "tesla",
@@ -43,6 +53,16 @@
       "publishedAt": "2026-06-29T18:33:57Z"
     },
     {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Elon Musk’s Brain-chip Startup Aims for Scalability with New Transdural Procedure",
+      "summary": "Elon Musk’s brain-computer interface (BCI) startup Neuralink announced the company has successfully performed its first transdural brain implant surgery, which promises to increase scalability while significantly reducing surgical trauma. The News In a new vi…",
+      "url": "https://roadtovr.com/elon-musk-brain-neuralink-transdural-implant/",
+      "source": "Road to VR",
+      "date": "Jul 1, 2026",
+      "publishedAt": "2026-07-01T11:25:32Z"
+    },
+    {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
@@ -63,5 +83,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-07-02T08:47:34.438Z"
+  "generatedAt": "2026-07-02T13:46:01.505Z"
 }
