@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-07-02T13:46:01.504Z",
-  "displayUpdated": "Jul 2, 2026, 1:46 PM UTC",
-  "totalArticles": 9,
+  "lastUpdated": "2026-07-02T19:16:06.282Z",
+  "displayUpdated": "Jul 2, 2026, 7:16 PM UTC",
+  "totalArticles": 10,
   "articles": [
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "(PHOTO) Elon Musk Tours Optimus Production Line in Fremont as Tesla Advances Humanoid Robot Development",
+      "summary": "Elon Musk's recent visit to Tesla's Fremont factory showcased progress on the Optimus humanoid robot, emphasising its potential to transform manufacturing and service industries through advanced AI and robotics.",
+      "url": "https://www.ibtimes.com.au/tesla-optimus-robot-progress-1871658",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-07-01T14:05:34Z",
+      "date": "Jul 1, 2026"
+    },
     {
       "venture": "neura",
       "label": "Neuralink",
