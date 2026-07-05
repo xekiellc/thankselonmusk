@@ -1,6 +1,97 @@
 {
   "date": "2026-07-05",
   "displayDate": "Sunday, July 5, 2026",
-  "items": [],
-  "generatedAt": "2026-07-05T13:19:15.572Z"
+  "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Stock Edges Higher Today as Investors Brace for Historic Nasdaq-100 Entry Just 15 Days After IPO",
+      "summary": "SpaceX shares rise as the company prepares for rapid inclusion in the Nasdaq-100 index, following a volatile post-IPO period. Investors anticipate increased demand from index funds.",
+      "url": "https://www.ibtimes.com.au/spacex-nasdaq-100-inclusion-1871546",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 29, 2026",
+      "publishedAt": "2026-06-29T15:17:21Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
+      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
+      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 23, 2026",
+      "publishedAt": "2026-06-23T14:17:48Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "(PHOTO) Elon Musk Tours Optimus Production Line in Fremont as Tesla Advances Humanoid Robot Development",
+      "summary": "Elon Musk's recent visit to Tesla's Fremont factory showcased progress on the Optimus humanoid robot, emphasising its potential to transform manufacturing and service industries through advanced AI and robotics.",
+      "url": "https://www.ibtimes.com.au/tesla-optimus-robot-progress-1871658",
+      "source": "Ibtimes.com.au",
+      "date": "Jul 1, 2026",
+      "publishedAt": "2026-07-01T14:05:34Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla showcases autonomous driving with San Francisco to Palo Alto round trip",
+      "summary": "Tesla's autonomous driving progress could revolutionize transportation, shifting revenue models from car sales to recurring robotaxi services.\nThe post Tesla showcases autonomous driving with San Francisco to Palo Alto round trip appeared first on Crypto Brie…",
+      "url": "https://cryptobriefing.com/tesla-autonomous-driving-san-francisco-palo-alto/",
+      "source": "Crypto Briefing",
+      "date": "Jun 7, 2026",
+      "publishedAt": "2026-06-07T20:14:19Z"
+    },
+    {
+      "venture": "xai",
+      "label": "xAI",
+      "headline": "xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support",
+      "summary": "The integration of Grok voice APIs into Vercel AI Gateway enhances developer access to advanced voice tech, potentially accelerating AI-driven innovation.\nThe post xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support appeared fi…",
+      "url": "https://cryptobriefing.com/xai-grok-voice-apis-vercel-ai-gateway/",
+      "source": "Crypto Briefing",
+      "date": "Jun 29, 2026",
+      "publishedAt": "2026-06-29T18:33:57Z"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk’s Starlink May Launch Mobile Service in the US, According to FT Report",
+      "summary": "Elon Musk’s SpaceX is reportedly exploring a major expansion of its Starlink business into the U.S. mobile telecommunications market, according to a Financial Times report. The move, if it materializes, would represent a significant shift from Starlink’s curr…",
+      "url": "https://www.successful-blog.com/1/elon-musk-starlink-mobile-service/",
+      "source": "Successful-blog.com",
+      "date": "Jul 2, 2026",
+      "publishedAt": "2026-07-02T06:05:28Z"
+    },
+    {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Elon Musk’s Brain-chip Startup Aims for Scalability with New Transdural Procedure",
+      "summary": "Elon Musk’s brain-computer interface (BCI) startup Neuralink announced the company has successfully performed its first transdural brain implant surgery, which promises to increase scalability while significantly reducing surgical trauma. The News In a new vi…",
+      "url": "https://roadtovr.com/elon-musk-brain-neuralink-transdural-implant/",
+      "source": "Road to VR",
+      "date": "Jul 1, 2026",
+      "publishedAt": "2026-07-01T11:25:32Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
+      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
+      "source": "The Times of India",
+      "date": "Jun 14, 2026",
+      "publishedAt": "2026-06-14T14:08:32Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
+      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
+      "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
+      "source": "Midland Reporter-Telegram",
+      "date": "Jun 13, 2026",
+      "publishedAt": "2026-06-13T16:15:28Z"
+    }
+  ],
+  "generatedAt": "2026-07-05T19:07:47.156Z"
 }
