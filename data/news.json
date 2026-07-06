@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-07-05T19:07:47.155Z",
-  "displayUpdated": "Jul 5, 2026, 7:07 PM UTC",
-  "totalArticles": 10,
+  "lastUpdated": "2026-07-06T00:00:55.277Z",
+  "displayUpdated": "Jul 6, 2026, 12:00 AM UTC",
+  "totalArticles": 11,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
+      "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
+      "url": "https://freerepublic.com/focus/f-news/4386693/posts",
+      "source": "Freerepublic.com",
+      "publishedAt": "2026-07-04T23:35:42Z",
+      "date": "Jul 4, 2026"
+    },
     {
       "venture": "starlink",
       "label": "Starlink",
