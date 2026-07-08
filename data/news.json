@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-08T08:15:37.785Z",
-  "displayUpdated": "Jul 8, 2026, 8:15 AM UTC",
+  "lastUpdated": "2026-07-08T13:49:34.714Z",
+  "displayUpdated": "Jul 8, 2026, 1:49 PM UTC",
   "totalArticles": 10,
   "articles": [
     {
@@ -56,22 +56,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX Stock Edges Higher Today as Investors Brace for Historic Nasdaq-100 Entry Just 15 Days After IPO",
-      "summary": "SpaceX shares rise as the company prepares for rapid inclusion in the Nasdaq-100 index, following a volatile post-IPO period. Investors anticipate increased demand from index funds.",
-      "url": "https://www.ibtimes.com.au/spacex-nasdaq-100-inclusion-1871546",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-06-29T15:17:21Z",
-      "date": "Jun 29, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
       "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
       "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
       "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-23T14:17:48Z",
       "date": "Jun 23, 2026"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
+      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-06-14T14:08:32Z",
+      "date": "Jun 14, 2026"
     },
     {
       "venture": "boring",
