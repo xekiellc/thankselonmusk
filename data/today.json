@@ -35,12 +35,12 @@
     {
       "venture": "tesla",
       "label": "Tesla",
-      "headline": "Tesla showcases autonomous driving with San Francisco to Palo Alto round trip",
-      "summary": "Tesla's autonomous driving progress could revolutionize transportation, shifting revenue models from car sales to recurring robotaxi services.\nThe post Tesla showcases autonomous driving with San Francisco to Palo Alto round trip appeared first on Crypto Brie…",
-      "url": "https://cryptobriefing.com/tesla-autonomous-driving-san-francisco-palo-alto/",
-      "source": "Crypto Briefing",
-      "date": "Jun 7, 2026",
-      "publishedAt": "2026-06-07T20:14:19Z"
+      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
+      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
+      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
+      "source": "Yahoo Entertainment",
+      "date": "Jun 17, 2026",
+      "publishedAt": "2026-06-17T17:31:13Z"
     },
     {
       "venture": "xai",
@@ -53,16 +53,6 @@
       "publishedAt": "2026-06-29T18:33:57Z"
     },
     {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "Elon Musk’s Starlink May Launch Mobile Service in the US, According to FT Report",
-      "summary": "Elon Musk’s SpaceX is reportedly exploring a major expansion of its Starlink business into the U.S. mobile telecommunications market, according to a Financial Times report. The move, if it materializes, would represent a significant shift from Starlink’s curr…",
-      "url": "https://www.successful-blog.com/1/elon-musk-starlink-mobile-service/",
-      "source": "Successful-blog.com",
-      "date": "Jul 2, 2026",
-      "publishedAt": "2026-07-02T06:05:28Z"
-    },
-    {
       "venture": "neura",
       "label": "Neuralink",
       "headline": "Elon Musk’s Brain-chip Startup Aims for Scalability with New Transdural Procedure",
@@ -71,6 +61,16 @@
       "source": "Road to VR",
       "date": "Jul 1, 2026",
       "publishedAt": "2026-07-01T11:25:32Z"
+    },
+    {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Musk's trillions fuelled by AI and his pied piper power over investors",
+      "summary": "To get a sense of the difference between the Tesla and SpaceX IPOs, consider that 1.7 billion seconds ago was 1972, when Elton John released Rocket Man, while 1.7 trillion seconds ago was 52,000BC, when we shared the planet with Neanderthals.",
+      "url": "https://www.abc.net.au/news/2026-06-15/elon-musk-space-x-trillions/106796484",
+      "source": "ABC News (AU)",
+      "date": "Jun 14, 2026",
+      "publishedAt": "2026-06-14T18:43:51Z"
     },
     {
       "venture": "boring",
@@ -93,5 +93,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-07-08T13:49:34.716Z"
+  "generatedAt": "2026-07-08T19:15:29.934Z"
 }
