@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-08",
-  "displayDate": "Wednesday, July 8, 2026",
+  "date": "2026-07-09",
+  "displayDate": "Thursday, July 9, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -33,16 +33,6 @@
       "publishedAt": "2026-07-01T14:05:34Z"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
-      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
-      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
-      "source": "Yahoo Entertainment",
-      "date": "Jun 17, 2026",
-      "publishedAt": "2026-06-17T17:31:13Z"
-    },
-    {
       "venture": "xai",
       "label": "xAI",
       "headline": "xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support",
@@ -61,16 +51,6 @@
       "source": "Road to VR",
       "date": "Jul 1, 2026",
       "publishedAt": "2026-07-01T11:25:32Z"
-    },
-    {
-      "venture": "neura",
-      "label": "Neuralink",
-      "headline": "Musk's trillions fuelled by AI and his pied piper power over investors",
-      "summary": "To get a sense of the difference between the Tesla and SpaceX IPOs, consider that 1.7 billion seconds ago was 1972, when Elton John released Rocket Man, while 1.7 trillion seconds ago was 52,000BC, when we shared the planet with Neanderthals.",
-      "url": "https://www.abc.net.au/news/2026-06-15/elon-musk-space-x-trillions/106796484",
-      "source": "ABC News (AU)",
-      "date": "Jun 14, 2026",
-      "publishedAt": "2026-06-14T18:43:51Z"
     },
     {
       "venture": "boring",
@@ -93,5 +73,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-07-08T19:15:29.934Z"
+  "generatedAt": "2026-07-09T00:04:37.201Z"
 }
