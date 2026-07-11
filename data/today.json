@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "China just caught a rocket in a net, and SpaceX should be watching",
+      "summary": "SpaceX lands its rockets on legs. Blue Origin uses a platform. China just caught one in a giant net. China has recovered the first stage of an orbital rocket for the first time. The milestone pulls it into a club with only two other members. On Friday, the bo…",
+      "url": "https://thenextweb.com/news/china-long-march-reusable-rocket-booster-recovery/",
+      "source": "The Next Web",
+      "date": "Jul 10, 2026",
+      "publishedAt": "2026-07-10T13:13:17Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "US Stock Market: Starship, AI ambitions fuel bullish Wall Street outlook on newly listed SpaceX",
       "summary": "SpaceX joins the Nasdaq-100 index, attracting billions in passive investment flows. Wall Street brokerages initiated coverage with overwhelmingly positive ratings for the company. Analysts see long-term growth potential in space transportation and satellite c…",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-starship-ai-ambitions-fuel-bullish-wall-street-outlook-on-newly-listed-spacex/articleshow/132253161.cms",
       "source": "The Times of India",
       "date": "Jul 8, 2026",
       "publishedAt": "2026-07-08T03:58:46Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
-      "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
-      "url": "https://freerepublic.com/focus/f-news/4386693/posts",
-      "source": "Freerepublic.com",
-      "date": "Jul 4, 2026",
-      "publishedAt": "2026-07-04T23:35:42Z"
     },
     {
       "venture": "tesla",
@@ -41,16 +41,6 @@
       "source": "Crypto Briefing",
       "date": "Jun 29, 2026",
       "publishedAt": "2026-06-29T18:33:57Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX's biggest bull sees valuation soaring above $10 trillion",
-      "summary": "Raymond James analyst Brian Gesuale initiated coverage on SpaceX with a strong buy. He set an $800 price target, projecting significant future stock appreciation. Gesuale sees SpaceX revenue soaring to $5.2 trillion by 2035. This growth is primarily based on …",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/spacexs-biggest-bull-sees-valuation-soaring-above-10-trillion/articleshow/132251259.cms",
-      "source": "The Times of India",
-      "date": "Jul 8, 2026",
-      "publishedAt": "2026-07-08T01:13:26Z"
     },
     {
       "venture": "neura",
@@ -83,5 +73,5 @@
       "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-07-11T13:05:20.382Z"
+  "generatedAt": "2026-07-11T18:52:51.366Z"
 }
