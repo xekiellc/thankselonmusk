@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-11T18:52:51.364Z",
-  "displayUpdated": "Jul 11, 2026, 6:52 PM UTC",
-  "totalArticles": 10,
+  "lastUpdated": "2026-07-11T23:49:21.839Z",
+  "displayUpdated": "Jul 11, 2026, 11:49 PM UTC",
+  "totalArticles": 11,
   "articles": [
     {
       "venture": "spacex",
@@ -72,6 +72,16 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-06-23T14:17:48Z",
       "date": "Jun 23, 2026"
+    },
+    {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Musk's trillions fuelled by AI and his pied piper power over investors",
+      "summary": "To get a sense of the difference between the Tesla and SpaceX IPOs, consider that 1.7 billion seconds ago was 1972, when Elton John released Rocket Man, while 1.7 trillion seconds ago was 52,000BC, when we shared the planet with Neanderthals.",
+      "url": "https://www.abc.net.au/news/2026-06-15/elon-musk-space-x-trillions/106796484",
+      "source": "ABC News (AU)",
+      "publishedAt": "2026-06-14T18:43:51Z",
+      "date": "Jun 14, 2026"
     },
     {
       "venture": "boring",
