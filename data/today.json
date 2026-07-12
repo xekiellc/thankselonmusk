@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "US Stock Market: Starship, AI ambitions fuel bullish Wall Street outlook on newly listed SpaceX",
-      "summary": "SpaceX joins the Nasdaq-100 index, attracting billions in passive investment flows. Wall Street brokerages initiated coverage with overwhelmingly positive ratings for the company. Analysts see long-term growth potential in space transportation and satellite c…",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-starship-ai-ambitions-fuel-bullish-wall-street-outlook-on-newly-listed-spacex/articleshow/132253161.cms",
-      "source": "The Times of India",
-      "date": "Jul 8, 2026",
-      "publishedAt": "2026-07-08T03:58:46Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
       "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
       "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
       "url": "https://freerepublic.com/focus/f-news/4386693/posts",
       "source": "Freerepublic.com",
       "date": "Jul 4, 2026",
       "publishedAt": "2026-07-04T23:35:42Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
+      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
+      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 23, 2026",
+      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -61,17 +61,7 @@
       "source": "The Times of India",
       "date": "Jun 14, 2026",
       "publishedAt": "2026-06-14T14:08:32Z"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
-      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
-      "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
-      "source": "Midland Reporter-Telegram",
-      "date": "Jun 13, 2026",
-      "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-07-12T08:07:18.956Z"
+  "generatedAt": "2026-07-12T13:05:58.806Z"
 }
