@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX Starship Flight 13 in 3 Days – Thursday July 13",
+      "summary": "SpaceX Starship Critical Path is part of an ongoing Starship series which follows SpaceX engineers through the final days before launch of the first Starship V3 and the challenges that come with development of the world’s most powerful and fully reusable rock…",
+      "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-in-3-days-thursday-july-13.html",
+      "source": "Next Big Future",
+      "date": "Jul 13, 2026",
+      "publishedAt": "2026-07-13T21:34:29Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
       "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
       "url": "https://freerepublic.com/focus/f-news/4386693/posts",
       "source": "Freerepublic.com",
       "date": "Jul 4, 2026",
       "publishedAt": "2026-07-04T23:35:42Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
-      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
-      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 23, 2026",
-      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -31,16 +31,6 @@
       "source": "Ibtimes.com.au",
       "date": "Jul 1, 2026",
       "publishedAt": "2026-07-01T14:05:34Z"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
-      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
-      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
-      "source": "Yahoo Entertainment",
-      "date": "Jun 17, 2026",
-      "publishedAt": "2026-06-17T17:31:13Z"
     },
     {
       "venture": "xai",
@@ -61,27 +51,7 @@
       "source": "Road to VR",
       "date": "Jul 1, 2026",
       "publishedAt": "2026-07-01T11:25:32Z"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
-      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
-      "source": "The Times of India",
-      "date": "Jun 14, 2026",
-      "publishedAt": "2026-06-14T14:08:32Z"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
-      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
-      "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
-      "source": "Midland Reporter-Telegram",
-      "date": "Jun 13, 2026",
-      "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-07-14T19:09:53.452Z"
+  "generatedAt": "2026-07-14T23:47:03.181Z"
 }
