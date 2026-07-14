@@ -1,7 +1,17 @@
 {
-  "date": "2026-07-13",
-  "displayDate": "Monday, July 13, 2026",
+  "date": "2026-07-14",
+  "displayDate": "Tuesday, July 14, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX leads 2026 IPO boom as market shifts beyond AI mega-deals",
+      "summary": "SpaceX's IPO success may shift investment focus from crypto to equities, potentially impacting altcoin markets and reshaping capital flows.\nThe post SpaceX leads 2026 IPO boom as market shifts beyond AI mega-deals appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-ipo-2026-crypto-capital-rotation/",
+      "source": "Crypto Briefing",
+      "date": "Jul 11, 2026",
+      "publishedAt": "2026-07-11T08:29:37Z"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -11,16 +21,6 @@
       "source": "Freerepublic.com",
       "date": "Jul 4, 2026",
       "publishedAt": "2026-07-04T23:35:42Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
-      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
-      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 23, 2026",
-      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -55,23 +55,13 @@
     {
       "venture": "boring",
       "label": "Boring Co",
-      "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
-      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
-      "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
-      "source": "Midland Reporter-Telegram",
-      "date": "Jun 13, 2026",
-      "publishedAt": "2026-06-13T16:15:28Z"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "Elon Musk’s empire: Here’s a look at what the world’s first trillionaire owns",
-      "summary": "From rockets and electric cars to social media platforms and brain implants, Elon Musk’s business empire is huge",
-      "url": "https://www.thehindubusinessline.com/companies/elon-musks-empire-heres-a-look-at-what-the-worlds-first-trillionaire-owns/article71097964.ece",
-      "source": "BusinessLine",
-      "date": "Jun 13, 2026",
-      "publishedAt": "2026-06-13T14:14:07Z"
+      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
+      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
+      "source": "The Times of India",
+      "date": "Jun 14, 2026",
+      "publishedAt": "2026-06-14T14:08:32Z"
     }
   ],
-  "generatedAt": "2026-07-13T23:48:36.312Z"
+  "generatedAt": "2026-07-14T07:52:48.757Z"
 }

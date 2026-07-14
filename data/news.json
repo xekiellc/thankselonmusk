@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-07-13T23:48:36.310Z",
-  "displayUpdated": "Jul 13, 2026, 11:48 PM UTC",
+  "lastUpdated": "2026-07-14T07:52:48.755Z",
+  "displayUpdated": "Jul 14, 2026, 7:52 AM UTC",
   "totalArticles": 7,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX leads 2026 IPO boom as market shifts beyond AI mega-deals",
+      "summary": "SpaceX's IPO success may shift investment focus from crypto to equities, potentially impacting altcoin markets and reshaping capital flows.\nThe post SpaceX leads 2026 IPO boom as market shifts beyond AI mega-deals appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-ipo-2026-crypto-capital-rotation/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-11T08:29:37Z",
+      "date": "Jul 11, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -56,22 +66,12 @@
     {
       "venture": "boring",
       "label": "Boring Co",
-      "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
-      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
-      "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
-      "source": "Midland Reporter-Telegram",
-      "publishedAt": "2026-06-13T16:15:28Z",
-      "date": "Jun 13, 2026"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "Elon Musk’s empire: Here’s a look at what the world’s first trillionaire owns",
-      "summary": "From rockets and electric cars to social media platforms and brain implants, Elon Musk’s business empire is huge",
-      "url": "https://www.thehindubusinessline.com/companies/elon-musks-empire-heres-a-look-at-what-the-worlds-first-trillionaire-owns/article71097964.ece",
-      "source": "BusinessLine",
-      "publishedAt": "2026-06-13T14:14:07Z",
-      "date": "Jun 13, 2026"
+      "headline": "Business lesson from world's first trillionaire Elon Musk: 'Rely less on business gurus and their books and more on biographies' What business owners can learn from Elon Musk's success mindset",
+      "summary": "Elon Musk, the world's first trillionaire, eschews traditional business gurus, drawing wisdom from history and biographies of innovators. His approach, exemplified by SpaceX and Tesla, emphasizes long-term vision and persistence. This strategy has fueled his …",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/business-lesson-from-worlds-first-trillionaire-elon-musk-rely-less-on-business-gurus-and-their-books-and-more-on-biographies-what-business-owners-can-learn-from-elon-musks-success-mindset/articleshow/131722061.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-06-14T14:08:32Z",
+      "date": "Jun 14, 2026"
     }
   ]
 }
