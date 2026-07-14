@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX leads 2026 IPO boom as market shifts beyond AI mega-deals",
-      "summary": "SpaceX's IPO success may shift investment focus from crypto to equities, potentially impacting altcoin markets and reshaping capital flows.\nThe post SpaceX leads 2026 IPO boom as market shifts beyond AI mega-deals appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/spacex-ipo-2026-crypto-capital-rotation/",
-      "source": "Crypto Briefing",
-      "date": "Jul 11, 2026",
-      "publishedAt": "2026-07-11T08:29:37Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
       "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
       "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
       "url": "https://freerepublic.com/focus/f-news/4386693/posts",
       "source": "Freerepublic.com",
       "date": "Jul 4, 2026",
       "publishedAt": "2026-07-04T23:35:42Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
+      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
+      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 23, 2026",
+      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -31,6 +31,16 @@
       "source": "Ibtimes.com.au",
       "date": "Jul 1, 2026",
       "publishedAt": "2026-07-01T14:05:34Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
+      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
+      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
+      "source": "Yahoo Entertainment",
+      "date": "Jun 17, 2026",
+      "publishedAt": "2026-06-17T17:31:13Z"
     },
     {
       "venture": "xai",
@@ -61,7 +71,17 @@
       "source": "The Times of India",
       "date": "Jun 14, 2026",
       "publishedAt": "2026-06-14T14:08:32Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "From rockets to brain implants, here's a look at Elon Musk's vast empire",
+      "summary": "Elon Musk, the world’s richest man and now first-ever trillionaire, controls a lot of different businesses. Electric vehicles. Brain implants. Underground tunnels. A social media platform once...",
+      "url": "https://www.mrt.com/business/article/from-rockets-to-brain-implants-here-s-a-look-at-22303826.php",
+      "source": "Midland Reporter-Telegram",
+      "date": "Jun 13, 2026",
+      "publishedAt": "2026-06-13T16:15:28Z"
     }
   ],
-  "generatedAt": "2026-07-14T07:52:48.757Z"
+  "generatedAt": "2026-07-14T13:20:03.113Z"
 }
