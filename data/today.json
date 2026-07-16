@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX pioneered reusable rockets for space haulage but China’s Long March 10B is hot on Falcon 9’s trail",
+      "summary": "SpaceX broke ahead with the marvel of rockets that could be reused. But it can’t take its space lead for granted. China’s Long March 10B hasn’t just succeeded with a terrestrial landing, it deployed an innovative mechanism for it.",
+      "url": "https://www.livemint.com/opinion/online-views/spacex-reusable-rockets-space-china-long-march-10b-falcon-9-trail-elon-musk-beijing-11784024793072.html",
+      "source": "Livemint",
+      "date": "Jul 15, 2026",
+      "publishedAt": "2026-07-15T09:31:05Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
       "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
       "url": "https://freerepublic.com/focus/f-news/4386693/posts",
       "source": "Freerepublic.com",
       "date": "Jul 4, 2026",
       "publishedAt": "2026-07-04T23:35:42Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
-      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
-      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 23, 2026",
-      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -53,5 +53,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-16T13:29:23.193Z"
+  "generatedAt": "2026-07-16T19:01:29.428Z"
 }

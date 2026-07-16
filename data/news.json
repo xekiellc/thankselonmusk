@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-07-16T13:29:23.192Z",
-  "displayUpdated": "Jul 16, 2026, 1:29 PM UTC",
-  "totalArticles": 5,
+  "lastUpdated": "2026-07-16T19:01:29.427Z",
+  "displayUpdated": "Jul 16, 2026, 7:01 PM UTC",
+  "totalArticles": 6,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX pioneered reusable rockets for space haulage but China’s Long March 10B is hot on Falcon 9’s trail",
+      "summary": "SpaceX broke ahead with the marvel of rockets that could be reused. But it can’t take its space lead for granted. China’s Long March 10B hasn’t just succeeded with a terrestrial landing, it deployed an innovative mechanism for it.",
+      "url": "https://www.livemint.com/opinion/online-views/spacex-reusable-rockets-space-china-long-march-10b-falcon-9-trail-elon-musk-beijing-11784024793072.html",
+      "source": "Livemint",
+      "publishedAt": "2026-07-15T09:31:05Z",
+      "date": "Jul 15, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
