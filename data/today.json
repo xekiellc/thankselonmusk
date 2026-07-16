@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX Starship Flight 13 in 3 Days – Thursday July 13",
-      "summary": "SpaceX Starship Critical Path is part of an ongoing Starship series which follows SpaceX engineers through the final days before launch of the first Starship V3 and the challenges that come with development of the world’s most powerful and fully reusable rock…",
-      "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-in-3-days-thursday-july-13.html",
-      "source": "Next Big Future",
-      "date": "Jul 13, 2026",
-      "publishedAt": "2026-07-13T21:34:29Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
       "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
       "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
       "url": "https://freerepublic.com/focus/f-news/4386693/posts",
       "source": "Freerepublic.com",
       "date": "Jul 4, 2026",
       "publishedAt": "2026-07-04T23:35:42Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
+      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
+      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 23, 2026",
+      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -53,5 +53,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-16T08:02:31.315Z"
+  "generatedAt": "2026-07-16T13:29:23.193Z"
 }
