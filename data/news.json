@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-07-17T07:59:21.987Z",
-  "displayUpdated": "Jul 17, 2026, 7:59 AM UTC",
+  "lastUpdated": "2026-07-17T13:15:11.590Z",
+  "displayUpdated": "Jul 17, 2026, 1:15 PM UTC",
   "totalArticles": 6,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Watch SpaceX’s Starship flight 13 launch tonight",
+      "summary": "SpaceX is launching the latest version of its Starship megarocket for a test flight that—if all goes to plan—should look a lot like the last one",
+      "url": "https://www.scientificamerican.com/article/watch-spacexs-starship-flight-13-launch-tonight/",
+      "source": "Scientific American",
+      "publishedAt": "2026-07-16T10:00:00Z",
+      "date": "Jul 16, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -32,16 +42,6 @@
       "source": "Road to VR",
       "publishedAt": "2026-07-01T11:25:32Z",
       "date": "Jul 1, 2026"
-    },
-    {
-      "venture": "xai",
-      "label": "xAI",
-      "headline": "xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support",
-      "summary": "The integration of Grok voice APIs into Vercel AI Gateway enhances developer access to advanced voice tech, potentially accelerating AI-driven innovation.\nThe post xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support appeared fi…",
-      "url": "https://cryptobriefing.com/xai-grok-voice-apis-vercel-ai-gateway/",
-      "source": "Crypto Briefing",
-      "publishedAt": "2026-06-29T18:33:57Z",
-      "date": "Jun 29, 2026"
     },
     {
       "venture": "spacex",

@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "Watch SpaceX’s Starship flight 13 launch tonight",
+      "summary": "SpaceX is launching the latest version of its Starship megarocket for a test flight that—if all goes to plan—should look a lot like the last one",
+      "url": "https://www.scientificamerican.com/article/watch-spacexs-starship-flight-13-launch-tonight/",
+      "source": "Scientific American",
+      "date": "Jul 16, 2026",
+      "publishedAt": "2026-07-16T10:00:00Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
       "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
       "url": "https://freerepublic.com/focus/f-news/4386693/posts",
       "source": "Freerepublic.com",
       "date": "Jul 4, 2026",
       "publishedAt": "2026-07-04T23:35:42Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
-      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
-      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 23, 2026",
-      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -43,16 +43,6 @@
       "publishedAt": "2026-06-17T17:31:13Z"
     },
     {
-      "venture": "xai",
-      "label": "xAI",
-      "headline": "xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support",
-      "summary": "The integration of Grok voice APIs into Vercel AI Gateway enhances developer access to advanced voice tech, potentially accelerating AI-driven innovation.\nThe post xAI’s Grok voice APIs land on Vercel AI Gateway with realtime, TTS, and STT support appeared fi…",
-      "url": "https://cryptobriefing.com/xai-grok-voice-apis-vercel-ai-gateway/",
-      "source": "Crypto Briefing",
-      "date": "Jun 29, 2026",
-      "publishedAt": "2026-06-29T18:33:57Z"
-    },
-    {
       "venture": "neura",
       "label": "Neuralink",
       "headline": "Elon Musk’s Brain-chip Startup Aims for Scalability with New Transdural Procedure",
@@ -63,5 +53,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-17T07:59:21.988Z"
+  "generatedAt": "2026-07-17T13:15:11.592Z"
 }
