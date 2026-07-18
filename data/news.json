@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-18T13:01:45.455Z",
-  "displayUpdated": "Jul 18, 2026, 1:01 PM UTC",
-  "totalArticles": 5,
+  "lastUpdated": "2026-07-18T18:54:33.512Z",
+  "displayUpdated": "Jul 18, 2026, 6:54 PM UTC",
+  "totalArticles": 4,
   "articles": [
     {
       "venture": "starlink",
@@ -42,16 +42,6 @@
       "source": "Road to VR",
       "publishedAt": "2026-07-01T11:25:32Z",
       "date": "Jul 1, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
-      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
-      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-06-23T14:17:48Z",
-      "date": "Jun 23, 2026"
     }
   ]
 }
