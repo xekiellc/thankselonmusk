@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-07-18T18:54:33.512Z",
-  "displayUpdated": "Jul 18, 2026, 6:54 PM UTC",
-  "totalArticles": 4,
+  "lastUpdated": "2026-07-18T23:47:33.692Z",
+  "displayUpdated": "Jul 18, 2026, 11:47 PM UTC",
+  "totalArticles": 6,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "On July 16, 2026, a Falcon 9 carried 21 more satellites into orbit for the Pentagon’s first operational low Earth orbit data network, pushing the constellation to half its planned size, even as the optical laser mesh that is supposed to let those satellites talk to one another remains dark and unproven",
+      "summary": "Sixty-three military data-relay satellites now circle the Earth for the Pentagon’s newest space network — half of the planned constellation — and the optical laser mesh that is supposed to let them pass data to one another at nearly the speed of light has sti…",
+      "url": "https://spacedaily.com/sd-on-july-16-2026-a-falcon-9-carried-21-more-satellites-into-orbit-for-the-pentagons-first-operational-low-earth-orbit-data-network-pushing-the-constellation-to-half-its-planned-size-even-as-th/",
+      "source": "Space Daily",
+      "publishedAt": "2026-07-17T14:06:00Z",
+      "date": "Jul 17, 2026"
+    },
     {
       "venture": "starlink",
       "label": "Starlink",
@@ -42,6 +52,16 @@
       "source": "Road to VR",
       "publishedAt": "2026-07-01T11:25:32Z",
       "date": "Jul 1, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
+      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
+      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-06-23T14:17:48Z",
+      "date": "Jun 23, 2026"
     }
   ]
 }

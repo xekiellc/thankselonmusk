@@ -5,6 +5,16 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "On July 16, 2026, a Falcon 9 carried 21 more satellites into orbit for the Pentagon’s first operational low Earth orbit data network, pushing the constellation to half its planned size, even as the optical laser mesh that is supposed to let those satellites talk to one another remains dark and unproven",
+      "summary": "Sixty-three military data-relay satellites now circle the Earth for the Pentagon’s newest space network — half of the planned constellation — and the optical laser mesh that is supposed to let them pass data to one another at nearly the speed of light has sti…",
+      "url": "https://spacedaily.com/sd-on-july-16-2026-a-falcon-9-carried-21-more-satellites-into-orbit-for-the-pentagons-first-operational-low-earth-orbit-data-network-pushing-the-constellation-to-half-its-planned-size-even-as-th/",
+      "source": "Space Daily",
+      "date": "Jul 17, 2026",
+      "publishedAt": "2026-07-17T14:06:00Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
       "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
       "url": "https://freerepublic.com/focus/f-news/4386693/posts",
@@ -43,5 +53,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-18T18:54:33.513Z"
+  "generatedAt": "2026-07-18T23:47:33.693Z"
 }
