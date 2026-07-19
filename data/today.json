@@ -1,17 +1,7 @@
 {
-  "date": "2026-07-18",
-  "displayDate": "Saturday, July 18, 2026",
+  "date": "2026-07-19",
+  "displayDate": "Sunday, July 19, 2026",
   "items": [
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "On July 16, 2026, a Falcon 9 carried 21 more satellites into orbit for the Pentagon’s first operational low Earth orbit data network, pushing the constellation to half its planned size, even as the optical laser mesh that is supposed to let those satellites talk to one another remains dark and unproven",
-      "summary": "Sixty-three military data-relay satellites now circle the Earth for the Pentagon’s newest space network — half of the planned constellation — and the optical laser mesh that is supposed to let them pass data to one another at nearly the speed of light has sti…",
-      "url": "https://spacedaily.com/sd-on-july-16-2026-a-falcon-9-carried-21-more-satellites-into-orbit-for-the-pentagons-first-operational-low-earth-orbit-data-network-pushing-the-constellation-to-half-its-planned-size-even-as-th/",
-      "source": "Space Daily",
-      "date": "Jul 17, 2026",
-      "publishedAt": "2026-07-17T14:06:00Z"
-    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -23,6 +13,16 @@
       "publishedAt": "2026-07-04T23:35:42Z"
     },
     {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
+      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
+      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
+      "source": "Ibtimes.com.au",
+      "date": "Jun 23, 2026",
+      "publishedAt": "2026-06-23T14:17:48Z"
+    },
+    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "(PHOTO) Elon Musk Tours Optimus Production Line in Fremont as Tesla Advances Humanoid Robot Development",
@@ -31,6 +31,16 @@
       "source": "Ibtimes.com.au",
       "date": "Jul 1, 2026",
       "publishedAt": "2026-07-01T14:05:34Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Elon Musk Reacts To Beeple's '1.3 Trillion' Artwork Showing Him Dominating Jeff Bezos, Mark Zuckerberg And Bill Gates: 'So Flattering'",
+      "summary": "Popular digital artist Mike Winkelmann, better known as Beeple, portrayed Elon Musk as a massive cyborg figure late Monday following his historic achievement...",
+      "url": "https://finance.yahoo.com/technology/articles/elon-musk-reacts-beeples-1-173113505.html",
+      "source": "Yahoo Entertainment",
+      "date": "Jun 17, 2026",
+      "publishedAt": "2026-06-17T17:31:13Z"
     },
     {
       "venture": "starlink",
@@ -53,5 +63,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-18T23:47:33.693Z"
+  "generatedAt": "2026-07-19T08:06:42.081Z"
 }
