@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "Skyroot’s orbital launch: India’s own SpaceX is born, startup to give country another option to Isro for satellite launches",
+      "summary": "Skyroot Aerospace successfully launched India's first privately developed orbital-class rocket, Vikram-1. This historic flight reached low Earth orbit and deployed six payloads for various applications. The launch signifies a major step for India's private sp…",
+      "url": "https://timesofindia.indiatimes.com/india/skyroots-orbital-launch-indias-own-spacex-is-born-startup-to-give-country-an-alternative-for-satellite-launches/articleshow/132486324.cms",
+      "source": "The Times of India",
+      "date": "Jul 18, 2026",
+      "publishedAt": "2026-07-18T19:05:56Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
       "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
       "url": "https://freerepublic.com/focus/f-news/4386693/posts",
       "source": "Freerepublic.com",
       "date": "Jul 4, 2026",
       "publishedAt": "2026-07-04T23:35:42Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Trajectory Remains Upward Despite Periodic Setbacks as Company Advances Ambitious Goals",
-      "summary": "SpaceX continues to lead in space exploration with its innovative approaches, overcoming challenges, and expanding global connectivity through Starlink, while maintaining strong partnerships and inspiring future generations.",
-      "url": "https://www.ibtimes.com.au/spacex-ambitious-journey-space-exploration-innovation-1871178",
-      "source": "Ibtimes.com.au",
-      "date": "Jun 23, 2026",
-      "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
       "venture": "tesla",
@@ -53,5 +53,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-19T18:57:21.858Z"
+  "generatedAt": "2026-07-19T23:52:03.565Z"
 }
