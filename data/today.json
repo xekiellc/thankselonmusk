@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-21",
-  "displayDate": "Tuesday, July 21, 2026",
+  "date": "2026-07-22",
+  "displayDate": "Wednesday, July 22, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -23,16 +23,6 @@
       "publishedAt": "2026-06-23T14:17:48Z"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "(PHOTO) Elon Musk Tours Optimus Production Line in Fremont as Tesla Advances Humanoid Robot Development",
-      "summary": "Elon Musk's recent visit to Tesla's Fremont factory showcased progress on the Optimus humanoid robot, emphasising its potential to transform manufacturing and service industries through advanced AI and robotics.",
-      "url": "https://www.ibtimes.com.au/tesla-optimus-robot-progress-1871658",
-      "source": "Ibtimes.com.au",
-      "date": "Jul 1, 2026",
-      "publishedAt": "2026-07-01T14:05:34Z"
-    },
-    {
       "venture": "neura",
       "label": "Neuralink",
       "headline": "Elon Musk’s Brain-chip Startup Aims for Scalability with New Transdural Procedure",
@@ -43,5 +33,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-21T23:52:07.987Z"
+  "generatedAt": "2026-07-22T08:15:53.029Z"
 }
