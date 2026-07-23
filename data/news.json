@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-07-23T13:42:32.123Z",
-  "displayUpdated": "Jul 23, 2026, 1:42 PM UTC",
-  "totalArticles": 2,
+  "lastUpdated": "2026-07-23T19:05:45.899Z",
+  "displayUpdated": "Jul 23, 2026, 7:05 PM UTC",
+  "totalArticles": 3,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX surpasses Meta’s market cap after historic IPO debut",
+      "summary": "SpaceX debuted on Nasdaq at $1.77 trillion and surged past Meta's $1.45 trillion valuation, reshaping the U.S. equity market hierarchy.\nThe post SpaceX surpasses Meta’s market cap after historic IPO debut appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-surpasses-meta-market-cap-ipo/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-22T14:28:59Z",
+      "date": "Jul 22, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
