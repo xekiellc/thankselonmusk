@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-07-24T08:14:54.667Z",
-  "displayUpdated": "Jul 24, 2026, 8:14 AM UTC",
-  "totalArticles": 3,
+  "lastUpdated": "2026-07-24T13:24:25.765Z",
+  "displayUpdated": "Jul 24, 2026, 1:24 PM UTC",
+  "totalArticles": 5,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Google reveals it holds $94.1bn in SpaceX shares after the IPO",
+      "summary": "Google spent years as a low-key backer of SpaceX. This week it showed what that patience is worth. In a quarterly filing, Alphabet said its Google unit holds $94.1bn in SpaceX shares, following the rocket company’s record IPO. Google was an early investor, an…",
+      "url": "https://thenextweb.com/news/google-94-billion-spacex-shares-ipo-stake/",
+      "source": "The Next Web",
+      "publishedAt": "2026-07-23T12:44:29Z",
+      "date": "Jul 23, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX gears up for Starship Flight 13 after last week’s launch scrub",
+      "summary": "SpaceX targets July 23 for Starship Flight 13 after last week's scrub, aiming to deploy 20 Starlink V3 satellites with implications for the Musk\nThe post SpaceX gears up for Starship Flight 13 after last week’s launch scrub appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-starship-flight-13-test-launch/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-23T11:59:15Z",
+      "date": "Jul 23, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
