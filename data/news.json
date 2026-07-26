@@ -1,17 +1,27 @@
 {
-  "lastUpdated": "2026-07-26T13:06:45.361Z",
-  "displayUpdated": "Jul 26, 2026, 1:06 PM UTC",
-  "totalArticles": 3,
+  "lastUpdated": "2026-07-26T19:01:49.812Z",
+  "displayUpdated": "Jul 26, 2026, 7:01 PM UTC",
+  "totalArticles": 4,
   "articles": [
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Lucky 13! Starship Deploys Starlink Satellites and Splashes Down Intact",
-      "summary": "SpaceX's Starship super-rocket deployed operational next-generation Starlink satellites for the first time during its 13th flight test, which addressed snags that arose in the previous test.",
-      "url": "https://www.universetoday.com/articles/spacexs-starship-deploys-starlink-satellites-during-13th-flight-test",
-      "source": "Universe Today",
-      "publishedAt": "2026-07-24T23:59:00Z",
-      "date": "Jul 24, 2026"
+      "headline": "SpaceX gears up for Starship Flight 13 after last week’s launch scrub",
+      "summary": "SpaceX targets July 23 for Starship Flight 13 after last week's scrub, aiming to deploy 20 Starlink V3 satellites with implications for the Musk\nThe post SpaceX gears up for Starship Flight 13 after last week’s launch scrub appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-starship-flight-13-test-launch/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-23T11:59:15Z",
+      "date": "Jul 23, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX surpasses Meta’s market cap after historic IPO debut",
+      "summary": "SpaceX debuted on Nasdaq at $1.77 trillion and surged past Meta's $1.45 trillion valuation, reshaping the U.S. equity market hierarchy.\nThe post SpaceX surpasses Meta’s market cap after historic IPO debut appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-surpasses-meta-market-cap-ipo/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-22T14:28:59Z",
+      "date": "Jul 22, 2026"
     },
     {
       "venture": "spacex",
