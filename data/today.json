@@ -1,26 +1,26 @@
 {
-  "date": "2026-07-25",
-  "displayDate": "Saturday, July 25, 2026",
+  "date": "2026-07-26",
+  "displayDate": "Sunday, July 26, 2026",
   "items": [
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX gears up for Starship Flight 13 after last week’s launch scrub",
-      "summary": "SpaceX targets July 23 for Starship Flight 13 after last week's scrub, aiming to deploy 20 Starlink V3 satellites with implications for the Musk\nThe post SpaceX gears up for Starship Flight 13 after last week’s launch scrub appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/spacex-starship-flight-13-test-launch/",
-      "source": "Crypto Briefing",
-      "date": "Jul 23, 2026",
-      "publishedAt": "2026-07-23T11:59:15Z"
+      "headline": "Lucky 13! Starship Deploys Starlink Satellites and Splashes Down Intact",
+      "summary": "SpaceX's Starship super-rocket deployed operational next-generation Starlink satellites for the first time during its 13th flight test, which addressed snags that arose in the previous test.",
+      "url": "https://www.universetoday.com/articles/spacexs-starship-deploys-starlink-satellites-during-13th-flight-test",
+      "source": "Universe Today",
+      "date": "Jul 24, 2026",
+      "publishedAt": "2026-07-24T23:59:00Z"
     },
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX surpasses Meta’s market cap after historic IPO debut",
-      "summary": "SpaceX debuted on Nasdaq at $1.77 trillion and surged past Meta's $1.45 trillion valuation, reshaping the U.S. equity market hierarchy.\nThe post SpaceX surpasses Meta’s market cap after historic IPO debut appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/spacex-surpasses-meta-market-cap-ipo/",
-      "source": "Crypto Briefing",
-      "date": "Jul 22, 2026",
-      "publishedAt": "2026-07-22T14:28:59Z"
+      "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
+      "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
+      "url": "https://freerepublic.com/focus/f-news/4386693/posts",
+      "source": "Freerepublic.com",
+      "date": "Jul 4, 2026",
+      "publishedAt": "2026-07-04T23:35:42Z"
     },
     {
       "venture": "neura",
@@ -33,5 +33,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-25T23:54:47.300Z"
+  "generatedAt": "2026-07-26T08:15:27.064Z"
 }
