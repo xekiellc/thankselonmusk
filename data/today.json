@@ -23,6 +23,16 @@
       "publishedAt": "2026-07-22T14:28:59Z"
     },
     {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Elon Musk Just Revealed a Quiet Win for Tesla’s AI Ambitions",
+      "summary": "Elon Musk revealed that Micron gave Tesla a 'very significant allocation' of memory chips on 'reasonable terms' and is making room for Tesla in the years ahe...",
+      "url": "https://www.barchart.com/story/news/3469613/elon-musk-just-revealed-a-quiet-win-for-teslas-ai-ambitions",
+      "source": "Barchart.com",
+      "date": "Jul 26, 2026",
+      "publishedAt": "2026-07-26T15:00:02Z"
+    },
+    {
       "venture": "neura",
       "label": "Neuralink",
       "headline": "Elon Musk’s Brain-chip Startup Aims for Scalability with New Transdural Procedure",
@@ -33,5 +43,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-27T14:18:34.186Z"
+  "generatedAt": "2026-07-27T19:18:28.151Z"
 }

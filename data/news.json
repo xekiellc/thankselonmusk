@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-07-27T14:18:34.185Z",
-  "displayUpdated": "Jul 27, 2026, 2:18 PM UTC",
-  "totalArticles": 4,
+  "lastUpdated": "2026-07-27T19:18:28.149Z",
+  "displayUpdated": "Jul 27, 2026, 7:18 PM UTC",
+  "totalArticles": 5,
   "articles": [
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Elon Musk Just Revealed a Quiet Win for Tesla’s AI Ambitions",
+      "summary": "Elon Musk revealed that Micron gave Tesla a 'very significant allocation' of memory chips on 'reasonable terms' and is making room for Tesla in the years ahe...",
+      "url": "https://www.barchart.com/story/news/3469613/elon-musk-just-revealed-a-quiet-win-for-teslas-ai-ambitions",
+      "source": "Barchart.com",
+      "publishedAt": "2026-07-26T15:00:02Z",
+      "date": "Jul 26, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
