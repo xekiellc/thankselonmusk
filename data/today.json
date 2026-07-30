@@ -1,7 +1,17 @@
 {
-  "date": "2026-07-29",
-  "displayDate": "Wednesday, July 29, 2026",
+  "date": "2026-07-30",
+  "displayDate": "Thursday, July 30, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX stock recovers after hitting all-time low",
+      "summary": "SpaceX stock is trying to recover after hitting an all-time low on Monday, days after a successful test of its Starship rocket.",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-recovers-after-hitting-all-time-low-144351570.html",
+      "source": "Yahoo Entertainment",
+      "date": "Jul 27, 2026",
+      "publishedAt": "2026-07-27T14:43:51Z"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -11,16 +21,6 @@
       "source": "Crypto Briefing",
       "date": "Jul 23, 2026",
       "publishedAt": "2026-07-23T11:59:15Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX surpasses Meta’s market cap after historic IPO debut",
-      "summary": "SpaceX debuted on Nasdaq at $1.77 trillion and surged past Meta's $1.45 trillion valuation, reshaping the U.S. equity market hierarchy.\nThe post SpaceX surpasses Meta’s market cap after historic IPO debut appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/spacex-surpasses-meta-market-cap-ipo/",
-      "source": "Crypto Briefing",
-      "date": "Jul 22, 2026",
-      "publishedAt": "2026-07-22T14:28:59Z"
     },
     {
       "venture": "tesla",
@@ -43,5 +43,5 @@
       "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-07-29T23:56:48.906Z"
+  "generatedAt": "2026-07-30T08:13:34.945Z"
 }
