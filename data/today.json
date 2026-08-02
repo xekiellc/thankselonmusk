@@ -5,12 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
-      "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
-      "url": "https://freerepublic.com/focus/f-news/4386693/posts",
-      "source": "Freerepublic.com",
-      "date": "Jul 4, 2026",
-      "publishedAt": "2026-07-04T23:35:42Z"
+      "headline": "SpaceX stock recovers after hitting all-time low",
+      "summary": "SpaceX stock is trying to recover after hitting an all-time low on Monday, days after a successful test of its Starship rocket.",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-recovers-after-hitting-all-time-low-144351570.html",
+      "source": "Yahoo Entertainment",
+      "date": "Jul 27, 2026",
+      "publishedAt": "2026-07-27T14:43:51Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX stock trying to recover after hitting all-time",
+      "summary": "SpaceX stock is trying to recover after hitting an all-time low Monday, days after a successful test of its Starship rocket.",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-trying-to-recover-after-hitting-all-time-low-144351570.html",
+      "source": "Yahoo Entertainment",
+      "date": "Jul 27, 2026",
+      "publishedAt": "2026-07-27T14:43:51Z"
     },
     {
       "venture": "tesla",
@@ -21,17 +31,7 @@
       "source": "Barchart.com",
       "date": "Jul 26, 2026",
       "publishedAt": "2026-07-26T15:00:02Z"
-    },
-    {
-      "venture": "neura",
-      "label": "Neuralink",
-      "headline": "Elon Musk’s Brain-chip Startup Aims for Scalability with New Transdural Procedure",
-      "summary": "Elon Musk’s brain-computer interface (BCI) startup Neuralink announced the company has successfully performed its first transdural brain implant surgery, which promises to increase scalability while significantly reducing surgical trauma. The News In a new vi…",
-      "url": "https://roadtovr.com/elon-musk-brain-neuralink-transdural-implant/",
-      "source": "Road to VR",
-      "date": "Jul 1, 2026",
-      "publishedAt": "2026-07-01T11:25:32Z"
     }
   ],
-  "generatedAt": "2026-08-02T19:00:36.018Z"
+  "generatedAt": "2026-08-02T23:52:59.980Z"
 }
