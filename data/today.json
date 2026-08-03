@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "displayDate": "Sunday, August 2, 2026",
+  "date": "2026-08-03",
+  "displayDate": "Monday, August 3, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -15,12 +15,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX stock trying to recover after hitting all-time",
-      "summary": "SpaceX stock is trying to recover after hitting an all-time low Monday, days after a successful test of its Starship rocket.",
-      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-trying-to-recover-after-hitting-all-time-low-144351570.html",
-      "source": "Yahoo Entertainment",
-      "date": "Jul 27, 2026",
-      "publishedAt": "2026-07-27T14:43:51Z"
+      "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
+      "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
+      "url": "https://freerepublic.com/focus/f-news/4386693/posts",
+      "source": "Freerepublic.com",
+      "date": "Jul 4, 2026",
+      "publishedAt": "2026-07-04T23:35:42Z"
     },
     {
       "venture": "tesla",
@@ -31,7 +31,17 @@
       "source": "Barchart.com",
       "date": "Jul 26, 2026",
       "publishedAt": "2026-07-26T15:00:02Z"
+    },
+    {
+      "venture": "doge",
+      "label": "DOGE",
+      "headline": "The State Where DOGE Is Actually Working: A Playbook for All the States.",
+      "summary": "On July 14, the State Leadership Initiative was honored to host the Florida DOGE team and their tech partners, Vulcan, Echelon, and DigiBuild, for the Florida DOGE Showcase in Washington, D.C. Spearheaded by Governor Ron DeSantis, the state has become the lea…",
+      "url": "https://freerepublic.com/focus/f-news/4390255/posts",
+      "source": "Freerepublic.com",
+      "date": "Aug 2, 2026",
+      "publishedAt": "2026-08-02T04:15:56Z"
     }
   ],
-  "generatedAt": "2026-08-02T23:52:59.980Z"
+  "generatedAt": "2026-08-03T09:31:54.133Z"
 }

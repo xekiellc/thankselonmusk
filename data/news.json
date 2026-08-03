@@ -1,24 +1,24 @@
 {
-  "lastUpdated": "2026-08-02T23:52:59.978Z",
-  "displayUpdated": "Aug 2, 2026, 11:52 PM UTC",
+  "lastUpdated": "2026-08-03T09:31:54.132Z",
+  "displayUpdated": "Aug 3, 2026, 9:31 AM UTC",
   "totalArticles": 4,
   "articles": [
+    {
+      "venture": "doge",
+      "label": "DOGE",
+      "headline": "The State Where DOGE Is Actually Working: A Playbook for All the States.",
+      "summary": "On July 14, the State Leadership Initiative was honored to host the Florida DOGE team and their tech partners, Vulcan, Echelon, and DigiBuild, for the Florida DOGE Showcase in Washington, D.C. Spearheaded by Governor Ron DeSantis, the state has become the lea…",
+      "url": "https://freerepublic.com/focus/f-news/4390255/posts",
+      "source": "Freerepublic.com",
+      "publishedAt": "2026-08-02T04:15:56Z",
+      "date": "Aug 2, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
       "headline": "SpaceX stock recovers after hitting all-time low",
       "summary": "SpaceX stock is trying to recover after hitting an all-time low on Monday, days after a successful test of its Starship rocket.",
       "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-recovers-after-hitting-all-time-low-144351570.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-07-27T14:43:51Z",
-      "date": "Jul 27, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX stock trying to recover after hitting all-time",
-      "summary": "SpaceX stock is trying to recover after hitting an all-time low Monday, days after a successful test of its Starship rocket.",
-      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-trying-to-recover-after-hitting-all-time-low-144351570.html",
       "source": "Yahoo Entertainment",
       "publishedAt": "2026-07-27T14:43:51Z",
       "date": "Jul 27, 2026"
