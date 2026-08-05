@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-08-05T19:21:09.495Z",
-  "displayUpdated": "Aug 5, 2026, 7:21 PM UTC",
-  "totalArticles": 3,
+  "lastUpdated": "2026-08-05T23:54:22.763Z",
+  "displayUpdated": "Aug 5, 2026, 11:54 PM UTC",
+  "totalArticles": 4,
   "articles": [
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX reports 92% revenue rise in first earnings since IPO",
+      "summary": "SpaceX's revenue surge highlights its strategic diversification, but sustainability hinges on balancing AI investments and infrastructure costs.\nThe post SpaceX reports 92% revenue rise in first earnings since IPO appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/spacex-q2-earnings-revenue-starlink-ai/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-08-04T20:27:20Z",
+      "date": "Aug 4, 2026"
+    },
     {
       "venture": "doge",
       "label": "DOGE",
