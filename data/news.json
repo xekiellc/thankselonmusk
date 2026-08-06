@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-08-05T23:54:22.763Z",
-  "displayUpdated": "Aug 5, 2026, 11:54 PM UTC",
-  "totalArticles": 4,
+  "lastUpdated": "2026-08-06T08:24:14.608Z",
+  "displayUpdated": "Aug 6, 2026, 8:24 AM UTC",
+  "totalArticles": 6,
   "articles": [
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "What's next for SpaceX shares? 5 trends investors should watch",
+      "summary": "SpaceX delivered better-than-expected second-quarter results, with revenue and earnings surpassing Wall Street estimates. Revenue jumped about 92% from a year earlier, driven by strong growth in Starlink and AI-related businesses. However, the upbeat earnings…",
+      "url": "https://m.economictimes.com/markets/us-stocks/news/whats-next-for-spacex-shares-5-trends-investors-should-watch/spacex-beats-q2-estimates-but-stock-slides/slideshow/132903157.cms",
+      "source": "Economictimes.com",
+      "publishedAt": "2026-08-05T07:34:48Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk delivers ‘totally nuts’ plans for moon robots and insists $1 trillion revenue target will hit but capex tanks SpaceX on debut earnings",
+      "summary": "The rocket-and-AI company posted stronger than expected revenue, but investors choked on the rapidly rising capital expenditures.",
+      "url": "https://fortune.com/2026/08/04/elon-musk-spacex-earnings-trillion-revenue-target-capex-stock-reaction/",
+      "source": "Fortune",
+      "publishedAt": "2026-08-05T00:50:11Z",
+      "date": "Aug 5, 2026"
+    },
     {
       "venture": "starlink",
       "label": "Starlink",

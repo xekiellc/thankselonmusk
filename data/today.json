@@ -1,7 +1,17 @@
 {
-  "date": "2026-08-05",
-  "displayDate": "Wednesday, August 5, 2026",
+  "date": "2026-08-06",
+  "displayDate": "Thursday, August 6, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk delivers ‘totally nuts’ plans for moon robots and insists $1 trillion revenue target will hit but capex tanks SpaceX on debut earnings",
+      "summary": "The rocket-and-AI company posted stronger than expected revenue, but investors choked on the rapidly rising capital expenditures.",
+      "url": "https://fortune.com/2026/08/04/elon-musk-spacex-earnings-trillion-revenue-target-capex-stock-reaction/",
+      "source": "Fortune",
+      "date": "Aug 5, 2026",
+      "publishedAt": "2026-08-05T00:50:11Z"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -25,6 +35,16 @@
     {
       "venture": "starlink",
       "label": "Starlink",
+      "headline": "What's next for SpaceX shares? 5 trends investors should watch",
+      "summary": "SpaceX delivered better-than-expected second-quarter results, with revenue and earnings surpassing Wall Street estimates. Revenue jumped about 92% from a year earlier, driven by strong growth in Starlink and AI-related businesses. However, the upbeat earnings…",
+      "url": "https://m.economictimes.com/markets/us-stocks/news/whats-next-for-spacex-shares-5-trends-investors-should-watch/spacex-beats-q2-estimates-but-stock-slides/slideshow/132903157.cms",
+      "source": "Economictimes.com",
+      "date": "Aug 5, 2026",
+      "publishedAt": "2026-08-05T07:34:48Z"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
       "headline": "SpaceX reports 92% revenue rise in first earnings since IPO",
       "summary": "SpaceX's revenue surge highlights its strategic diversification, but sustainability hinges on balancing AI investments and infrastructure costs.\nThe post SpaceX reports 92% revenue rise in first earnings since IPO appeared first on Crypto Briefing.",
       "url": "https://cryptobriefing.com/spacex-q2-earnings-revenue-starlink-ai/",
@@ -43,5 +63,5 @@
       "publishedAt": "2026-08-02T04:15:56Z"
     }
   ],
-  "generatedAt": "2026-08-05T23:54:22.764Z"
+  "generatedAt": "2026-08-06T08:24:14.609Z"
 }
