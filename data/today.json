@@ -5,12 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
-      "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
-      "url": "https://freerepublic.com/focus/f-news/4386693/posts",
-      "source": "Freerepublic.com",
-      "date": "Jul 4, 2026",
-      "publishedAt": "2026-07-04T23:35:42Z"
+      "headline": "Is Elon Musk’s master plan with SpaceX to have rockets replace planes for global cargo delivery?",
+      "summary": "SpaceX is targeting government and defense customers who need cargo fast. It will need to figure out where to land.",
+      "url": "https://fortune.com/2026/08/05/spacex-rockets-global-cargo-delivery/",
+      "source": "Fortune",
+      "date": "Aug 5, 2026",
+      "publishedAt": "2026-08-05T21:50:00Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
+      "summary": "Elon Musk’s rocket, internet and AI company gave investors its first update since its June IPO.",
+      "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
+      "source": "CNET",
+      "date": "Aug 5, 2026",
+      "publishedAt": "2026-08-05T16:25:30Z"
     },
     {
       "venture": "tesla",
@@ -21,6 +31,16 @@
       "source": "Barchart.com",
       "date": "Jul 26, 2026",
       "publishedAt": "2026-07-26T15:00:02Z"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk Projects $1T in SpaceX Revenue After Spending $16B on A.I. in 3 Months",
+      "summary": "In its first earnings release as a public company, Elon Musk's SpaceX reported $7.8 billion in quarterly revenue, while heavy spending on xAI infrastructure sent shares lower after hours.",
+      "url": "https://observer.com/2026/08/elon-musk-project-spacex-revenue-earnings/",
+      "source": "Observer",
+      "date": "Aug 5, 2026",
+      "publishedAt": "2026-08-05T18:26:10Z"
     },
     {
       "venture": "starlink",
@@ -43,5 +63,5 @@
       "publishedAt": "2026-08-02T04:15:56Z"
     }
   ],
-  "generatedAt": "2026-08-06T13:50:30.473Z"
+  "generatedAt": "2026-08-06T23:53:06.104Z"
 }

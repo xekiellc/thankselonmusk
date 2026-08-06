@@ -1,8 +1,38 @@
 {
-  "lastUpdated": "2026-08-06T13:50:30.472Z",
-  "displayUpdated": "Aug 6, 2026, 1:50 PM UTC",
-  "totalArticles": 4,
+  "lastUpdated": "2026-08-06T23:53:06.103Z",
+  "displayUpdated": "Aug 6, 2026, 11:53 PM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Is Elon Musk’s master plan with SpaceX to have rockets replace planes for global cargo delivery?",
+      "summary": "SpaceX is targeting government and defense customers who need cargo fast. It will need to figure out where to land.",
+      "url": "https://fortune.com/2026/08/05/spacex-rockets-global-cargo-delivery/",
+      "source": "Fortune",
+      "publishedAt": "2026-08-05T21:50:00Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk Projects $1T in SpaceX Revenue After Spending $16B on A.I. in 3 Months",
+      "summary": "In its first earnings release as a public company, Elon Musk's SpaceX reported $7.8 billion in quarterly revenue, while heavy spending on xAI infrastructure sent shares lower after hours.",
+      "url": "https://observer.com/2026/08/elon-musk-project-spacex-revenue-earnings/",
+      "source": "Observer",
+      "publishedAt": "2026-08-05T18:26:10Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
+      "summary": "Elon Musk’s rocket, internet and AI company gave investors its first update since its June IPO.",
+      "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
+      "source": "CNET",
+      "publishedAt": "2026-08-05T16:25:30Z",
+      "date": "Aug 5, 2026"
+    },
     {
       "venture": "starlink",
       "label": "Starlink",
@@ -11,6 +41,26 @@
       "url": "https://m.economictimes.com/markets/us-stocks/news/whats-next-for-spacex-shares-5-trends-investors-should-watch/spacex-beats-q2-estimates-but-stock-slides/slideshow/132903157.cms",
       "source": "Economictimes.com",
       "publishedAt": "2026-08-05T07:34:48Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk delivers ‘totally nuts’ plan for moon robots and $1 trillion revenue target, but capex tanks SpaceX on debut earnings",
+      "summary": "The rocket-and-AI company posted stronger than expected revenue, but investors choked on the rapidly rising capital expenditures.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-delivers-totally-nuts-005011333.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-05T00:50:11Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk delivers ‘totally nuts’ plans for moon robots and insists $1 trillion revenue target will hit but capex tanks SpaceX on debut earnings",
+      "summary": "The rocket-and-AI company posted stronger than expected revenue, but investors choked on the rapidly rising capital expenditures.",
+      "url": "https://fortune.com/2026/08/04/elon-musk-spacex-earnings-trillion-revenue-target-capex-stock-reaction/",
+      "source": "Fortune",
+      "publishedAt": "2026-08-05T00:50:11Z",
       "date": "Aug 5, 2026"
     },
     {
@@ -32,16 +82,6 @@
       "source": "Barchart.com",
       "publishedAt": "2026-07-26T15:00:02Z",
       "date": "Jul 26, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii ",
-      "summary": " Using Starlink, American Kelsey Pfendler Broke 4 Records Rowing Solo from California to Hawaii  On America’s 250th birthday, Kelsey Pfendler, an American woman and Grand Canyon raft guide, turned an audacious dream into history. During training, she …",
-      "url": "https://freerepublic.com/focus/f-news/4386693/posts",
-      "source": "Freerepublic.com",
-      "publishedAt": "2026-07-04T23:35:42Z",
-      "date": "Jul 4, 2026"
     }
   ]
 }
