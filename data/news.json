@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-07T18:45:22.005Z",
-  "displayUpdated": "Aug 7, 2026, 6:45 PM UTC",
-  "totalArticles": 3,
+  "lastUpdated": "2026-08-07T23:27:57.988Z",
+  "displayUpdated": "Aug 7, 2026, 11:27 PM UTC",
+  "totalArticles": 4,
   "articles": [
     {
       "venture": "starlink",
@@ -14,14 +14,24 @@
       "date": "Aug 6, 2026"
     },
     {
-      "venture": "doge",
-      "label": "DOGE",
-      "headline": "The State Where DOGE Is Actually Working: A Playbook for All the States.",
-      "summary": "On July 14, the State Leadership Initiative was honored to host the Florida DOGE team and their tech partners, Vulcan, Echelon, and DigiBuild, for the Florida DOGE Showcase in Washington, D.C. Spearheaded by Governor Ron DeSantis, the state has become the lea…",
-      "url": "https://freerepublic.com/focus/f-news/4390255/posts",
-      "source": "Freerepublic.com",
-      "publishedAt": "2026-08-02T04:15:56Z",
-      "date": "Aug 2, 2026"
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Is Elon Musk’s master plan with SpaceX to have rockets replace planes for global cargo delivery?",
+      "summary": "SpaceX is targeting government and defense customers who need cargo fast. It will need to figure out where to land.",
+      "url": "https://fortune.com/2026/08/05/spacex-rockets-global-cargo-delivery/",
+      "source": "Fortune",
+      "publishedAt": "2026-08-05T21:50:00Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX Delivers Strong Q2 Results as Investors Look for a Rebound",
+      "summary": "Investors are closely watching SpaceX following the release of its highly anticipated second-quarter earnings report, the company’s first since becoming publ...",
+      "url": "https://investorshub.advfn.com/market-news/article/33558/spacex-delivers-strong-q2-results-as-investors-look-for-a-rebound",
+      "source": "Advfn.com",
+      "publishedAt": "2026-08-05T16:39:42Z",
+      "date": "Aug 5, 2026"
     },
     {
       "venture": "tesla",
