@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-08-06T23:53:06.103Z",
-  "displayUpdated": "Aug 6, 2026, 11:53 PM UTC",
-  "totalArticles": 8,
+  "lastUpdated": "2026-08-07T07:04:58.463Z",
+  "displayUpdated": "Aug 7, 2026, 7:04 AM UTC",
+  "totalArticles": 9,
   "articles": [
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX quarterly revenue surges in debut results on strong growth in its Starlink business",
+      "summary": "SpaceX has reported a 92% rise in revenue for the April-June quarter, in its first earnings since going public, buoyed by strong grow...",
+      "url": "https://www.gulf-times.com/article/730564/business/spacex-quarterly-revenue-surges-in-debut-results-on-strong-growth-in-its-starlink-business",
+      "source": "Gulf-times.com",
+      "publishedAt": "2026-08-06T01:43:49Z",
+      "date": "Aug 6, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -24,6 +34,16 @@
       "date": "Aug 5, 2026"
     },
     {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX Delivers Strong Q2 Results as Investors Look for a Rebound",
+      "summary": "Investors are closely watching SpaceX following the release of its highly anticipated second-quarter earnings report, the company’s first since becoming publ...",
+      "url": "https://investorshub.advfn.com/market-news/article/33558/spacex-delivers-strong-q2-results-as-investors-look-for-a-rebound",
+      "source": "Advfn.com",
+      "publishedAt": "2026-08-05T16:39:42Z",
+      "date": "Aug 5, 2026"
+    },
+    {
       "venture": "spacex",
       "label": "SpaceX",
       "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
@@ -31,16 +51,6 @@
       "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
       "source": "CNET",
       "publishedAt": "2026-08-05T16:25:30Z",
-      "date": "Aug 5, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "What's next for SpaceX shares? 5 trends investors should watch",
-      "summary": "SpaceX delivered better-than-expected second-quarter results, with revenue and earnings surpassing Wall Street estimates. Revenue jumped about 92% from a year earlier, driven by strong growth in Starlink and AI-related businesses. However, the upbeat earnings…",
-      "url": "https://m.economictimes.com/markets/us-stocks/news/whats-next-for-spacex-shares-5-trends-investors-should-watch/spacex-beats-q2-estimates-but-stock-slides/slideshow/132903157.cms",
-      "source": "Economictimes.com",
-      "publishedAt": "2026-08-05T07:34:48Z",
       "date": "Aug 5, 2026"
     },
     {
