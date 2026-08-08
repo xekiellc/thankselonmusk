@@ -13,14 +13,14 @@
       "publishedAt": "2026-08-06T20:07:00Z"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
-      "summary": "Elon Musk’s rocket, internet and AI company gave investors its first update since its June IPO.",
-      "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
-      "source": "CNET",
-      "date": "Aug 5, 2026",
-      "publishedAt": "2026-08-05T16:25:30Z"
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "(VIDEO) SpaceX and Tesla Confirm Texas Site for 'Terafab' AI Chip Complex With Intel, xAI as Demand Soars",
+      "summary": "SpaceX and Tesla, in partnership with Intel and xAI, confirm the site for Terafab, a massive AI chip manufacturing complex in Texas, aiming to address global chip supply constraints.",
+      "url": "https://www.ibtimes.com.au/spacex-tesla-terafab-ai-chip-complex-texas-1873697",
+      "source": "Ibtimes.com.au",
+      "date": "Aug 7, 2026",
+      "publishedAt": "2026-08-07T13:30:38Z"
     },
     {
       "venture": "tesla",
@@ -53,5 +53,5 @@
       "publishedAt": "2026-08-05T16:39:42Z"
     }
   ],
-  "generatedAt": "2026-08-08T12:34:48.735Z"
+  "generatedAt": "2026-08-08T18:27:25.487Z"
 }
