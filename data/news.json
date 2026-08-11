@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T06:56:07.909Z",
-  "displayUpdated": "Aug 11, 2026, 6:56 AM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-08-11T12:50:48.382Z",
+  "displayUpdated": "Aug 11, 2026, 12:50 PM UTC",
+  "totalArticles": 8,
   "articles": [
     {
       "venture": "xai",
@@ -51,6 +51,26 @@
       "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
       "source": "CNET",
       "publishedAt": "2026-08-05T16:25:30Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk delivers ‘totally nuts’ plan for moon robots and $1 trillion revenue target, but capex tanks SpaceX on debut earnings",
+      "summary": "The rocket-and-AI company posted stronger than expected revenue, but investors choked on the rapidly rising capital expenditures.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-delivers-totally-nuts-005011333.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-05T00:50:11Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk delivers ‘totally nuts’ plans for moon robots and insists $1 trillion revenue target will hit but capex tanks SpaceX on debut earnings",
+      "summary": "The rocket-and-AI company posted stronger than expected revenue, but investors choked on the rapidly rising capital expenditures.",
+      "url": "https://fortune.com/2026/08/04/elon-musk-spacex-earnings-trillion-revenue-target-capex-stock-reaction/",
+      "source": "Fortune",
+      "publishedAt": "2026-08-05T00:50:11Z",
       "date": "Aug 5, 2026"
     },
     {
