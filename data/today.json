@@ -5,22 +5,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "JPMorgan resets SpaceX price target after earnings",
-      "summary": "Wall Street had a simple question heading into SpaceX's first earnings report as a public company. Was the spending worth it? The answer came in the form of...",
-      "url": "https://www.thestreet.com/investing/stocks/jpmorgan-raises-spacex-price-target-after-earnings-starlink-elon-musk",
-      "source": "TheStreet",
-      "date": "Aug 6, 2026",
-      "publishedAt": "2026-08-06T20:07:00Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
-      "summary": "Elon Musk’s rocket, internet and AI company gave investors its first update since its June IPO.",
-      "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
-      "source": "CNET",
-      "date": "Aug 5, 2026",
-      "publishedAt": "2026-08-05T16:25:30Z"
+      "headline": "Starlink’s Success Casts Doubt on Telecom Companies’ Future",
+      "summary": "SpaceX has a message to Verizon and the rest of Big Telecom. It's coming for some of their $600 billion in annual revenue.",
+      "url": "https://www.thedailyupside.com/industries/starlinks-success-puts-telecom-companies-future-in-doubt/",
+      "source": "Thedailyupside.com",
+      "date": "Aug 10, 2026",
+      "publishedAt": "2026-08-10T11:00:00Z"
     },
     {
       "venture": "tesla",
@@ -41,17 +31,7 @@
       "source": "The Next Web",
       "date": "Aug 9, 2026",
       "publishedAt": "2026-08-09T18:25:04Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX quarterly revenue surges in debut results on strong growth in its Starlink business",
-      "summary": "SpaceX has reported a 92% rise in revenue for the April-June quarter, in its first earnings since going public, buoyed by strong grow...",
-      "url": "https://www.gulf-times.com/article/730564/business/spacex-quarterly-revenue-surges-in-debut-results-on-strong-growth-in-its-starlink-business",
-      "source": "Gulf-times.com",
-      "date": "Aug 6, 2026",
-      "publishedAt": "2026-08-06T01:43:49Z"
     }
   ],
-  "generatedAt": "2026-08-11T18:53:51.381Z"
+  "generatedAt": "2026-08-11T23:33:36.762Z"
 }
