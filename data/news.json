@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-08-12T18:54:02.966Z",
-  "displayUpdated": "Aug 12, 2026, 6:54 PM UTC",
-  "totalArticles": 4,
+  "lastUpdated": "2026-08-12T23:34:29.909Z",
+  "displayUpdated": "Aug 12, 2026, 11:34 PM UTC",
+  "totalArticles": 6,
   "articles": [
+    {
+      "venture": "x",
+      "label": "X",
+      "headline": "X replaces revenue sharing model with new program centered around original content",
+      "summary": "On X, it pays to be original. The platform formerly known as Twitter is updating its creator monetization structure to reward accounts that bring \"original ideas, expertise, reporting, creativity, and commentary to X.\"\nThat line comes from a post that introdu…",
+      "url": "https://www.tubefilter.com/2026/08/11/x-monetization-original-content-rewards-program-creators/",
+      "source": "Tubefilter",
+      "publishedAt": "2026-08-11T21:27:25Z",
+      "date": "Aug 11, 2026"
+    },
+    {
+      "venture": "xai",
+      "label": "xAI",
+      "headline": "Grok Build reaches V1.0 after rapid beta phase",
+      "summary": "Grok Build's rapid development and open-source strategy could accelerate innovation and reshape competitive dynamics in AI coding tools.\nThe post Grok Build reaches V1.0 after rapid beta phase appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/grok-build-v1-release/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-08-11T19:51:13Z",
+      "date": "Aug 11, 2026"
+    },
     {
       "venture": "starlink",
       "label": "Starlink",
