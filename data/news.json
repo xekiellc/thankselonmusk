@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-14T12:51:39.992Z",
-  "displayUpdated": "Aug 14, 2026, 12:51 PM UTC",
-  "totalArticles": 8,
+  "lastUpdated": "2026-08-14T18:44:19.790Z",
+  "displayUpdated": "Aug 14, 2026, 6:44 PM UTC",
+  "totalArticles": 7,
   "articles": [
     {
       "venture": "xai",
@@ -72,16 +72,6 @@
       "source": "CNET",
       "publishedAt": "2026-08-05T16:25:30Z",
       "date": "Aug 5, 2026"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "As SpaceX Sheds a Tesla’s Worth of Value, Elon Musk Is Trying to Sell Investors on Another Company",
-      "summary": "The Boring Company is reportedly working to raise $4 billion in new funding.",
-      "url": "https://gizmodo.com/as-spacex-sheds-a-teslas-worth-of-value-elon-musk-is-trying-to-sell-investors-on-another-company-2000791788",
-      "source": "Gizmodo.com",
-      "publishedAt": "2026-07-28T16:30:46Z",
-      "date": "Jul 28, 2026"
     }
   ]
 }
