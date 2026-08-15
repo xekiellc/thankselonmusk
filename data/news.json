@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-15T18:19:14.886Z",
-  "displayUpdated": "Aug 15, 2026, 6:19 PM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-08-15T23:13:55.024Z",
+  "displayUpdated": "Aug 15, 2026, 11:13 PM UTC",
+  "totalArticles": 5,
   "articles": [
     {
       "venture": "xai",
@@ -52,16 +52,6 @@
       "source": "The Next Web",
       "publishedAt": "2026-08-09T18:25:04Z",
       "date": "Aug 9, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
-      "summary": "Elon Musk’s rocket, internet and AI company gave investors its first update since its June IPO.",
-      "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
-      "source": "CNET",
-      "publishedAt": "2026-08-05T16:25:30Z",
-      "date": "Aug 5, 2026"
     }
   ]
 }
