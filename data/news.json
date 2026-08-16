@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-16T12:26:47.472Z",
-  "displayUpdated": "Aug 16, 2026, 12:26 PM UTC",
+  "lastUpdated": "2026-08-16T18:19:08.007Z",
+  "displayUpdated": "Aug 16, 2026, 6:19 PM UTC",
   "totalArticles": 6,
   "articles": [
     {
@@ -54,14 +54,14 @@
       "date": "Aug 11, 2026"
     },
     {
-      "venture": "xai",
-      "label": "xAI",
-      "headline": "Grok’s image tools get a professional upgrade with templates, precise editing, and an Arena number two ranking",
-      "summary": "SpaceXAI shipped Grok Imagine Image 2.0 on Thursday, making editing a first-class capability rather than an afterthought. The update adds a magic wand tool that changes only the region a user points at, segmentation for selecting precise areas to modify, and …",
-      "url": "https://thenextweb.com/news/grok-imagine-image-2-editing-arena-ranking-spacexai",
-      "source": "The Next Web",
-      "publishedAt": "2026-08-09T18:25:04Z",
-      "date": "Aug 9, 2026"
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
+      "summary": "Elon Musk’s rocket, internet and AI company gave investors its first update since its June IPO.",
+      "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
+      "source": "CNET",
+      "publishedAt": "2026-08-05T16:25:30Z",
+      "date": "Aug 5, 2026"
     }
   ]
 }
