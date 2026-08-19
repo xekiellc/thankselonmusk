@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-19T06:32:58.749Z",
-  "displayUpdated": "Aug 19, 2026, 6:32 AM UTC",
-  "totalArticles": 3,
+  "lastUpdated": "2026-08-19T12:33:58.624Z",
+  "displayUpdated": "Aug 19, 2026, 12:33 PM UTC",
+  "totalArticles": 5,
   "articles": [
     {
       "venture": "tesla",
@@ -32,6 +32,26 @@
       "source": "Tubefilter",
       "publishedAt": "2026-08-11T21:27:25Z",
       "date": "Aug 11, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
+      "summary": "Elon Musk’s rocket, internet and AI company gave investors its first update since its June IPO.",
+      "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
+      "source": "CNET",
+      "publishedAt": "2026-08-05T16:25:30Z",
+      "date": "Aug 5, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk delivers ‘totally nuts’ plan for moon robots and $1 trillion revenue target, but capex tanks SpaceX on debut earnings",
+      "summary": "The rocket-and-AI company posted stronger than expected revenue, but investors choked on the rapidly rising capital expenditures.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-delivers-totally-nuts-005011333.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-05T00:50:11Z",
+      "date": "Aug 5, 2026"
     }
   ]
 }
