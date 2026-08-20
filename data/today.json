@@ -5,22 +5,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX’s Future Plans Hinge Heavily on Starlink and Grok",
-      "summary": "Elon Musk’s rocket, internet and AI company gave investors its first update since its June IPO.",
-      "url": "https://www.cnet.com/home/internet/spacexs-future-plans-hinge-heavily-on-starlink-and-grok/",
-      "source": "CNET",
-      "date": "Aug 5, 2026",
-      "publishedAt": "2026-08-05T16:25:30Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Elon Musk delivers ‘totally nuts’ plan for moon robots and $1 trillion revenue target, but capex tanks SpaceX on debut earnings",
-      "summary": "The rocket-and-AI company posted stronger than expected revenue, but investors choked on the rapidly rising capital expenditures.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-delivers-totally-nuts-005011333.html",
-      "source": "Yahoo Entertainment",
-      "date": "Aug 5, 2026",
-      "publishedAt": "2026-08-05T00:50:11Z"
+      "headline": "On 18 August, SpaceX logged its 100th launch of 2026, hitting that mark two months faster than it did in 2024 — a company that flew 25 times in 2020 is now lifting off more than three times a week",
+      "summary": "The routinization of spaceflight is reshaping what's possible in orbit—and challenging our intuitions about technological breakthroughs.\nThe post On 18 August, SpaceX logged its 100th launch of 2026, hitting that mark two months faster than it did in 2024 — a…",
+      "url": "https://spacedaily.com/m-on-18-august-spacex-logged-its-100th-launch-of-2026-hitting-that-mark-two-months-faster-than-it-did-in-2024-a-company-that-flew-25-times-in-2020-is-now-lifting-off-more-than-three/",
+      "source": "Space Daily",
+      "date": "Aug 19, 2026",
+      "publishedAt": "2026-08-19T16:30:53Z"
     },
     {
       "venture": "tesla",
@@ -43,5 +33,5 @@
       "publishedAt": "2026-08-14T13:41:47Z"
     }
   ],
-  "generatedAt": "2026-08-20T12:34:48.421Z"
+  "generatedAt": "2026-08-20T18:29:37.180Z"
 }
