@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-20",
-  "displayDate": "Thursday, August 20, 2026",
+  "date": "2026-08-21",
+  "displayDate": "Friday, August 21, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -15,12 +15,12 @@
     {
       "venture": "tesla",
       "label": "Tesla",
-      "headline": "Tesla Shares Climb Nearly 3% to $336 as Robotaxi Gains and AI Push Offset Profit Pressure",
-      "summary": "Tesla shares rose nearly 3% after reporting record vehicle deliveries and advancements in AI and autonomy, despite facing profitability challenges and increased capital expenditures.",
-      "url": "https://www.ibtimes.com.au/tesla-stock-rebounds-record-deliveries-ai-ambitions-1874029",
-      "source": "Ibtimes.com.au",
-      "date": "Aug 13, 2026",
-      "publishedAt": "2026-08-13T17:25:32Z"
+      "headline": "Here Is How to Play Tesla Stock After Its Robotaxi Breakthrough",
+      "summary": "Tesla progresses with its robotaxi plans with a soft public rollout being the next phase.",
+      "url": "https://www.barchart.com/story/news/3935578/here-is-how-to-play-tesla-stock-after-its-robotaxi-breakthrough",
+      "source": "Barchart.com",
+      "date": "Aug 19, 2026",
+      "publishedAt": "2026-08-19T18:21:18Z"
     },
     {
       "venture": "xai",
@@ -33,5 +33,5 @@
       "publishedAt": "2026-08-14T13:41:47Z"
     }
   ],
-  "generatedAt": "2026-08-20T23:19:47.012Z"
+  "generatedAt": "2026-08-21T06:34:53.502Z"
 }
