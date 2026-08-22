@@ -1,6 +1,37 @@
 {
   "date": "2026-08-22",
   "displayDate": "Saturday, August 22, 2026",
-  "items": [],
-  "generatedAt": "2026-08-22T12:25:42.638Z"
+  "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "On 18 August, SpaceX logged its 100th launch of 2026, hitting that mark two months faster than it did in 2024 — a company that flew 25 times in 2020 is now lifting off more than three times a week",
+      "summary": "The routinization of spaceflight is reshaping what's possible in orbit—and challenging our intuitions about technological breakthroughs.\nThe post On 18 August, SpaceX logged its 100th launch of 2026, hitting that mark two months faster than it did in 2024 — a…",
+      "url": "https://spacedaily.com/m-on-18-august-spacex-logged-its-100th-launch-of-2026-hitting-that-mark-two-months-faster-than-it-did-in-2024-a-company-that-flew-25-times-in-2020-is-now-lifting-off-more-than-three/",
+      "source": "Space Daily",
+      "date": "Aug 19, 2026",
+      "publishedAt": "2026-08-19T16:30:53Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Here Is How to Play Tesla Stock After Its Robotaxi Breakthrough",
+      "summary": "Tesla progresses with its robotaxi plans with a soft public rollout being the next phase.",
+      "url": "https://www.barchart.com/story/news/3935578/here-is-how-to-play-tesla-stock-after-its-robotaxi-breakthrough",
+      "source": "Barchart.com",
+      "date": "Aug 19, 2026",
+      "publishedAt": "2026-08-19T18:21:18Z"
+    },
+    {
+      "venture": "xai",
+      "label": "xAI",
+      "headline": "SpaceXAI completes its Cursor acquisition following Grok Bot and Grok 4.6 release",
+      "summary": "When SpaceX isn’t landing rockets, it’s apparently landing AI company deals. In February, the firm behind Starlink absorbed xAI, which includes Twitter-turned-X. In April, SpaceX inked a deal with Cursor, a competitor to Claude Code and OpenAI’s Codex. As of …",
+      "url": "https://9to5mac.com/2026/08/14/spacex-lands-deal-to-likely-purchase-claude-code-and-openai-codex-competitor/",
+      "source": "9to5Mac",
+      "date": "Aug 14, 2026",
+      "publishedAt": "2026-08-14T13:41:47Z"
+    }
+  ],
+  "generatedAt": "2026-08-22T18:19:43.985Z"
 }
