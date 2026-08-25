@@ -25,6 +25,16 @@
     {
       "venture": "tesla",
       "label": "Tesla",
+      "headline": "Tesla confirms Cybercab launch coming next week",
+      "summary": "Tesla confirmed it will hold a Cybercab event in Austin on September 3, promoting it with a poster that reads “Exclusive Access: Cybercab.” It’s an invite-only affair for the top scorers in its Robotaxi rider sweepstakes, and Tesla says it will livestream the…",
+      "url": "http://electrek.co/2026/08/24/tesla-cybercab-exclusive-access-robotaxi-sept-3/",
+      "source": "Electrek",
+      "date": "Aug 24, 2026",
+      "publishedAt": "2026-08-24T17:10:02Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
       "headline": "Here Is How to Play Tesla Stock After Its Robotaxi Breakthrough",
       "summary": "Tesla progresses with its robotaxi plans with a soft public rollout being the next phase.",
       "url": "https://www.barchart.com/story/news/3935578/here-is-how-to-play-tesla-stock-after-its-robotaxi-breakthrough",
@@ -33,5 +43,5 @@
       "publishedAt": "2026-08-19T18:21:18Z"
     }
   ],
-  "generatedAt": "2026-08-25T12:35:36.820Z"
+  "generatedAt": "2026-08-25T18:30:27.403Z"
 }

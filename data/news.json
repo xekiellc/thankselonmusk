@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-08-25T12:35:36.819Z",
-  "displayUpdated": "Aug 25, 2026, 12:35 PM UTC",
-  "totalArticles": 3,
+  "lastUpdated": "2026-08-25T18:30:27.402Z",
+  "displayUpdated": "Aug 25, 2026, 6:30 PM UTC",
+  "totalArticles": 4,
   "articles": [
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla confirms Cybercab launch coming next week",
+      "summary": "Tesla confirmed it will hold a Cybercab event in Austin on September 3, promoting it with a poster that reads “Exclusive Access: Cybercab.” It’s an invite-only affair for the top scorers in its Robotaxi rider sweepstakes, and Tesla says it will livestream the…",
+      "url": "http://electrek.co/2026/08/24/tesla-cybercab-exclusive-access-robotaxi-sept-3/",
+      "source": "Electrek",
+      "publishedAt": "2026-08-24T17:10:02Z",
+      "date": "Aug 24, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
