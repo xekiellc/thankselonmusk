@@ -5,12 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "On 18 August, SpaceX logged its 100th launch of 2026, hitting that mark two months faster than it did in 2024 — a company that flew 25 times in 2020 is now lifting off more than three times a week",
-      "summary": "The routinization of spaceflight is reshaping what's possible in orbit—and challenging our intuitions about technological breakthroughs.\nThe post On 18 August, SpaceX logged its 100th launch of 2026, hitting that mark two months faster than it did in 2024 — a…",
-      "url": "https://spacedaily.com/m-on-18-august-spacex-logged-its-100th-launch-of-2026-hitting-that-mark-two-months-faster-than-it-did-in-2024-a-company-that-flew-25-times-in-2020-is-now-lifting-off-more-than-three/",
-      "source": "Space Daily",
-      "date": "Aug 19, 2026",
-      "publishedAt": "2026-08-19T16:30:53Z"
+      "headline": "SpaceX plans to build a $100 billion spaceport in Louisiana",
+      "summary": "SpaceX plans will establish its Starbase LA in Vermillion Parish in order to \"support thousands of launches annually.\"",
+      "url": "https://www.cnbc.com/2026/08/25/spacex-louisiana-spaceport.html",
+      "source": "CNBC",
+      "date": "Aug 25, 2026",
+      "publishedAt": "2026-08-25T17:29:32Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Elon Musk Says He Has Memorized The Design Of His AI Chip That Is Three Times Better Than NVIDIA’s AI Products",
+      "summary": "Tesla CEO Elon Musk shared his firm's progress with developing the AI5 inference chip and the need to compete with NVIDIA in a talk with hedge fund manager Ron Baron. Musk, who is one of the biggest players in the AI data center buildout, aims to develop his …",
+      "url": "https://wccftech.com/elon-musk-says-he-has-memorized-the-design-of-his-ai-chip-that-is-three-times-better-than-nvidias-ai-products/",
+      "source": "Wccftech",
+      "date": "Aug 25, 2026",
+      "publishedAt": "2026-08-25T13:17:09Z"
     },
     {
       "venture": "tesla",
@@ -23,16 +33,6 @@
       "publishedAt": "2026-08-24T17:10:02Z"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Here Is How to Play Tesla Stock After Its Robotaxi Breakthrough",
-      "summary": "Tesla progresses with its robotaxi plans with a soft public rollout being the next phase.",
-      "url": "https://www.barchart.com/story/news/3935578/here-is-how-to-play-tesla-stock-after-its-robotaxi-breakthrough",
-      "source": "Barchart.com",
-      "date": "Aug 19, 2026",
-      "publishedAt": "2026-08-19T18:21:18Z"
-    },
-    {
       "venture": "x",
       "label": "X",
       "headline": "X creates a new revenue model for creators — but will it actually win them over?",
@@ -43,5 +43,5 @@
       "publishedAt": "2026-08-25T04:01:00Z"
     }
   ],
-  "generatedAt": "2026-08-26T12:39:01.264Z"
+  "generatedAt": "2026-08-26T19:41:15.450Z"
 }
