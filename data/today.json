@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX Plans to Build a $100 Billion Spaceport In Louisiana",
+      "summary": "SpaceX plans to spend up to $100 billion building a new Starship launch facility in Vermilion Parish, Louisiana, which the state says could eventually \"support thousands of launches annually.\" CNBC reports: Once built, Starbase, LA will serve as the main laun…",
+      "url": "https://science.slashdot.org/story/26/08/25/2337244/spacex-plans-to-build-a-100-billion-spaceport-in-louisiana",
+      "source": "Slashdot.org",
+      "date": "Aug 26, 2026",
+      "publishedAt": "2026-08-26T07:00:00Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Louisiana built stages of the Saturn V rockets that carried astronauts to the Moon, but has never hosted an orbital launch. SpaceX now plans a $100 billion Gulf Coast spaceport targeting its first Starship flight in 2029 — with an eventual capacity of thousands a year.",
       "summary": "SpaceX and Louisiana have announced a 125,000-acre Starship campus targeting a first flight in 2029, but its $100 billion full-buildout plan and thousands-per-year capacity still depend on vehicle reuse, infrastructure, licensing and coastal review.\nThe post …",
       "url": "https://spacedaily.com/t-louisiana-spacex-100-billion-starbase-spaceport/",
       "source": "Space Daily",
       "date": "Aug 26, 2026",
       "publishedAt": "2026-08-26T03:30:00Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX plans to build the ‘biggest launch site on Earth’ for $100 billion in Louisiana",
-      "summary": "SpaceX on Tuesday unveiled plans to construct a massive, $100 billion spaceport in Louisiana, where the company plans to launch its gargantuan Starship rocke...",
-      "url": "https://www.cnn.com/2026/08/25/science/spacex-launch-site-louisiana",
-      "source": "CNN",
-      "date": "Aug 25, 2026",
-      "publishedAt": "2026-08-25T22:42:51Z"
     },
     {
       "venture": "tesla",
@@ -43,6 +43,16 @@
       "publishedAt": "2026-08-24T17:10:02Z"
     },
     {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Ukraine Awards Elon Musk Top State Honor as Zelenskyy Pushes to Expand Starlink Use in War",
+      "summary": "Ukrainian President Zelenskyy awards Elon Musk the Order of Freedom for Starlink's crucial role in Ukraine's war efforts, highlighting its strategic importance and ongoing diplomatic negotiations.",
+      "url": "https://www.ibtimes.com.au/elon-musk-ukraine-order-freedom-starlink-support-1874613",
+      "source": "Ibtimes.com.au",
+      "date": "Aug 26, 2026",
+      "publishedAt": "2026-08-26T15:57:43Z"
+    },
+    {
       "venture": "x",
       "label": "X",
       "headline": "X creates a new revenue model for creators — but will it actually win them over?",
@@ -53,5 +63,5 @@
       "publishedAt": "2026-08-25T04:01:00Z"
     }
   ],
-  "generatedAt": "2026-08-27T04:10:53.184Z"
+  "generatedAt": "2026-08-27T17:12:52.219Z"
 }
