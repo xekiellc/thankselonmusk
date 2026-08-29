@@ -3,6 +3,16 @@
   "displayDate": "Saturday, August 29, 2026",
   "items": [
     {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Louisiana built stages of the Saturn V rockets that carried astronauts to the Moon, but has never hosted an orbital launch. SpaceX now plans a $100 billion Gulf Coast spaceport targeting its first Starship flight in 2029 — with an eventual capacity of thousands a year.",
+      "summary": "SpaceX and Louisiana have announced a 125,000-acre Starship campus targeting a first flight in 2029, but its $100 billion full-buildout plan and thousands-per-year capacity still depend on vehicle reuse, infrastructure, licensing and coastal review.\nThe post …",
+      "url": "https://spacedaily.com/t-louisiana-spacex-100-billion-starbase-spaceport/",
+      "source": "Space Daily",
+      "date": "Aug 26, 2026",
+      "publishedAt": "2026-08-26T03:30:00Z"
+    },
+    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Elon Musk Says He Has Memorized The Design Of His AI Chip That Is Three Times Better Than NVIDIA’s AI Products",
@@ -43,5 +53,5 @@
       "publishedAt": "2026-08-25T04:01:00Z"
     }
   ],
-  "generatedAt": "2026-08-29T03:59:12.789Z"
+  "generatedAt": "2026-08-29T12:07:07.632Z"
 }
