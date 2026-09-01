@@ -5,12 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Louisiana built stages of the Saturn V rockets that carried astronauts to the Moon, but has never hosted an orbital launch. SpaceX now plans a $100 billion Gulf Coast spaceport targeting its first Starship flight in 2029 — with an eventual capacity of thousands a year.",
-      "summary": "SpaceX and Louisiana have announced a 125,000-acre Starship campus targeting a first flight in 2029, but its $100 billion full-buildout plan and thousands-per-year capacity still depend on vehicle reuse, infrastructure, licensing and coastal review.\nThe post …",
-      "url": "https://spacedaily.com/t-louisiana-spacex-100-billion-starbase-spaceport/",
-      "source": "Space Daily",
-      "date": "Aug 26, 2026",
-      "publishedAt": "2026-08-26T03:30:00Z"
+      "headline": "SpaceX Logs NASA Launch Success, Jumps Into Gas Turbine Business",
+      "summary": "Elon Musk confirmed SpaceX will produce gas turbine parts to expedite AI power needs. SpaceX launches NASA Roman Telescope.\nThe post SpaceX Logs NASA Launch Success, Jumps Into Gas Turbine Business appeared first on Investor's Business Daily.",
+      "url": "https://biztoc.com/x/b406763f7cb792bb",
+      "source": "Biztoc.com",
+      "date": "Aug 31, 2026",
+      "publishedAt": "2026-08-31T14:24:31Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "NASA’s Roman Space Telescope launches to reveal the Universe’s darkest secrets",
+      "summary": "NASA’s Roman Space Telescope has launched on a million mile journey to L2, where it will scan huge portions of the cosmos for clues about dark matter, dark energy, and distant worlds. With survey speeds roughly 1,000 times faster than Hubble and a torrent of …",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260831035213.htm",
+      "source": "Science Daily",
+      "date": "Aug 31, 2026",
+      "publishedAt": "2026-08-31T09:23:21Z"
     },
     {
       "venture": "tesla",
@@ -43,5 +53,5 @@
       "publishedAt": "2026-08-25T04:01:00Z"
     }
   ],
-  "generatedAt": "2026-09-01T10:56:22.207Z"
+  "generatedAt": "2026-09-01T15:55:46.994Z"
 }

@@ -1,8 +1,38 @@
 {
-  "lastUpdated": "2026-09-01T10:56:22.206Z",
-  "displayUpdated": "Sep 1, 2026, 10:56 AM UTC",
-  "totalArticles": 4,
+  "lastUpdated": "2026-09-01T15:55:46.993Z",
+  "displayUpdated": "Sep 1, 2026, 3:55 PM UTC",
+  "totalArticles": 6,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Logs NASA Launch Success, Jumps Into Gas Turbine Business",
+      "summary": "Elon Musk confirmed SpaceX will produce gas turbine parts to expedite AI power needs. SpaceX launches NASA Roman Telescope.\nThe post SpaceX Logs NASA Launch Success, Jumps Into Gas Turbine Business appeared first on Investor's Business Daily.",
+      "url": "https://biztoc.com/x/b406763f7cb792bb",
+      "source": "Biztoc.com",
+      "publishedAt": "2026-08-31T14:24:31Z",
+      "date": "Aug 31, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "NASA’s Roman Space Telescope launches to reveal the Universe’s darkest secrets",
+      "summary": "NASA’s Roman Space Telescope has launched on a million mile journey to L2, where it will scan huge portions of the cosmos for clues about dark matter, dark energy, and distant worlds. With survey speeds roughly 1,000 times faster than Hubble and a torrent of …",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260831035213.htm",
+      "source": "Science Daily",
+      "publishedAt": "2026-08-31T09:23:21Z",
+      "date": "Aug 31, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "NASA Launches Roman Space Telescope On a Milion-Mile Journey to Unlock Cosmic Secrets",
+      "summary": "NASA’s Nancy Grace Roman Space Telescope launches toward L2 to study dark matter, dark energy and exoplanets.",
+      "url": "https://incrediblethings.com/nasa-nancy-grace-roman-space-telescope-launch/",
+      "source": "Incrediblethings.com",
+      "publishedAt": "2026-08-30T14:51:03Z",
+      "date": "Aug 30, 2026"
+    },
     {
       "venture": "tesla",
       "label": "Tesla",
@@ -12,16 +42,6 @@
       "source": "Biztoc.com",
       "publishedAt": "2026-08-30T08:19:16Z",
       "date": "Aug 30, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Louisiana built stages of the Saturn V rockets that carried astronauts to the Moon, but has never hosted an orbital launch. SpaceX now plans a $100 billion Gulf Coast spaceport targeting its first Starship flight in 2029 — with an eventual capacity of thousands a year.",
-      "summary": "SpaceX and Louisiana have announced a 125,000-acre Starship campus targeting a first flight in 2029, but its $100 billion full-buildout plan and thousands-per-year capacity still depend on vehicle reuse, infrastructure, licensing and coastal review.\nThe post …",
-      "url": "https://spacedaily.com/t-louisiana-spacex-100-billion-starbase-spaceport/",
-      "source": "Space Daily",
-      "publishedAt": "2026-08-26T03:30:00Z",
-      "date": "Aug 26, 2026"
     },
     {
       "venture": "x",
