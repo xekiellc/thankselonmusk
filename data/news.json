@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-09-03T20:23:04.315Z",
-  "displayUpdated": "Sep 3, 2026, 8:23 PM UTC",
-  "totalArticles": 7,
+  "lastUpdated": "2026-09-04T00:37:50.291Z",
+  "displayUpdated": "Sep 4, 2026, 12:37 AM UTC",
+  "totalArticles": 6,
   "articles": [
+    {
+      "venture": "x",
+      "label": "X",
+      "headline": "X Replaces Stripe With X Money for US Creator Payouts",
+      "summary": "Social platform X is moving U.S. creator payouts to its own payments service, X Money, as it expands the role of its financial products within the platform. Starting Wednesday (Sep. 2), all payouts to creators in the United States participating in X’s Origina…",
+      "url": "https://www.pymnts.com/commerce/social-commerce/2026/x-replaces-stripe-united-states-creator-payouts/",
+      "source": "pymnts.com",
+      "publishedAt": "2026-09-02T21:56:51Z",
+      "date": "Sep 2, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -12,16 +22,6 @@
       "source": "Idownloadblog.com",
       "publishedAt": "2026-09-02T17:30:43Z",
       "date": "Sep 2, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Zuckerberg, Musk make plea at G20 for more AI data centers",
-      "summary": "The US tech bosses spoke virtually at a G20 meeting in Chapel Hill, North Carolina organized by the White House, which is dedicated to keeping the AI revolution largely free of government rules and scrutiny.\nThe post Zuckerberg, Musk make plea at G20 for more…",
-      "url": "https://www.digitaljournal.com/article/zuckerberg-musk-make-plea-at-g20-for-more-ai-data-centers/",
-      "source": "Digital Journal",
-      "publishedAt": "2026-09-01T20:23:11Z",
-      "date": "Sep 1, 2026"
     },
     {
       "venture": "spacex",
@@ -52,16 +52,6 @@
       "source": "Space Daily",
       "publishedAt": "2026-08-26T03:30:00Z",
       "date": "Aug 26, 2026"
-    },
-    {
-      "venture": "x",
-      "label": "X",
-      "headline": "X creates a new revenue model for creators — but will it actually win them over?",
-      "summary": "X's new \"original content rewards program\" seeks creators who publish high-quality content on the platform. Will it bring in more creators?",
-      "url": "http://digiday.com/media/x-creates-a-new-revenue-model-for-creators-but-will-it-actually-win-them-over/",
-      "source": "Digiday",
-      "publishedAt": "2026-08-25T04:01:00Z",
-      "date": "Aug 25, 2026"
     },
     {
       "venture": "tesla",
