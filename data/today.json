@@ -25,22 +25,22 @@
     {
       "venture": "tesla",
       "label": "Tesla",
+      "headline": "Tesla Shares Surge Ahead Of Highly Anticipated Cybercab Robotaxi Launch Event In Austin Texas",
+      "summary": "Tesla's shares surged as the company prepared to unveil the Cybercab, a key milestone in its autonomous vehicle strategy, at an event in Austin, highlighting its robotaxi ambitions.",
+      "url": "https://www.ibtimes.com.au/tesla-cybercab-launch-autonomous-vehicle-strategy-1874965",
+      "source": "Ibtimes.com.au",
+      "date": "Sep 3, 2026",
+      "publishedAt": "2026-09-03T14:34:18Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
       "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
       "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
       "url": "https://biztoc.com/x/c013242edc901d7b",
       "source": "Biztoc.com",
       "date": "Aug 30, 2026",
       "publishedAt": "2026-08-30T08:19:16Z"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla confirms Cybercab launch coming next week",
-      "summary": "Tesla confirmed it will hold a Cybercab event in Austin on September 3, promoting it with a poster that reads “Exclusive Access: Cybercab.” It’s an invite-only affair for the top scorers in its Robotaxi rider sweepstakes, and Tesla says it will livestream the…",
-      "url": "http://electrek.co/2026/08/24/tesla-cybercab-exclusive-access-robotaxi-sept-3/",
-      "source": "Electrek",
-      "date": "Aug 24, 2026",
-      "publishedAt": "2026-08-24T17:10:02Z"
     },
     {
       "venture": "x",
@@ -53,5 +53,5 @@
       "publishedAt": "2026-09-02T21:56:51Z"
     }
   ],
-  "generatedAt": "2026-09-04T10:21:47.337Z"
+  "generatedAt": "2026-09-04T15:35:48.726Z"
 }

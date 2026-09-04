@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-09-04T10:21:47.336Z",
-  "displayUpdated": "Sep 4, 2026, 10:21 AM UTC",
-  "totalArticles": 7,
+  "lastUpdated": "2026-09-04T15:35:48.724Z",
+  "displayUpdated": "Sep 4, 2026, 3:35 PM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla Shares Surge Ahead Of Highly Anticipated Cybercab Robotaxi Launch Event In Austin Texas",
+      "summary": "Tesla's shares surged as the company prepared to unveil the Cybercab, a key milestone in its autonomous vehicle strategy, at an event in Austin, highlighting its robotaxi ambitions.",
+      "url": "https://www.ibtimes.com.au/tesla-cybercab-launch-autonomous-vehicle-strategy-1874965",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-09-03T14:34:18Z",
+      "date": "Sep 3, 2026"
+    },
     {
       "venture": "x",
       "label": "X",
