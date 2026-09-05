@@ -15,12 +15,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Zuckerberg, Musk make plea at G20 for more AI data centers",
-      "summary": "The US tech bosses spoke virtually at a G20 meeting in Chapel Hill, North Carolina organized by the White House, which is dedicated to keeping the AI revolution largely free of government rules and scrutiny.\nThe post Zuckerberg, Musk make plea at G20 for more…",
-      "url": "https://www.digitaljournal.com/article/zuckerberg-musk-make-plea-at-g20-for-more-ai-data-centers/",
-      "source": "Digital Journal",
-      "date": "Sep 1, 2026",
-      "publishedAt": "2026-09-01T20:23:11Z"
+      "headline": "Louisiana built stages of the Saturn V rockets that carried astronauts to the Moon, but has never hosted an orbital launch. SpaceX now plans a $100 billion Gulf Coast spaceport targeting its first Starship flight in 2029 — with an eventual capacity of thousands a year.",
+      "summary": "SpaceX and Louisiana have announced a 125,000-acre Starship campus targeting a first flight in 2029, but its $100 billion full-buildout plan and thousands-per-year capacity still depend on vehicle reuse, infrastructure, licensing and coastal review.\nThe post …",
+      "url": "https://spacedaily.com/t-louisiana-spacex-100-billion-starbase-spaceport/",
+      "source": "Space Daily",
+      "date": "Aug 26, 2026",
+      "publishedAt": "2026-08-26T03:30:00Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "date": "Sep 4, 2026",
+      "publishedAt": "2026-09-04T00:27:46Z"
     },
     {
       "venture": "tesla",
@@ -33,16 +43,6 @@
       "publishedAt": "2026-09-03T14:34:18Z"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
-      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
-      "url": "https://biztoc.com/x/c013242edc901d7b",
-      "source": "Biztoc.com",
-      "date": "Aug 30, 2026",
-      "publishedAt": "2026-08-30T08:19:16Z"
-    },
-    {
       "venture": "x",
       "label": "X",
       "headline": "X Replaces Stripe With X Money for US Creator Payouts",
@@ -53,5 +53,5 @@
       "publishedAt": "2026-09-02T21:56:51Z"
     }
   ],
-  "generatedAt": "2026-09-05T09:49:17.927Z"
+  "generatedAt": "2026-09-05T14:23:36.983Z"
 }
