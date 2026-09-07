@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-07T00:36:49.268Z",
-  "displayUpdated": "Sep 7, 2026, 12:36 AM UTC",
-  "totalArticles": 5,
+  "lastUpdated": "2026-09-07T11:20:16.335Z",
+  "displayUpdated": "Sep 7, 2026, 11:20 AM UTC",
+  "totalArticles": 6,
   "articles": [
     {
       "venture": "tesla",
@@ -32,6 +32,16 @@
       "source": "pymnts.com",
       "publishedAt": "2026-09-02T21:56:51Z",
       "date": "Sep 2, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
+      "url": "https://biztoc.com/x/c013242edc901d7b",
+      "source": "Biztoc.com",
+      "publishedAt": "2026-08-30T08:19:16Z",
+      "date": "Aug 30, 2026"
     },
     {
       "venture": "spacex",
