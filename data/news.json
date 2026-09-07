@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-09-06T19:52:21.671Z",
-  "displayUpdated": "Sep 6, 2026, 7:52 PM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-09-07T00:36:49.268Z",
+  "displayUpdated": "Sep 7, 2026, 12:36 AM UTC",
+  "totalArticles": 5,
   "articles": [
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "publishedAt": "2026-09-04T00:27:46Z",
+      "date": "Sep 4, 2026"
+    },
     {
       "venture": "tesla",
       "label": "Tesla",
@@ -22,26 +32,6 @@
       "source": "pymnts.com",
       "publishedAt": "2026-09-02T21:56:51Z",
       "date": "Sep 2, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "NASA Nancy Grace Roman Telescope launch wallpapers",
-      "summary": "Download NASA’s Nancy Grace Roman Telescope launch wallpapers to bring the thrill of Falcon Heavy liftoff to iPhone or Android phone screen.",
-      "url": "https://www.idownloadblog.com/2026/09/02/roman-telescope-launch-wallpapers/",
-      "source": "Idownloadblog.com",
-      "publishedAt": "2026-09-02T17:30:43Z",
-      "date": "Sep 2, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
-      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
-      "url": "https://biztoc.com/x/c013242edc901d7b",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-30T08:19:16Z",
-      "date": "Aug 30, 2026"
     },
     {
       "venture": "spacex",
