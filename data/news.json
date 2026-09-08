@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-09-08T15:49:38.899Z",
-  "displayUpdated": "Sep 8, 2026, 3:49 PM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-09-08T20:34:50.211Z",
+  "displayUpdated": "Sep 8, 2026, 8:34 PM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Billionaire has 5-word response to Elon Musk's Tesla chart",
+      "summary": "A viral performance chart prompted the billionaire to weigh in on one of the market’s biggest success stories.",
+      "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
+      "source": "TheStreet",
+      "publishedAt": "2026-09-07T17:35:03Z",
+      "date": "Sep 7, 2026"
+    },
     {
       "venture": "tesla",
       "label": "Tesla",
@@ -32,6 +42,16 @@
       "source": "pymnts.com",
       "publishedAt": "2026-09-02T21:56:51Z",
       "date": "Sep 2, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Zuckerberg, Musk make plea at G20 for more AI data centers",
+      "summary": "The US tech bosses spoke virtually at a G20 meeting in Chapel Hill, North Carolina organized by the White House, which is dedicated to keeping the AI revolution largely free of government rules and scrutiny.\nThe post Zuckerberg, Musk make plea at G20 for more…",
+      "url": "https://www.digitaljournal.com/article/zuckerberg-musk-make-plea-at-g20-for-more-ai-data-centers/",
+      "source": "Digital Journal",
+      "publishedAt": "2026-09-01T20:23:11Z",
+      "date": "Sep 1, 2026"
     },
     {
       "venture": "tesla",
