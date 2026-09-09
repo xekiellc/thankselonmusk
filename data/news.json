@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-09-09T15:45:43.235Z",
-  "displayUpdated": "Sep 9, 2026, 3:45 PM UTC",
-  "totalArticles": 8,
+  "lastUpdated": "2026-09-09T20:17:23.311Z",
+  "displayUpdated": "Sep 9, 2026, 8:17 PM UTC",
+  "totalArticles": 10,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "How to Land a Rocket Launch ‘Space Jellyfish’",
+      "summary": "What used to be a rare sight gracing the twilight sky is now becoming strangely commonplace. If you live on either U.S. coast, you have to good chance at seeing what’s become a common sky scene in our modern technocene era: a space launch jellyfish.",
+      "url": "https://www.universetoday.com/articles/how-to-land-a-rocket-launch-space-jellyfish",
+      "source": "Universe Today",
+      "publishedAt": "2026-09-08T17:58:00Z",
+      "date": "Sep 8, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -11,6 +21,16 @@
       "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
       "source": "TheStreet",
       "publishedAt": "2026-09-07T17:35:03Z",
+      "date": "Sep 7, 2026"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk’s Boring Company Has an Unusual Requirement for Its New Funding Round",
+      "summary": "For startups raising fresh capital, the pitch to investors is typically straightforward: provide funding in exchange for equity. Elon Musk‘s The Boring Compa...",
+      "url": "https://www.benzinga.com/markets/private-markets/26/09/61648691/boring-company-funding-round?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
+      "source": "Benzinga",
+      "publishedAt": "2026-09-07T16:46:27Z",
       "date": "Sep 7, 2026"
     },
     {

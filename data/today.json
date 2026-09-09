@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "How to Land a Rocket Launch ‘Space Jellyfish’",
+      "summary": "What used to be a rare sight gracing the twilight sky is now becoming strangely commonplace. If you live on either U.S. coast, you have to good chance at seeing what’s become a common sky scene in our modern technocene era: a space launch jellyfish.",
+      "url": "https://www.universetoday.com/articles/how-to-land-a-rocket-launch-space-jellyfish",
+      "source": "Universe Today",
+      "date": "Sep 8, 2026",
+      "publishedAt": "2026-09-08T17:58:00Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Billionaire has 5-word response to Elon Musk's Tesla chart",
       "summary": "A viral performance chart prompted the billionaire to weigh in on one of the market’s biggest success stories.",
       "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
       "source": "TheStreet",
       "date": "Sep 7, 2026",
       "publishedAt": "2026-09-07T17:35:03Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Zuckerberg, Musk make plea at G20 for more AI data centers",
-      "summary": "The US tech bosses spoke virtually at a G20 meeting in Chapel Hill, North Carolina organized by the White House, which is dedicated to keeping the AI revolution largely free of government rules and scrutiny.\nThe post Zuckerberg, Musk make plea at G20 for more…",
-      "url": "https://www.digitaljournal.com/article/zuckerberg-musk-make-plea-at-g20-for-more-ai-data-centers/",
-      "source": "Digital Journal",
-      "date": "Sep 1, 2026",
-      "publishedAt": "2026-09-01T20:23:11Z"
     },
     {
       "venture": "tesla",
@@ -51,7 +51,17 @@
       "source": "pymnts.com",
       "date": "Sep 2, 2026",
       "publishedAt": "2026-09-02T21:56:51Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk’s Boring Company Has an Unusual Requirement for Its New Funding Round",
+      "summary": "For startups raising fresh capital, the pitch to investors is typically straightforward: provide funding in exchange for equity. Elon Musk‘s The Boring Compa...",
+      "url": "https://www.benzinga.com/markets/private-markets/26/09/61648691/boring-company-funding-round?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
+      "source": "Benzinga",
+      "date": "Sep 7, 2026",
+      "publishedAt": "2026-09-07T16:46:27Z"
     }
   ],
-  "generatedAt": "2026-09-09T15:45:43.236Z"
+  "generatedAt": "2026-09-09T20:17:23.312Z"
 }
