@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-10T00:45:29.625Z",
-  "displayUpdated": "Sep 10, 2026, 12:45 AM UTC",
-  "totalArticles": 10,
+  "lastUpdated": "2026-09-10T10:23:45.198Z",
+  "displayUpdated": "Sep 10, 2026, 10:23 AM UTC",
+  "totalArticles": 8,
   "articles": [
     {
       "venture": "spacex",
@@ -24,16 +24,6 @@
       "date": "Sep 7, 2026"
     },
     {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "Elon Musk’s Boring Company Has an Unusual Requirement for Its New Funding Round",
-      "summary": "For startups raising fresh capital, the pitch to investors is typically straightforward: provide funding in exchange for equity. Elon Musk‘s The Boring Compa...",
-      "url": "https://www.benzinga.com/markets/private-markets/26/09/61648691/boring-company-funding-round?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
-      "source": "Benzinga",
-      "publishedAt": "2026-09-07T16:46:27Z",
-      "date": "Sep 7, 2026"
-    },
-    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "The unusually muted Tesla Cybercab launch",
@@ -52,16 +42,6 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-09-03T14:34:18Z",
       "date": "Sep 3, 2026"
-    },
-    {
-      "venture": "x",
-      "label": "X",
-      "headline": "X Replaces Stripe With X Money for US Creator Payouts",
-      "summary": "Social platform X is moving U.S. creator payouts to its own payments service, X Money, as it expands the role of its financial products within the platform. Starting Wednesday (Sep. 2), all payouts to creators in the United States participating in X’s Origina…",
-      "url": "https://www.pymnts.com/commerce/social-commerce/2026/x-replaces-stripe-united-states-creator-payouts/",
-      "source": "pymnts.com",
-      "publishedAt": "2026-09-02T21:56:51Z",
-      "date": "Sep 2, 2026"
     },
     {
       "venture": "spacex",
