@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-10T10:23:45.198Z",
-  "displayUpdated": "Sep 10, 2026, 10:23 AM UTC",
-  "totalArticles": 8,
+  "lastUpdated": "2026-09-10T15:40:33.136Z",
+  "displayUpdated": "Sep 10, 2026, 3:40 PM UTC",
+  "totalArticles": 9,
   "articles": [
     {
       "venture": "spacex",
@@ -21,6 +21,16 @@
       "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
       "source": "TheStreet",
       "publishedAt": "2026-09-07T17:35:03Z",
+      "date": "Sep 7, 2026"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk’s Boring Company Has an Unusual Requirement for Its New Funding Round",
+      "summary": "For startups raising fresh capital, the pitch to investors is typically straightforward: provide funding in exchange for equity. Elon Musk‘s The Boring Compa...",
+      "url": "https://www.benzinga.com/markets/private-markets/26/09/61648691/boring-company-funding-round?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
+      "source": "Benzinga",
+      "publishedAt": "2026-09-07T16:46:27Z",
       "date": "Sep 7, 2026"
     },
     {
