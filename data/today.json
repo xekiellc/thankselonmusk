@@ -5,6 +5,16 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "Successful Orbital Launch: The Best Proven Milestone in Space",
+      "summary": "Successful orbital launch marks a new era in European space history.",
+      "url": "https://blogdoandroid.com/successful-orbital-launch/",
+      "source": "Blogdoandroid.com",
+      "date": "Sep 10, 2026",
+      "publishedAt": "2026-09-10T08:32:35Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Louisiana built stages of the Saturn V rockets that carried astronauts to the Moon, but has never hosted an orbital launch. SpaceX now plans a $100 billion Gulf Coast spaceport targeting its first Starship flight in 2029 — with an eventual capacity of thousands a year.",
       "summary": "SpaceX and Louisiana have announced a 125,000-acre Starship campus targeting a first flight in 2029, but its $100 billion full-buildout plan and thousands-per-year capacity still depend on vehicle reuse, infrastructure, licensing and coastal review.\nThe post …",
       "url": "https://spacedaily.com/t-louisiana-spacex-100-billion-starbase-spaceport/",
@@ -43,5 +53,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-11T10:25:35.913Z"
+  "generatedAt": "2026-09-11T15:41:44.482Z"
 }

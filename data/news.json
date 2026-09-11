@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-11T10:25:35.805Z",
-  "displayUpdated": "Sep 11, 2026, 10:25 AM UTC",
-  "totalArticles": 5,
+  "lastUpdated": "2026-09-11T15:41:44.481Z",
+  "displayUpdated": "Sep 11, 2026, 3:41 PM UTC",
+  "totalArticles": 7,
   "articles": [
     {
       "venture": "boring",
@@ -11,6 +11,16 @@
       "url": "https://thenextweb.com/news/boring-company-3bn-raise-23bn-valuation-uae-term-sheet",
       "source": "The Next Web",
       "publishedAt": "2026-09-10T10:05:32Z",
+      "date": "Sep 10, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Successful Orbital Launch: The Best Proven Milestone in Space",
+      "summary": "Successful orbital launch marks a new era in European space history.",
+      "url": "https://blogdoandroid.com/successful-orbital-launch/",
+      "source": "Blogdoandroid.com",
+      "publishedAt": "2026-09-10T08:32:35Z",
       "date": "Sep 10, 2026"
     },
     {
@@ -32,6 +42,16 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-09-03T14:34:18Z",
       "date": "Sep 3, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
+      "url": "https://biztoc.com/x/c013242edc901d7b",
+      "source": "Biztoc.com",
+      "publishedAt": "2026-08-30T08:19:16Z",
+      "date": "Aug 30, 2026"
     },
     {
       "venture": "spacex",
