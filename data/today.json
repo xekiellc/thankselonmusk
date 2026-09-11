@@ -15,22 +15,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Louisiana built stages of the Saturn V rockets that carried astronauts to the Moon, but has never hosted an orbital launch. SpaceX now plans a $100 billion Gulf Coast spaceport targeting its first Starship flight in 2029 — with an eventual capacity of thousands a year.",
-      "summary": "SpaceX and Louisiana have announced a 125,000-acre Starship campus targeting a first flight in 2029, but its $100 billion full-buildout plan and thousands-per-year capacity still depend on vehicle reuse, infrastructure, licensing and coastal review.\nThe post …",
-      "url": "https://spacedaily.com/t-louisiana-spacex-100-billion-starbase-spaceport/",
-      "source": "Space Daily",
-      "date": "Aug 26, 2026",
-      "publishedAt": "2026-08-26T03:30:00Z"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "The unusually muted Tesla Cybercab launch",
-      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "date": "Sep 4, 2026",
-      "publishedAt": "2026-09-04T00:27:46Z"
+      "headline": "How to Land a Rocket Launch ‘Space Jellyfish’",
+      "summary": "What used to be a rare sight gracing the twilight sky is now becoming strangely commonplace. If you live on either U.S. coast, you have to good chance at seeing what’s become a common sky scene in our modern technocene era: a space launch jellyfish.",
+      "url": "https://www.universetoday.com/articles/how-to-land-a-rocket-launch-space-jellyfish",
+      "source": "Universe Today",
+      "date": "Sep 8, 2026",
+      "publishedAt": "2026-09-08T17:58:00Z"
     },
     {
       "venture": "tesla",
@@ -43,6 +33,26 @@
       "publishedAt": "2026-09-03T14:34:18Z"
     },
     {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
+      "url": "https://biztoc.com/x/c013242edc901d7b",
+      "source": "Biztoc.com",
+      "date": "Aug 30, 2026",
+      "publishedAt": "2026-08-30T08:19:16Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk's Boring Co. turns to Middle East for expansion in reaching $23 billion valuation",
+      "summary": "The Boring Co.'s latest $3 billion financing round was led by the United Arab Emirates.",
+      "url": "https://www.cnbc.com/2026/09/10/elon-musk-boring-co-uae-valuation.html",
+      "source": "CNBC",
+      "date": "Sep 10, 2026",
+      "publishedAt": "2026-09-10T18:15:59Z"
+    },
+    {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "The Boring Company raises $3bn at a $23bn valuation, led by the UAE",
@@ -53,5 +63,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-11T15:41:44.482Z"
+  "generatedAt": "2026-09-11T20:19:23.930Z"
 }

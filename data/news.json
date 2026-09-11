@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-09-11T15:41:44.481Z",
-  "displayUpdated": "Sep 11, 2026, 3:41 PM UTC",
-  "totalArticles": 7,
+  "lastUpdated": "2026-09-11T20:19:23.929Z",
+  "displayUpdated": "Sep 11, 2026, 8:19 PM UTC",
+  "totalArticles": 9,
   "articles": [
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk's Boring Co. turns to Middle East for expansion in reaching $23 billion valuation",
+      "summary": "The Boring Co.'s latest $3 billion financing round was led by the United Arab Emirates.",
+      "url": "https://www.cnbc.com/2026/09/10/elon-musk-boring-co-uae-valuation.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-10T18:15:59Z",
+      "date": "Sep 10, 2026"
+    },
     {
       "venture": "boring",
       "label": "Boring Co",
@@ -11,6 +21,16 @@
       "url": "https://thenextweb.com/news/boring-company-3bn-raise-23bn-valuation-uae-term-sheet",
       "source": "The Next Web",
       "publishedAt": "2026-09-10T10:05:32Z",
+      "date": "Sep 10, 2026"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk's Boring Company Valuation Hits $23 Billion, 4 Times Its 2022 Mark",
+      "summary": "The UAE led a $3 billion round lifting the Musk Boring Company valuation to $23 billion, 4 times its 2022 mark.",
+      "url": "https://beincrypto.com/musk-boring-company-valuation-23-billion/",
+      "source": "BeInCrypto",
+      "publishedAt": "2026-09-10T08:40:06Z",
       "date": "Sep 10, 2026"
     },
     {
@@ -24,14 +44,14 @@
       "date": "Sep 10, 2026"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "The unusually muted Tesla Cybercab launch",
-      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "publishedAt": "2026-09-04T00:27:46Z",
-      "date": "Sep 4, 2026"
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "How to Land a Rocket Launch ‘Space Jellyfish’",
+      "summary": "What used to be a rare sight gracing the twilight sky is now becoming strangely commonplace. If you live on either U.S. coast, you have to good chance at seeing what’s become a common sky scene in our modern technocene era: a space launch jellyfish.",
+      "url": "https://www.universetoday.com/articles/how-to-land-a-rocket-launch-space-jellyfish",
+      "source": "Universe Today",
+      "publishedAt": "2026-09-08T17:58:00Z",
+      "date": "Sep 8, 2026"
     },
     {
       "venture": "tesla",
