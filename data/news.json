@@ -1,37 +1,17 @@
 {
-  "lastUpdated": "2026-09-11T00:45:59.322Z",
-  "displayUpdated": "Sep 11, 2026, 12:45 AM UTC",
-  "totalArticles": 8,
+  "lastUpdated": "2026-09-11T10:25:35.805Z",
+  "displayUpdated": "Sep 11, 2026, 10:25 AM UTC",
+  "totalArticles": 5,
   "articles": [
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "How to Land a Rocket Launch ‘Space Jellyfish’",
-      "summary": "What used to be a rare sight gracing the twilight sky is now becoming strangely commonplace. If you live on either U.S. coast, you have to good chance at seeing what’s become a common sky scene in our modern technocene era: a space launch jellyfish.",
-      "url": "https://www.universetoday.com/articles/how-to-land-a-rocket-launch-space-jellyfish",
-      "source": "Universe Today",
-      "publishedAt": "2026-09-08T17:58:00Z",
-      "date": "Sep 8, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Billionaire has 5-word response to Elon Musk's Tesla chart",
-      "summary": "A viral performance chart prompted the billionaire to weigh in on one of the market’s biggest success stories.",
-      "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
-      "source": "TheStreet",
-      "publishedAt": "2026-09-07T17:35:03Z",
-      "date": "Sep 7, 2026"
-    },
     {
       "venture": "boring",
       "label": "Boring Co",
-      "headline": "Elon Musk’s Boring Company Has an Unusual Requirement for Its New Funding Round",
-      "summary": "For startups raising fresh capital, the pitch to investors is typically straightforward: provide funding in exchange for equity. Elon Musk‘s The Boring Compa...",
-      "url": "https://www.benzinga.com/markets/private-markets/26/09/61648691/boring-company-funding-round?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
-      "source": "Benzinga",
-      "publishedAt": "2026-09-07T16:46:27Z",
-      "date": "Sep 7, 2026"
+      "headline": "The Boring Company raises $3bn at a $23bn valuation, led by the UAE",
+      "summary": "Elon Musk’s tunnelling company has raised $3bn at a valuation of $23bn, led by the United Arab Emirates and affiliated investment entities, four times what it was worth in 2022, and a long way from the Washington to New York hyperloop announced in 2017. The m…",
+      "url": "https://thenextweb.com/news/boring-company-3bn-raise-23bn-valuation-uae-term-sheet",
+      "source": "The Next Web",
+      "publishedAt": "2026-09-10T10:05:32Z",
+      "date": "Sep 10, 2026"
     },
     {
       "venture": "tesla",
@@ -52,16 +32,6 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-09-03T14:34:18Z",
       "date": "Sep 3, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
-      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
-      "url": "https://biztoc.com/x/c013242edc901d7b",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-30T08:19:16Z",
-      "date": "Aug 30, 2026"
     },
     {
       "venture": "spacex",
