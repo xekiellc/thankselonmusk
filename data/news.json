@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-09-12T14:49:39.970Z",
-  "displayUpdated": "Sep 12, 2026, 2:49 PM UTC",
-  "totalArticles": 7,
+  "lastUpdated": "2026-09-12T20:01:05.079Z",
+  "displayUpdated": "Sep 12, 2026, 8:01 PM UTC",
+  "totalArticles": 9,
   "articles": [
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX at $148: The Single Metric Investors Must Follow",
+      "summary": "SpaceX has carved out a dominant position in launch, satellite internet, and AI, but bulls at $148 are betting everything on a single number that could eithe...",
+      "url": "https://247wallst.com/investing/2026/09/11/spacex-at-148-the-single-metric-investors-must-follow/",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-09-11T11:01:29Z",
+      "date": "Sep 11, 2026"
+    },
     {
       "venture": "boring",
       "label": "Boring Co",
@@ -52,6 +62,16 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-09-03T14:34:18Z",
       "date": "Sep 3, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
+      "url": "https://biztoc.com/x/c013242edc901d7b",
+      "source": "Biztoc.com",
+      "publishedAt": "2026-08-30T08:19:16Z",
+      "date": "Aug 30, 2026"
     },
     {
       "venture": "spacex",
