@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-12T09:55:45.022Z",
-  "displayUpdated": "Sep 12, 2026, 9:55 AM UTC",
-  "totalArticles": 8,
+  "lastUpdated": "2026-09-12T14:49:39.970Z",
+  "displayUpdated": "Sep 12, 2026, 2:49 PM UTC",
+  "totalArticles": 7,
   "articles": [
     {
       "venture": "boring",
@@ -34,14 +34,14 @@
       "date": "Sep 10, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Successful Orbital Launch: The Best Proven Milestone in Space",
-      "summary": "Successful orbital launch marks a new era in European space history.",
-      "url": "https://blogdoandroid.com/successful-orbital-launch/",
-      "source": "Blogdoandroid.com",
-      "publishedAt": "2026-09-10T08:32:35Z",
-      "date": "Sep 10, 2026"
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "publishedAt": "2026-09-04T00:27:46Z",
+      "date": "Sep 4, 2026"
     },
     {
       "venture": "tesla",
@@ -52,16 +52,6 @@
       "source": "Ibtimes.com.au",
       "publishedAt": "2026-09-03T14:34:18Z",
       "date": "Sep 3, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
-      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
-      "url": "https://biztoc.com/x/c013242edc901d7b",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-30T08:19:16Z",
-      "date": "Aug 30, 2026"
     },
     {
       "venture": "spacex",

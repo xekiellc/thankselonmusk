@@ -5,16 +5,6 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Successful Orbital Launch: The Best Proven Milestone in Space",
-      "summary": "Successful orbital launch marks a new era in European space history.",
-      "url": "https://blogdoandroid.com/successful-orbital-launch/",
-      "source": "Blogdoandroid.com",
-      "date": "Sep 10, 2026",
-      "publishedAt": "2026-09-10T08:32:35Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
       "headline": "Louisiana built stages of the Saturn V rockets that carried astronauts to the Moon, but has never hosted an orbital launch. SpaceX now plans a $100 billion Gulf Coast spaceport targeting its first Starship flight in 2029 — with an eventual capacity of thousands a year.",
       "summary": "SpaceX and Louisiana have announced a 125,000-acre Starship campus targeting a first flight in 2029, but its $100 billion full-buildout plan and thousands-per-year capacity still depend on vehicle reuse, infrastructure, licensing and coastal review.\nThe post …",
       "url": "https://spacedaily.com/t-louisiana-spacex-100-billion-starbase-spaceport/",
@@ -25,22 +15,22 @@
     {
       "venture": "tesla",
       "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "date": "Sep 4, 2026",
+      "publishedAt": "2026-09-04T00:27:46Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
       "headline": "Tesla Shares Surge Ahead Of Highly Anticipated Cybercab Robotaxi Launch Event In Austin Texas",
       "summary": "Tesla's shares surged as the company prepared to unveil the Cybercab, a key milestone in its autonomous vehicle strategy, at an event in Austin, highlighting its robotaxi ambitions.",
       "url": "https://www.ibtimes.com.au/tesla-cybercab-launch-autonomous-vehicle-strategy-1874965",
       "source": "Ibtimes.com.au",
       "date": "Sep 3, 2026",
       "publishedAt": "2026-09-03T14:34:18Z"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
-      "summary": "The hype around humanoid robots isn’t particularly new. Thank Tesla CEO Elon Musk and his Optimus robot, as well as the myriad videos of Boston Dynamics’ Atlas robot, for that.\nBehind that hype, though, there is real progress. The physical capabilities of rob…",
-      "url": "https://biztoc.com/x/c013242edc901d7b",
-      "source": "Biztoc.com",
-      "date": "Aug 30, 2026",
-      "publishedAt": "2026-08-30T08:19:16Z"
     },
     {
       "venture": "boring",
@@ -63,5 +53,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-12T09:55:45.023Z"
+  "generatedAt": "2026-09-12T14:49:39.972Z"
 }
