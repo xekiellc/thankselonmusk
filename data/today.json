@@ -3,14 +3,14 @@
   "displayDate": "Sunday, September 13, 2026",
   "items": [
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "The unusually muted Tesla Cybercab launch",
-      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "date": "Sep 4, 2026",
-      "publishedAt": "2026-09-04T00:27:46Z"
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Breaking: Starship's Biggest Flight Yet Is Just Days Away! [23:31]",
+      "summary": "SpaceX's Starship Flight 14 has a launch window, and a Starship is back at the launch pad with a surprising twist! We dive into plans for Starlink V3 deployment, Ship 42's catch-system tests, Super Heavy Booster 22's cryogenic testing, and major upgrades at S…",
+      "url": "https://freerepublic.com/focus/f-bloggers/4395275/posts",
+      "source": "Freerepublic.com",
+      "date": "Sep 12, 2026",
+      "publishedAt": "2026-09-12T20:05:27Z"
     },
     {
       "venture": "tesla",
@@ -21,6 +21,16 @@
       "source": "Ibtimes.com.au",
       "date": "Sep 3, 2026",
       "publishedAt": "2026-09-03T14:34:18Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla confirms Cybercab launch coming next week",
+      "summary": "Tesla confirmed it will hold a Cybercab event in Austin on September 3, promoting it with a poster that reads “Exclusive Access: Cybercab.” It’s an invite-only affair for the top scorers in its Robotaxi rider sweepstakes, and Tesla says it will livestream the…",
+      "url": "http://electrek.co/2026/08/24/tesla-cybercab-exclusive-access-robotaxi-sept-3/",
+      "source": "Electrek",
+      "date": "Aug 24, 2026",
+      "publishedAt": "2026-08-24T17:10:02Z"
     },
     {
       "venture": "boring",
@@ -43,5 +53,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-13T15:27:36.249Z"
+  "generatedAt": "2026-09-13T20:08:00.981Z"
 }
