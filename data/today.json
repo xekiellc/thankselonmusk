@@ -1,6 +1,67 @@
 {
-  "date": "2026-09-21",
-  "displayDate": "Monday, September 21, 2026",
-  "items": [],
-  "generatedAt": "2026-09-21T21:33:43.242Z"
+  "date": "2026-09-22",
+  "displayDate": "Tuesday, September 22, 2026",
+  "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX will try to put Starship in orbit for the first time on September 22 | TechCrunch",
+      "summary": "Elon Musk's company will also attempt to deploy the first V3 Starlink satellites into its orbital internet constellation.",
+      "url": "https://techcrunch.com/2026/09/15/spacex-will-try-to-put-starship-in-orbit-for-the-first-time-on-september-22/",
+      "source": "TechCrunch",
+      "date": "Sep 15, 2026",
+      "publishedAt": "2026-09-15T18:26:21Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk sends strong signal for SpaceX, Nvidia stocks",
+      "summary": "A major SpaceX AI milestone may arrive sooner than expected.",
+      "url": "https://www.thestreet.com/investing/stocks/elon-musk-spacex-nvidia-ai-2027",
+      "source": "TheStreet",
+      "date": "Sep 14, 2026",
+      "publishedAt": "2026-09-14T21:03:00Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "date": "Sep 4, 2026",
+      "publishedAt": "2026-09-04T00:27:46Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla confirms Cybercab launch coming next week",
+      "summary": "Tesla confirmed it will hold a Cybercab event in Austin on September 3, promoting it with a poster that reads “Exclusive Access: Cybercab.” It’s an invite-only affair for the top scorers in its Robotaxi rider sweepstakes, and Tesla says it will livestream the…",
+      "url": "http://electrek.co/2026/08/24/tesla-cybercab-exclusive-access-robotaxi-sept-3/",
+      "source": "Electrek",
+      "date": "Aug 24, 2026",
+      "publishedAt": "2026-08-24T17:10:02Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "Elon Musk's Boring Co. turns to Middle East for expansion in reaching $23 billion valuation",
+      "summary": "The Boring Co.'s latest $3 billion financing round was led by the United Arab Emirates.",
+      "url": "https://www.cnbc.com/2026/09/10/elon-musk-boring-co-uae-valuation.html",
+      "source": "CNBC",
+      "date": "Sep 10, 2026",
+      "publishedAt": "2026-09-10T18:15:59Z"
+    },
+    {
+      "venture": "boring",
+      "label": "Boring Co",
+      "headline": "The Boring Company raises $3bn at a $23bn valuation, led by the UAE",
+      "summary": "Elon Musk’s tunnelling company has raised $3bn at a valuation of $23bn, led by the United Arab Emirates and affiliated investment entities, four times what it was worth in 2022, and a long way from the Washington to New York hyperloop announced in 2017. The m…",
+      "url": "https://thenextweb.com/news/boring-company-3bn-raise-23bn-valuation-uae-term-sheet",
+      "source": "The Next Web",
+      "date": "Sep 10, 2026",
+      "publishedAt": "2026-09-10T10:05:32Z"
+    }
+  ],
+  "generatedAt": "2026-09-22T01:23:20.518Z"
 }
