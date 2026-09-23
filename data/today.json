@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-22",
-  "displayDate": "Tuesday, September 22, 2026",
+  "date": "2026-09-23",
+  "displayDate": "Wednesday, September 23, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -21,6 +21,16 @@
       "source": "TheStreet",
       "date": "Sep 14, 2026",
       "publishedAt": "2026-09-14T21:03:00Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla speeds up Optimus mass production with China supply chain visits",
+      "summary": "Tesla is reportedly making new progress toward mass production of its Optimus humanoid robots, with the company's robot team conducting intensive supplier audits across China's Yangtze River Delta last week. The visits covered Ningbo, Hangzhou, and Shanghai a…",
+      "url": "https://www.digitimes.com/news/a20260921PD235/tesla-production-optimus-robot-supply-chain.html",
+      "source": "Digitimes",
+      "date": "Sep 21, 2026",
+      "publishedAt": "2026-09-21T23:20:09Z"
     },
     {
       "venture": "tesla",
@@ -53,5 +63,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-22T20:45:20.673Z"
+  "generatedAt": "2026-09-23T01:09:12.825Z"
 }
