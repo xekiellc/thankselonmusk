@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-09-23T20:57:36.055Z",
-  "displayUpdated": "Sep 23, 2026, 8:57 PM UTC",
-  "totalArticles": 4,
+  "lastUpdated": "2026-09-24T00:59:48.870Z",
+  "displayUpdated": "Sep 24, 2026, 12:59 AM UTC",
+  "totalArticles": 5,
   "articles": [
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Why Cathie Wood Says SpaceX Stock Could Be a Deep-Value Buy",
+      "summary": "Wood sees SpaceX as a potential deep-value buy, with Starship’s ambitious growth plans opening the door to a $10 trillion revenue opportunity.",
+      "url": "https://www.barchart.com/story/news/4732545/why-cathie-wood-says-spacex-stock-could-be-a-deep-value-buy",
+      "source": "Barchart.com",
+      "publishedAt": "2026-09-22T13:00:02Z",
+      "date": "Sep 22, 2026"
+    },
     {
       "venture": "tesla",
       "label": "Tesla",

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-23",
-  "displayDate": "Wednesday, September 23, 2026",
+  "date": "2026-09-24",
+  "displayDate": "Thursday, September 24, 2026",
   "items": [
     {
       "venture": "tesla",
@@ -23,6 +23,16 @@
       "publishedAt": "2026-08-24T17:10:02Z"
     },
     {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Why Cathie Wood Says SpaceX Stock Could Be a Deep-Value Buy",
+      "summary": "Wood sees SpaceX as a potential deep-value buy, with Starship’s ambitious growth plans opening the door to a $10 trillion revenue opportunity.",
+      "url": "https://www.barchart.com/story/news/4732545/why-cathie-wood-says-spacex-stock-could-be-a-deep-value-buy",
+      "source": "Barchart.com",
+      "date": "Sep 22, 2026",
+      "publishedAt": "2026-09-22T13:00:02Z"
+    },
+    {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "Elon Musk's Boring Co. turns to Middle East for expansion in reaching $23 billion valuation",
@@ -43,5 +53,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-23T20:57:36.056Z"
+  "generatedAt": "2026-09-24T00:59:48.871Z"
 }
