@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX Clears Launch Rehearsal Ahead of Starship’s First Orbital Attempt",
+      "summary": "During this milestone test, Starship will circle the Earth six times over ten hours at an altitude of 171 miles before touching down.\nThe post SpaceX Clears Launch Rehearsal Ahead of Starship’s First Orbital Attempt first appeared on Le·gal In·sur·rec·tion.",
+      "url": "https://legalinsurrection.com/2026/09/spacex-clears-launch-rehearsal-ahead-of-starships-first-orbital-attempt/",
+      "source": "Legalinsurrection.com",
+      "date": "Sep 26, 2026",
+      "publishedAt": "2026-09-26T16:00:29Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "This Week in Space 229: Is It Starship's Time?",
       "summary": "This week it's Rod and Tariq working through the most important space headlines. The big story: Starship could launch test flight 14 as early as Monday the 28th. We've seen lots of tests, but this is the first attempt at an orbital flight, the success of whic…",
       "url": "https://twit.tv/shows/this-week-in-space/episodes/229",
       "source": "Twit.tv",
       "date": "Sep 25, 2026",
       "publishedAt": "2026-09-25T22:14:30Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Preparing for Most Important Launch in Company History on Monday",
-      "summary": "A lot is riding on this attempt.\nThe post SpaceX Preparing for Most Important Launch in Company History on Monday appeared first on Futurism.",
-      "url": "https://futurism.com/space/spacex-preparing-most-important-starship-launch",
-      "source": "Futurism",
-      "date": "Sep 25, 2026",
-      "publishedAt": "2026-09-25T14:51:04Z"
     },
     {
       "venture": "tesla",
@@ -83,5 +83,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-27T11:11:44.284Z"
+  "generatedAt": "2026-09-27T16:12:45.033Z"
 }
