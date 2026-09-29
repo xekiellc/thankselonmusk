@@ -5,12 +5,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX puts Starship megarocket in orbit for first time",
-      "summary": "The black-and-silver behemoth, standing more than 120 meters (131 yards) tall, rose through a thick cloud of smoke on an ambitious 14th test flight.\nThe post SpaceX puts Starship megarocket in orbit for first time appeared first on Digital Journal.",
-      "url": "https://www.digitaljournal.com/article/spacex-puts-starship-megarocket-in-orbit-for-first-time/",
-      "source": "Digital Journal",
+      "headline": "A SpaceX Starship Rocket Officially Reached Orbit. Why That's So Significant",
+      "summary": "SpaceX achieves a long-promised orbit—with the moon and Mars the long-term goal.",
+      "url": "https://time.com/article/2026/09/28/spacex-starship-orbit-what-to-know/",
+      "source": "Time",
       "date": "Sep 28, 2026",
-      "publishedAt": "2026-09-28T13:50:11Z"
+      "publishedAt": "2026-09-28T19:22:46Z"
     },
     {
       "venture": "tesla",
@@ -21,16 +21,6 @@
       "source": "Digitimes",
       "date": "Sep 21, 2026",
       "publishedAt": "2026-09-21T23:20:09Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "5 Major New Technologies Elon Musk's Companies Are Racing to Build Across Space, AI and Robotics This Year",
-      "summary": "Musk's companies are pursuing major 2026 projects involving brain implants, Starship, humanoid robots, autonomous vehicles, semiconductor manufacturing and AI infrastructure, despite significant uncertainty around delivery timelines.",
-      "url": "https://www.ibtimes.com.au/musk-companies-2026-technology-projects-1875838",
-      "source": "Ibtimes.com.au",
-      "date": "Sep 25, 2026",
-      "publishedAt": "2026-09-25T02:22:17Z"
     },
     {
       "venture": "starlink",
@@ -63,5 +53,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-29T17:44:38.795Z"
+  "generatedAt": "2026-09-29T21:45:24.788Z"
 }
