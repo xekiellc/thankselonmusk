@@ -5,22 +5,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Watch Live as SpaceX’s Starship Attempts to Reach Orbit for the First Time",
-      "summary": "Flight 14 will be unlike any Starship launch you've seen before.",
-      "url": "https://gizmodo.com/watch-live-as-spacexs-starship-attempts-to-reach-orbit-for-the-first-time-2000817575",
-      "source": "Gizmodo.com",
+      "headline": "SpaceX puts Starship megarocket in orbit for first time",
+      "summary": "The black-and-silver behemoth, standing more than 120 meters (131 yards) tall, rose through a thick cloud of smoke on an ambitious 14th test flight.\nThe post SpaceX puts Starship megarocket in orbit for first time appeared first on Digital Journal.",
+      "url": "https://www.digitaljournal.com/article/spacex-puts-starship-megarocket-in-orbit-for-first-time/",
+      "source": "Digital Journal",
       "date": "Sep 28, 2026",
-      "publishedAt": "2026-09-28T10:00:20Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Starship targets first orbital flight as Musk pushes rocket towards Moon, Mars",
-      "summary": "SpaceX's Starship rocket is set to attempt its first orbital flight after years of development and testing. The launch will occur in Texas with goals including deploying 26 Starlink satellites into orbit. As the rocket journeys, it will orbit the Earth six ti…",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/spacex-starship-targets-first-orbital-flight-as-musk-pushes-rocket-towards-moon-mars/articleshow/134529566.cms",
-      "source": "The Times of India",
-      "date": "Sep 28, 2026",
-      "publishedAt": "2026-09-28T01:50:31Z"
+      "publishedAt": "2026-09-28T13:50:11Z"
     },
     {
       "venture": "tesla",
@@ -73,5 +63,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-29T11:57:30.735Z"
+  "generatedAt": "2026-09-29T17:44:38.795Z"
 }
