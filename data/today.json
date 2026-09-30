@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX’s Starship makes its debut in orbit",
-      "summary": "Like a middle schooler at the gas station, Starship just hit orbit for the first time. A couple of years before it could be used as a NASA lunar lander, SpaceX’s biggest rocket reached this milestone yesterday, surpassing the suborbital levels of its previous…",
-      "url": "https://biztoc.com/x/b78a07a64b9bdb30",
-      "source": "Biztoc.com",
+      "headline": "SpaceX's Starship finally reaches orbit and puts 26 Starlink satellites into space",
+      "summary": "Starship lifted off from SpaceX's Starbase facility in South Texas as its Super Heavy booster, powered by 33 Raptor engines, sent the 407-foot rocket east over the Gulf of Mexico. The booster separated from Starship and turned back toward the Texas coast, lat…",
+      "url": "https://www.techspot.com/news/114024-spacex-starship-finally-reaches-orbit-puts-26-starlink.html",
+      "source": "TechSpot",
       "date": "Sep 29, 2026",
-      "publishedAt": "2026-09-29T04:11:57Z"
+      "publishedAt": "2026-09-29T15:26:00Z"
     },
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "A SpaceX Starship Rocket Officially Reached Orbit. Why That's So Significant",
-      "summary": "SpaceX achieves a long-promised orbit—with the moon and Mars the long-term goal.",
-      "url": "https://time.com/article/2026/09/28/spacex-starship-orbit-what-to-know/",
-      "source": "Time",
-      "date": "Sep 28, 2026",
-      "publishedAt": "2026-09-28T19:22:46Z"
+      "headline": "SpaceX deploys V3 Starlink satellites as Starship reaches orbit",
+      "summary": "Fourteenth Starship test launch sees Elon Musk’s new rocket release next-gen comms satellitesThe successful flight is the first time Starship has reached orbit…",
+      "url": "https://www.telecomtv.com/content/next-gen-telco-infra/spacex-deploys-v3-starlink-satellites-as-starship-reaches-orbit-56354/",
+      "source": "TelecomTV",
+      "date": "Sep 29, 2026",
+      "publishedAt": "2026-09-29T13:03:47Z"
     },
     {
       "venture": "tesla",
@@ -33,14 +33,14 @@
       "publishedAt": "2026-09-21T23:20:09Z"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "The unusually muted Tesla Cybercab launch",
-      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "date": "Sep 4, 2026",
-      "publishedAt": "2026-09-04T00:27:46Z"
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "5 Major New Technologies Elon Musk's Companies Are Racing to Build Across Space, AI and Robotics This Year",
+      "summary": "Musk's companies are pursuing major 2026 projects involving brain implants, Starship, humanoid robots, autonomous vehicles, semiconductor manufacturing and AI infrastructure, despite significant uncertainty around delivery timelines.",
+      "url": "https://www.ibtimes.com.au/musk-companies-2026-technology-projects-1875838",
+      "source": "Ibtimes.com.au",
+      "date": "Sep 25, 2026",
+      "publishedAt": "2026-09-25T02:22:17Z"
     },
     {
       "venture": "starlink",
@@ -73,5 +73,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-30T11:45:36.076Z"
+  "generatedAt": "2026-09-30T17:25:50.479Z"
 }
