@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-30T17:25:50.478Z",
-  "displayUpdated": "Sep 30, 2026, 5:25 PM UTC",
+  "lastUpdated": "2026-09-30T21:45:50.771Z",
+  "displayUpdated": "Sep 30, 2026, 9:45 PM UTC",
   "totalArticles": 8,
   "articles": [
     {
@@ -21,16 +21,6 @@
       "url": "https://www.telecomtv.com/content/next-gen-telco-infra/spacex-deploys-v3-starlink-satellites-as-starship-reaches-orbit-56354/",
       "source": "TelecomTV",
       "publishedAt": "2026-09-29T13:03:47Z",
-      "date": "Sep 29, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX celebrates as Starship reaches Earth's orbit for the first time",
-      "summary": "The latest test launch achieved a major milestone in the quest to build a rocket capable of carrying humans to Mars. There was much to celebrate at Sp...",
-      "url": "https://www.unexplained-mysteries.com/news/400167/spacex-celebrates-as-starship-reaches-earths-orbit-for-the-first-time",
-      "source": "Unexplained-mysteries.com",
-      "publishedAt": "2026-09-29T11:54:21Z",
       "date": "Sep 29, 2026"
     },
     {
@@ -82,6 +72,16 @@
       "source": "The Next Web",
       "publishedAt": "2026-09-10T10:05:32Z",
       "date": "Sep 10, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "publishedAt": "2026-09-04T00:27:46Z",
+      "date": "Sep 4, 2026"
     }
   ]
 }
