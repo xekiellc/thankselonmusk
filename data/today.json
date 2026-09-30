@@ -5,6 +5,16 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX’s Starship makes its debut in orbit",
+      "summary": "Like a middle schooler at the gas station, Starship just hit orbit for the first time. A couple of years before it could be used as a NASA lunar lander, SpaceX’s biggest rocket reached this milestone yesterday, surpassing the suborbital levels of its previous…",
+      "url": "https://biztoc.com/x/b78a07a64b9bdb30",
+      "source": "Biztoc.com",
+      "date": "Sep 29, 2026",
+      "publishedAt": "2026-09-29T04:11:57Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "A SpaceX Starship Rocket Officially Reached Orbit. Why That's So Significant",
       "summary": "SpaceX achieves a long-promised orbit—with the moon and Mars the long-term goal.",
       "url": "https://time.com/article/2026/09/28/spacex-starship-orbit-what-to-know/",
@@ -21,6 +31,16 @@
       "source": "Digitimes",
       "date": "Sep 21, 2026",
       "publishedAt": "2026-09-21T23:20:09Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "date": "Sep 4, 2026",
+      "publishedAt": "2026-09-04T00:27:46Z"
     },
     {
       "venture": "starlink",
@@ -53,5 +73,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-30T01:47:06.633Z"
+  "generatedAt": "2026-09-30T11:45:36.076Z"
 }
