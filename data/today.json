@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "displayDate": "Wednesday, September 30, 2026",
+  "date": "2026-10-01",
+  "displayDate": "Thursday, October 1, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -45,16 +45,6 @@
     {
       "venture": "starlink",
       "label": "Starlink",
-      "headline": "5 Major New Technologies Elon Musk's Companies Are Racing to Build Across Space, AI and Robotics This Year",
-      "summary": "Musk's companies are pursuing major 2026 projects involving brain implants, Starship, humanoid robots, autonomous vehicles, semiconductor manufacturing and AI infrastructure, despite significant uncertainty around delivery timelines.",
-      "url": "https://www.ibtimes.com.au/musk-companies-2026-technology-projects-1875838",
-      "source": "Ibtimes.com.au",
-      "date": "Sep 25, 2026",
-      "publishedAt": "2026-09-25T02:22:17Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
       "headline": "Why Cathie Wood Says SpaceX Stock Could Be a Deep-Value Buy",
       "summary": "Wood sees SpaceX as a potential deep-value buy, with Starship’s ambitious growth plans opening the door to a $10 trillion revenue opportunity.",
       "url": "https://www.barchart.com/story/news/4732545/why-cathie-wood-says-spacex-stock-could-be-a-deep-value-buy",
@@ -83,5 +73,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-09-30T21:45:50.779Z"
+  "generatedAt": "2026-10-01T01:44:20.672Z"
 }
