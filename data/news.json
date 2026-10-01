@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-01T01:44:20.671Z",
-  "displayUpdated": "Oct 1, 2026, 1:44 AM UTC",
-  "totalArticles": 7,
+  "lastUpdated": "2026-10-01T12:14:20.247Z",
+  "displayUpdated": "Oct 1, 2026, 12:14 PM UTC",
+  "totalArticles": 6,
   "articles": [
     {
       "venture": "spacex",
@@ -62,16 +62,6 @@
       "source": "The Next Web",
       "publishedAt": "2026-09-10T10:05:32Z",
       "date": "Sep 10, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "The unusually muted Tesla Cybercab launch",
-      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "publishedAt": "2026-09-04T00:27:46Z",
-      "date": "Sep 4, 2026"
     }
   ]
 }

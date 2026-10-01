@@ -33,16 +33,6 @@
       "publishedAt": "2026-09-21T23:20:09Z"
     },
     {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "The unusually muted Tesla Cybercab launch",
-      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "date": "Sep 4, 2026",
-      "publishedAt": "2026-09-04T00:27:46Z"
-    },
-    {
       "venture": "starlink",
       "label": "Starlink",
       "headline": "Why Cathie Wood Says SpaceX Stock Could Be a Deep-Value Buy",
@@ -73,5 +63,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-01T01:44:20.672Z"
+  "generatedAt": "2026-10-01T12:14:20.249Z"
 }
