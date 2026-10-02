@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "NASA's SpaceX Crew-13 launches as astronaut brings 100-year-old heirloom on trip",
+      "summary": "The crew launched to the International Space Station on Thursday morning.",
+      "url": "https://abcnews.com/US/nasas-spacex-crew-13-astronaut-bringing-100-year/story?id=136906539",
+      "source": "Abcnews.com",
+      "date": "Oct 1, 2026",
+      "publishedAt": "2026-10-01T16:19:18Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Canadian astronaut Joshua Kutryk to launch to International Space Station",
       "summary": "As the sun rises over Florida's iconic Kennedy Space Center on Thursday morning, Canadian astronaut Joshua Kutryk will be making the final preparations to fulfil his lifelong dream of blasting off into space.",
       "url": "https://www.nationalobserver.com/2026/10/01/news/canadian-astronaut-joshua-kutryk-launch-international-space-station",
       "source": "National Observer",
       "date": "Oct 1, 2026",
       "publishedAt": "2026-10-01T10:54:19Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Netflix to Livestream NASA’s SpaceX Crew-13 Launch Worldwide",
-      "summary": "Following the massive success of the Artemis II lunar flyby and splashdown this Summer, Netflix will stream NASA's upcoming SpaceX Crew-13 liftoff live to subscribers globally.",
-      "url": "https://www.whats-on-netflix.com/news/netflix-to-livestream-nasas-spacex-crew-13-launch-worldwide/",
-      "source": "What's on Netflix",
-      "date": "Sep 30, 2026",
-      "publishedAt": "2026-09-30T22:57:35Z"
     },
     {
       "venture": "tesla",
@@ -83,5 +83,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-02T11:43:34.706Z"
+  "generatedAt": "2026-10-02T17:15:20.661Z"
 }

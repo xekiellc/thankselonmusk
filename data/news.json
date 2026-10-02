@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-10-02T11:43:34.705Z",
-  "displayUpdated": "Oct 2, 2026, 11:43 AM UTC",
+  "lastUpdated": "2026-10-02T17:15:20.660Z",
+  "displayUpdated": "Oct 2, 2026, 5:15 PM UTC",
   "totalArticles": 10,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "NASA's SpaceX Crew-13 launches as astronaut brings 100-year-old heirloom on trip",
+      "summary": "The crew launched to the International Space Station on Thursday morning.",
+      "url": "https://abcnews.com/US/nasas-spacex-crew-13-astronaut-bringing-100-year/story?id=136906539",
+      "source": "Abcnews.com",
+      "publishedAt": "2026-10-01T16:19:18Z",
+      "date": "Oct 1, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -12,16 +22,6 @@
       "source": "National Observer",
       "publishedAt": "2026-10-01T10:54:19Z",
       "date": "Oct 1, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Netflix to Livestream NASA’s SpaceX Crew-13 Launch Worldwide",
-      "summary": "Following the massive success of the Artemis II lunar flyby and splashdown this Summer, Netflix will stream NASA's upcoming SpaceX Crew-13 liftoff live to subscribers globally.",
-      "url": "https://www.whats-on-netflix.com/news/netflix-to-livestream-nasas-spacex-crew-13-launch-worldwide/",
-      "source": "What's on Netflix",
-      "publishedAt": "2026-09-30T22:57:35Z",
-      "date": "Sep 30, 2026"
     },
     {
       "venture": "spacex",
