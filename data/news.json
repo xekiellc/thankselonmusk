@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-10-01T22:13:42.695Z",
-  "displayUpdated": "Oct 1, 2026, 10:13 PM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-10-02T01:55:45.267Z",
+  "displayUpdated": "Oct 2, 2026, 1:55 AM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Netflix to Livestream NASA’s SpaceX Crew-13 Launch Worldwide",
+      "summary": "Following the massive success of the Artemis II lunar flyby and splashdown this Summer, Netflix will stream NASA's upcoming SpaceX Crew-13 liftoff live to subscribers globally.",
+      "url": "https://www.whats-on-netflix.com/news/netflix-to-livestream-nasas-spacex-crew-13-launch-worldwide/",
+      "source": "What's on Netflix",
+      "publishedAt": "2026-09-30T22:57:35Z",
+      "date": "Sep 30, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Starship’s first orbital flight put its heat shield to the test – how it fares could determine if SpaceX’s vision is possible",
+      "summary": "Starship’s heat shield is made of up of an array of ceramic tiles. Each is a small component, but together they have large consequences.",
+      "url": "https://theconversation.com/starships-first-orbital-flight-put-its-heat-shield-to-the-test-how-it-fares-could-determine-if-spacexs-vision-is-possible-292960",
+      "source": "The Conversation Africa",
+      "publishedAt": "2026-09-29T20:20:06Z",
+      "date": "Sep 29, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -14,14 +34,14 @@
       "date": "Sep 29, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX deploys V3 Starlink satellites as Starship reaches orbit",
-      "summary": "Fourteenth Starship test launch sees Elon Musk’s new rocket release next-gen comms satellitesThe successful flight is the first time Starship has reached orbit…",
-      "url": "https://www.telecomtv.com/content/next-gen-telco-infra/spacex-deploys-v3-starlink-satellites-as-starship-reaches-orbit-56354/",
-      "source": "TelecomTV",
-      "publishedAt": "2026-09-29T13:03:47Z",
-      "date": "Sep 29, 2026"
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "5 Major New Technologies Elon Musk's Companies Are Racing to Build Across Space, AI and Robotics This Year",
+      "summary": "Musk's companies are pursuing major 2026 projects involving brain implants, Starship, humanoid robots, autonomous vehicles, semiconductor manufacturing and AI infrastructure, despite significant uncertainty around delivery timelines.",
+      "url": "https://www.ibtimes.com.au/musk-companies-2026-technology-projects-1875838",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-09-25T02:22:17Z",
+      "date": "Sep 25, 2026"
     },
     {
       "venture": "starlink",
