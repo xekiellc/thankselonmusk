@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "Canadian astronaut Joshua Kutryk to launch to International Space Station",
+      "summary": "As the sun rises over Florida's iconic Kennedy Space Center on Thursday morning, Canadian astronaut Joshua Kutryk will be making the final preparations to fulfil his lifelong dream of blasting off into space.",
+      "url": "https://www.nationalobserver.com/2026/10/01/news/canadian-astronaut-joshua-kutryk-launch-international-space-station",
+      "source": "National Observer",
+      "date": "Oct 1, 2026",
+      "publishedAt": "2026-10-01T10:54:19Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Netflix to Livestream NASA’s SpaceX Crew-13 Launch Worldwide",
       "summary": "Following the massive success of the Artemis II lunar flyby and splashdown this Summer, Netflix will stream NASA's upcoming SpaceX Crew-13 liftoff live to subscribers globally.",
       "url": "https://www.whats-on-netflix.com/news/netflix-to-livestream-nasas-spacex-crew-13-launch-worldwide/",
       "source": "What's on Netflix",
       "date": "Sep 30, 2026",
       "publishedAt": "2026-09-30T22:57:35Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Starship’s first orbital flight put its heat shield to the test – how it fares could determine if SpaceX’s vision is possible",
-      "summary": "Starship’s heat shield is made of up of an array of ceramic tiles. Each is a small component, but together they have large consequences.",
-      "url": "https://theconversation.com/starships-first-orbital-flight-put-its-heat-shield-to-the-test-how-it-fares-could-determine-if-spacexs-vision-is-possible-292960",
-      "source": "The Conversation Africa",
-      "date": "Sep 29, 2026",
-      "publishedAt": "2026-09-29T20:20:06Z"
     },
     {
       "venture": "tesla",
@@ -31,6 +31,16 @@
       "source": "Digitimes",
       "date": "Sep 21, 2026",
       "publishedAt": "2026-09-21T23:20:09Z"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "date": "Sep 4, 2026",
+      "publishedAt": "2026-09-04T00:27:46Z"
     },
     {
       "venture": "starlink",
@@ -73,5 +83,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-02T01:55:45.268Z"
+  "generatedAt": "2026-10-02T11:43:34.706Z"
 }

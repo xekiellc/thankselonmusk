@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-10-02T01:55:45.267Z",
-  "displayUpdated": "Oct 2, 2026, 1:55 AM UTC",
-  "totalArticles": 8,
+  "lastUpdated": "2026-10-02T11:43:34.705Z",
+  "displayUpdated": "Oct 2, 2026, 11:43 AM UTC",
+  "totalArticles": 10,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Canadian astronaut Joshua Kutryk to launch to International Space Station",
+      "summary": "As the sun rises over Florida's iconic Kennedy Space Center on Thursday morning, Canadian astronaut Joshua Kutryk will be making the final preparations to fulfil his lifelong dream of blasting off into space.",
+      "url": "https://www.nationalobserver.com/2026/10/01/news/canadian-astronaut-joshua-kutryk-launch-international-space-station",
+      "source": "National Observer",
+      "publishedAt": "2026-10-01T10:54:19Z",
+      "date": "Oct 1, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -82,6 +92,16 @@
       "source": "The Next Web",
       "publishedAt": "2026-09-10T10:05:32Z",
       "date": "Sep 10, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "publishedAt": "2026-09-04T00:27:46Z",
+      "date": "Sep 4, 2026"
     }
   ]
 }
