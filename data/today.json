@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "displayDate": "Friday, October 2, 2026",
+  "date": "2026-10-03",
+  "displayDate": "Saturday, October 3, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -15,12 +15,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Canadian astronaut Joshua Kutryk to launch to International Space Station",
-      "summary": "As the sun rises over Florida's iconic Kennedy Space Center on Thursday morning, Canadian astronaut Joshua Kutryk will be making the final preparations to fulfil his lifelong dream of blasting off into space.",
-      "url": "https://www.nationalobserver.com/2026/10/01/news/canadian-astronaut-joshua-kutryk-launch-international-space-station",
-      "source": "National Observer",
-      "date": "Oct 1, 2026",
-      "publishedAt": "2026-10-01T10:54:19Z"
+      "headline": "Starship’s first orbital flight put its heat shield to the test – how it fares could determine if SpaceX’s vision is possible",
+      "summary": "Starship’s heat shield is made of up of an array of ceramic tiles. Each is a small component, but together they have large consequences.",
+      "url": "https://theconversation.com/starships-first-orbital-flight-put-its-heat-shield-to-the-test-how-it-fares-could-determine-if-spacexs-vision-is-possible-292960",
+      "source": "The Conversation Africa",
+      "date": "Sep 29, 2026",
+      "publishedAt": "2026-09-29T20:20:06Z"
     },
     {
       "venture": "tesla",
@@ -83,5 +83,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-02T21:42:10.548Z"
+  "generatedAt": "2026-10-03T01:38:17.358Z"
 }
