@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-10-03T10:57:01.119Z",
-  "displayUpdated": "Oct 3, 2026, 10:57 AM UTC",
-  "totalArticles": 9,
+  "lastUpdated": "2026-10-03T15:33:56.719Z",
+  "displayUpdated": "Oct 3, 2026, 3:33 PM UTC",
+  "totalArticles": 10,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "The next generation’s guide to the new space economy",
+      "summary": "Students in an MIT aerospace entrepreneurship class interviewed more than 50 industry leaders to create a guide to the new space economy, exploring aerospace startups, venture capital, commercial space, innovation, investment, and the future of space entrepre…",
+      "url": "https://news.mit.edu/2026/guide-to-new-space-economy-1002",
+      "source": "Mit.edu",
+      "publishedAt": "2026-10-02T14:50:00Z",
+      "date": "Oct 2, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla sales smash Wall Street's expectations",
+      "summary": "Tesla posted record sales in Q3 last year as buyers rushed to take advantage of the $7,500 tax credit for new EVs, which expired in September 2025.",
+      "url": "https://www.businessinsider.com/tesla-deliveries-q3-reveals-how-many-evs-it-sold-2026-9#article",
+      "source": "Business Insider",
+      "publishedAt": "2026-10-02T13:15:18Z",
+      "date": "Oct 2, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -82,16 +102,6 @@
       "source": "The Next Web",
       "publishedAt": "2026-09-10T10:05:32Z",
       "date": "Sep 10, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "The unusually muted Tesla Cybercab launch",
-      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "publishedAt": "2026-09-04T00:27:46Z",
-      "date": "Sep 4, 2026"
     }
   ]
 }

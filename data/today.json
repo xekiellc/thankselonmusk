@@ -5,6 +5,16 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "The next generation’s guide to the new space economy",
+      "summary": "Students in an MIT aerospace entrepreneurship class interviewed more than 50 industry leaders to create a guide to the new space economy, exploring aerospace startups, venture capital, commercial space, innovation, investment, and the future of space entrepre…",
+      "url": "https://news.mit.edu/2026/guide-to-new-space-economy-1002",
+      "source": "Mit.edu",
+      "date": "Oct 2, 2026",
+      "publishedAt": "2026-10-02T14:50:00Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "NASA's SpaceX Crew-13 launches as astronaut brings 100-year-old heirloom on trip",
       "summary": "The crew launched to the International Space Station on Thursday morning.",
       "url": "https://abcnews.com/US/nasas-spacex-crew-13-astronaut-bringing-100-year/story?id=136906539",
@@ -13,14 +23,14 @@
       "publishedAt": "2026-10-01T16:19:18Z"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Starship’s first orbital flight put its heat shield to the test – how it fares could determine if SpaceX’s vision is possible",
-      "summary": "Starship’s heat shield is made of up of an array of ceramic tiles. Each is a small component, but together they have large consequences.",
-      "url": "https://theconversation.com/starships-first-orbital-flight-put-its-heat-shield-to-the-test-how-it-fares-could-determine-if-spacexs-vision-is-possible-292960",
-      "source": "The Conversation Africa",
-      "date": "Sep 29, 2026",
-      "publishedAt": "2026-09-29T20:20:06Z"
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla sales smash Wall Street's expectations",
+      "summary": "Tesla posted record sales in Q3 last year as buyers rushed to take advantage of the $7,500 tax credit for new EVs, which expired in September 2025.",
+      "url": "https://www.businessinsider.com/tesla-deliveries-q3-reveals-how-many-evs-it-sold-2026-9#article",
+      "source": "Business Insider",
+      "date": "Oct 2, 2026",
+      "publishedAt": "2026-10-02T13:15:18Z"
     },
     {
       "venture": "tesla",
@@ -31,16 +41,6 @@
       "source": "Digitimes",
       "date": "Sep 21, 2026",
       "publishedAt": "2026-09-21T23:20:09Z"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "The unusually muted Tesla Cybercab launch",
-      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
-      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
-      "source": "The Verge",
-      "date": "Sep 4, 2026",
-      "publishedAt": "2026-09-04T00:27:46Z"
     },
     {
       "venture": "starlink",
@@ -83,5 +83,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-03T10:57:01.120Z"
+  "generatedAt": "2026-10-03T15:33:56.720Z"
 }
