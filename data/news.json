@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-03T15:33:56.719Z",
-  "displayUpdated": "Oct 3, 2026, 3:33 PM UTC",
+  "lastUpdated": "2026-10-03T20:27:47.738Z",
+  "displayUpdated": "Oct 3, 2026, 8:27 PM UTC",
   "totalArticles": 10,
   "articles": [
     {
@@ -22,16 +22,6 @@
       "source": "Business Insider",
       "publishedAt": "2026-10-02T13:15:18Z",
       "date": "Oct 2, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "NASA's SpaceX Crew-13 launches as astronaut brings 100-year-old heirloom on trip",
-      "summary": "The crew launched to the International Space Station on Thursday morning.",
-      "url": "https://abcnews.com/US/nasas-spacex-crew-13-astronaut-bringing-100-year/story?id=136906539",
-      "source": "Abcnews.com",
-      "publishedAt": "2026-10-01T16:19:18Z",
-      "date": "Oct 1, 2026"
     },
     {
       "venture": "spacex",
@@ -102,6 +92,16 @@
       "source": "The Next Web",
       "publishedAt": "2026-09-10T10:05:32Z",
       "date": "Sep 10, 2026"
+    },
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "The unusually muted Tesla Cybercab launch",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on…",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "publishedAt": "2026-09-04T00:27:46Z",
+      "date": "Sep 4, 2026"
     }
   ]
 }

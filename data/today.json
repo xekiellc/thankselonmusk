@@ -15,12 +15,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "NASA's SpaceX Crew-13 launches as astronaut brings 100-year-old heirloom on trip",
-      "summary": "The crew launched to the International Space Station on Thursday morning.",
-      "url": "https://abcnews.com/US/nasas-spacex-crew-13-astronaut-bringing-100-year/story?id=136906539",
-      "source": "Abcnews.com",
-      "date": "Oct 1, 2026",
-      "publishedAt": "2026-10-01T16:19:18Z"
+      "headline": "Starship’s first orbital flight put its heat shield to the test – how it fares could determine if SpaceX’s vision is possible",
+      "summary": "Starship’s heat shield is made of up of an array of ceramic tiles. Each is a small component, but together they have large consequences.",
+      "url": "https://theconversation.com/starships-first-orbital-flight-put-its-heat-shield-to-the-test-how-it-fares-could-determine-if-spacexs-vision-is-possible-292960",
+      "source": "The Conversation Africa",
+      "date": "Sep 29, 2026",
+      "publishedAt": "2026-09-29T20:20:06Z"
     },
     {
       "venture": "tesla",
@@ -83,5 +83,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-03T15:33:56.720Z"
+  "generatedAt": "2026-10-03T20:27:47.739Z"
 }
