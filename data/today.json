@@ -5,12 +5,12 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "The next generation’s guide to the new space economy",
-      "summary": "Students in an MIT aerospace entrepreneurship class interviewed more than 50 industry leaders to create a guide to the new space economy, exploring aerospace startups, venture capital, commercial space, innovation, investment, and the future of space entrepre…",
-      "url": "https://news.mit.edu/2026/guide-to-new-space-economy-1002",
-      "source": "Mit.edu",
-      "date": "Oct 2, 2026",
-      "publishedAt": "2026-10-02T14:50:00Z"
+      "headline": "From a remote Texas base, SpaceX's launch shows Louisiana what to expect. 'See the future.'",
+      "summary": "SpaceX's Starship — a 40-story, two-stage behemoth, the largest and most powerful rocket ever flown — climbed over the Gulf as hundreds watched. Here’s what the scene was like in Texas as Musk’s Vermilion Parish spaceport begins to come to life.",
+      "url": "https://www.theadvocate.com/baton_rouge/news/business/spacex-rocket-louisiana-texas-elon-musk-starbase/article_785144b1-289b-59ae-b7b4-ffc52be49463.html",
+      "source": "The Advocate",
+      "date": "Oct 4, 2026",
+      "publishedAt": "2026-10-04T09:00:00Z"
     },
     {
       "venture": "spacex",
@@ -83,5 +83,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-05T01:29:49.425Z"
+  "generatedAt": "2026-10-05T13:19:11.020Z"
 }
