@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-10-08T12:38:08.963Z",
-  "displayUpdated": "Oct 8, 2026, 12:38 PM UTC",
+  "lastUpdated": "2026-10-08T22:44:38.413Z",
+  "displayUpdated": "Oct 8, 2026, 10:44 PM UTC",
   "totalArticles": 6,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "FIRST ON FOX: Trump will award Elon Musk the National Medal of Science at the White House Thursday.",
+      "summary": "FIRST ON FOX: Trump will award Elon Musk the National Medal of Science at the White House Thursday. Sergey Brin, Jensen Huang and Lisa Su will also receive the science medal, while Michael Dell and Satya Nadella will receive the technology medal. It marks Tru…",
+      "url": "https://freerepublic.com/focus/f-chat/4398324/posts",
+      "source": "Freerepublic.com",
+      "publishedAt": "2026-10-07T21:36:39Z",
+      "date": "Oct 7, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "FIRST ON FOX: Elon Musk heads back to White House as Trump marks prestigious first of presidency",
+      "summary": "Trump will award Elon Musk, Sergey Brin, Jensen Huang and Lisa Su the National Medal of Science at a White House summit on super intelligence.",
+      "url": "https://www.foxnews.com/politics/first-fox-elon-musk-heads-back-white-house-trump-marks-prestigious-first-presidency",
+      "source": "Fox News",
+      "publishedAt": "2026-10-07T19:00:03Z",
+      "date": "Oct 7, 2026"
+    },
     {
       "venture": "starlink",
       "label": "Starlink",
@@ -14,16 +34,6 @@
       "date": "Oct 6, 2026"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "From a remote Texas base, SpaceX's launch shows Louisiana what to expect. 'See the future.'",
-      "summary": "SpaceX's Starship — a 40-story, two-stage behemoth, the largest and most powerful rocket ever flown — climbed over the Gulf as hundreds watched. Here’s what the scene was like in Texas as Musk’s Vermilion Parish spaceport begins to come to life.",
-      "url": "https://www.theadvocate.com/baton_rouge/news/business/spacex-rocket-louisiana-texas-elon-musk-starbase/article_785144b1-289b-59ae-b7b4-ffc52be49463.html",
-      "source": "The Advocate",
-      "publishedAt": "2026-10-04T09:00:00Z",
-      "date": "Oct 4, 2026"
-    },
-    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Tesla sales smash Wall Street's expectations",
@@ -32,16 +42,6 @@
       "source": "Business Insider",
       "publishedAt": "2026-10-02T13:15:18Z",
       "date": "Oct 2, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "5 Major New Technologies Elon Musk's Companies Are Racing to Build Across Space, AI and Robotics This Year",
-      "summary": "Musk's companies are pursuing major 2026 projects involving brain implants, Starship, humanoid robots, autonomous vehicles, semiconductor manufacturing and AI infrastructure, despite significant uncertainty around delivery timelines.",
-      "url": "https://www.ibtimes.com.au/musk-companies-2026-technology-projects-1875838",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-09-25T02:22:17Z",
-      "date": "Sep 25, 2026"
     },
     {
       "venture": "boring",
