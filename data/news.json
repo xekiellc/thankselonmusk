@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-10-08T22:44:38.413Z",
-  "displayUpdated": "Oct 8, 2026, 10:44 PM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-10-09T02:41:24.489Z",
+  "displayUpdated": "Oct 9, 2026, 2:41 AM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Trump expected to award science medal to SpaceX's Elon Musk, other tech leaders",
+      "summary": "US President Donald Trump will present the National Medal of Science to Elon Musk and other innovators. The White House event will discuss the impact of private-sector investment in scientific breakthroughs and technology. Musk's relationship with Trump has i…",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-expected-to-award-science-medal-to-spacexs-elon-musk-other-tech-leaders/articleshow/134777322.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-10-08T01:07:40Z",
+      "date": "Oct 8, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -42,6 +52,16 @@
       "source": "Business Insider",
       "publishedAt": "2026-10-02T13:15:18Z",
       "date": "Oct 2, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "5 Major New Technologies Elon Musk's Companies Are Racing to Build Across Space, AI and Robotics This Year",
+      "summary": "Musk's companies are pursuing major 2026 projects involving brain implants, Starship, humanoid robots, autonomous vehicles, semiconductor manufacturing and AI infrastructure, despite significant uncertainty around delivery timelines.",
+      "url": "https://www.ibtimes.com.au/musk-companies-2026-technology-projects-1875838",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-09-25T02:22:17Z",
+      "date": "Sep 25, 2026"
     },
     {
       "venture": "boring",

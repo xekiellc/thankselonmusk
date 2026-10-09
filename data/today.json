@@ -1,7 +1,17 @@
 {
-  "date": "2026-10-08",
-  "displayDate": "Thursday, October 8, 2026",
+  "date": "2026-10-09",
+  "displayDate": "Friday, October 9, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Trump expected to award science medal to SpaceX's Elon Musk, other tech leaders",
+      "summary": "US President Donald Trump will present the National Medal of Science to Elon Musk and other innovators. The White House event will discuss the impact of private-sector investment in scientific breakthroughs and technology. Musk's relationship with Trump has i…",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-expected-to-award-science-medal-to-spacexs-elon-musk-other-tech-leaders/articleshow/134777322.cms",
+      "source": "The Times of India",
+      "date": "Oct 8, 2026",
+      "publishedAt": "2026-10-08T01:07:40Z"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -11,16 +21,6 @@
       "source": "Freerepublic.com",
       "date": "Oct 7, 2026",
       "publishedAt": "2026-10-07T21:36:39Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "FIRST ON FOX: Elon Musk heads back to White House as Trump marks prestigious first of presidency",
-      "summary": "Trump will award Elon Musk, Sergey Brin, Jensen Huang and Lisa Su the National Medal of Science at a White House summit on super intelligence.",
-      "url": "https://www.foxnews.com/politics/first-fox-elon-musk-heads-back-white-house-trump-marks-prestigious-first-presidency",
-      "source": "Fox News",
-      "date": "Oct 7, 2026",
-      "publishedAt": "2026-10-07T19:00:03Z"
     },
     {
       "venture": "tesla",
@@ -43,6 +43,16 @@
       "publishedAt": "2026-10-06T14:31:20Z"
     },
     {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "5 Major New Technologies Elon Musk's Companies Are Racing to Build Across Space, AI and Robotics This Year",
+      "summary": "Musk's companies are pursuing major 2026 projects involving brain implants, Starship, humanoid robots, autonomous vehicles, semiconductor manufacturing and AI infrastructure, despite significant uncertainty around delivery timelines.",
+      "url": "https://www.ibtimes.com.au/musk-companies-2026-technology-projects-1875838",
+      "source": "Ibtimes.com.au",
+      "date": "Sep 25, 2026",
+      "publishedAt": "2026-09-25T02:22:17Z"
+    },
+    {
       "venture": "boring",
       "label": "Boring Co",
       "headline": "Elon Musk's Boring Co. turns to Middle East for expansion in reaching $23 billion valuation",
@@ -63,5 +73,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-08T22:44:38.415Z"
+  "generatedAt": "2026-10-09T02:41:24.491Z"
 }
