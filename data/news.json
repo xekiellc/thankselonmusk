@@ -1,37 +1,17 @@
 {
-  "lastUpdated": "2026-10-09T12:25:24.863Z",
-  "displayUpdated": "Oct 9, 2026, 12:25 PM UTC",
-  "totalArticles": 9,
+  "lastUpdated": "2026-10-09T22:07:10.616Z",
+  "displayUpdated": "Oct 9, 2026, 10:07 PM UTC",
+  "totalArticles": 6,
   "articles": [
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "Trump expected to award science medal to SpaceX's Elon Musk, other tech leaders",
-      "summary": "US President Donald Trump will present the National Medal of Science to Elon Musk and other innovators. The White House event will discuss the impact of private-sector investment in scientific breakthroughs and technology. Musk's relationship with Trump has i…",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-expected-to-award-science-medal-to-spacexs-elon-musk-other-tech-leaders/articleshow/134777322.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-10-08T01:07:40Z",
-      "date": "Oct 8, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "FIRST ON FOX: Trump will award Elon Musk the National Medal of Science at the White House Thursday.",
-      "summary": "FIRST ON FOX: Trump will award Elon Musk the National Medal of Science at the White House Thursday. Sergey Brin, Jensen Huang and Lisa Su will also receive the science medal, while Michael Dell and Satya Nadella will receive the technology medal. It marks Tru…",
-      "url": "https://freerepublic.com/focus/f-chat/4398324/posts",
+      "headline": "Trump To Award Medals To Musk, Other Scientific Leaders",
+      "summary": "President Donald Trump is set to honor a distinguished group of tech leaders, including Elon Musk, at the White House's Science: A New Golden Age Summit on Thursday (October 8). President Trump will present the National Medal of Science to Musk, Google co-fou…",
+      "url": "https://freerepublic.com/focus/f-news/4398383/posts",
       "source": "Freerepublic.com",
-      "publishedAt": "2026-10-07T21:36:39Z",
-      "date": "Oct 7, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "FIRST ON FOX: Elon Musk heads back to White House as Trump marks prestigious first of presidency",
-      "summary": "Trump will award Elon Musk, Sergey Brin, Jensen Huang and Lisa Su the National Medal of Science at a White House summit on super intelligence.",
-      "url": "https://www.foxnews.com/politics/first-fox-elon-musk-heads-back-white-house-trump-marks-prestigious-first-presidency",
-      "source": "Fox News",
-      "publishedAt": "2026-10-07T19:00:03Z",
-      "date": "Oct 7, 2026"
+      "publishedAt": "2026-10-08T12:33:13Z",
+      "date": "Oct 8, 2026"
     },
     {
       "venture": "starlink",
@@ -62,16 +42,6 @@
       "source": "Business Insider",
       "publishedAt": "2026-10-02T13:15:18Z",
       "date": "Oct 2, 2026"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "5 Major New Technologies Elon Musk's Companies Are Racing to Build Across Space, AI and Robotics This Year",
-      "summary": "Musk's companies are pursuing major 2026 projects involving brain implants, Starship, humanoid robots, autonomous vehicles, semiconductor manufacturing and AI infrastructure, despite significant uncertainty around delivery timelines.",
-      "url": "https://www.ibtimes.com.au/musk-companies-2026-technology-projects-1875838",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-09-25T02:22:17Z",
-      "date": "Sep 25, 2026"
     },
     {
       "venture": "boring",
