@@ -1,17 +1,7 @@
 {
-  "date": "2026-10-09",
-  "displayDate": "Friday, October 9, 2026",
+  "date": "2026-10-10",
+  "displayDate": "Saturday, October 10, 2026",
   "items": [
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Trump To Award Medals To Musk, Other Scientific Leaders",
-      "summary": "President Donald Trump is set to honor a distinguished group of tech leaders, including Elon Musk, at the White House's Science: A New Golden Age Summit on Thursday (October 8). President Trump will present the National Medal of Science to Musk, Google co-fou…",
-      "url": "https://freerepublic.com/focus/f-news/4398383/posts",
-      "source": "Freerepublic.com",
-      "date": "Oct 8, 2026",
-      "publishedAt": "2026-10-08T12:33:13Z"
-    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -63,5 +53,5 @@
       "publishedAt": "2026-09-10T10:05:32Z"
     }
   ],
-  "generatedAt": "2026-10-09T22:07:10.618Z"
+  "generatedAt": "2026-10-10T02:01:18.603Z"
 }
