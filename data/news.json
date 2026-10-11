@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-11T01:28:41.750Z",
-  "displayUpdated": "Oct 11, 2026, 1:28 AM UTC",
-  "totalArticles": 5,
+  "lastUpdated": "2026-10-11T11:57:00.155Z",
+  "displayUpdated": "Oct 11, 2026, 11:57 AM UTC",
+  "totalArticles": 4,
   "articles": [
     {
       "venture": "starlink",
@@ -41,16 +41,6 @@
       "url": "https://www.cnbc.com/2026/09/10/elon-musk-boring-co-uae-valuation.html",
       "source": "CNBC",
       "publishedAt": "2026-09-10T18:15:59Z",
-      "date": "Sep 10, 2026"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "The Boring Company raises $3bn at a $23bn valuation, led by the UAE",
-      "summary": "Elon Musk’s tunnelling company has raised $3bn at a valuation of $23bn, led by the United Arab Emirates and affiliated investment entities, four times what it was worth in 2022, and a long way from the Washington to New York hyperloop announced in 2017. The m…",
-      "url": "https://thenextweb.com/news/boring-company-3bn-raise-23bn-valuation-uae-term-sheet",
-      "source": "The Next Web",
-      "publishedAt": "2026-09-10T10:05:32Z",
       "date": "Sep 10, 2026"
     }
   ]
