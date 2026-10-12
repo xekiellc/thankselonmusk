@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-12T01:59:21.069Z",
-  "displayUpdated": "Oct 12, 2026, 1:59 AM UTC",
-  "totalArticles": 4,
+  "lastUpdated": "2026-10-12T14:09:09.979Z",
+  "displayUpdated": "Oct 12, 2026, 2:09 PM UTC",
+  "totalArticles": 3,
   "articles": [
     {
       "venture": "starlink",
@@ -32,16 +32,6 @@
       "source": "Business Insider",
       "publishedAt": "2026-10-02T13:15:18Z",
       "date": "Oct 2, 2026"
-    },
-    {
-      "venture": "boring",
-      "label": "Boring Co",
-      "headline": "Elon Musk's Boring Co. turns to Middle East for expansion in reaching $23 billion valuation",
-      "summary": "The Boring Co.'s latest $3 billion financing round was led by the United Arab Emirates.",
-      "url": "https://www.cnbc.com/2026/09/10/elon-musk-boring-co-uae-valuation.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-10T18:15:59Z",
-      "date": "Sep 10, 2026"
     }
   ]
 }
