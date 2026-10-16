@@ -13,6 +13,16 @@
       "publishedAt": "2026-10-15T05:06:52Z"
     },
     {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX’s Space AI Challenge: 5,000 Launches a Year",
+      "summary": "Five thousand launches a year means nearly fourteen launches every day. At an assumed 200 tonnes of payload per V4 Starship flight, that would deliver one million tonnes to orbit annually. Under the satellite power-density assumptions in my latest video, that…",
+      "url": "https://www.nextbigfuture.com/2026/10/spacexs-space-ai-challenge-5000-launches-a-year.html",
+      "source": "Next Big Future",
+      "date": "Oct 14, 2026",
+      "publishedAt": "2026-10-14T17:09:00Z"
+    },
+    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Tesla sales smash Wall Street's expectations",
@@ -23,5 +33,5 @@
       "publishedAt": "2026-10-02T13:15:18Z"
     }
   ],
-  "generatedAt": "2026-10-16T10:29:28.462Z"
+  "generatedAt": "2026-10-16T15:55:26.194Z"
 }
