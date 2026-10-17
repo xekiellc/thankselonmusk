@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-10-17T14:48:23.846Z",
-  "displayUpdated": "Oct 17, 2026, 2:48 PM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-10-17T19:57:28.542Z",
+  "displayUpdated": "Oct 17, 2026, 7:57 PM UTC",
+  "totalArticles": 7,
   "articles": [
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla turned the fun meter up to 11 and aimed for liftoff",
+      "summary": "The quickest 0–60 mph run I’ve managed in a car was 2.9 seconds. Tesla reports 0.81 seconds for its Roadster demonstration. Under one second. I’m still trying to wrap my head around that. The new Roadster has the personality of…",
+      "url": "https://the-gadgeteer.com/2026/10/16/tesla-turned-the-fun-meter-up-to-11-and-aimed-for-liftoff/",
+      "source": "The Gadgeteer",
+      "publishedAt": "2026-10-16T17:20:02Z",
+      "date": "Oct 16, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Elon Musk unveils Tesla’s ‘flying’ car",
+      "summary": "Musk revealed his new Roadster sports car during a launch event at a SpaceX test facility in Texas. During the demo, which was livestreamed on Tesla's X account, the car launched from a steep steel ramp and performed a full barrel roll in mid-air before landi…",
+      "url": "https://www.digitaljournal.com/article/elon-musk-unveils-teslas-flying-car/",
+      "source": "Digital Journal",
+      "publishedAt": "2026-10-16T14:51:39Z",
+      "date": "Oct 16, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -21,16 +41,6 @@
       "url": "https://www.cbsnews.com/news/tesla-roadster-debut-elon-musk-flying-cars-are-real/",
       "source": "CBS News",
       "publishedAt": "2026-10-16T09:31:06Z",
-      "date": "Oct 16, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Tesla launches flying Roadster concept car",
-      "summary": "Electric car company Tesla has unveiled its flying Roadster vehicle with a demonstration in which the car drove upside down, flipped off a ramp and briefly flew, using compressed-air thrusters that Tesla claims will make it the world’s quickest production car…",
-      "url": "https://www.dezeen.com/2026/10/16/tesla-launches-flying-roadster-concept-car/",
-      "source": "Dezeen",
-      "publishedAt": "2026-10-16T02:09:57Z",
       "date": "Oct 16, 2026"
     },
     {

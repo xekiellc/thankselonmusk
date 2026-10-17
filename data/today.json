@@ -5,6 +5,16 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "Elon Musk unveils Tesla’s ‘flying’ car",
+      "summary": "Musk revealed his new Roadster sports car during a launch event at a SpaceX test facility in Texas. During the demo, which was livestreamed on Tesla's X account, the car launched from a steep steel ramp and performed a full barrel roll in mid-air before landi…",
+      "url": "https://www.digitaljournal.com/article/elon-musk-unveils-teslas-flying-car/",
+      "source": "Digital Journal",
+      "date": "Oct 16, 2026",
+      "publishedAt": "2026-10-16T14:51:39Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Tesla's new Roadster will be a tiny part of its business, but its launch sent the stock surging. Here's why.",
       "summary": "Tesla stock surged 5% as Elon Musk unveiled a Roadster with SpaceX thrusters, showing off Tesla's engineering chops.",
       "url": "https://www.businessinsider.com/tesla-share-price-jumps-after-roadster-reveal-boosts-investor-interest-2026-10#article",
@@ -13,14 +23,14 @@
       "publishedAt": "2026-10-16T10:38:04Z"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "With Tesla Roadster debut, Elon Musk shows \"flying cars are real\"",
-      "summary": "Elon Musk unveils Tesla's new Roadster, which uses high-pressure air thrusters to leave the road entirely during a livestreamed event at his SpaceX facility in Texas.",
-      "url": "https://www.cbsnews.com/news/tesla-roadster-debut-elon-musk-flying-cars-are-real/",
-      "source": "CBS News",
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla turned the fun meter up to 11 and aimed for liftoff",
+      "summary": "The quickest 0–60 mph run I’ve managed in a car was 2.9 seconds. Tesla reports 0.81 seconds for its Roadster demonstration. Under one second. I’m still trying to wrap my head around that. The new Roadster has the personality of…",
+      "url": "https://the-gadgeteer.com/2026/10/16/tesla-turned-the-fun-meter-up-to-11-and-aimed-for-liftoff/",
+      "source": "The Gadgeteer",
       "date": "Oct 16, 2026",
-      "publishedAt": "2026-10-16T09:31:06Z"
+      "publishedAt": "2026-10-16T17:20:02Z"
     },
     {
       "venture": "tesla",
@@ -33,5 +43,5 @@
       "publishedAt": "2026-10-02T13:15:18Z"
     }
   ],
-  "generatedAt": "2026-10-17T14:48:23.847Z"
+  "generatedAt": "2026-10-17T19:57:28.543Z"
 }
