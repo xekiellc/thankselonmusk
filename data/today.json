@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "Tesla's new Roadster will be a tiny part of its business, but its launch sent the stock surging. Here's why.",
+      "summary": "Tesla stock surged 5% as Elon Musk unveiled a Roadster with SpaceX thrusters, showing off Tesla's engineering chops.",
+      "url": "https://www.businessinsider.com/tesla-share-price-jumps-after-roadster-reveal-boosts-investor-interest-2026-10#article",
+      "source": "Business Insider",
+      "date": "Oct 16, 2026",
+      "publishedAt": "2026-10-16T10:38:04Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "With Tesla Roadster debut, Elon Musk shows \"flying cars are real\"",
       "summary": "Elon Musk unveils Tesla's new Roadster, which uses high-pressure air thrusters to leave the road entirely during a livestreamed event at his SpaceX facility in Texas.",
       "url": "https://www.cbsnews.com/news/tesla-roadster-debut-elon-musk-flying-cars-are-real/",
       "source": "CBS News",
       "date": "Oct 16, 2026",
       "publishedAt": "2026-10-16T09:31:06Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Tesla launches flying Roadster concept car",
-      "summary": "Electric car company Tesla has unveiled its flying Roadster vehicle with a demonstration in which the car drove upside down, flipped off a ramp and briefly flew, using compressed-air thrusters that Tesla claims will make it the world’s quickest production car…",
-      "url": "https://www.dezeen.com/2026/10/16/tesla-launches-flying-roadster-concept-car/",
-      "source": "Dezeen",
-      "date": "Oct 16, 2026",
-      "publishedAt": "2026-10-16T02:09:57Z"
     },
     {
       "venture": "tesla",
@@ -33,5 +33,5 @@
       "publishedAt": "2026-10-02T13:15:18Z"
     }
   ],
-  "generatedAt": "2026-10-17T10:00:10.038Z"
+  "generatedAt": "2026-10-17T14:48:23.847Z"
 }
