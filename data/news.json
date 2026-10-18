@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-18T00:32:53.128Z",
-  "displayUpdated": "Oct 18, 2026, 12:32 AM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-10-18T10:12:52.565Z",
+  "displayUpdated": "Oct 18, 2026, 10:12 AM UTC",
+  "totalArticles": 5,
   "articles": [
     {
       "venture": "tesla",
@@ -52,16 +52,6 @@
       "source": "Next Big Future",
       "publishedAt": "2026-10-14T17:09:00Z",
       "date": "Oct 14, 2026"
-    },
-    {
-      "venture": "tesla",
-      "label": "Tesla",
-      "headline": "Tesla sales smash Wall Street's expectations",
-      "summary": "Tesla posted record sales in Q3 last year as buyers rushed to take advantage of the $7,500 tax credit for new EVs, which expired in September 2025.",
-      "url": "https://www.businessinsider.com/tesla-deliveries-q3-reveals-how-many-evs-it-sold-2026-9#article",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-02T13:15:18Z",
-      "date": "Oct 2, 2026"
     }
   ]
 }
