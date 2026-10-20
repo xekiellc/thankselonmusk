@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-20T10:47:51.483Z",
-  "displayUpdated": "Oct 20, 2026, 10:47 AM UTC",
-  "totalArticles": 5,
+  "lastUpdated": "2026-10-20T16:11:14.150Z",
+  "displayUpdated": "Oct 20, 2026, 4:11 PM UTC",
+  "totalArticles": 2,
   "articles": [
     {
       "venture": "spacex",
@@ -22,36 +22,6 @@
       "source": "The Gadgeteer",
       "publishedAt": "2026-10-16T17:20:02Z",
       "date": "Oct 16, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Elon Musk unveils Tesla’s ‘flying’ car",
-      "summary": "Musk revealed his new Roadster sports car during a launch event at a SpaceX test facility in Texas. During the demo, which was livestreamed on Tesla's X account, the car launched from a steep steel ramp and performed a full barrel roll in mid-air before landi…",
-      "url": "https://www.digitaljournal.com/article/elon-musk-unveils-teslas-flying-car/",
-      "source": "Digital Journal",
-      "publishedAt": "2026-10-16T14:51:39Z",
-      "date": "Oct 16, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Elon Musk Shares New Starship Info at X Takeover [10:30]",
-      "summary": "Thanks to ‪@TeslaOwnersSV‬ for having me as part of the X Takeover for the third year in a row! Elon Musk Shares New Starship Info at X Takeover | 10:30 Ellie in Space | 232K subscribers | 126,059 views | October 14, 2026",
-      "url": "https://freerepublic.com/focus/f-bloggers/4399226/posts",
-      "source": "Freerepublic.com",
-      "publishedAt": "2026-10-15T05:06:52Z",
-      "date": "Oct 15, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX’s Space AI Challenge: 5,000 Launches a Year",
-      "summary": "Five thousand launches a year means nearly fourteen launches every day. At an assumed 200 tonnes of payload per V4 Starship flight, that would deliver one million tonnes to orbit annually. Under the satellite power-density assumptions in my latest video, that…",
-      "url": "https://www.nextbigfuture.com/2026/10/spacexs-space-ai-challenge-5000-launches-a-year.html",
-      "source": "Next Big Future",
-      "publishedAt": "2026-10-14T17:09:00Z",
-      "date": "Oct 14, 2026"
     }
   ]
 }

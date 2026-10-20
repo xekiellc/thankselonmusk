@@ -13,16 +13,6 @@
       "publishedAt": "2026-10-19T00:14:25Z"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Elon Musk unveils Tesla’s ‘flying’ car",
-      "summary": "Musk revealed his new Roadster sports car during a launch event at a SpaceX test facility in Texas. During the demo, which was livestreamed on Tesla's X account, the car launched from a steep steel ramp and performed a full barrel roll in mid-air before landi…",
-      "url": "https://www.digitaljournal.com/article/elon-musk-unveils-teslas-flying-car/",
-      "source": "Digital Journal",
-      "date": "Oct 16, 2026",
-      "publishedAt": "2026-10-16T14:51:39Z"
-    },
-    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Tesla turned the fun meter up to 11 and aimed for liftoff",
@@ -33,5 +23,5 @@
       "publishedAt": "2026-10-16T17:20:02Z"
     }
   ],
-  "generatedAt": "2026-10-20T10:47:51.484Z"
+  "generatedAt": "2026-10-20T16:11:14.150Z"
 }
