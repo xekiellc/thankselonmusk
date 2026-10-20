@@ -1,7 +1,17 @@
 {
-  "date": "2026-10-19",
-  "displayDate": "Monday, October 19, 2026",
+  "date": "2026-10-20",
+  "displayDate": "Tuesday, October 20, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX is Gearing up To Catch Starship [11:13]",
+      "summary": "In this week's Avid Space Starship update, Starship 40 arrived at the Build Site for its first major post-flight inspection, Booster 23 goes through testing while construction continues on Booster 24 and Ship 44, and SpaceX has filed to launch almost 20 times…",
+      "url": "https://freerepublic.com/focus/f-bloggers/4399674/posts",
+      "source": "Freerepublic.com",
+      "date": "Oct 19, 2026",
+      "publishedAt": "2026-10-19T00:14:25Z"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -11,16 +21,6 @@
       "source": "Digital Journal",
       "date": "Oct 16, 2026",
       "publishedAt": "2026-10-16T14:51:39Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Tesla's new Roadster will be a tiny part of its business, but its launch sent the stock surging. Here's why.",
-      "summary": "Tesla stock surged 5% as Elon Musk unveiled a Roadster with SpaceX thrusters, showing off Tesla's engineering chops.",
-      "url": "https://www.businessinsider.com/tesla-share-price-jumps-after-roadster-reveal-boosts-investor-interest-2026-10#article",
-      "source": "Business Insider",
-      "date": "Oct 16, 2026",
-      "publishedAt": "2026-10-16T10:38:04Z"
     },
     {
       "venture": "tesla",
@@ -33,5 +33,5 @@
       "publishedAt": "2026-10-16T17:20:02Z"
     }
   ],
-  "generatedAt": "2026-10-19T18:09:55.178Z"
+  "generatedAt": "2026-10-20T01:26:57.630Z"
 }
