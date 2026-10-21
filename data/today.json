@@ -5,12 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX is Gearing up To Catch Starship [11:13]",
-      "summary": "In this week's Avid Space Starship update, Starship 40 arrived at the Build Site for its first major post-flight inspection, Booster 23 goes through testing while construction continues on Booster 24 and Ship 44, and SpaceX has filed to launch almost 20 times…",
-      "url": "https://freerepublic.com/focus/f-bloggers/4399674/posts",
-      "source": "Freerepublic.com",
-      "date": "Oct 19, 2026",
-      "publishedAt": "2026-10-19T00:14:25Z"
+      "headline": "SpaceX will try catching Starship and its booster for first time, Musk says",
+      "summary": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first time in history an or…",
+      "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
+      "source": "The Verge",
+      "date": "Oct 20, 2026",
+      "publishedAt": "2026-10-20T21:02:53Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX's AI business is beating expectations | TechCrunch",
+      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "source": "TechCrunch",
+      "date": "Oct 20, 2026",
+      "publishedAt": "2026-10-20T20:41:43Z"
     },
     {
       "venture": "tesla",
@@ -21,7 +31,27 @@
       "source": "The Gadgeteer",
       "date": "Oct 16, 2026",
       "publishedAt": "2026-10-16T17:20:02Z"
+    },
+    {
+      "venture": "xai",
+      "label": "xAI",
+      "headline": "Grok bots now run Grokipedia, updating the encyclopedia in real time",
+      "summary": "Grokipedia's AI-driven updates challenge traditional editorial transparency, raising questions about bias and trust in automated content curation.\nThe post Grok bots now run Grokipedia, updating the encyclopedia in real time appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/grok-bots-manage-grokipedia-real-time-updates/",
+      "source": "Crypto Briefing",
+      "date": "Oct 9, 2026",
+      "publishedAt": "2026-10-09T03:24:11Z"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "SpaceX quarterly revenue jumps, beats estimates as AI business surges",
+      "summary": "Oct 20 : Elon Musk's SpaceX on Tuesday reported a 161 per cent rise in revenue for the third quarter, beating estimates, buoyed by a surge in its AI business and steady growth at its Starlink satellite-internet unit.Revenue in the third quarter stood at $14.5…",
+      "url": "https://www.channelnewsasia.com/business/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-6476721",
+      "source": "CNA",
+      "date": "Oct 20, 2026",
+      "publishedAt": "2026-10-20T20:08:59Z"
     }
   ],
-  "generatedAt": "2026-10-21T16:26:37.819Z"
+  "generatedAt": "2026-10-21T21:06:29.553Z"
 }
