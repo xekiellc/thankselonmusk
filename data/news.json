@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-10-22T10:58:34.623Z",
-  "displayUpdated": "Oct 22, 2026, 10:58 AM UTC",
-  "totalArticles": 5,
+  "lastUpdated": "2026-10-22T16:27:06.638Z",
+  "displayUpdated": "Oct 22, 2026, 4:27 PM UTC",
+  "totalArticles": 6,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Is Finally Going for the Starship Double Catch",
+      "summary": "Starship's next flight will aim to achieve a major technical milestone.",
+      "url": "https://gizmodo.com/spacex-is-finally-going-for-the-starship-double-catch-2000828826",
+      "source": "Gizmodo.com",
+      "publishedAt": "2026-10-21T15:20:39Z",
+      "date": "Oct 21, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",

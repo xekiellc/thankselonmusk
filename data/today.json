@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX Is Finally Going for the Starship Double Catch",
+      "summary": "Starship's next flight will aim to achieve a major technical milestone.",
+      "url": "https://gizmodo.com/spacex-is-finally-going-for-the-starship-double-catch-2000828826",
+      "source": "Gizmodo.com",
+      "date": "Oct 21, 2026",
+      "publishedAt": "2026-10-21T15:20:39Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "SpaceX will attempt 1st-ever double Starship rocket catch on next test launch, Elon Musk says",
       "summary": "SpaceX will soon notch a huge spaceflight milestone, if all goes according to plan.\nThe company will try to catch both stages of its Starship megarocket during the vehicle's next test flight, which is targeted for next month, founder and CEO Elon Musk announc…",
       "url": "https://biztoc.com/x/ad8c544b4321eafc",
       "source": "Biztoc.com",
       "date": "Oct 21, 2026",
       "publishedAt": "2026-10-21T09:47:26Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX will try catching Starship and its booster for first time, Musk says",
-      "summary": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first time in history an or…",
-      "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
-      "source": "The Verge",
-      "date": "Oct 20, 2026",
-      "publishedAt": "2026-10-20T21:02:53Z"
     },
     {
       "venture": "tesla",
@@ -53,5 +53,5 @@
       "publishedAt": "2026-10-21T06:34:11Z"
     }
   ],
-  "generatedAt": "2026-10-22T10:58:34.625Z"
+  "generatedAt": "2026-10-22T16:27:06.639Z"
 }
