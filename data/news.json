@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-21T21:06:29.552Z",
-  "displayUpdated": "Oct 21, 2026, 9:06 PM UTC",
-  "totalArticles": 5,
+  "lastUpdated": "2026-10-22T01:08:26.932Z",
+  "displayUpdated": "Oct 22, 2026, 1:08 AM UTC",
+  "totalArticles": 3,
   "articles": [
     {
       "venture": "spacex",
@@ -11,16 +11,6 @@
       "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
       "source": "The Verge",
       "publishedAt": "2026-10-20T21:02:53Z",
-      "date": "Oct 20, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX's AI business is beating expectations | TechCrunch",
-      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-20T20:41:43Z",
       "date": "Oct 20, 2026"
     },
     {
@@ -42,16 +32,6 @@
       "source": "The Gadgeteer",
       "publishedAt": "2026-10-16T17:20:02Z",
       "date": "Oct 16, 2026"
-    },
-    {
-      "venture": "xai",
-      "label": "xAI",
-      "headline": "Grok bots now run Grokipedia, updating the encyclopedia in real time",
-      "summary": "Grokipedia's AI-driven updates challenge traditional editorial transparency, raising questions about bias and trust in automated content curation.\nThe post Grok bots now run Grokipedia, updating the encyclopedia in real time appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/grok-bots-manage-grokipedia-real-time-updates/",
-      "source": "Crypto Briefing",
-      "publishedAt": "2026-10-09T03:24:11Z",
-      "date": "Oct 9, 2026"
     }
   ]
 }

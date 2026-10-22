@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "displayDate": "Wednesday, October 21, 2026",
+  "date": "2026-10-22",
+  "displayDate": "Thursday, October 22, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -13,16 +13,6 @@
       "publishedAt": "2026-10-20T21:02:53Z"
     },
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX's AI business is beating expectations | TechCrunch",
-      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "source": "TechCrunch",
-      "date": "Oct 20, 2026",
-      "publishedAt": "2026-10-20T20:41:43Z"
-    },
-    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Tesla turned the fun meter up to 11 and aimed for liftoff",
@@ -31,16 +21,6 @@
       "source": "The Gadgeteer",
       "date": "Oct 16, 2026",
       "publishedAt": "2026-10-16T17:20:02Z"
-    },
-    {
-      "venture": "xai",
-      "label": "xAI",
-      "headline": "Grok bots now run Grokipedia, updating the encyclopedia in real time",
-      "summary": "Grokipedia's AI-driven updates challenge traditional editorial transparency, raising questions about bias and trust in automated content curation.\nThe post Grok bots now run Grokipedia, updating the encyclopedia in real time appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/grok-bots-manage-grokipedia-real-time-updates/",
-      "source": "Crypto Briefing",
-      "date": "Oct 9, 2026",
-      "publishedAt": "2026-10-09T03:24:11Z"
     },
     {
       "venture": "starlink",
@@ -53,5 +33,5 @@
       "publishedAt": "2026-10-20T20:08:59Z"
     }
   ],
-  "generatedAt": "2026-10-21T21:06:29.553Z"
+  "generatedAt": "2026-10-22T01:08:26.933Z"
 }
