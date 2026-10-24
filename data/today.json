@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-23",
-  "displayDate": "Friday, October 23, 2026",
+  "date": "2026-10-24",
+  "displayDate": "Saturday, October 24, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -45,23 +45,23 @@
     {
       "venture": "starlink",
       "label": "Starlink",
+      "headline": "Elon Musk Endorses Tesla and SpaceX Merger Idea as Special Committees Form to Explore Historic Deal",
+      "summary": "Elon Musk said combining Tesla and SpaceX could be beneficial as independent committees examine a potential merger, but he stressed that shareholder approval is required and no deal is assured.",
+      "url": "https://www.ibtimes.com.au/elon-musk-tesla-spacex-merger-committees-1877116",
+      "source": "Ibtimes.com.au",
+      "date": "Oct 21, 2026",
+      "publishedAt": "2026-10-21T10:14:14Z"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
       "headline": "SpaceX up 9% in premarket after earnings beat and Musk hints at Tesla tie-up",
       "summary": "SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.",
       "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
       "source": "CNBC",
       "date": "Oct 21, 2026",
       "publishedAt": "2026-10-21T08:05:56Z"
-    },
-    {
-      "venture": "starlink",
-      "label": "Starlink",
-      "headline": "SpaceX Stock: 6 things to know about Q3 earnings, AI growth and Tesla merger buzz",
-      "summary": "Elon Musk’s ambitious revenue outlook and growing artificial intelligence business have put SpaceX shares in focus. The company’s latest earnings have added to investor interest, while speculation over a potential Tesla merger has emerged as another catalyst.…",
-      "url": "https://m.economictimes.com/markets/us-stocks/news/spacex-stock-6-things-to-know-about-q3-earnings-ai-growth-and-tesla-merger-buzz/spacex-eyes-1-trillion-revenue-by-2028/slideshow/135084626.cms",
-      "source": "Economictimes.com",
-      "date": "Oct 21, 2026",
-      "publishedAt": "2026-10-21T06:34:11Z"
     }
   ],
-  "generatedAt": "2026-10-23T20:52:16.919Z"
+  "generatedAt": "2026-10-24T01:19:15.802Z"
 }
