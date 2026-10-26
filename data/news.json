@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-10-25T20:16:30.600Z",
-  "displayUpdated": "Oct 25, 2026, 8:16 PM UTC",
-  "totalArticles": 7,
+  "lastUpdated": "2026-10-26T00:55:51.452Z",
+  "displayUpdated": "Oct 26, 2026, 12:55 AM UTC",
+  "totalArticles": 9,
   "articles": [
+    {
+      "venture": "tesla",
+      "label": "Tesla",
+      "headline": "Tesla unveils Optimus Academy to let humanoid robots teach themselves",
+      "summary": "Tesla's Optimus Academy could revolutionize AI training, potentially accelerating humanoid robot development and deployment across industries.\nThe post Tesla unveils Optimus Academy to let humanoid robots teach themselves appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/tesla-optimus-academy-self-teaching-robots/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-10-24T21:33:40Z",
+      "date": "Oct 24, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -31,6 +41,16 @@
       "url": "https://gizmodo.com/spacex-is-finally-going-for-the-starship-double-catch-2000828826",
       "source": "Gizmodo.com",
       "publishedAt": "2026-10-21T15:20:39Z",
+      "date": "Oct 21, 2026"
+    },
+    {
+      "venture": "starlink",
+      "label": "Starlink",
+      "headline": "Elon Musk Endorses Tesla and SpaceX Merger Idea as Special Committees Form to Explore Historic Deal",
+      "summary": "Elon Musk said combining Tesla and SpaceX could be beneficial as independent committees examine a potential merger, but he stressed that shareholder approval is required and no deal is assured.",
+      "url": "https://www.ibtimes.com.au/elon-musk-tesla-spacex-merger-committees-1877116",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-10-21T10:14:14Z",
       "date": "Oct 21, 2026"
     },
     {
