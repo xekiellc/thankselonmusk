@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "US Air Force Sends Military Supplies Into Space and Back on SpaceX Capsule in Test of Rocket Cargo Delivery",
+      "summary": "The US Air Force used a SpaceX re-entry capsule to test carrying military supplies through space, assessing whether rocket cargo could eventually reach remote locations faster than aircraft.",
+      "url": "https://www.ibtimes.com.au/us-air-force-spacex-capsule-rocket-cargo-test-1877464",
+      "source": "Ibtimes.com.au",
+      "date": "Oct 27, 2026",
+      "publishedAt": "2026-10-27T13:34:53Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "SpaceX Is Finally Going for the Starship Double Catch",
       "summary": "Starship's next flight will aim to achieve a major technical milestone.",
       "url": "https://gizmodo.com/spacex-is-finally-going-for-the-starship-double-catch-2000828826",
       "source": "Gizmodo.com",
       "date": "Oct 21, 2026",
       "publishedAt": "2026-10-21T15:20:39Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX will attempt 1st-ever double Starship rocket catch on next test launch, Elon Musk says",
-      "summary": "SpaceX will soon notch a huge spaceflight milestone, if all goes according to plan.\nThe company will try to catch both stages of its Starship megarocket during the vehicle's next test flight, which is targeted for next month, founder and CEO Elon Musk announc…",
-      "url": "https://biztoc.com/x/ad8c544b4321eafc",
-      "source": "Biztoc.com",
-      "date": "Oct 21, 2026",
-      "publishedAt": "2026-10-21T09:47:26Z"
     },
     {
       "venture": "tesla",
@@ -63,5 +63,5 @@
       "publishedAt": "2026-10-21T08:05:56Z"
     }
   ],
-  "generatedAt": "2026-10-28T11:57:32.821Z"
+  "generatedAt": "2026-10-28T17:56:15.115Z"
 }

@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-10-28T11:57:32.819Z",
-  "displayUpdated": "Oct 28, 2026, 11:57 AM UTC",
-  "totalArticles": 7,
+  "lastUpdated": "2026-10-28T17:56:15.114Z",
+  "displayUpdated": "Oct 28, 2026, 5:56 PM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "US Air Force Sends Military Supplies Into Space and Back on SpaceX Capsule in Test of Rocket Cargo Delivery",
+      "summary": "The US Air Force used a SpaceX re-entry capsule to test carrying military supplies through space, assessing whether rocket cargo could eventually reach remote locations faster than aircraft.",
+      "url": "https://www.ibtimes.com.au/us-air-force-spacex-capsule-rocket-cargo-test-1877464",
+      "source": "Ibtimes.com.au",
+      "publishedAt": "2026-10-27T13:34:53Z",
+      "date": "Oct 27, 2026"
+    },
     {
       "venture": "tesla",
       "label": "Tesla",
