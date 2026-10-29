@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-10-29T12:06:53.710Z",
-  "displayUpdated": "Oct 29, 2026, 12:06 PM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-10-29T22:18:47.518Z",
+  "displayUpdated": "Oct 29, 2026, 10:18 PM UTC",
+  "totalArticles": 7,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Falcon 9 ushered in the modern space economy – retiring it could leave the industry vulnerable",
+      "summary": "SpaceX’s Falcon 9 rocket has allowed NASA, private companies, universities and nonprofits alike to launch satellites, spacecraft and even astronauts to orbit.",
+      "url": "https://theconversation.com/falcon-9-ushered-in-the-modern-space-economy-retiring-it-could-leave-the-industry-vulnerable-294225",
+      "source": "The Conversation Africa",
+      "publishedAt": "2026-10-28T12:23:38Z",
+      "date": "Oct 28, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
