@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
+      "headline": "SpaceX is turning away customers for the rocket that flew most of 2025’s trips to orbit, and some are paying extra for the last seats",
+      "summary": "Those who can afford it are paying extra to secure the few remaining slots on Falcon 9, while others are scrambling to find alternative launch opportunities.",
+      "url": "https://fortune.com/2026/10/30/spacex-falcon-9-retirement-starship-launch-customers/",
+      "source": "Fortune",
+      "date": "Oct 30, 2026",
+      "publishedAt": "2026-10-30T12:05:38Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
       "headline": "Falcon 9 ushered in the modern space economy – retiring it could leave the industry vulnerable",
       "summary": "SpaceX’s Falcon 9 rocket has allowed NASA, private companies, universities and nonprofits alike to launch satellites, spacecraft and even astronauts to orbit.",
       "url": "https://theconversation.com/falcon-9-ushered-in-the-modern-space-economy-retiring-it-could-leave-the-industry-vulnerable-294225",
       "source": "The Conversation Africa",
       "date": "Oct 28, 2026",
       "publishedAt": "2026-10-28T12:23:38Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "US Air Force Sends Military Supplies Into Space and Back on SpaceX Capsule in Test of Rocket Cargo Delivery",
-      "summary": "The US Air Force used a SpaceX re-entry capsule to test carrying military supplies through space, assessing whether rocket cargo could eventually reach remote locations faster than aircraft.",
-      "url": "https://www.ibtimes.com.au/us-air-force-spacex-capsule-rocket-cargo-test-1877464",
-      "source": "Ibtimes.com.au",
-      "date": "Oct 27, 2026",
-      "publishedAt": "2026-10-27T13:34:53Z"
     },
     {
       "venture": "tesla",
@@ -43,5 +43,5 @@
       "publishedAt": "2026-10-21T23:17:32Z"
     }
   ],
-  "generatedAt": "2026-10-31T11:32:44.578Z"
+  "generatedAt": "2026-10-31T16:40:23.103Z"
 }

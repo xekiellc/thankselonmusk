@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-10-31T11:32:44.577Z",
-  "displayUpdated": "Oct 31, 2026, 11:32 AM UTC",
+  "lastUpdated": "2026-10-31T16:40:23.102Z",
+  "displayUpdated": "Oct 31, 2026, 4:40 PM UTC",
   "totalArticles": 6,
   "articles": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX is turning away customers for the rocket that flew most of 2025’s trips to orbit, and some are paying extra for the last seats",
+      "summary": "Those who can afford it are paying extra to secure the few remaining slots on Falcon 9, while others are scrambling to find alternative launch opportunities.",
+      "url": "https://fortune.com/2026/10/30/spacex-falcon-9-retirement-starship-launch-customers/",
+      "source": "Fortune",
+      "publishedAt": "2026-10-30T12:05:38Z",
+      "date": "Oct 30, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -12,16 +22,6 @@
       "source": "The Conversation Africa",
       "publishedAt": "2026-10-28T12:23:38Z",
       "date": "Oct 28, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "US Air Force Sends Military Supplies Into Space and Back on SpaceX Capsule in Test of Rocket Cargo Delivery",
-      "summary": "The US Air Force used a SpaceX re-entry capsule to test carrying military supplies through space, assessing whether rocket cargo could eventually reach remote locations faster than aircraft.",
-      "url": "https://www.ibtimes.com.au/us-air-force-spacex-capsule-rocket-cargo-test-1877464",
-      "source": "Ibtimes.com.au",
-      "publishedAt": "2026-10-27T13:34:53Z",
-      "date": "Oct 27, 2026"
     },
     {
       "venture": "tesla",
