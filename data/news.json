@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-11-02T02:01:26.505Z",
-  "displayUpdated": "Nov 2, 2026, 2:01 AM UTC",
+  "lastUpdated": "2026-11-02T14:30:23.994Z",
+  "displayUpdated": "Nov 2, 2026, 2:30 PM UTC",
   "totalArticles": 6,
   "articles": [
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX is turning away customers for the rocket that flew most of 2025’s trips to orbit, and some are paying extra for the last seats",
-      "summary": "Those who can afford it are paying extra to secure the few remaining slots on Falcon 9, while others are scrambling to find alternative launch opportunities.",
-      "url": "https://fortune.com/2026/10/30/spacex-falcon-9-retirement-starship-launch-customers/",
-      "source": "Fortune",
-      "publishedAt": "2026-10-30T12:05:38Z",
-      "date": "Oct 30, 2026"
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Elon Musk says Neuralink is ready to cure blindness — says Blindsight will ‘enable even those who are completely blind or have never seen to see’",
+      "summary": "Neuralink's second product, Blindsight, aims to bring sight back for blind patients, with the company \"just waiting on regulatory approval.\"",
+      "url": "https://www.tomshardware.com/peripherals/wearable-tech/elon-musk-says-neuralink-is-ready-to-cure-blindness-says-blindsight-will-enable-even-those-who-are-completely-blind-or-have-never-seen-to-see",
+      "source": "Tom's Hardware UK",
+      "publishedAt": "2026-11-01T13:30:00Z",
+      "date": "Nov 1, 2026"
     },
     {
       "venture": "spacex",

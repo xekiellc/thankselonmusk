@@ -5,22 +5,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX is turning away customers for the rocket that flew most of 2025’s trips to orbit, and some are paying extra for the last seats",
-      "summary": "Those who can afford it are paying extra to secure the few remaining slots on Falcon 9, while others are scrambling to find alternative launch opportunities.",
-      "url": "https://fortune.com/2026/10/30/spacex-falcon-9-retirement-starship-launch-customers/",
-      "source": "Fortune",
-      "date": "Oct 30, 2026",
-      "publishedAt": "2026-10-30T12:05:38Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
       "headline": "Falcon 9 ushered in the modern space economy – retiring it could leave the industry vulnerable",
       "summary": "SpaceX’s Falcon 9 rocket has allowed NASA, private companies, universities and nonprofits alike to launch satellites, spacecraft and even astronauts to orbit.",
       "url": "https://theconversation.com/falcon-9-ushered-in-the-modern-space-economy-retiring-it-could-leave-the-industry-vulnerable-294225",
       "source": "The Conversation Africa",
       "date": "Oct 28, 2026",
       "publishedAt": "2026-10-28T12:23:38Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX Is Finally Going for the Starship Double Catch",
+      "summary": "Starship's next flight will aim to achieve a major technical milestone.",
+      "url": "https://gizmodo.com/spacex-is-finally-going-for-the-starship-double-catch-2000828826",
+      "source": "Gizmodo.com",
+      "date": "Oct 21, 2026",
+      "publishedAt": "2026-10-21T15:20:39Z"
     },
     {
       "venture": "tesla",
@@ -41,7 +41,17 @@
       "source": "Wccftech",
       "date": "Oct 21, 2026",
       "publishedAt": "2026-10-21T23:17:32Z"
+    },
+    {
+      "venture": "neura",
+      "label": "Neuralink",
+      "headline": "Elon Musk says Neuralink is ready to cure blindness — says Blindsight will ‘enable even those who are completely blind or have never seen to see’",
+      "summary": "Neuralink's second product, Blindsight, aims to bring sight back for blind patients, with the company \"just waiting on regulatory approval.\"",
+      "url": "https://www.tomshardware.com/peripherals/wearable-tech/elon-musk-says-neuralink-is-ready-to-cure-blindness-says-blindsight-will-enable-even-those-who-are-completely-blind-or-have-never-seen-to-see",
+      "source": "Tom's Hardware UK",
+      "date": "Nov 1, 2026",
+      "publishedAt": "2026-11-01T13:30:00Z"
     }
   ],
-  "generatedAt": "2026-11-02T02:01:26.506Z"
+  "generatedAt": "2026-11-02T14:30:23.996Z"
 }
