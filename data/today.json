@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "displayDate": "Sunday, November 1, 2026",
+  "date": "2026-11-02",
+  "displayDate": "Monday, November 2, 2026",
   "items": [
     {
       "venture": "spacex",
@@ -43,5 +43,5 @@
       "publishedAt": "2026-10-21T23:17:32Z"
     }
   ],
-  "generatedAt": "2026-11-01T21:35:06.024Z"
+  "generatedAt": "2026-11-02T02:01:26.506Z"
 }
