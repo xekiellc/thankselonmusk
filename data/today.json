@@ -1,7 +1,17 @@
 {
-  "date": "2026-11-02",
-  "displayDate": "Monday, November 2, 2026",
+  "date": "2026-11-03",
+  "displayDate": "Tuesday, November 3, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX is turning away customers for the rocket that flew most of 2025’s trips to orbit, and some are paying extra for the last seats",
+      "summary": "Those who can afford it are paying extra to secure the few remaining slots on Falcon 9, while others are scrambling to find alternative launch opportunities.",
+      "url": "https://fortune.com/2026/10/30/spacex-falcon-9-retirement-starship-launch-customers/",
+      "source": "Fortune",
+      "date": "Oct 30, 2026",
+      "publishedAt": "2026-10-30T12:05:38Z"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -11,16 +21,6 @@
       "source": "The Conversation Africa",
       "date": "Oct 28, 2026",
       "publishedAt": "2026-10-28T12:23:38Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "SpaceX Is Finally Going for the Starship Double Catch",
-      "summary": "Starship's next flight will aim to achieve a major technical milestone.",
-      "url": "https://gizmodo.com/spacex-is-finally-going-for-the-starship-double-catch-2000828826",
-      "source": "Gizmodo.com",
-      "date": "Oct 21, 2026",
-      "publishedAt": "2026-10-21T15:20:39Z"
     },
     {
       "venture": "tesla",
@@ -53,5 +53,5 @@
       "publishedAt": "2026-11-01T13:30:00Z"
     }
   ],
-  "generatedAt": "2026-11-02T14:30:23.996Z"
+  "generatedAt": "2026-11-03T00:19:38.365Z"
 }
