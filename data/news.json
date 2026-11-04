@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-11-04T13:38:19.244Z",
-  "displayUpdated": "Nov 4, 2026, 1:38 PM UTC",
-  "totalArticles": 7,
+  "lastUpdated": "2026-11-04T23:05:01.426Z",
+  "displayUpdated": "Nov 4, 2026, 11:05 PM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "x",
+      "label": "X",
+      "headline": "X, like YouTube, is offering bonuses to creators who consistently upload new videos",
+      "summary": "X has been trying to increase its potential as a video platform since it was still known as Twitter. Now, four years into Elon Musk's reign, the social media hub is debuting a new form of monetization. The Video Kickstart Bonus program will deliver payouts to…",
+      "url": "https://www.tubefilter.com/2026/11/03/x-video-kickstart-program-creator-bonus-monetization/",
+      "source": "Tubefilter",
+      "publishedAt": "2026-11-03T22:57:13Z",
+      "date": "Nov 3, 2026"
+    },
     {
       "venture": "neura",
       "label": "Neuralink",
@@ -22,16 +32,6 @@
       "source": "Fortune",
       "publishedAt": "2026-10-30T12:05:38Z",
       "date": "Oct 30, 2026"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Falcon 9 ushered in the modern space economy – retiring it could leave the industry vulnerable",
-      "summary": "SpaceX’s Falcon 9 rocket has allowed NASA, private companies, universities and nonprofits alike to launch satellites, spacecraft and even astronauts to orbit.",
-      "url": "https://theconversation.com/falcon-9-ushered-in-the-modern-space-economy-retiring-it-could-leave-the-industry-vulnerable-294225",
-      "source": "The Conversation Africa",
-      "publishedAt": "2026-10-28T12:23:38Z",
-      "date": "Oct 28, 2026"
     },
     {
       "venture": "tesla",
@@ -56,12 +56,22 @@
     {
       "venture": "spacex",
       "label": "SpaceX",
-      "headline": "SpaceX Is Finally Going for the Starship Double Catch",
-      "summary": "Starship's next flight will aim to achieve a major technical milestone.",
-      "url": "https://gizmodo.com/spacex-is-finally-going-for-the-starship-double-catch-2000828826",
-      "source": "Gizmodo.com",
-      "publishedAt": "2026-10-21T15:20:39Z",
+      "headline": "Elon Musk Says Tesla, SpaceX Form Committees to Weigh Merger",
+      "summary": "Elon Musk says that Tesla and SpaceX have each set up special committees to discuss a possible merger between the two companies he leads as CEO.\nThe post Elon Musk Says Tesla, SpaceX Form Committees to Weigh Merger appeared first on Breitbart.",
+      "url": "https://www.breitbart.com/tech/2026/10/21/elon-musk-says-tesla-spacex-form-committees-to-weigh-merger/",
+      "source": "Breitbart News",
+      "publishedAt": "2026-10-21T15:54:49Z",
       "date": "Oct 21, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "The Use and Misuse of Science",
+      "summary": "Photo Credit:\n \n Clarice FBy Clarice FeldmanElon Musk has made engineering the heroic, progressive enterprise we once thought it was, not the diddly work of guys in short sleeves with pocket protectors.",
+      "url": "https://www.americanthinker.com/articles/2026/10/the-use-and-misuse-of-science/",
+      "source": "Americanthinker.com",
+      "publishedAt": "2026-10-18T04:00:00Z",
+      "date": "Oct 18, 2026"
     },
     {
       "venture": "tesla",
