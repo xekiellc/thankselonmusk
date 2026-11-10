@@ -3,16 +3,6 @@
   "displayDate": "Tuesday, November 10, 2026",
   "items": [
     {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "The Use and Misuse of Science",
-      "summary": "Photo Credit:\n \n Clarice FBy Clarice FeldmanElon Musk has made engineering the heroic, progressive enterprise we once thought it was, not the diddly work of guys in short sleeves with pocket protectors.",
-      "url": "https://www.americanthinker.com/articles/2026/10/the-use-and-misuse-of-science/",
-      "source": "Americanthinker.com",
-      "date": "Oct 18, 2026",
-      "publishedAt": "2026-10-18T04:00:00Z"
-    },
-    {
       "venture": "tesla",
       "label": "Tesla",
       "headline": "Tesla unveils Optimus Academy to let humanoid robots teach themselves",
@@ -53,5 +43,5 @@
       "publishedAt": "2026-11-01T13:30:00Z"
     }
   ],
-  "generatedAt": "2026-11-10T01:03:40.425Z"
+  "generatedAt": "2026-11-10T14:07:34.750Z"
 }
