@@ -1,7 +1,27 @@
 {
-  "date": "2026-11-11",
-  "displayDate": "Wednesday, November 11, 2026",
+  "date": "2026-11-12",
+  "displayDate": "Thursday, November 12, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX’s AI Satellite Plan Picks Pricey Solar Panels For 100GW Compute Megaplan That Elon Musk Believes Will Build A “Sentient Sun”",
+      "summary": "As part of its efforts to scale up the Starmind computing satellite constellation, SpaceX has entered into a new supply agreement with German firm SINGULUS TECHNOLOGIES. SpaceX plans to aggressively scale up its computing satellites capable of placing AI chip…",
+      "url": "https://wccftech.com/spacexs-ai-satellite-plan-picks-pricey-solar-panels-for-100gw-compute-megaplan-that-elon-musk-believes-will-build-a-sentient-sun/",
+      "source": "Wccftech",
+      "date": "Nov 11, 2026",
+      "publishedAt": "2026-11-11T09:46:15Z"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Verizon CEO: 4 to 6 Years, Up to $500B for SpaceX to Compete in Wireless",
+      "summary": "Elon Musk says two to three years. Verizon's CEO sees a longer, costlier road. Analysts weigh SpaceX's prospects against established wireless carriers. The post Verizon CEO: 4 to 6 Years, Up to $500B for SpaceX to Compete in Wireless appeared first on TechNew…",
+      "url": "https://www.technewsworld.com/story/verizon-ceo-4-to-6-years-up-to-500b-for-spacex-to-compete-in-wireless-180701.html",
+      "source": "Technewsworld.com",
+      "date": "Oct 28, 2026",
+      "publishedAt": "2026-10-28T12:00:04Z"
+    },
     {
       "venture": "tesla",
       "label": "Tesla",
@@ -43,5 +63,5 @@
       "publishedAt": "2026-11-01T13:30:00Z"
     }
   ],
-  "generatedAt": "2026-11-11T23:56:18.987Z"
+  "generatedAt": "2026-11-12T14:28:46.439Z"
 }
