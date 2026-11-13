@@ -1,8 +1,18 @@
 {
-  "lastUpdated": "2026-11-13T13:46:02.225Z",
-  "displayUpdated": "Nov 13, 2026, 1:46 PM UTC",
-  "totalArticles": 6,
+  "lastUpdated": "2026-11-13T23:07:55.262Z",
+  "displayUpdated": "Nov 13, 2026, 11:07 PM UTC",
+  "totalArticles": 8,
   "articles": [
+    {
+      "venture": "x",
+      "label": "X",
+      "headline": "X Launches Native Video Clipping And Creator Monetization",
+      "summary": "The social media platform X, formerly known as Twitter, has officially introduced a native clipping tool. This new feature enables creators and users to effortlessly extract, comment on, and publish short video segments directly within the platform. Designed …",
+      "url": "https://www.ubergizmo.com/2026/11/x-launches-native-video-clipping-and-creator-monetization/",
+      "source": "Ubergizmo",
+      "publishedAt": "2026-11-12T16:00:35Z",
+      "date": "Nov 12, 2026"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -21,6 +31,16 @@
       "url": "https://www.tubefilter.com/2026/11/03/x-video-kickstart-program-creator-bonus-monetization/",
       "source": "Tubefilter",
       "publishedAt": "2026-11-03T22:57:13Z",
+      "date": "Nov 3, 2026"
+    },
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "Students Test Prototype Landing Pad to Make Lunar Operations Safe",
+      "summary": "This summer, a team of students and researchers at the University of Alabama in Huntsville successfully conducted three rocket-motor firing tests on a prototype lunar landing pad. The tests showed the prototype’s ability to capture and redirect rocket exhaust…",
+      "url": "https://www.universetoday.com/articles/students-test-prototype-landing-pad-to-make-lunar-operations-safe",
+      "source": "Universe Today",
+      "publishedAt": "2026-11-03T21:45:06Z",
       "date": "Nov 3, 2026"
     },
     {
