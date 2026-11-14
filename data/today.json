@@ -1,7 +1,17 @@
 {
-  "date": "2026-11-13",
-  "displayDate": "Friday, November 13, 2026",
+  "date": "2026-11-14",
+  "displayDate": "Saturday, November 14, 2026",
   "items": [
+    {
+      "venture": "spacex",
+      "label": "SpaceX",
+      "headline": "SpaceX is trying to solve a decades-old challenge: Making rockets fully reusable",
+      "summary": "SpaceX's Starship Flight 14 launches at Starbase in Texas on September 28, 2026 (RONALDO SCHEMIDT)\r\nElon Musk's SpaceX was poised Friday to carry out its latest test of the world's biggest and most powerful rocket, the Starship, with plans for a groundbreakin…",
+      "url": "https://tech.yahoo.com/science/articles/spacex-starship-test-attempt-first-035915093.html",
+      "source": "Yahoo Entertainment",
+      "date": "Nov 13, 2026",
+      "publishedAt": "2026-11-13T04:34:02Z"
+    },
     {
       "venture": "spacex",
       "label": "SpaceX",
@@ -11,16 +21,6 @@
       "source": "Wccftech",
       "date": "Nov 11, 2026",
       "publishedAt": "2026-11-11T09:46:15Z"
-    },
-    {
-      "venture": "spacex",
-      "label": "SpaceX",
-      "headline": "Students Test Prototype Landing Pad to Make Lunar Operations Safe",
-      "summary": "This summer, a team of students and researchers at the University of Alabama in Huntsville successfully conducted three rocket-motor firing tests on a prototype lunar landing pad. The tests showed the prototype’s ability to capture and redirect rocket exhaust…",
-      "url": "https://www.universetoday.com/articles/students-test-prototype-landing-pad-to-make-lunar-operations-safe",
-      "source": "Universe Today",
-      "date": "Nov 3, 2026",
-      "publishedAt": "2026-11-03T21:45:06Z"
     },
     {
       "venture": "tesla",
@@ -73,5 +73,5 @@
       "publishedAt": "2026-11-01T13:30:00Z"
     }
   ],
-  "generatedAt": "2026-11-13T23:07:55.263Z"
+  "generatedAt": "2026-11-14T12:50:21.073Z"
 }
